@@ -26343,11 +26343,11 @@ Pileï»¿<?xml version="1.0" encoding="utf-8"?>
 	<toLocator>Body</toLocator>
 </DispatchLinear>ï»¿<?xml version="1.0" encoding="utf-8"?>
 <ConditionTargetSelector>
-	<BackLink DBID="/Items/Talents/Class/Invisible/Ability_A4.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/Invisible/Ability_A4.TALENT" Count="1" />
 	<condition>
-		<compiledString>FRkAAAADAAEAOQAAAE8AAACuAAAAaQEAAEltbXVuZTJDb250cm9sAABBNF9SYW5nZQBVi+yD7BxogAAAAItFDIsQi00Mi0Jo/9APtsiFyXQ7aAAAAACLVQyLAotNDIuQiAEAAP/S3B3jAAAA3+D2xER6e2gAAAIAi0UMixCLTQyLQmj/0A+2yIXJdWKNVfhSi0UMixCLTQyLgowBAAD/0FCNTfBRi1UIiwKLTQiLkIwBAAD/0lDoSQAAAIPECItFDFCLTQhRaBAAAACLVRCLAotNEItQUN1d6P/S3F3o3+D2xAF1CcdF5AEAAADrB8dF5AAAAACKReSL5V3DAAAAAAAAAABVi+yD7BSLRQjZQASLTQzYYQTZXfTZRfRR2Rwki1UI2QKLRQzYINld8NlF8FHZHCSNTfjoVwAAANlF+NhN+NlF/NhN/N7B2V3s2UXsUdkcJOgHAAAAg8QEi+Vdw1WL7FHZRQjZHCToBQAAAIPEBF3DVYvsUdlFCIPsCN0cJOhv/v//g8QI2V382UX8i+Vdw1WL7FGJTfyLRfzZRQjZGItN/NlFDNlZBItF/IvlXcIIAA==</compiledString>
+		<compiledString>FQ8AAAACAAAALQAAAEMAAABJbW11bmUyQ29udHJvbABVi+xRaIAAAACLRQyLEItNDItCaP/QD7bIhcl0RGgAAAAAi1UMiwKLTQyLkIgBAAD/0twdfgAAAN/g9sREehloAAACAItFDIsQi00Mi0Jo/9APtsiFyXQJx0X8AAAAAOsHx0X8AQAAAIpF/IvlXcMAAAAAAAAAAA==</compiledString>
 		<returnType>bool</returnType>
-		<sString>(!rFlag(128) || (receiver.vImmune2Control == 0 &amp;&amp; !rFlag(131072)))&amp;&amp;d(sPos,rPos)&lt;=cA4_Range</sString>
+		<sString>(!rFlag(128) || (receiver.vImmune2Control == 0 &amp;&amp; !rFlag(131072)))</sString>
 	</condition>
 	<flags>0</flags>
 	<mode>Normal</mode>
@@ -26360,9 +26360,9 @@ Pileï»¿<?xml version="1.0" encoding="utf-8"?>
 			<flags>0</flags>
 			<mode>Normal</mode>
 			<range>
-				<compiledString>FQkAAAACAAAAFgAAACkAAABBNF9SYW5nZQBVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcBTcAAADZXfzZRfyL5V3DAAAAAAAAFEA=</compiledString>
+				<compiledString>FQkAAAACAAAAFgAAACkAAABBNF9SYW5nZQBVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcBTcAAADZXfzZRfyL5V3DAAAAAAAAAEA=</compiledString>
 				<returnType>float</returnType>
-				<sString>cA4_Range+5</sString>
+				<sString>cA4_Range+2</sString>
 			</range>
 			<targetFilter>672923651</targetFilter>
 			<targetSelector href="" />
@@ -26586,7 +26586,7 @@ Pileï»¿<?xml version="1.0" encoding="utf-8"?>
 															<Item href="" />
 														</effect>
 														<enabled>
-															<compiledString></compiledString>
+															<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
 															<returnType>bool</returnType>
 															<sString>true</sString>
 														</enabled>
@@ -26623,7 +26623,7 @@ Pileï»¿<?xml version="1.0" encoding="utf-8"?>
 															</Spell>
 														</spell>
 														<startCondition>
-															<compiledString></compiledString>
+															<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
 															<returnType>bool</returnType>
 															<sString>true</sString>
 														</startCondition>
@@ -26711,7 +26711,7 @@ Pileï»¿<?xml version="1.0" encoding="utf-8"?>
 											<Item href="" />
 										</effect>
 										<enabled>
-											<compiledString></compiledString>
+											<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
 											<returnType>bool</returnType>
 											<sString>true</sString>
 										</enabled>
@@ -26724,7 +26724,7 @@ Pileï»¿<?xml version="1.0" encoding="utf-8"?>
 										<LoggingEvent>-1</LoggingEvent>
 										<providerName></providerName>
 										<startCondition>
-											<compiledString></compiledString>
+											<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
 											<returnType>bool</returnType>
 											<sString>true</sString>
 										</startCondition>
@@ -26733,7 +26733,7 @@ Pileï»¿<?xml version="1.0" encoding="utf-8"?>
 								<providerName></providerName>
 								<skipTargetIfInvalid>false</skipTargetIfInvalid>
 								<startCondition>
-									<compiledString></compiledString>
+									<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
 									<returnType>bool</returnType>
 									<sString>true</sString>
 								</startCondition>
@@ -26901,7 +26901,34 @@ Pileï»¿<?xml version="1.0" encoding="utf-8"?>
 	<castLimitations>
 		<Item href="/Items/Talents/Class/Invisible/Ability_A4.TALENT" id="7F0C4582-B1A1-4148-B446-500C5D8E90AA">
 			<TargetCastLimitation>
-				<targetSelector href="/Items/Talents/Class/Invisible/A4_Enemies.TGSL" />
+				<targetSelector href="/Items/Talents/Class/Invisible/Ability_A4.TALENT" id="F41D6C00-0EFF-450E-AA3F-DAAF3457962B">
+					<ConditionTargetSelector>
+						<condition>
+							<compiledString>FQ8AAAACAAAALQAAAEMAAABJbW11bmUyQ29udHJvbABVi+xRaIAAAACLRQyLEItNDItCaP/QD7bIhcl0RGgAAAAAi1UMiwKLTQyLkIgBAAD/0twdfgAAAN/g9sREehloAAACAItFDIsQi00Mi0Jo/9APtsiFyXQJx0X8AAAAAOsHx0X8AQAAAIpF/IvlXcMAAAAAAAAAAA==</compiledString>
+							<returnType>bool</returnType>
+							<sString>(!rFlag(128) || (receiver.vImmune2Control == 0 &amp;&amp; !rFlag(131072)))</sString>
+						</condition>
+						<flags>0</flags>
+						<mode>Normal</mode>
+						<targetSelector href="/Items/Talents/Class/Invisible/Ability_A4.TALENT" id="237BE93D-9519-43C9-940E-D9914CED36ED">
+							<AreaTargetSelector>
+								<absolutePosition>
+									<x>0</x>
+									<y>0</y>
+								</absolutePosition>
+								<flags>0</flags>
+								<mode>Normal</mode>
+								<range>
+									<compiledString>FQkAAAABAAAAFQAAAEE0X1JhbmdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+									<returnType>float</returnType>
+									<sString>cA4_Range</sString>
+								</range>
+								<targetFilter>672923651</targetFilter>
+								<targetSelector href="" />
+							</AreaTargetSelector>
+						</targetSelector>
+					</ConditionTargetSelector>
+				</targetSelector>
 				<uiEvent href="/UI/Events/ErrorMessages/CastError_NoValidTargets.UIEV" />
 			</TargetCastLimitation>
 		</Item>
@@ -27040,9 +27067,9 @@ Pileï»¿<?xml version="1.0" encoding="utf-8"?>
 					<UnitConstant>
 						<name>A4_StackCooldown</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
+							<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
 							<returnType>float</returnType>
-							<sString>10</sString>
+							<sString>1</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -29890,9 +29917,9 @@ Pileï»¿<?xml version="1.0" encoding="utf-8"?>
 					<UnitConstant>
 						<name>A2_SUP_Dexterity</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAADIQQAAlkI=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAACgQQAAcEI=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(sStrength, 25, 75)</sString>
+							<sString>damageScale(sStrength, 20, 60)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -54706,11 +54733,10 @@ Pileï»¿<?xml version="1.0" encoding="utf-8"?>
 T§úM iB™ì óN_1„«}ÐÎÂoÂhv
 a´Àû›_çÅùL+‘E˜YEä7ŠÝ0}Ò)|Ð(*î±hÁÍ¼`ÕÙU¬ÿR¥ø{›ñD\²:nc²‰Ü¯Õ(k(-tÇmÀ}c¹&3ÅùQ¤™MðÓüä<â5ˆ{+Ô7»=ËŸÅlSe¸õ/¼WªýPGóIœLtòá4·Ù-€9StÌrÅq¸d!ÛBhU©ü$¡õH—L”ç:àb€Ù,„É>ÉçpÄ;g¼æÊ\¯U¨~H¡ôÎ]‰®{õ9Œ7!…Øš÷ß$wÊp{i¼œg¼P^­T¢ùM jÛ—ì?’å8aØ1„½ŽŸöê3É¦‡h%®o´Z­ w¡ùLðYT>‘äÁŠÝ0ä0'|Ï"uÈLiÁ<ˆÏq“Y¬ßR¥øyÿD—ê=T1‰ÜìãØ'Í!t›mÀn·_²X»öQ¤c[—Ÿé<Sr5ˆÄÔ'zÍ <Îl†YuY±)­ýPFœïB•è¹†á4~¨PdŸ¤yÌSðÅX=d·
 ]°Ä^©üûu³­æA”Ñ2àLƒÉ,Ò%x4qÄS’Š-²	\áU¨NC±ôGší@Ðï9Œýï
-‘ lÑ$|ØpÀy¼bµ×§TÝ6ED™ì‰å8…ú!„×*}ÐæÉC‹Û‚FPa´ú­ —€éLŸòE˜á4‘ä­²ŽàÎ)|Í:uÈÚëÑgº`ŒY¬†MBæÕœñD	è= «™Ü/‚Õ(Ä!tîëiîxb¹4¶XÊ^A¤÷Jðÿœé< ó»q£(Ô_|Í ¿b	l¿e¸äT±–Z~-òIœXF•è%ñ4‡Ú-€ò-yÌ?¬$÷½da ]°øù¹üO¢õHÁåA”õ°S'HÙ,I%xD`Äj½í½	\'ƒ+(^¡ô”Ší@”Ï+Œß2…ØïuÑ$ H úÑði¼„µ—T§úM M™ì‘†n_eÒ1„9&}ÐÏiÚoÂh‹a´<SwGXµùL”áE˜1‚ä7ŠÝ0õÚ)|}ÈfjÁy¾`V9J¬ÿR¥øå’ñD{=V-ˆÜá©Ô(xŠ2tÇmÀáj¹l88¾†êQ¤Ú^ð’ùý<â5ˆý#Ô9l†;4Šlø^e¸õÝ¥WªýPøûIœP«Rá4¬É-€–ömÌrÅú³d•c#?©üAïõHëU”ç:àû‹Ù,Í¡qÄÅj½†\¯U¨û@¡ôdÃ;µæ9Œù2…Ø{OÄ$wÊp¦i¼»ƒ	n*ªTÖþM …wŒì?’å8HÐ1„¹E'*qÉfÅh\;t´Z­ ®¨ùL)«ñ&‘äÆ’Ý0sê<|Ï"uÈ+aÁ·]çLqY¬=W¥øªËäD—ê=ƒ9‰Üc'áÓ[Û!tçmÀ°=¬_²XñQ¤çÈJ+ãé<ç—5ˆ^”Ô'zÍ ¦Él›Ö ï]±³©ýPˆ\œïB•è5žá4]j––ÖyÌZ‚ÅdTd·
-]°PF©üx~^MHA”fœàg\Ï,Ò%xAqÄaò–,IÚ	\…nU¨.Î¶ôGší@.ö9Œ¦nY¼Ñ$à¶p<ú~¼bµ«¾T¨7öÍNW™ì‚ƒå8·)„×*}Ð gÉãÒAMa´´X­  ÝáLŸòE˜¼/‘äèúÛüž)|°juÈÙgº`=Y¬§²ùÅ)ñDÌ]=fð‘Ü/‚Õ(Åß!t¾+@¿v¹ó¢XKƒH¤÷Jð³‡é<s‘6HQ>Ô­jÍ ÿH l¿e¸.L±*I™Æ‘õIœÝA•è-ø4‡Ú-€‰4yÌA? »’dg&]°Kô°üO¢õH üA”A”¶¡ñÖÙ,½‚%xÓÑhÄj½¯¤	\;¬˜@ûJ¡ôGží@Iù#Œß2…ØÔlÑ$î®•åŸ4i¼S@µT§úM ·U™ìe)QÖiÞ1„5*}Ð0ÓoÂh9a´(ænÿï½ùL#éE˜óy‹ä7ŠÝ0OÅ)|/Ú³¨uÁÔ¡`gdC¬ÿR¥ø¾ñDyúÅÈT‰ÜàÕ(ü°;tÇmÀr¹·(»2}ýQ¤!Iðñvó<â5ˆ—:Ô¾ ?«ÿlg+e¸ƒº«WªýP/âIœÖpy¤øá4¬-€³8bÌrÅ¯ªdN€®PóÍ©ü¿9õHdzZ”ç:àÃ’Ù,0Vów]qÄ`½Œ†\¯U¨Û[¡ô¿H²¾XÁ9Œ…Ø®EÍ$wÊp¡i¼”à˜ý1üTÍ¨M £%…ì?’å8Ë1„6wüë=È§‰h»}´Z­ ³ùLæ[ ‘äÌ”Ý0×7|Ï"uÈï{ÁÔ˜8íø)Y¬´}¥ø6¾ïD—ê=þ ‰Ü˜À4l`Ô!tÜ mÀÛ)§_²XùèQ¤¦‡zŒé<Óø5ˆ8GŸÔ'zÍ ÐlLZC(¸D±ä°ýPœrWœïB•èž˜á4&§uµyÌy_Å™ d·
-]°Í@©ü…nŒÅA”ðàkJÇ,Ò%xÃ	qÄ/m„Þ©	\U¨”¹¿ôGší@¥ñ9ŒU>žÑ$#Ëpïv¼bµ:¹TÅ7ug™ìÔ³å8Æ.„×*}Ð»aÉJÀ=«ña´M[­ 8œæLŸòE˜*)‘ä÷$¯?ô)|s uÈ®UÞgº`EY¬·ÇkÌŸñDÃë=’h–Ü/‚Õ(ZÖ!t¥×UfE¹Z‘Xn¡N¤÷JðŽé<GÕä“/Ôo{Í ¹Dl¿e¸ŠF±6Æå¬=¯Iœq•è)
-þ4‡Ú-€e>yÌ'‚,]ºd]°³‹¶üO¢õHröA”Ÿ¬Æ#“Ù,ßÙ%x-ÿnÄj½K¯	\ ¶œðêj¡ôV¾í@&Œß2…ØGgÑ$Y©éR¢=i¼nIµÌ¿!T§úM f_™ìÑz,çß1„»+}ÐÛJéoÂhya´K-ã¿†ùLsÒE˜ ±ä7ŠÝ0xÏ)|¨kÆ2{oÁ»`ãYy¬ÿR¥øn„ñDÒ	•Úa‰ÜÕÕ(Ë®tÇmÀH|¹9aˆQ¤F<ðª!É<â5ˆR4Ô‹=íIël×?e¸‘pWªýPìIœmÓY ªá4œþ-€ÑzXÌrÅŽ¤dîÙ«ù÷V©ü»¢õH†n`”ç:à*Ù,eÁ Î'qÄûl½r7(\¯U¨¢U¡ô
-k>P½æ9Œñ2…ØÖùð$wÊpXi¼(¨œTTÈM ØÎ¸ì?’å8]Å1„êÆ¸…AÉÉõh¥µ@´Z­ _ºùLV1O=‘äÉ‰Ý0G$|Ï"uÈ$rÁÏd-Y¬(y¥ø‰hÐD—ê=g*‰Ü¾;É"5ø!t‰,mÀŠD›_²XâQ¤Lu6E”é<‰à5ˆ<v£Ô'zÍ –Úlhñ?ii±5ýPN¬kœïB•è“á4¹Câ+'yÌçsÅ$,3d·
+‘ lÑ$|ØpÀy¼bµ×§TÝ6ED™ì‰å8…ú!„×*}ÐæÉC‹Û‚FPa´ú­ —€éLŸòE˜á4‘ä­²ŽàÎ)|Í:uÈÚëÑgº`ŒY¬†MBæÕœñD	è= «™Ü/‚Õ(Ä!tîëiîxb¹4¶XÊ^A¤÷Jðÿœé< ó»q*Ôÿ~Í ¿b	l¿e¸äT±ƒ“Ò9òIœXF•èŸ'ñ4‡Ú-€ò-yÌ?¬$÷Ud‰º]°Xø¹üO¢õHÁåA”Ú7ò,HÙ,I%xR@`Äj½í½	\'ƒ+(^¡ô”Ší@\Ê+Œß2…ØïuÑ$ H úÑði¼„µù“T§úM M™ì‘†n_eÒ1„9&}Ð—UÚoÂh‹a´<SwGXµùL”áE˜I‚ä7ŠÝ0õÚ)|Û&újÁy¾`EJ¬ÿR¥øå’ñD{=V-ˆÜá©Ô(°‰2tÇmÀáj¹l88¾†êQ¤Ú^ðÚåý<â5ˆý#Ô9l†;4Šlø^e¸ÍÙ¥WªýPøûIœP«Rá4¬É-€ÞòmÌrÅú³d•c#?©üAïõH£	U”ç:àû‹Ù,Í¡qÄÅj½%‚\¯U¨û@¡ôdÃ;µæ9Œù2…Ø3KÄ$wÊp¦i¼»ƒ	n*ªTÖþM ÍsŒì?’å8HÐ1„¹E'*qÉfÅh7t´Z­ ®¨ùL)«ñ&‘äÆ’Ý0;–<|Ï"uÈ+aÁ·]çLqY¬=W¥øâÇäD—ê=ƒ9‰Üc'áÓ[Û!tçmÀx9¬_²XñQ¤çÈJ+ãé<ç—5ˆPZ”Ô'zÍ ¦Él›Ö ï]±³©ýPP\œïB•è5žá4]j––ÖyÌZ‚Å¼Sd·
+]°PF©üx~^MHA”fœà/XÏ,Ò%xAqÄaò–,IÚ	\…nU¨fÊ¶ôGší@.ö9Œ¦nY¼Ñ$à¶pæ~¼bµ«¾T¨7öÍNW™ì‚ƒå8Õ³)„×*}Ð gÉãÒAMa´´X­ HÙáLŸòE˜¼/‘äèúÛüž)|°juÈÕïÙgº`=Y¬§²ùÅ)ñDÌ]=®ü‘Ü/‚Õ(Åß!t¾+@¿v¹ó¢XH¤÷Jð³‡é<s‘6HQ>Ô­jÍ 'T l¿e¸.L±*I™Æ‘õIœÝA•èå,ø4‡Ú-€‰4yÌA? »’dg&]°ð°üO¢õH üA”A”¶¡ñÖÙ,½‚%x+ÌhÄj½¯¤	\;¬˜@ûJ¡ôGží@1Å#Œß2…ØÔlÑ$î®•åŸ4i¼S@µù‰T§úM ·U™ìe)QÖiÞ1„5*}ÐÝ?ÓoÂh9a´(ænÿï½ùL#éE˜t‹ä7ŠÝ0OÅ)|/Ú³¨uÁÔ¡`/`C¬ÿR¥ø¾ñDyúÅÈT‰ÜàÕ(4L;tÇmÀr¹·(»2}ýQ¤!Ið9ró<â5ˆ—:Ô¾ ?«ÿlg+e¸[¶«WªýP/âIœÖpy¤øá4¬-€ûbÌrÅ¯ªdN€®PóÍ©ü¿9õH\vZ”ç:àÃ’Ù,0Vów]qÄ`½Ô‚\¯U¨Û[¡ô¿H²¾XÁ9Œ…ØfAÍ$wÊp¡i¼”à˜ý1üTÍ¨M ë!…ì?’å8Ë1„6wüë=È§‰h9·}´Z­ ³ùLæ[ ‘äÌ”Ý0ÉÓ7|Ï"uÈï{ÁÔ˜8íø)Y¬´}¥øºïD—ê=þ ‰Ü˜À4l`Ô!tÜ mÀƒ5§_²XùèQ¤¦‡zŒé<Óø5ˆpCŸÔ'zÍ ÐlLZC(¸D±ä°ýP¤~WœïB•èž˜á4&§uµyÌy_ÅÑd·
+]°Í@©ü…nŒÅA”ðàVÇ,Ò%xÃ	qÄ/m„Þ©	\U¨Ìµ¿ôGší@¥ñ9ŒU>žÑ$#Ëp7v¼bµ:¹TÅ7ug™ìÔ³å8ÃÂ.„×*}Ð»aÉJÀ=«ña´M[­ `˜æLŸòE˜*)‘ä÷$¯?ô)|s uÈfQÞgº`EY¬·ÇkÌŸñDÃë=ÚT–Ü/‚Õ(ZÖ!t¥×UfE¹Z‘X&N¤÷JðŽé<GÕä“/Ôo{Í á@l¿e¸ŠF±6Æå¬=¯Iœq•èá	þ4‡Ú-€e>yÌ'‚,]ºd]°{·¶üO¢õHröA”Ÿ¬Æ#“Ù,ßÙ%xeûnÄj½K¯	\ ¶œðêj¡ôV¾í@Ý&Œß2…ØGgÑ$Y©éR¢=i¼nIµ»!T§úM f_™ìÑz,çß1„»+}Ðã6éoÂhya´K-ã¿†ùLsÒE˜Ç|±ä7ŠÝ0xÏ)|¨kÆ2{oÁ»`«ey¬ÿR¥øn„ñDÒ	•Úa‰ÜÕÕ(ªtÇmÀH|¹9aˆQ¤F<ðò-É<â5ˆR4Ô‹=íIël×?e¸ilWªýPìIœmÓY ªá4œþ-€yXÌrÅŽ¤dîÙ«ù÷V©ü»¢õH~m`”ç:à*Ù,eÁ Î'qÄûl½º2(\¯U¨¢U¡ô
+k>P½æ9Œñ2…Øîõð$wÊpXi¼(¨œTTÈM  Í¸ì?’å8]Å1„êÆ¸…AÉÉõh]°@´Z­ _ºùLV1O=‘äÉ‰Ý0 |Ï"uÈ$rÁÏd-Y¬(y¥øÁdÐD—ê=g*‰Ü¾;É"5ø!t‰,mÀr@›_²XâQ¤Lu6E”é<‰à5ˆtr£Ô'zÍ –Úlhñ?ii±5ýP¨kœïB•è“á4¹Câ+'yÌçsÅ|(3d·
 ]°]K©üX¬Æ÷“ÞA”ï
-àtû,Ò%xTqÄ¥N!³š	\.U¨´ŠƒôGší@@û9Œµz'¾|Ñ$âÈpÜçK¼bµ\°Tõel'`D™ì¬å8?-„×*}ÐvhÉI8„·Åa´yY­ PÛLŸòE˜H ‘ä„zœ‚Rä)|uÈÞ—ãgº`@Y¬Åœ*QŸñDÇë=uªÜ/‚Õ(7Ñ!tþ4A¦k¹ê¿XMÓr¤÷JðÔ‰é<Úž™ý/Ô{Í èý:l¿e¸éA±
-ë—[ìIœGX•èú²Â4‡Ú-€êyÌqá¡¤èdx\]°jŠüO¢õHÌÎA”€Ö”¹¤ÙÙ,è%xó°RÄj½ó–	\#˜û	¡ôµ«í@\ëŒß2…Øà^Ñ$ÓRôŽÔi¼iµš‘%T§úM f™ì"æ³ýÝ1„¡)}Ðû<íoÂh”/a´?M®'¢ùLëöE˜¥pµä7ŠÝ0Þ÷)|ð[mÁ'¹`qT}¬ÿR¥øÇ¿ñDË,Pile  ¢   V$ ²!  ´w$ 
+à<û,Ò%xTqÄ¥N!³š	\.U¨ì†ƒôGší@@û9Œµz'¾|Ñ$âÈp$âK¼bµ\°Tõel'`D™ì¬å8÷)„×*}ÐvhÉI8„·Åa´yY­ \\ÛLŸòE˜H ‘ä„zœ‚Rä)|uÈ–“ãgº`@Y¬Åœ*QŸñDÇë=½ªÜ/‚Õ(7Ñ!tþ4A¦k¹ê¿XÏr¤÷JðÔ‰é<Úž™ý/Ô{Í ù:l¿e¸éA±
+ë—[ìIœGX•è²ÎÂ4‡Ú-€êyÌqá¡¤èdx\]°2ŠüO¢õHÌÎA”€Ö”¹¤ÙÙ,è%xË¬RÄj½ó–	\#˜û	¡ôµ«í@÷Œß2…Øà^Ñ$ÓRôŽÔi¼iµÒí%T§úM f™ì"æ³ýÝ1„¡)}Ðƒ8íoÂh”/a´?M®'¢ùLëöE˜ýlµä7ŠÝ0Þ÷)|ð[mÁ'¹`9P}¬ÿR¥øÇ¿ñDË,Pile  ¢   ÊY$ ²!  |{$ 
