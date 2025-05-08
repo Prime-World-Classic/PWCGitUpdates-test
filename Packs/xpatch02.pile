@@ -29592,7 +29592,149 @@ PileÔªø<?xml version="1.0" encoding="utf-8"?>
    0=>A8B  2@030<  < a t o m > < s t y l e : T T _ M A R K > < v a l u e = t a l e n t . c o n s t . A 4 _ D a m a g e > < / s t y l e > < i m a g e : p h y s i c a l _ d a m a g e   s p a c e b = 0 . 5 > < / a t o m >   C@>=0.  
  < / i f >  
  < b r >  
- !:>@>ABL  2A5E  2@03>2  2>:@C3  :C;0:0  A=8605BAO  =0  < s t y l e : T T _ M A R K > < v a l u e = t a l e n t . c o n s t . D e c _ M o v e S p e e d > % < / s t y l e > . ˇ˛$ ( T T h e a d )  
+ !:>@>ABL  2A5E  2@03>2  2>:@C3  :C;0:0  A=8605BAO  =0  < s t y l e : T T _ M A R K > < v a l u e = t a l e n t . c o n s t . D e c _ M o v e S p e e d > % < / s t y l e > . Ôªø<?xml version="1.0" encoding="utf-8"?>
+<Talent>
+	<BackLink DBID="/Social.ROOT" Count="1" />
+	<BackLink DBID="/Items/Talents/Freeze.TALENTSET" Count="1" />
+	<BackLink DBID="/Test/Talents/Freeze/Duel_Int.TALENTSET" Count="1" />
+	<BackLink DBID="/Test/Talents/Freeze/Duel_Str.TALENTSET" Count="1" />
+	<BackLink DBID="/Test/Talents/Freeze/Elite_IntAsp.TALENTSET" Count="1" />
+	<BackLink DBID="/Test/Talents/Freeze/Elite_LifeStr.TALENTSET" Count="1" />
+	<BackLink DBID="/Test/Talents/Freeze/Elite_LifeStrAsp.TALENTSET" Count="1" />
+	<BackLink DBID="/Test/Talents/Freeze/Epic_Int.TALENTSET" Count="1" />
+	<BackLink DBID="/Test/Talents/Freeze/Epic_Str.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/TalentList_Mighty/Freeze_Mighty.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Freeze/Ability_A4_2.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Freeze/Ability_A4_2u.TALENT" Count="1" />
+	<activationConditions />
+	<activeCustomTrigger>true</activeCustomTrigger>
+	<allowChase>
+		<compiledString></compiledString>
+		<returnType>bool</returnType>
+		<sString>true</sString>
+	</allowChase>
+	<alternativeTargets />
+	<aoeDisplayOnMinimap>false</aoeDisplayOnMinimap>
+	<aoeHeight>0</aoeHeight>
+	<aoeMaterial href="" />
+	<aoePassabilityCheckMode>0</aoePassabilityCheckMode>
+	<aoeSize>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</aoeSize>
+	<aoeType>None</aoeType>
+	<applicators />
+	<askId>0</askId>
+	<autoTargetSelector href="" />
+	<budget>-1</budget>
+	<caption>–ê4. –ó–æ–Ω–∞ –º–µ—Ä–∑–ª–æ—Ç—ã</caption>
+	<castAllowRange>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</castAllowRange>
+	<castLimitations />
+	<commonDescription textref="" />
+	<compiledDescriptionA textref="" />
+	<compiledDescriptionB textref="" />
+	<conditionFormulas>
+		<Item href="/Items/Talents/Class/Freeze/Ability_A4u.TALENT" id="F7C8F678-B424-455A-9EC1-408098F1EB1C">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRYAAAACAAAAHQAAADYAAABGcmVlemVfQTQAAABGcmVlemVfQTQAVYvsg+wIaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgMAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtkX799gbwIPAAYvlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("Freeze_A4") == false</sString>
+				</condition>
+				<name>Freeze_A4</name>
+			</ConditionFormula>
+		</Item>
+	</conditionFormulas>
+	<conflictingTalents>
+		<Item href="/Items/Talents/Class/Freeze/Ability_A4_2.TALENT" />
+		<Item href="/Items/Talents/Class/Freeze/Ability_A4_2u.TALENT" />
+	</conflictingTalents>
+	<constants href="/Items/Talents/Class/Freeze/Ability_A4u.TALENT" id="B3422B67-7C29-40C4-9E7C-8A4027F6322C">
+		<UnitConstantsContainer>
+			<vars>
+				<Item href="/Items/Talents/Class/Freeze/const_A4_SummonLifeTime" />
+				<Item href="/Items/Talents/Class/Freeze/const_A4_Dec_MoveSpeed" />
+				<Item href="/Items/Talents/Class/Freeze/const_A4y_Stun_Duration" />
+				<Item href="/Items/Talents/Class/Freeze/Ability_A4u.TALENT" id="AF36D7F4-D55D-41F1-A40E-F080FF20ABB7">
+					<UnitConstant>
+						<name>A4_Damage</name>
+						<var>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAAFQwAAekQ=</compiledString>
+							<returnType>float</returnType>
+							<sString>damageScale(sStrength, 133, 1000)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+			</vars>
+		</UnitConstantsContainer>
+	</constants>
+	<consumptionBonus>
+		<constant>0</constant>
+		<percent>0</percent>
+	</consumptionBonus>
+	<cooldownTime>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</cooldownTime>
+	<cooldownTimeSecondState>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</cooldownTimeSecondState>
+	<description textref="/Items/Talents/Class/Freeze/Ability_A4u.TALENT_description.txt" />
+	<devPoints>1</devPoints>
+	<dispatch href="" />
+	<flags>1</flags>
+	<forceBonus>0</forceBonus>
+	<image href="/UI/Styles/Icons/Heroes/Freeze/A4.ITEX" />
+	<imageSecondState href="" />
+	<isGenderTalent>false</isGenderTalent>
+	<isTakenOnStart>false</isTakenOnStart>
+	<isUltimateTalent>false</isUltimateTalent>
+	<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
+	<manaCost>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</manaCost>
+	<marker></marker>
+	<microAI href="" />
+	<minLevel>3</minLevel>
+	<minUseRangeCorrection>0</minUseRangeCorrection>
+	<naftaCost>560</naftaCost>
+	<name textref="/Items/Talents/Class/Freeze/Ability_A4u.TALENT_name.txt" />
+	<node></node>
+	<passiveApplicators />
+	<persistentId>Freeze_A4u</persistentId>
+	<prerequisiteTalents>
+		<Item href="/Items/Talents/Class/Freeze/Ability_A4.TALENT" />
+	</prerequisiteTalents>
+	<rarity>Class</rarity>
+	<requireLineOfSight>true</requireLineOfSight>
+	<shortDescription textref="" />
+	<talentRollGroups>63</talentRollGroups>
+	<talentStats />
+	<targetType>136258047</targetType>
+	<type>Passive</type>
+	<upgradeLevel>1</upgradeLevel>
+	<useRange>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</useRange>
+	<useRangeMaterial href="" />
+	<variativeMaxTalentStats />
+	<variativeMinTalentStats />
+	<vendorCost>0</vendorCost>
+	<warFogRemoveRadius>0</warFogRemoveRadius>
+	<warFogRemoveTime>0</warFogRemoveTime>
+</Talent>ˇ˛$ ( T T h e a d )  
  "0;0=B  54O=>9  :C;0:  =0=>A8B  2@030<  < a t o m > < s t y l e : T T _ M A R K > < v a l u e = t a l e n t . c o n s t . A 4 _ D a m a g e > < / s t y l e > < i m a g e : p h y s i c a l _ d a m a g e   s p a c e b = 0 . 5 > < / a t o m >   C@>=0.  
  $ ( T T b o t t o m )  
  < i f = t a l e n t . i f . F r e e z e _ A 4 >  
@@ -33975,6 +34117,16 @@ PileÔªø<?xml version="1.0" encoding="utf-8"?>
 							<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
 							<returnType>float</returnType>
 							<sString>1</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Inventor/Ability_A4_2.TALENT" id="A7454599-27A5-4F5C-9051-FC9AE819EFF4">
+					<UnitConstant>
+						<name>AddDexterity</name>
+						<var>
+							<compiledString>FQAAAAABAAAAKwAAAFWL7IPsDItFCIsQi00Ii4I4AQAA/9CLTQiLEYtNCItCHN1d+P/Q3EX43DU5AAAA2V302UX0i+VdwwAAAAAAAABA</compiledString>
+							<returnType>float</returnType>
+							<sString>(sDexterity+sAttackSpeed)/2</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -47190,6 +47342,1849 @@ PileÔªø<?xml version="1.0" encoding="utf-8"?>
 	<warFogRemoveRadius>0</warFogRemoveRadius>
 	<warFogRemoveTime>0</warFogRemoveTime>
 </Talent>Ôªø<?xml version="1.0" encoding="utf-8"?>
+<Talent>
+	<BackLink DBID="/Social.ROOT" Count="1" />
+	<BackLink DBID="/SocialTest.ROOT" Count="1" />
+	<BackLink DBID="/Items/Talents/ThunderGod.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/ThunderGod_Alternative.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Level2/G567_CasterBase.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/TalentKits/Redset6_2_CDR/appl_Redset6_2_RefreshCooldown.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/TalentList_Mighty/ThunderGod_Mighty.TALENTSET" Count="1" />
+	<BackLink DBID="/Maps/Tutorial/Talents/M2_ThunderGod.TALENTSET" Count="1" />
+	<BackLink DBID="/Maps/Tutorial/Talents/Tutorial_ThunderGodA2.TALENT" Count="1" />
+	<BackLink DBID="/Test/Talents/Thunder/Duel.TALENTSET" Count="1" />
+	<BackLink DBID="/Test/Talents/Thunder/Duel_Int.TALENTSET" Count="1" />
+	<BackLink DBID="/Test/Talents/Thunder/Elite_Int.TALENTSET" Count="1" />
+	<BackLink DBID="/Test/Talents/Thunder/Elite_Str.TALENTSET" Count="1" />
+	<BackLink DBID="/Test/Talents/Thunder/Elite_Str_1.TALENTSET" Count="1" />
+	<BackLink DBID="/Test/Talents/Thunder/Epic_Int.TALENTSET" Count="1" />
+	<BackLink DBID="/Test/Talents/Thunder/Epic_Str.TALENTSET" Count="1" />
+	<activationConditions />
+	<activeCustomTrigger>true</activeCustomTrigger>
+	<allowChase>
+		<compiledString></compiledString>
+		<returnType>bool</returnType>
+		<sString>true</sString>
+	</allowChase>
+	<alternativeTargets />
+	<aoeDisplayOnMinimap>false</aoeDisplayOnMinimap>
+	<aoeHeight>0</aoeHeight>
+	<aoeMaterial href="" />
+	<aoePassabilityCheckMode>0</aoePassabilityCheckMode>
+	<aoeSize>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</aoeSize>
+	<aoeType>None</aoeType>
+	<applicators>
+		<Item href="/Items/Talents/Class/ThunderGod/_A0_SUP_Strike.APLR" />
+		<Item href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="BC94F053-75EB-4873-8565-7E117E71E94D">
+			<FlagsApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>153</behaviorFlags>
+				<caption>–Ω–∞ —Ä–æ–¥–Ω–æ–π –∑–µ–º–ª–µ –∏–ª–∏ –Ω–µ—Ç</caption>
+				<consumables />
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FQcAAAABAAAAEQAAAFN0b3BOVABVi+xqAotFEFBoAAAAAItNCIsRi00Ii4KcAQAA/9AzyTtFEA+UwYrBXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.applStopNT(ABILITY) == pMisc</sString>
+				</enabled>
+				<flag>0</flag>
+				<formulaName>Sender_NativeTerrain</formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString>FRUAAAACAAAAIgAAADUAAABTZW5kZXJfTmF0aXZlVGVycmFpbgBVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcHVEAAADf4PbERHsGxkX/AesExkX/AIpF/4vlXcMAAAAAAAAAAA==</compiledString>
+					<returnType>bool</returnType>
+					<sString>cSender_NativeTerrain</sString>
+				</startCondition>
+				<talents />
+				<useListAs>ListAsRule</useListAs>
+			</FlagsApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/ThunderGod/_ElectroStack_ModeOn.APLR" />
+		<Item href="/Items/Talents/Class/ThunderGod/status_A0_ChainLighting.APLR" />
+		<Item href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="F107CA06-782C-4DE4-B550-ABAE0972AE0F">
+			<SpellSwitchApplicator>
+				<activeSpellIndex>
+					<compiledString>FV0AAAAMAAAAZAAAAHoAAACSAAAAqAAAAMAAAADWAAAA7gAAAAQBAAAZAQAALwEAAEQBAABaAQAARWxlY3Ryb1N0YWNrAAAAAEVsZWN0cm9TdGFjawAAAABFbGVjdHJvU3RhY2sAAAAARWxlY3Ryb1N0YWNrAAAAAEVsZWN0cm9TdGFjawAAAABFbGVjdHJvU3RhY2sAVYvsg+wYaAAAAACLRQiLEItNCIuCiAEAAP/Q3B26AQAA3+D2xAV6DMdF/AAAAADpAgEAAGgQAAAAi00IixGLTQiLgogBAAD/0NwdugEAAN/g9sREegzHRfgBAAAA6c4AAABoIAAAAItNCIsRi00Ii4KIAQAA/9DcHbIBAADf4PbERHoMx0X0AgAAAOmaAAAAaDAAAACLTQiLEYtNCIuCiAEAAP/Q3B2qAQAA3+D2xER6CcdF8AMAAADraWhAAAAAi00IixGLTQiLgogBAAD/0NwdogEAAN/g9sREegnHRewEAAAA6zhoUAAAAItNCIsRi00Ii4KIAQAA/9DcHZoBAADf4PbERHoJx0XoBQAAAOsHx0XoBgAAAItN6IlN7ItV7IlV8ItF8IlF9ItN9IlN+ItV+IlV/ItF/IvlXcMAAAAAAAAUQAAAAAAAABBAAAAAAAAACEAAAAAAAAAAQAAAAAAAAPA/</compiledString>
+					<returnType>int</returnType>
+					<sString>sender.vElectroStack&lt;1?0:sender.vElectroStack==1?1:sender.vElectroStack==2?2:sender.vElectroStack==3?3:sender.vElectroStack==4?4:sender.vElectroStack==5?5:6</sString>
+				</activeSpellIndex>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption></caption>
+				<dontUseDispatches>false</dontUseDispatches>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<spells>
+					<Item href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="C849BFC3-BCC7-4FD5-8915-EE55D5B2BFBF">
+						<Spell>
+							<applicators>
+								<Item href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="B0C91B13-C4B8-4DB0-98E9-67D2B7FA9762">
+									<SpellApplicator>
+										<applyTarget>ApplicatorTarget</applyTarget>
+										<caption>–∞–Ω–∏–º–∞—Ü–∏—è –∞–æ–µ –¥–∞–º–∞–≥–∞</caption>
+										<enabled>
+											<compiledString>FRUAAAABAAAAHwAAAFNlbmRlcl9OYXRpdmVUZXJyYWluAFWL7GoCi0UQUGgAAAAAi00IixGLTQiLgpwBAAD/0DPJO0UQD5XBisFdww==</compiledString>
+											<returnType>bool</returnType>
+											<sString>sender.applSender_NativeTerrain(ABILITY) != pMisc; //cSender_NativeTerrain</sString>
+										</enabled>
+										<formulaName></formulaName>
+										<LoggingEvent>-1</LoggingEvent>
+										<providerName></providerName>
+										<spell href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="A9065A0F-EA93-426C-9756-1FA0F8C00695">
+											<Spell>
+												<applicators>
+													<Item href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="65FB5C07-AFB7-4CBE-BD99-E601826A2EED">
+														<FlagsApplicator>
+															<applyTarget>AbilityOwner</applyTarget>
+															<behaviorFlags>216</behaviorFlags>
+															<caption>–∑–∞—Ç—ã—á–∫–∞ –¥–ª—è –æ—Å—Ç–∞–Ω–æ–≤–∞ Sender_NativeTerrain</caption>
+															<consumables />
+															<effect>
+																<Item href="" />
+																<Item href="" />
+															</effect>
+															<enabled>
+																<compiledString></compiledString>
+																<returnType>bool</returnType>
+																<sString>true</sString>
+															</enabled>
+															<flag>0</flag>
+															<formulaName>StopNT</formulaName>
+															<lifeTime>
+																<compiledString></compiledString>
+																<returnType>float</returnType>
+																<sString>0.1</sString>
+															</lifeTime>
+															<LoggingEvent>-1</LoggingEvent>
+															<providerName></providerName>
+															<startCondition>
+																<compiledString></compiledString>
+																<returnType>bool</returnType>
+																<sString>true</sString>
+															</startCondition>
+															<talents />
+															<useListAs>ListAsRule</useListAs>
+														</FlagsApplicator>
+													</Item>
+												</applicators>
+												<dispatch href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="0684B658-2963-4A10-9530-7D8B6BD154ED">
+													<DispatchImmediate>
+														<alwaysApply>false</alwaysApply>
+														<applyEffect>
+															<Item href="/Effects/Debuffs/ShockWave/_Purple.EFFT" />
+															<Item href="" />
+														</applyEffect>
+														<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+														<applyEffectOrientation>Default</applyEffectOrientation>
+														<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+														<dieAfterApply>true</dieAfterApply>
+														<dispatchEffect>
+															<Item href="" />
+															<Item href="" />
+														</dispatchEffect>
+														<flags>0</flags>
+														<instantApply>true</instantApply>
+													</DispatchImmediate>
+												</dispatch>
+											</Spell>
+										</spell>
+										<spellTarget>ApplicatorTarget</spellTarget>
+										<targetSelector href="" />
+									</SpellApplicator>
+								</Item>
+								<Item href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="95E54BF8-06A4-4C25-9099-3EEAE93EE6FC">
+									<SpellApplicator>
+										<applyTarget>ApplicatorTarget</applyTarget>
+										<caption>–î–∞–º–∞–≥ —Ü–µ–ª–∏</caption>
+										<enabled>
+											<compiledString></compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</enabled>
+										<formulaName></formulaName>
+										<LoggingEvent>-1</LoggingEvent>
+										<providerName></providerName>
+										<spell href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="259F47A9-9026-42D7-B845-F0780D9DF89C">
+											<Spell>
+												<applicators>
+													<Item href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="8E489CFA-87FF-4582-9EAD-1C40610B20FC">
+														<DamageApplicator>
+															<applyTarget>ApplicatorTarget</applyTarget>
+															<cancelInvisibility>false</cancelInvisibility>
+															<caption></caption>
+															<damage>
+																<compiledString>FQkAAAABAAAAFQAAAEEyZGFtYWdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+																<returnType>float</returnType>
+																<sString>cA2damage</sString>
+															</damage>
+															<damageMode>0</damageMode>
+															<damageType>Energy</damageType>
+															<enabled>
+																<compiledString></compiledString>
+																<returnType>bool</returnType>
+																<sString>true</sString>
+															</enabled>
+															<formulaName></formulaName>
+															<LoggingEvent>-1</LoggingEvent>
+															<providerName></providerName>
+															<timeLimiter>-1</timeLimiter>
+															<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Energy.UIEV" />
+														</DamageApplicator>
+													</Item>
+												</applicators>
+												<dispatch href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="6251F9B3-0542-478C-B6AA-4168D0CC5354">
+													<DispatchImmediate>
+														<alwaysApply>false</alwaysApply>
+														<applyEffect>
+															<Item href="" />
+															<Item href="" />
+														</applyEffect>
+														<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+														<applyEffectOrientation>Default</applyEffectOrientation>
+														<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+														<dieAfterApply>true</dieAfterApply>
+														<dispatchEffect>
+															<Item href="" />
+															<Item href="" />
+														</dispatchEffect>
+														<flags>1</flags>
+														<instantApply>false</instantApply>
+													</DispatchImmediate>
+												</dispatch>
+											</Spell>
+										</spell>
+										<spellTarget>ApplicatorTarget</spellTarget>
+										<targetSelector href="" />
+									</SpellApplicator>
+								</Item>
+								<Item href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="D1AED28F-7647-4881-B724-5E6692C847FF">
+									<SpellApplicator>
+										<applyTarget>ApplicatorTarget</applyTarget>
+										<caption>–ê–æ–µ –¥–∞–º–∞–≥</caption>
+										<enabled>
+											<compiledString>FRUAAAABAAAAHwAAAFNlbmRlcl9OYXRpdmVUZXJyYWluAFWL7GoCi0UQUGgAAAAAi00IixGLTQiLgpwBAAD/0DPJO0UQD5XBisFdww==</compiledString>
+											<returnType>bool</returnType>
+											<sString>sender.applSender_NativeTerrain(ABILITY) != pMisc; //cSender_NativeTerrain</sString>
+										</enabled>
+										<formulaName></formulaName>
+										<LoggingEvent>-1</LoggingEvent>
+										<providerName></providerName>
+										<spell href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="7A03E127-C6FF-4D97-9D50-EA16B8D2E061">
+											<Spell>
+												<applicators>
+													<Item href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="059CCB2F-D4A7-4369-A847-CBFE7ECFC141">
+														<DamageApplicator>
+															<applyTarget>ApplicatorTarget</applyTarget>
+															<cancelInvisibility>false</cancelInvisibility>
+															<caption> - –ù–∞–Ω–µ—Å–µ–Ω–∏–µ —É—Ä–æ–Ω–∞</caption>
+															<damage>
+																<compiledString>FQwAAAABAAAAGAAAAEEyYW9lZGFtYWdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+																<returnType>float</returnType>
+																<sString>cA2aoedamage</sString>
+															</damage>
+															<damageMode>0</damageMode>
+															<damageType>Energy</damageType>
+															<enabled>
+																<compiledString></compiledString>
+																<returnType>bool</returnType>
+																<sString>true</sString>
+															</enabled>
+															<formulaName></formulaName>
+															<LoggingEvent>-1</LoggingEvent>
+															<providerName></providerName>
+															<timeLimiter>-1</timeLimiter>
+															<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Energy.UIEV" />
+														</DamageApplicator>
+													</Item>
+												</applicators>
+												<dispatch href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="AFB6EC92-01DC-460C-92BD-298BFCA0087D">
+													<DispatchImmediate>
+														<alwaysApply>false</alwaysApply>
+														<applyEffect>
+															<Item href="" />
+															<Item href="" />
+														</applyEffect>
+														<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+														<applyEffectOrientation>Default</applyEffectOrientation>
+														<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+														<dieAfterApply>true</dieAfterApply>
+														<dispatchEffect>
+															<Item href="" />
+															<Item href="" />
+														</dispatchEffect>
+														<flags>1</flags>
+														<instantApply>false</instantApply>
+													</DispatchImmediate>
+												</dispatch>
+											</Spell>
+										</spell>
+										<spellTarget>ApplicatorTarget</spellTarget>
+										<targetSelector href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="18E1302F-0F8D-4DE5-8EBA-2AAA29000572">
+											<AreaTargetSelector>
+												<absolutePosition>
+													<x>0</x>
+													<y>0</y>
+												</absolutePosition>
+												<flags>1</flags>
+												<mode>Normal</mode>
+												<range>
+													<compiledString>FQwAAAABAAAAGAAAAFJhbmdlX1Nob3J0AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+													<returnType>float</returnType>
+													<sString>cRange_Short</sString>
+												</range>
+												<targetFilter>547160127</targetFilter>
+												<targetSelector href="" />
+											</AreaTargetSelector>
+										</targetSelector>
+									</SpellApplicator>
+								</Item>
+							</applicators>
+							<dispatch href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="EB77EA7A-A8E0-49E2-9C42-6210D755D5A4">
+								<DispatchLinear>
+									<aiming>Homing</aiming>
+									<alwaysApply>false</alwaysApply>
+									<applyEffect>
+										<Item href="/Effects/Shots/Lightning/_Hit.EFFT" />
+										<Item href="" />
+									</applyEffect>
+									<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+									<applyEffectOrientation>Default</applyEffectOrientation>
+									<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+									<dieAfterApply>true</dieAfterApply>
+									<dispatchEffect>
+										<Item href="/Effects/Shots/Lightning/_Ball.EFFT" />
+										<Item href="" />
+									</dispatchEffect>
+									<flags>0</flags>
+									<flyMode>Linear</flyMode>
+									<fromLocator>Attack</fromLocator>
+									<height>0</height>
+									<killEffect>true</killEffect>
+									<locatorOrient>true</locatorOrient>
+									<maxDeviation>180</maxDeviation>
+									<maxDistance>40</maxDistance>
+									<maxRise>0.5</maxRise>
+									<minRise>0</minRise>
+									<persistentApplicators />
+									<speed>6</speed>
+									<suspendTime>0</suspendTime>
+									<toLocator>Body</toLocator>
+								</DispatchLinear>
+							</dispatch>
+						</Spell>
+					</Item>
+					<Item href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="6B15CB7E-C525-476D-9716-176F7E944738">
+						<Spell>
+							<applicators>
+								<Item href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="1A156B2F-5034-4C24-94B5-E519E1C2E268">
+									<SpellApplicator>
+										<applyTarget>ApplicatorTarget</applyTarget>
+										<caption>–∞–Ω–∏–º–∞—Ü–∏—è –∞–æ–µ –¥–∞–º–∞–≥–∞</caption>
+										<enabled>
+											<compiledString>FRUAAAABAAAAHwAAAFNlbmRlcl9OYXRpdmVUZXJyYWluAFWL7GoCi0UQUGgAAAAAi00IixGLTQiLgpwBAAD/0DPJO0UQD5XBisFdww==</compiledString>
+											<returnType>bool</returnType>
+											<sString>sender.applSender_NativeTerrain(ABILITY) != pMisc; //cSender_NativeTerrain</sString>
+										</enabled>
+										<formulaName></formulaName>
+										<LoggingEvent>-1</LoggingEvent>
+										<providerName></providerName>
+										<spell href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="248FAC28-D0DC-45DF-A689-85AE7B37603C">
+											<Spell>
+												<applicators>
+													<Item href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="50C55D76-027A-43F8-A8EA-661BA7E84FD6">
+														<FlagsApplicator>
+															<applyTarget>AbilityOwner</applyTarget>
+															<behaviorFlags>216</behaviorFlags>
+															<caption>–∑–∞—Ç—ã—á–∫–∞ –¥–ª—è –æ—Å—Ç–∞–Ω–æ–≤–∞ Sender_NativeTerrain</caption>
+															<consumables />
+															<effect>
+																<Item href="" />
+																<Item href="" />
+															</effect>
+															<enabled>
+																<compiledString></compiledString>
+																<returnType>bool</returnType>
+																<sString>true</sString>
+															</enabled>
+															<flag>0</flag>
+															<formulaName>StopNT</formulaName>
+															<lifeTime>
+																<compiledString></compiledString>
+																<returnType>float</returnType>
+																<sString>0.1</sString>
+															</lifeTime>
+															<LoggingEvent>-1</LoggingEvent>
+															<providerName></providerName>
+															<startCondition>
+																<compiledString></compiledString>
+																<returnType>bool</returnType>
+																<sString>true</sString>
+															</startCondition>
+															<talents />
+															<useListAs>ListAsRule</useListAs>
+														</FlagsApplicator>
+													</Item>
+												</applicators>
+												<dispatch href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="C910F0ED-33FE-4CB4-9C98-6497CC652C3D">
+													<DispatchImmediate>
+														<alwaysApply>false</alwaysApply>
+														<applyEffect>
+															<Item href="/Effects/Debuffs/ShockWave/_Purple.EFFT" />
+															<Item href="" />
+														</applyEffect>
+														<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+														<applyEffectOrientation>Default</applyEffectOrientation>
+														<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+														<dieAfterApply>true</dieAfterApply>
+														<dispatchEffect>
+															<Item href="" />
+															<Item href="" />
+														</dispatchEffect>
+														<flags>0</flags>
+														<instantApply>true</instantApply>
+													</DispatchImmediate>
+												</dispatch>
+											</Spell>
+										</spell>
+										<spellTarget>ApplicatorTarget</spellTarget>
+										<targetSelector href="" />
+									</SpellApplicator>
+								</Item>
+								<Item href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="2A43B816-1907-44EA-BADC-F9A0442E1B95">
+									<SpellApplicator>
+										<applyTarget>ApplicatorTarget</applyTarget>
+										<caption>–î–∞–º–∞–≥ —Ü–µ–ª–∏</caption>
+										<enabled>
+											<compiledString></compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</enabled>
+										<formulaName></formulaName>
+										<LoggingEvent>-1</LoggingEvent>
+										<providerName></providerName>
+										<spell href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="8779C559-85BE-4A2A-A510-079DC0F71AD6">
+											<Spell>
+												<applicators>
+													<Item href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="61BAE16F-BBF8-4B39-987C-4342FAA847BC">
+														<DamageApplicator>
+															<applyTarget>ApplicatorTarget</applyTarget>
+															<cancelInvisibility>false</cancelInvisibility>
+															<caption></caption>
+															<damage>
+																<compiledString>FQkAAAABAAAAFQAAAEEyZGFtYWdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+																<returnType>float</returnType>
+																<sString>cA2damage</sString>
+															</damage>
+															<damageMode>0</damageMode>
+															<damageType>Energy</damageType>
+															<enabled>
+																<compiledString></compiledString>
+																<returnType>bool</returnType>
+																<sString>true</sString>
+															</enabled>
+															<formulaName></formulaName>
+															<LoggingEvent>-1</LoggingEvent>
+															<providerName></providerName>
+															<timeLimiter>-1</timeLimiter>
+															<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Energy.UIEV" />
+														</DamageApplicator>
+													</Item>
+												</applicators>
+												<dispatch href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="BA1974CA-9086-4DB9-AEC9-EA052253E4D7">
+													<DispatchImmediate>
+														<alwaysApply>false</alwaysApply>
+														<applyEffect>
+															<Item href="" />
+															<Item href="" />
+														</applyEffect>
+														<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+														<applyEffectOrientation>Default</applyEffectOrientation>
+														<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+														<dieAfterApply>true</dieAfterApply>
+														<dispatchEffect>
+															<Item href="" />
+															<Item href="" />
+														</dispatchEffect>
+														<flags>1</flags>
+														<instantApply>false</instantApply>
+													</DispatchImmediate>
+												</dispatch>
+											</Spell>
+										</spell>
+										<spellTarget>ApplicatorTarget</spellTarget>
+										<targetSelector href="" />
+									</SpellApplicator>
+								</Item>
+								<Item href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="CD8D19E0-9B26-4319-8C6C-58275C05CE45">
+									<SpellApplicator>
+										<applyTarget>ApplicatorTarget</applyTarget>
+										<caption>–ê–æ–µ –¥–∞–º–∞–≥</caption>
+										<enabled>
+											<compiledString>FRUAAAABAAAAHwAAAFNlbmRlcl9OYXRpdmVUZXJyYWluAFWL7GoCi0UQUGgAAAAAi00IixGLTQiLgpwBAAD/0DPJO0UQD5XBisFdww==</compiledString>
+											<returnType>bool</returnType>
+											<sString>sender.applSender_NativeTerrain(ABILITY) != pMisc; //cSender_NativeTerrain</sString>
+										</enabled>
+										<formulaName></formulaName>
+										<LoggingEvent>-1</LoggingEvent>
+										<providerName></providerName>
+										<spell href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="973FDA13-D4AC-42FD-A9CC-67C83004D448">
+											<Spell>
+												<applicators>
+													<Item href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="BBB9ACF6-1DCC-42B7-A2ED-C8987B5160B2">
+														<DamageApplicator>
+															<applyTarget>ApplicatorTarget</applyTarget>
+															<cancelInvisibility>false</cancelInvisibility>
+															<caption> - –ù–∞–Ω–µ—Å–µ–Ω–∏–µ —É—Ä–æ–Ω–∞</caption>
+															<damage>
+																<compiledString>FQwAAAABAAAAGAAAAEEyYW9lZGFtYWdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+																<returnType>float</returnType>
+																<sString>cA2aoedamage</sString>
+															</damage>
+															<damageMode>0</damageMode>
+															<damageType>Energy</damageType>
+															<enabled>
+																<compiledString></compiledString>
+																<returnType>bool</returnType>
+																<sString>true</sString>
+															</enabled>
+															<formulaName></formulaName>
+															<LoggingEvent>-1</LoggingEvent>
+															<providerName></providerName>
+															<timeLimiter>-1</timeLimiter>
+															<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Energy.UIEV" />
+														</DamageApplicator>
+													</Item>
+												</applicators>
+												<dispatch href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="22897DF7-FC3D-4C0A-8E75-043C2F759654">
+													<DispatchImmediate>
+														<alwaysApply>false</alwaysApply>
+														<applyEffect>
+															<Item href="" />
+															<Item href="" />
+														</applyEffect>
+														<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+														<applyEffectOrientation>Default</applyEffectOrientation>
+														<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+														<dieAfterApply>true</dieAfterApply>
+														<dispatchEffect>
+															<Item href="" />
+															<Item href="" />
+														</dispatchEffect>
+														<flags>1</flags>
+														<instantApply>false</instantApply>
+													</DispatchImmediate>
+												</dispatch>
+											</Spell>
+										</spell>
+										<spellTarget>ApplicatorTarget</spellTarget>
+										<targetSelector href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="759CBAC5-20DB-4263-A8A6-C8C6E8AFAE71">
+											<AreaTargetSelector>
+												<absolutePosition>
+													<x>0</x>
+													<y>0</y>
+												</absolutePosition>
+												<flags>1</flags>
+												<mode>Normal</mode>
+												<range>
+													<compiledString>FQwAAAABAAAAGAAAAFJhbmdlX1Nob3J0AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+													<returnType>float</returnType>
+													<sString>cRange_Short</sString>
+												</range>
+												<targetFilter>547160127</targetFilter>
+												<targetSelector href="" />
+											</AreaTargetSelector>
+										</targetSelector>
+									</SpellApplicator>
+								</Item>
+							</applicators>
+							<dispatch href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="0E02A139-7325-4DE3-8999-505EFC07E8B9">
+								<DispatchLinear>
+									<aiming>Homing</aiming>
+									<alwaysApply>false</alwaysApply>
+									<applyEffect>
+										<Item href="/Effects/Shots/Lightning/_Hit.EFFT" />
+										<Item href="" />
+									</applyEffect>
+									<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+									<applyEffectOrientation>Default</applyEffectOrientation>
+									<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+									<dieAfterApply>true</dieAfterApply>
+									<dispatchEffect>
+										<Item href="/Effects/Shots/Lightning/_Ball.EFFT" />
+										<Item href="" />
+									</dispatchEffect>
+									<flags>0</flags>
+									<flyMode>Linear</flyMode>
+									<fromLocator>Attack</fromLocator>
+									<height>0</height>
+									<killEffect>true</killEffect>
+									<locatorOrient>true</locatorOrient>
+									<maxDeviation>180</maxDeviation>
+									<maxDistance>40</maxDistance>
+									<maxRise>0.5</maxRise>
+									<minRise>0</minRise>
+									<persistentApplicators />
+									<speed>6.6</speed>
+									<suspendTime>0</suspendTime>
+									<toLocator>Body</toLocator>
+								</DispatchLinear>
+							</dispatch>
+						</Spell>
+					</Item>
+					<Item href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="4990CF17-0DA8-4740-BA17-4D7734FB80B1">
+						<Spell>
+							<applicators>
+								<Item href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="85332F08-907A-4B86-B7A8-975AFAC4F366">
+									<SpellApplicator>
+										<applyTarget>ApplicatorTarget</applyTarget>
+										<caption>–∞–Ω–∏–º–∞—Ü–∏—è –∞–æ–µ –¥–∞–º–∞–≥–∞</caption>
+										<enabled>
+											<compiledString>FRUAAAABAAAAHwAAAFNlbmRlcl9OYXRpdmVUZXJyYWluAFWL7GoCi0UQUGgAAAAAi00IixGLTQiLgpwBAAD/0DPJO0UQD5XBisFdww==</compiledString>
+											<returnType>bool</returnType>
+											<sString>sender.applSender_NativeTerrain(ABILITY) != pMisc; //cSender_NativeTerrain</sString>
+										</enabled>
+										<formulaName></formulaName>
+										<LoggingEvent>-1</LoggingEvent>
+										<providerName></providerName>
+										<spell href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="33C9EFB2-8E38-41E2-9EAE-AF01BE3BCD5A">
+											<Spell>
+												<applicators>
+													<Item href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="F5BC3CEB-82AE-4442-AC4C-660158527291">
+														<FlagsApplicator>
+															<applyTarget>AbilityOwner</applyTarget>
+															<behaviorFlags>216</behaviorFlags>
+															<caption>–∑–∞—Ç—ã—á–∫–∞ –¥–ª—è –æ—Å—Ç–∞–Ω–æ–≤–∞ Sender_NativeTerrain</caption>
+															<consumables />
+															<effect>
+																<Item href="" />
+																<Item href="" />
+															</effect>
+															<enabled>
+																<compiledString></compiledString>
+																<returnType>bool</returnType>
+																<sString>true</sString>
+															</enabled>
+															<flag>0</flag>
+															<formulaName>StopNT</formulaName>
+															<lifeTime>
+																<compiledString></compiledString>
+																<returnType>float</returnType>
+																<sString>0.1</sString>
+															</lifeTime>
+															<LoggingEvent>-1</LoggingEvent>
+															<providerName></providerName>
+															<startCondition>
+																<compiledString></compiledString>
+																<returnType>bool</returnType>
+																<sString>true</sString>
+															</startCondition>
+															<talents />
+															<useListAs>ListAsRule</useListAs>
+														</FlagsApplicator>
+													</Item>
+												</applicators>
+												<dispatch href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="BCEF67F1-97E7-4C98-939A-87EF23FBEA06">
+													<DispatchImmediate>
+														<alwaysApply>false</alwaysApply>
+														<applyEffect>
+															<Item href="/Effects/Debuffs/ShockWave/_Purple.EFFT" />
+															<Item href="" />
+														</applyEffect>
+														<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+														<applyEffectOrientation>Default</applyEffectOrientation>
+														<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+														<dieAfterApply>true</dieAfterApply>
+														<dispatchEffect>
+															<Item href="" />
+															<Item href="" />
+														</dispatchEffect>
+														<flags>0</flags>
+														<instantApply>true</instantApply>
+													</DispatchImmediate>
+												</dispatch>
+											</Spell>
+										</spell>
+										<spellTarget>ApplicatorTarget</spellTarget>
+										<targetSelector href="" />
+									</SpellApplicator>
+								</Item>
+								<Item href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="E7F45188-E3FC-45EC-813C-6B5F96B51247">
+									<SpellApplicator>
+										<applyTarget>ApplicatorTarget</applyTarget>
+										<caption>–î–∞–º–∞–≥ —Ü–µ–ª–∏</caption>
+										<enabled>
+											<compiledString></compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</enabled>
+										<formulaName></formulaName>
+										<LoggingEvent>-1</LoggingEvent>
+										<providerName></providerName>
+										<spell href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="5455261F-6C5A-4521-8B2B-201C5AA79E49">
+											<Spell>
+												<applicators>
+													<Item href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="469290B5-CB8C-4946-8BAD-64F2CBE519AA">
+														<DamageApplicator>
+															<applyTarget>ApplicatorTarget</applyTarget>
+															<cancelInvisibility>false</cancelInvisibility>
+															<caption></caption>
+															<damage>
+																<compiledString>FQkAAAABAAAAFQAAAEEyZGFtYWdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+																<returnType>float</returnType>
+																<sString>cA2damage</sString>
+															</damage>
+															<damageMode>0</damageMode>
+															<damageType>Energy</damageType>
+															<enabled>
+																<compiledString></compiledString>
+																<returnType>bool</returnType>
+																<sString>true</sString>
+															</enabled>
+															<formulaName></formulaName>
+															<LoggingEvent>-1</LoggingEvent>
+															<providerName></providerName>
+															<timeLimiter>-1</timeLimiter>
+															<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Energy.UIEV" />
+														</DamageApplicator>
+													</Item>
+												</applicators>
+												<dispatch href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="04F44295-BFFF-4080-A3CC-3BBC8D724B2D">
+													<DispatchImmediate>
+														<alwaysApply>false</alwaysApply>
+														<applyEffect>
+															<Item href="" />
+															<Item href="" />
+														</applyEffect>
+														<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+														<applyEffectOrientation>Default</applyEffectOrientation>
+														<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+														<dieAfterApply>true</dieAfterApply>
+														<dispatchEffect>
+															<Item href="" />
+															<Item href="" />
+														</dispatchEffect>
+														<flags>1</flags>
+														<instantApply>false</instantApply>
+													</DispatchImmediate>
+												</dispatch>
+											</Spell>
+										</spell>
+										<spellTarget>ApplicatorTarget</spellTarget>
+										<targetSelector href="" />
+									</SpellApplicator>
+								</Item>
+								<Item href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="07F444A3-D09A-4E33-B3AC-099AE63969D2">
+									<SpellApplicator>
+										<applyTarget>ApplicatorTarget</applyTarget>
+										<caption>–ê–æ–µ –¥–∞–º–∞–≥</caption>
+										<enabled>
+											<compiledString>FRUAAAABAAAAHwAAAFNlbmRlcl9OYXRpdmVUZXJyYWluAFWL7GoCi0UQUGgAAAAAi00IixGLTQiLgpwBAAD/0DPJO0UQD5XBisFdww==</compiledString>
+											<returnType>bool</returnType>
+											<sString>sender.applSender_NativeTerrain(ABILITY) != pMisc; //cSender_NativeTerrain</sString>
+										</enabled>
+										<formulaName></formulaName>
+										<LoggingEvent>-1</LoggingEvent>
+										<providerName></providerName>
+										<spell href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="6A5C0B4B-6907-42DA-9ED3-154B11AA3815">
+											<Spell>
+												<applicators>
+													<Item href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="A4247191-418A-4FC4-BE74-476288350061">
+														<DamageApplicator>
+															<applyTarget>ApplicatorTarget</applyTarget>
+															<cancelInvisibility>false</cancelInvisibility>
+															<caption> - –ù–∞–Ω–µ—Å–µ–Ω–∏–µ —É—Ä–æ–Ω–∞</caption>
+															<damage>
+																<compiledString>FQwAAAABAAAAGAAAAEEyYW9lZGFtYWdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+																<returnType>float</returnType>
+																<sString>cA2aoedamage</sString>
+															</damage>
+															<damageMode>0</damageMode>
+															<damageType>Energy</damageType>
+															<enabled>
+																<compiledString></compiledString>
+																<returnType>bool</returnType>
+																<sString>true</sString>
+															</enabled>
+															<formulaName></formulaName>
+															<LoggingEvent>-1</LoggingEvent>
+															<providerName></providerName>
+															<timeLimiter>-1</timeLimiter>
+															<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Energy.UIEV" />
+														</DamageApplicator>
+													</Item>
+												</applicators>
+												<dispatch href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="7FBE495B-C02C-4AEC-B280-FDD952EA136F">
+													<DispatchImmediate>
+														<alwaysApply>false</alwaysApply>
+														<applyEffect>
+															<Item href="" />
+															<Item href="" />
+														</applyEffect>
+														<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+														<applyEffectOrientation>Default</applyEffectOrientation>
+														<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+														<dieAfterApply>true</dieAfterApply>
+														<dispatchEffect>
+															<Item href="" />
+															<Item href="" />
+														</dispatchEffect>
+														<flags>1</flags>
+														<instantApply>false</instantApply>
+													</DispatchImmediate>
+												</dispatch>
+											</Spell>
+										</spell>
+										<spellTarget>ApplicatorTarget</spellTarget>
+										<targetSelector href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="86985AE0-0C65-4B10-9684-115568F4E232">
+											<AreaTargetSelector>
+												<absolutePosition>
+													<x>0</x>
+													<y>0</y>
+												</absolutePosition>
+												<flags>1</flags>
+												<mode>Normal</mode>
+												<range>
+													<compiledString>FQwAAAABAAAAGAAAAFJhbmdlX1Nob3J0AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+													<returnType>float</returnType>
+													<sString>cRange_Short</sString>
+												</range>
+												<targetFilter>547160127</targetFilter>
+												<targetSelector href="" />
+											</AreaTargetSelector>
+										</targetSelector>
+									</SpellApplicator>
+								</Item>
+							</applicators>
+							<dispatch href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="10B9ABF8-BD7F-4C0E-BDD3-805D6C58B69E">
+								<DispatchLinear>
+									<aiming>Homing</aiming>
+									<alwaysApply>false</alwaysApply>
+									<applyEffect>
+										<Item href="/Effects/Shots/Lightning/_Hit.EFFT" />
+										<Item href="" />
+									</applyEffect>
+									<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+									<applyEffectOrientation>Default</applyEffectOrientation>
+									<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+									<dieAfterApply>true</dieAfterApply>
+									<dispatchEffect>
+										<Item href="/Effects/Shots/Lightning/_Ball.EFFT" />
+										<Item href="" />
+									</dispatchEffect>
+									<flags>0</flags>
+									<flyMode>Linear</flyMode>
+									<fromLocator>Attack</fromLocator>
+									<height>0</height>
+									<killEffect>true</killEffect>
+									<locatorOrient>true</locatorOrient>
+									<maxDeviation>180</maxDeviation>
+									<maxDistance>40</maxDistance>
+									<maxRise>0.5</maxRise>
+									<minRise>0</minRise>
+									<persistentApplicators />
+									<speed>7.2</speed>
+									<suspendTime>0</suspendTime>
+									<toLocator>Body</toLocator>
+								</DispatchLinear>
+							</dispatch>
+						</Spell>
+					</Item>
+					<Item href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="AF563B60-0F8A-4D0B-B741-DDF8195C075C">
+						<Spell>
+							<applicators>
+								<Item href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="E5E03E13-ADC0-40AE-AF65-9124A918B4C9">
+									<SpellApplicator>
+										<applyTarget>ApplicatorTarget</applyTarget>
+										<caption>–∞–Ω–∏–º–∞—Ü–∏—è –∞–æ–µ –¥–∞–º–∞–≥–∞</caption>
+										<enabled>
+											<compiledString>FRUAAAABAAAAHwAAAFNlbmRlcl9OYXRpdmVUZXJyYWluAFWL7GoCi0UQUGgAAAAAi00IixGLTQiLgpwBAAD/0DPJO0UQD5XBisFdww==</compiledString>
+											<returnType>bool</returnType>
+											<sString>sender.applSender_NativeTerrain(ABILITY) != pMisc; //cSender_NativeTerrain</sString>
+										</enabled>
+										<formulaName></formulaName>
+										<LoggingEvent>-1</LoggingEvent>
+										<providerName></providerName>
+										<spell href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="E8BC3419-3C10-46B7-979D-F1651C6BF274">
+											<Spell>
+												<applicators>
+													<Item href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="2D2022F6-571F-473D-B201-E98D51F7A3AF">
+														<FlagsApplicator>
+															<applyTarget>AbilityOwner</applyTarget>
+															<behaviorFlags>216</behaviorFlags>
+															<caption>–∑–∞—Ç—ã—á–∫–∞ –¥–ª—è –æ—Å—Ç–∞–Ω–æ–≤–∞ Sender_NativeTerrain</caption>
+															<consumables />
+															<effect>
+																<Item href="" />
+																<Item href="" />
+															</effect>
+															<enabled>
+																<compiledString></compiledString>
+																<returnType>bool</returnType>
+																<sString>true</sString>
+															</enabled>
+															<flag>0</flag>
+															<formulaName>StopNT</formulaName>
+															<lifeTime>
+																<compiledString></compiledString>
+																<returnType>float</returnType>
+																<sString>0.1</sString>
+															</lifeTime>
+															<LoggingEvent>-1</LoggingEvent>
+															<providerName></providerName>
+															<startCondition>
+																<compiledString></compiledString>
+																<returnType>bool</returnType>
+																<sString>true</sString>
+															</startCondition>
+															<talents />
+															<useListAs>ListAsRule</useListAs>
+														</FlagsApplicator>
+													</Item>
+												</applicators>
+												<dispatch href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="0FC2DFF4-375D-4E6D-9DB2-C5E9E4104A1E">
+													<DispatchImmediate>
+														<alwaysApply>false</alwaysApply>
+														<applyEffect>
+															<Item href="/Effects/Debuffs/ShockWave/_Purple.EFFT" />
+															<Item href="" />
+														</applyEffect>
+														<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+														<applyEffectOrientation>Default</applyEffectOrientation>
+														<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+														<dieAfterApply>true</dieAfterApply>
+														<dispatchEffect>
+															<Item href="" />
+															<Item href="" />
+														</dispatchEffect>
+														<flags>0</flags>
+														<instantApply>true</instantApply>
+													</DispatchImmediate>
+												</dispatch>
+											</Spell>
+										</spell>
+										<spellTarget>ApplicatorTarget</spellTarget>
+										<targetSelector href="" />
+									</SpellApplicator>
+								</Item>
+								<Item href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="EB888DB4-2512-455E-BE52-BE9A81831483">
+									<SpellApplicator>
+										<applyTarget>ApplicatorTarget</applyTarget>
+										<caption>–î–∞–º–∞–≥ —Ü–µ–ª–∏</caption>
+										<enabled>
+											<compiledString></compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</enabled>
+										<formulaName></formulaName>
+										<LoggingEvent>-1</LoggingEvent>
+										<providerName></providerName>
+										<spell href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="9995B35F-A878-4203-A1A6-53A6928220EA">
+											<Spell>
+												<applicators>
+													<Item href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="E89F7C75-8C88-4019-BDB8-ACAD5A11403F">
+														<DamageApplicator>
+															<applyTarget>ApplicatorTarget</applyTarget>
+															<cancelInvisibility>false</cancelInvisibility>
+															<caption></caption>
+															<damage>
+																<compiledString>FQkAAAABAAAAFQAAAEEyZGFtYWdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+																<returnType>float</returnType>
+																<sString>cA2damage</sString>
+															</damage>
+															<damageMode>0</damageMode>
+															<damageType>Energy</damageType>
+															<enabled>
+																<compiledString></compiledString>
+																<returnType>bool</returnType>
+																<sString>true</sString>
+															</enabled>
+															<formulaName></formulaName>
+															<LoggingEvent>-1</LoggingEvent>
+															<providerName></providerName>
+															<timeLimiter>-1</timeLimiter>
+															<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Energy.UIEV" />
+														</DamageApplicator>
+													</Item>
+												</applicators>
+												<dispatch href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="36AE02FE-B4E9-4AAC-BCEF-FA65CAF4ADC2">
+													<DispatchImmediate>
+														<alwaysApply>false</alwaysApply>
+														<applyEffect>
+															<Item href="" />
+															<Item href="" />
+														</applyEffect>
+														<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+														<applyEffectOrientation>Default</applyEffectOrientation>
+														<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+														<dieAfterApply>true</dieAfterApply>
+														<dispatchEffect>
+															<Item href="" />
+															<Item href="" />
+														</dispatchEffect>
+														<flags>1</flags>
+														<instantApply>false</instantApply>
+													</DispatchImmediate>
+												</dispatch>
+											</Spell>
+										</spell>
+										<spellTarget>ApplicatorTarget</spellTarget>
+										<targetSelector href="" />
+									</SpellApplicator>
+								</Item>
+								<Item href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="A11F5757-9C27-43E2-841B-1D3BAADB2A5F">
+									<SpellApplicator>
+										<applyTarget>ApplicatorTarget</applyTarget>
+										<caption>–ê–æ–µ –¥–∞–º–∞–≥</caption>
+										<enabled>
+											<compiledString>FRUAAAABAAAAHwAAAFNlbmRlcl9OYXRpdmVUZXJyYWluAFWL7GoCi0UQUGgAAAAAi00IixGLTQiLgpwBAAD/0DPJO0UQD5XBisFdww==</compiledString>
+											<returnType>bool</returnType>
+											<sString>sender.applSender_NativeTerrain(ABILITY) != pMisc; //cSender_NativeTerrain</sString>
+										</enabled>
+										<formulaName></formulaName>
+										<LoggingEvent>-1</LoggingEvent>
+										<providerName></providerName>
+										<spell href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="1C4D99F2-B639-449A-9D4B-E79029EE0835">
+											<Spell>
+												<applicators>
+													<Item href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="41604206-5C1A-46A3-8EE7-489253A3A1A7">
+														<DamageApplicator>
+															<applyTarget>ApplicatorTarget</applyTarget>
+															<cancelInvisibility>false</cancelInvisibility>
+															<caption> - –ù–∞–Ω–µ—Å–µ–Ω–∏–µ —É—Ä–æ–Ω–∞</caption>
+															<damage>
+																<compiledString>FQwAAAABAAAAGAAAAEEyYW9lZGFtYWdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+																<returnType>float</returnType>
+																<sString>cA2aoedamage</sString>
+															</damage>
+															<damageMode>0</damageMode>
+															<damageType>Energy</damageType>
+															<enabled>
+																<compiledString></compiledString>
+																<returnType>bool</returnType>
+																<sString>true</sString>
+															</enabled>
+															<formulaName></formulaName>
+															<LoggingEvent>-1</LoggingEvent>
+															<providerName></providerName>
+															<timeLimiter>-1</timeLimiter>
+															<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Energy.UIEV" />
+														</DamageApplicator>
+													</Item>
+												</applicators>
+												<dispatch href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="E9D169FD-93AF-40F6-82E1-1EA250BB71D5">
+													<DispatchImmediate>
+														<alwaysApply>false</alwaysApply>
+														<applyEffect>
+															<Item href="" />
+															<Item href="" />
+														</applyEffect>
+														<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+														<applyEffectOrientation>Default</applyEffectOrientation>
+														<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+														<dieAfterApply>true</dieAfterApply>
+														<dispatchEffect>
+															<Item href="" />
+															<Item href="" />
+														</dispatchEffect>
+														<flags>1</flags>
+														<instantApply>false</instantApply>
+													</DispatchImmediate>
+												</dispatch>
+											</Spell>
+										</spell>
+										<spellTarget>ApplicatorTarget</spellTarget>
+										<targetSelector href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="C512E6B3-1C80-4168-859E-BAD045BD82B9">
+											<AreaTargetSelector>
+												<absolutePosition>
+													<x>0</x>
+													<y>0</y>
+												</absolutePosition>
+												<flags>1</flags>
+												<mode>Normal</mode>
+												<range>
+													<compiledString>FQwAAAABAAAAGAAAAFJhbmdlX1Nob3J0AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+													<returnType>float</returnType>
+													<sString>cRange_Short</sString>
+												</range>
+												<targetFilter>547160127</targetFilter>
+												<targetSelector href="" />
+											</AreaTargetSelector>
+										</targetSelector>
+									</SpellApplicator>
+								</Item>
+							</applicators>
+							<dispatch href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="ED56142A-4196-4FBA-9A9D-0FF40F6CC4AB">
+								<DispatchLinear>
+									<aiming>Homing</aiming>
+									<alwaysApply>false</alwaysApply>
+									<applyEffect>
+										<Item href="/Effects/Shots/Lightning/_Hit.EFFT" />
+										<Item href="" />
+									</applyEffect>
+									<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+									<applyEffectOrientation>Default</applyEffectOrientation>
+									<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+									<dieAfterApply>true</dieAfterApply>
+									<dispatchEffect>
+										<Item href="/Effects/Shots/Lightning/_Ball.EFFT" />
+										<Item href="" />
+									</dispatchEffect>
+									<flags>0</flags>
+									<flyMode>Linear</flyMode>
+									<fromLocator>Attack</fromLocator>
+									<height>0</height>
+									<killEffect>true</killEffect>
+									<locatorOrient>true</locatorOrient>
+									<maxDeviation>180</maxDeviation>
+									<maxDistance>40</maxDistance>
+									<maxRise>0.5</maxRise>
+									<minRise>0</minRise>
+									<persistentApplicators />
+									<speed>7.8</speed>
+									<suspendTime>0</suspendTime>
+									<toLocator>Body</toLocator>
+								</DispatchLinear>
+							</dispatch>
+						</Spell>
+					</Item>
+					<Item href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="6FA4388A-D2EF-4679-991B-2AEAE214747E">
+						<Spell>
+							<applicators>
+								<Item href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="BA678A88-78FB-450B-9C7B-07D5B5040CA6">
+									<SpellApplicator>
+										<applyTarget>ApplicatorTarget</applyTarget>
+										<caption>–∞–Ω–∏–º–∞—Ü–∏—è –∞–æ–µ –¥–∞–º–∞–≥–∞</caption>
+										<enabled>
+											<compiledString>FRUAAAABAAAAHwAAAFNlbmRlcl9OYXRpdmVUZXJyYWluAFWL7GoCi0UQUGgAAAAAi00IixGLTQiLgpwBAAD/0DPJO0UQD5XBisFdww==</compiledString>
+											<returnType>bool</returnType>
+											<sString>sender.applSender_NativeTerrain(ABILITY) != pMisc; //cSender_NativeTerrain</sString>
+										</enabled>
+										<formulaName></formulaName>
+										<LoggingEvent>-1</LoggingEvent>
+										<providerName></providerName>
+										<spell href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="D5D6303A-C99D-4DB0-85D3-988D13088424">
+											<Spell>
+												<applicators>
+													<Item href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="DE2EFCEA-B2EF-4378-8689-6C6A5F2FC43C">
+														<FlagsApplicator>
+															<applyTarget>AbilityOwner</applyTarget>
+															<behaviorFlags>216</behaviorFlags>
+															<caption>–∑–∞—Ç—ã—á–∫–∞ –¥–ª—è –æ—Å—Ç–∞–Ω–æ–≤–∞ Sender_NativeTerrain</caption>
+															<consumables />
+															<effect>
+																<Item href="" />
+																<Item href="" />
+															</effect>
+															<enabled>
+																<compiledString></compiledString>
+																<returnType>bool</returnType>
+																<sString>true</sString>
+															</enabled>
+															<flag>0</flag>
+															<formulaName>StopNT</formulaName>
+															<lifeTime>
+																<compiledString></compiledString>
+																<returnType>float</returnType>
+																<sString>0.1</sString>
+															</lifeTime>
+															<LoggingEvent>-1</LoggingEvent>
+															<providerName></providerName>
+															<startCondition>
+																<compiledString></compiledString>
+																<returnType>bool</returnType>
+																<sString>true</sString>
+															</startCondition>
+															<talents />
+															<useListAs>ListAsRule</useListAs>
+														</FlagsApplicator>
+													</Item>
+												</applicators>
+												<dispatch href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="70A43D88-EFD2-4759-8097-393A0A1B90B7">
+													<DispatchImmediate>
+														<alwaysApply>false</alwaysApply>
+														<applyEffect>
+															<Item href="/Effects/Debuffs/ShockWave/_Purple.EFFT" />
+															<Item href="" />
+														</applyEffect>
+														<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+														<applyEffectOrientation>Default</applyEffectOrientation>
+														<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+														<dieAfterApply>true</dieAfterApply>
+														<dispatchEffect>
+															<Item href="" />
+															<Item href="" />
+														</dispatchEffect>
+														<flags>0</flags>
+														<instantApply>true</instantApply>
+													</DispatchImmediate>
+												</dispatch>
+											</Spell>
+										</spell>
+										<spellTarget>ApplicatorTarget</spellTarget>
+										<targetSelector href="" />
+									</SpellApplicator>
+								</Item>
+								<Item href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="7BC1CCD2-6075-4981-970B-EA02666A513C">
+									<SpellApplicator>
+										<applyTarget>ApplicatorTarget</applyTarget>
+										<caption>–î–∞–º–∞–≥ —Ü–µ–ª–∏</caption>
+										<enabled>
+											<compiledString></compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</enabled>
+										<formulaName></formulaName>
+										<LoggingEvent>-1</LoggingEvent>
+										<providerName></providerName>
+										<spell href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="388C976D-4F7D-4C16-890F-9E49B8CCCA55">
+											<Spell>
+												<applicators>
+													<Item href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="EF15E447-E521-45ED-AB2E-0224D4950FE9">
+														<DamageApplicator>
+															<applyTarget>ApplicatorTarget</applyTarget>
+															<cancelInvisibility>false</cancelInvisibility>
+															<caption></caption>
+															<damage>
+																<compiledString>FQkAAAABAAAAFQAAAEEyZGFtYWdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+																<returnType>float</returnType>
+																<sString>cA2damage</sString>
+															</damage>
+															<damageMode>0</damageMode>
+															<damageType>Energy</damageType>
+															<enabled>
+																<compiledString></compiledString>
+																<returnType>bool</returnType>
+																<sString>true</sString>
+															</enabled>
+															<formulaName></formulaName>
+															<LoggingEvent>-1</LoggingEvent>
+															<providerName></providerName>
+															<timeLimiter>-1</timeLimiter>
+															<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Energy.UIEV" />
+														</DamageApplicator>
+													</Item>
+												</applicators>
+												<dispatch href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="99AB081E-51BA-4FF9-ABEA-6D46ED5F2F64">
+													<DispatchImmediate>
+														<alwaysApply>false</alwaysApply>
+														<applyEffect>
+															<Item href="" />
+															<Item href="" />
+														</applyEffect>
+														<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+														<applyEffectOrientation>Default</applyEffectOrientation>
+														<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+														<dieAfterApply>true</dieAfterApply>
+														<dispatchEffect>
+															<Item href="" />
+															<Item href="" />
+														</dispatchEffect>
+														<flags>1</flags>
+														<instantApply>false</instantApply>
+													</DispatchImmediate>
+												</dispatch>
+											</Spell>
+										</spell>
+										<spellTarget>ApplicatorTarget</spellTarget>
+										<targetSelector href="" />
+									</SpellApplicator>
+								</Item>
+								<Item href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="4CFBC31B-ED2F-4D60-BA92-C88C7AD91A4D">
+									<SpellApplicator>
+										<applyTarget>ApplicatorTarget</applyTarget>
+										<caption>–ê–æ–µ –¥–∞–º–∞–≥</caption>
+										<enabled>
+											<compiledString>FRUAAAABAAAAHwAAAFNlbmRlcl9OYXRpdmVUZXJyYWluAFWL7GoCi0UQUGgAAAAAi00IixGLTQiLgpwBAAD/0DPJO0UQD5XBisFdww==</compiledString>
+											<returnType>bool</returnType>
+											<sString>sender.applSender_NativeTerrain(ABILITY) != pMisc; //cSender_NativeTerrain</sString>
+										</enabled>
+										<formulaName></formulaName>
+										<LoggingEvent>-1</LoggingEvent>
+										<providerName></providerName>
+										<spell href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="29586E37-28F1-49DF-BC5F-F52361954C1A">
+											<Spell>
+												<applicators>
+													<Item href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="C9357294-BE37-4993-BCA6-F6EE91675036">
+														<DamageApplicator>
+															<applyTarget>ApplicatorTarget</applyTarget>
+															<cancelInvisibility>false</cancelInvisibility>
+															<caption> - –ù–∞–Ω–µ—Å–µ–Ω–∏–µ —É—Ä–æ–Ω–∞</caption>
+															<damage>
+																<compiledString>FQwAAAABAAAAGAAAAEEyYW9lZGFtYWdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+																<returnType>float</returnType>
+																<sString>cA2aoedamage</sString>
+															</damage>
+															<damageMode>0</damageMode>
+															<damageType>Energy</damageType>
+															<enabled>
+																<compiledString></compiledString>
+																<returnType>bool</returnType>
+																<sString>true</sString>
+															</enabled>
+															<formulaName></formulaName>
+															<LoggingEvent>-1</LoggingEvent>
+															<providerName></providerName>
+															<timeLimiter>-1</timeLimiter>
+															<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Energy.UIEV" />
+														</DamageApplicator>
+													</Item>
+												</applicators>
+												<dispatch href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="42929E10-54B9-4709-900A-3AC16C81B0B7">
+													<DispatchImmediate>
+														<alwaysApply>false</alwaysApply>
+														<applyEffect>
+															<Item href="" />
+															<Item href="" />
+														</applyEffect>
+														<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+														<applyEffectOrientation>Default</applyEffectOrientation>
+														<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+														<dieAfterApply>true</dieAfterApply>
+														<dispatchEffect>
+															<Item href="" />
+															<Item href="" />
+														</dispatchEffect>
+														<flags>1</flags>
+														<instantApply>false</instantApply>
+													</DispatchImmediate>
+												</dispatch>
+											</Spell>
+										</spell>
+										<spellTarget>ApplicatorTarget</spellTarget>
+										<targetSelector href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="D9720A41-7F1D-4A3C-9818-58B6BCA90B1C">
+											<AreaTargetSelector>
+												<absolutePosition>
+													<x>0</x>
+													<y>0</y>
+												</absolutePosition>
+												<flags>1</flags>
+												<mode>Normal</mode>
+												<range>
+													<compiledString>FQwAAAABAAAAGAAAAFJhbmdlX1Nob3J0AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+													<returnType>float</returnType>
+													<sString>cRange_Short</sString>
+												</range>
+												<targetFilter>547160127</targetFilter>
+												<targetSelector href="" />
+											</AreaTargetSelector>
+										</targetSelector>
+									</SpellApplicator>
+								</Item>
+							</applicators>
+							<dispatch href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="6C6AB353-FEA9-4F74-B97E-173C7B0CB384">
+								<DispatchLinear>
+									<aiming>Homing</aiming>
+									<alwaysApply>false</alwaysApply>
+									<applyEffect>
+										<Item href="/Effects/Shots/Lightning/_Hit.EFFT" />
+										<Item href="" />
+									</applyEffect>
+									<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+									<applyEffectOrientation>Default</applyEffectOrientation>
+									<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+									<dieAfterApply>true</dieAfterApply>
+									<dispatchEffect>
+										<Item href="/Effects/Shots/Lightning/_Ball.EFFT" />
+										<Item href="" />
+									</dispatchEffect>
+									<flags>0</flags>
+									<flyMode>Linear</flyMode>
+									<fromLocator>Attack</fromLocator>
+									<height>0</height>
+									<killEffect>true</killEffect>
+									<locatorOrient>true</locatorOrient>
+									<maxDeviation>180</maxDeviation>
+									<maxDistance>40</maxDistance>
+									<maxRise>0.5</maxRise>
+									<minRise>0</minRise>
+									<persistentApplicators />
+									<speed>8.4</speed>
+									<suspendTime>0</suspendTime>
+									<toLocator>Body</toLocator>
+								</DispatchLinear>
+							</dispatch>
+						</Spell>
+					</Item>
+					<Item href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="FD184700-C764-4DC7-99D8-D1D1C3A03ED0">
+						<Spell>
+							<applicators>
+								<Item href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="63A22C9C-8D89-4207-8569-19EBDFA2627A">
+									<SpellApplicator>
+										<applyTarget>ApplicatorTarget</applyTarget>
+										<caption>–∞–Ω–∏–º–∞—Ü–∏—è –∞–æ–µ –¥–∞–º–∞–≥–∞</caption>
+										<enabled>
+											<compiledString>FRUAAAABAAAAHwAAAFNlbmRlcl9OYXRpdmVUZXJyYWluAFWL7GoCi0UQUGgAAAAAi00IixGLTQiLgpwBAAD/0DPJO0UQD5XBisFdww==</compiledString>
+											<returnType>bool</returnType>
+											<sString>sender.applSender_NativeTerrain(ABILITY) != pMisc; //cSender_NativeTerrain</sString>
+										</enabled>
+										<formulaName></formulaName>
+										<LoggingEvent>-1</LoggingEvent>
+										<providerName></providerName>
+										<spell href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="FE122363-788D-47B0-921D-4552B9EA70BE">
+											<Spell>
+												<applicators>
+													<Item href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="2CA35CB3-1822-4378-84E1-BD87A414F865">
+														<FlagsApplicator>
+															<applyTarget>AbilityOwner</applyTarget>
+															<behaviorFlags>216</behaviorFlags>
+															<caption>–∑–∞—Ç—ã—á–∫–∞ –¥–ª—è –æ—Å—Ç–∞–Ω–æ–≤–∞ Sender_NativeTerrain</caption>
+															<consumables />
+															<effect>
+																<Item href="" />
+																<Item href="" />
+															</effect>
+															<enabled>
+																<compiledString></compiledString>
+																<returnType>bool</returnType>
+																<sString>true</sString>
+															</enabled>
+															<flag>0</flag>
+															<formulaName>StopNT</formulaName>
+															<lifeTime>
+																<compiledString></compiledString>
+																<returnType>float</returnType>
+																<sString>0.1</sString>
+															</lifeTime>
+															<LoggingEvent>-1</LoggingEvent>
+															<providerName></providerName>
+															<startCondition>
+																<compiledString></compiledString>
+																<returnType>bool</returnType>
+																<sString>true</sString>
+															</startCondition>
+															<talents />
+															<useListAs>ListAsRule</useListAs>
+														</FlagsApplicator>
+													</Item>
+												</applicators>
+												<dispatch href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="DF092923-DFF9-4149-ABA8-E9C7458D852E">
+													<DispatchImmediate>
+														<alwaysApply>false</alwaysApply>
+														<applyEffect>
+															<Item href="/Effects/Debuffs/ShockWave/_Purple.EFFT" />
+															<Item href="" />
+														</applyEffect>
+														<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+														<applyEffectOrientation>Default</applyEffectOrientation>
+														<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+														<dieAfterApply>true</dieAfterApply>
+														<dispatchEffect>
+															<Item href="" />
+															<Item href="" />
+														</dispatchEffect>
+														<flags>0</flags>
+														<instantApply>true</instantApply>
+													</DispatchImmediate>
+												</dispatch>
+											</Spell>
+										</spell>
+										<spellTarget>ApplicatorTarget</spellTarget>
+										<targetSelector href="" />
+									</SpellApplicator>
+								</Item>
+								<Item href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="EFB5459B-FB9D-4884-A667-15553C510AEC">
+									<SpellApplicator>
+										<applyTarget>ApplicatorTarget</applyTarget>
+										<caption>–î–∞–º–∞–≥ —Ü–µ–ª–∏</caption>
+										<enabled>
+											<compiledString></compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</enabled>
+										<formulaName></formulaName>
+										<LoggingEvent>-1</LoggingEvent>
+										<providerName></providerName>
+										<spell href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="D0FF4E3F-A932-4E35-A8CC-3A1B437434DD">
+											<Spell>
+												<applicators>
+													<Item href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="50F4575B-D867-47E3-9068-4A26783CBD27">
+														<DamageApplicator>
+															<applyTarget>ApplicatorTarget</applyTarget>
+															<cancelInvisibility>false</cancelInvisibility>
+															<caption></caption>
+															<damage>
+																<compiledString>FQkAAAABAAAAFQAAAEEyZGFtYWdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+																<returnType>float</returnType>
+																<sString>cA2damage</sString>
+															</damage>
+															<damageMode>0</damageMode>
+															<damageType>Energy</damageType>
+															<enabled>
+																<compiledString></compiledString>
+																<returnType>bool</returnType>
+																<sString>true</sString>
+															</enabled>
+															<formulaName></formulaName>
+															<LoggingEvent>-1</LoggingEvent>
+															<providerName></providerName>
+															<timeLimiter>-1</timeLimiter>
+															<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Energy.UIEV" />
+														</DamageApplicator>
+													</Item>
+												</applicators>
+												<dispatch href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="FE2C5A71-0857-4783-8BEC-B8539C808EF6">
+													<DispatchImmediate>
+														<alwaysApply>false</alwaysApply>
+														<applyEffect>
+															<Item href="" />
+															<Item href="" />
+														</applyEffect>
+														<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+														<applyEffectOrientation>Default</applyEffectOrientation>
+														<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+														<dieAfterApply>true</dieAfterApply>
+														<dispatchEffect>
+															<Item href="" />
+															<Item href="" />
+														</dispatchEffect>
+														<flags>1</flags>
+														<instantApply>false</instantApply>
+													</DispatchImmediate>
+												</dispatch>
+											</Spell>
+										</spell>
+										<spellTarget>ApplicatorTarget</spellTarget>
+										<targetSelector href="" />
+									</SpellApplicator>
+								</Item>
+								<Item href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="CA532025-6C0D-425D-ABCF-A09EF422FD42">
+									<SpellApplicator>
+										<applyTarget>ApplicatorTarget</applyTarget>
+										<caption>–ê–æ–µ –¥–∞–º–∞–≥</caption>
+										<enabled>
+											<compiledString>FRUAAAABAAAAHwAAAFNlbmRlcl9OYXRpdmVUZXJyYWluAFWL7GoCi0UQUGgAAAAAi00IixGLTQiLgpwBAAD/0DPJO0UQD5XBisFdww==</compiledString>
+											<returnType>bool</returnType>
+											<sString>sender.applSender_NativeTerrain(ABILITY) != pMisc; //cSender_NativeTerrain</sString>
+										</enabled>
+										<formulaName></formulaName>
+										<LoggingEvent>-1</LoggingEvent>
+										<providerName></providerName>
+										<spell href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="E1873D6D-F635-47A7-8CAF-2F0BDD2A068A">
+											<Spell>
+												<applicators>
+													<Item href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="5D9D9F78-161A-4958-AA00-DAEF9F398C49">
+														<DamageApplicator>
+															<applyTarget>ApplicatorTarget</applyTarget>
+															<cancelInvisibility>false</cancelInvisibility>
+															<caption> - –ù–∞–Ω–µ—Å–µ–Ω–∏–µ —É—Ä–æ–Ω–∞</caption>
+															<damage>
+																<compiledString>FQwAAAABAAAAGAAAAEEyYW9lZGFtYWdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+																<returnType>float</returnType>
+																<sString>cA2aoedamage</sString>
+															</damage>
+															<damageMode>0</damageMode>
+															<damageType>Energy</damageType>
+															<enabled>
+																<compiledString></compiledString>
+																<returnType>bool</returnType>
+																<sString>true</sString>
+															</enabled>
+															<formulaName></formulaName>
+															<LoggingEvent>-1</LoggingEvent>
+															<providerName></providerName>
+															<timeLimiter>-1</timeLimiter>
+															<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Energy.UIEV" />
+														</DamageApplicator>
+													</Item>
+												</applicators>
+												<dispatch href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="C52A7456-D113-4A51-AFAB-BFBB612CD204">
+													<DispatchImmediate>
+														<alwaysApply>false</alwaysApply>
+														<applyEffect>
+															<Item href="" />
+															<Item href="" />
+														</applyEffect>
+														<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+														<applyEffectOrientation>Default</applyEffectOrientation>
+														<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+														<dieAfterApply>true</dieAfterApply>
+														<dispatchEffect>
+															<Item href="" />
+															<Item href="" />
+														</dispatchEffect>
+														<flags>1</flags>
+														<instantApply>false</instantApply>
+													</DispatchImmediate>
+												</dispatch>
+											</Spell>
+										</spell>
+										<spellTarget>ApplicatorTarget</spellTarget>
+										<targetSelector href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="4FCEBCBE-6CAE-44CB-B4E3-3B7DBB60D7B8">
+											<AreaTargetSelector>
+												<absolutePosition>
+													<x>0</x>
+													<y>0</y>
+												</absolutePosition>
+												<flags>1</flags>
+												<mode>Normal</mode>
+												<range>
+													<compiledString>FQwAAAABAAAAGAAAAFJhbmdlX1Nob3J0AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+													<returnType>float</returnType>
+													<sString>cRange_Short</sString>
+												</range>
+												<targetFilter>547160127</targetFilter>
+												<targetSelector href="" />
+											</AreaTargetSelector>
+										</targetSelector>
+									</SpellApplicator>
+								</Item>
+							</applicators>
+							<dispatch href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="06931F5B-EDDB-4D56-A329-67965870B8EE">
+								<DispatchLinear>
+									<aiming>Homing</aiming>
+									<alwaysApply>false</alwaysApply>
+									<applyEffect>
+										<Item href="/Effects/Shots/Lightning/_Hit.EFFT" />
+										<Item href="" />
+									</applyEffect>
+									<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+									<applyEffectOrientation>Default</applyEffectOrientation>
+									<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+									<dieAfterApply>true</dieAfterApply>
+									<dispatchEffect>
+										<Item href="/Effects/Shots/Lightning/_Ball.EFFT" />
+										<Item href="" />
+									</dispatchEffect>
+									<flags>0</flags>
+									<flyMode>Linear</flyMode>
+									<fromLocator>Attack</fromLocator>
+									<height>0</height>
+									<killEffect>true</killEffect>
+									<locatorOrient>true</locatorOrient>
+									<maxDeviation>180</maxDeviation>
+									<maxDistance>40</maxDistance>
+									<maxRise>0.5</maxRise>
+									<minRise>0</minRise>
+									<persistentApplicators />
+									<speed>9</speed>
+									<suspendTime>0</suspendTime>
+									<toLocator>Body</toLocator>
+								</DispatchLinear>
+							</dispatch>
+						</Spell>
+					</Item>
+				</spells>
+			</SpellSwitchApplicator>
+		</Item>
+	</applicators>
+	<askId>2</askId>
+	<autoTargetSelector href="" />
+	<budget>-1</budget>
+	<caption>A2. –®–∞—Ä–æ–≤–∞—è –º–æ–ª–Ω–∏—è</caption>
+	<castAllowRange>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</castAllowRange>
+	<castLimitations />
+	<commonDescription textref="/Items/Talents/Class/ThunderGod/Ability2.TALENT_commonDescription.txt" />
+	<compiledDescriptionA textref="" />
+	<compiledDescriptionB textref="" />
+	<conditionFormulas>
+		<Item href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="5EE3533E-79E0-4F5B-8A45-6ACE00F6A6A1">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FSAAAAACAAAAJwAAAEAAAABUaHVuZGVyX0ExX1VwZzIAVGh1bmRlcl9BMV9VcGcyAFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZF+/fYG8CDwAGL5V3D</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("Thunder_A1_Upg2") == false</sString>
+				</condition>
+				<name>Thunder_A1_Upg2</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="BBC3DC9E-FC55-430C-B1AE-017D371569CE">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FSkAAAADAAAAMAAAAEkAAACFAAAAVGh1bmRlcl9BMV9VcGcyAFRodW5kZXJfQTFfVXBnMgBBMURlYnVmZgBVi+yD7AxoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXQpagGLVRBSaCAAAACLRQiLEItNCIuCnAEAAP/QO0UQdQnHRfQBAAAA6wfHRfQAAAAAikX0i+Vdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("Thunder_A1_Upg2")&amp;&amp;(sender.applA1Debuff(UNIT)== pMisc)</sString>
+				</condition>
+				<name>DamageIncreased</name>
+			</ConditionFormula>
+		</Item>
+	</conditionFormulas>
+	<conflictingTalents />
+	<constants href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="E7DCA4FA-F6F5-48C7-9D4D-AF40EDF72851">
+		<UnitConstantsContainer>
+			<vars>
+				<Item href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="070A5BAF-C742-4A78-B6EA-063AC7A5FF7A">
+					<UnitConstant>
+						<name>A2damage</name>
+						<var>
+							<compiledString>FQ0AAAAEAAAAGAAAACIAAABPAAAAaAAAAEVsZWN0cm9TdGFjawBVi+yD7AxqAVHZBZEAAADZHCRR2QWNAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0GgAAAAAi00IixGLTQiLgogBAADdXfj/0Nw1hQAAANno3sHcTfjZXfTZRfSL5V3DAAAAAAAA8D8AAAAAAAA0QAAAzkIAwEFE</compiledString>
+							<returnType>float</returnType>
+							<sString>((damageScale( sIntellect, 103, 775 ))*(1+sender.vElectroStack/20))</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="759FF0A6-0C15-4B21-8CAB-9F6D787C516B">
+					<UnitConstant>
+						<name>A2aoedamage</name>
+						<var>
+							<compiledString>FSYAAAAEAAAANQAAAE8AAABoAAAAdQAAAEEyZGFtYWdlAAAAAEEyX0FvRURtZ1RlcnJhbgBURVJSQk9OVVMAVYvsg+wUi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9KLRQxQi00IUWgMAAAAi1UQiwKLTRCLUFDdXfj/0txN+NwNlgAAAItFDFCLTQhRaBwAAACLVRCLAotNEItQUN1d8P/S3E3w2V3s2UXsi+Vdw3sUrkfheoQ/</compiledString>
+							<returnType>float</returnType>
+							<sString>cA2damage * cA2_AoEDmgTerran*0.01 * cTERRBONUS</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="3EEAE367-8C75-4895-AEE9-8024503FC892">
+					<UnitConstant>
+						<name>A2_AoEDmgTerran</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQg==</compiledString>
+							<returnType>float</returnType>
+							<sString>50</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/ThunderGod/const_A0StackCount" />
+				<Item href="/Items/Talents/Class/ThunderGod/const_A0_AddDamage" />
+				<Item href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="92CBDC93-F5BC-4E3D-8F04-92B8E0304BCC">
+					<UnitConstant>
+						<name>Speed</name>
+						<var>
+							<compiledString>FQ0AAAADAAAAFAAAACoAAAA0AAAARWxlY3Ryb1N0YWNrAFWL7IPsCGgAAAAAi0UIixCLTQiLgogBAAD/0Nw1ZAAAANno3sHcDVQAAADZXfzZRfxR2Rwk6CUAAACDxASJRfjbRfiL5V3DAAAAAAAAGEAAAAAAAADwPwAAAAAAACRAVYvsUdlFCNtN/ItF/IvlXcM=</compiledString>
+							<returnType>float</returnType>
+							<sString>f2l_sse3(6*(1+sender.vElectroStack/10))</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+			</vars>
+		</UnitConstantsContainer>
+	</constants>
+	<consumptionBonus>
+		<constant>0</constant>
+		<percent>0</percent>
+	</consumptionBonus>
+	<cooldownTime>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQQ==</compiledString>
+		<returnType>float</returnType>
+		<sString>8</sString>
+	</cooldownTime>
+	<cooldownTimeSecondState>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</cooldownTimeSecondState>
+	<description textref="/Items/Talents/Class/ThunderGod/Ability2.TALENT_description.txt" />
+	<devPoints>1</devPoints>
+	<dispatch href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="4634DC08-EB57-471D-A830-752F61448A93">
+		<DispatchImmediate>
+			<alwaysApply>false</alwaysApply>
+			<applyEffect>
+				<Item href="" />
+				<Item href="" />
+			</applyEffect>
+			<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+			<applyEffectOrientation>Default</applyEffectOrientation>
+			<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+			<dieAfterApply>true</dieAfterApply>
+			<dispatchEffect>
+				<Item href="" />
+				<Item href="" />
+			</dispatchEffect>
+			<flags>0</flags>
+			<instantApply>false</instantApply>
+		</DispatchImmediate>
+	</dispatch>
+	<flags>3</flags>
+	<forceBonus>6</forceBonus>
+	<image href="/UI/Styles/Icons/Heroes/ThunderGod/A2.ITEX" />
+	<imageSecondState href="" />
+	<isGenderTalent>false</isGenderTalent>
+	<isTakenOnStart>false</isTakenOnStart>
+	<isUltimateTalent>false</isUltimateTalent>
+	<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
+	<manaCost>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACqQg==</compiledString>
+		<returnType>float</returnType>
+		<sString>85</sString>
+	</manaCost>
+	<marker>doCast2</marker>
+	<microAI href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="3984C350-55C5-4CC9-B303-3AE12DE58F62">
+		<TargetSelectorMicroAI>
+			<castWhenIdle>false</castWhenIdle>
+			<condition>
+				<compiledString></compiledString>
+				<returnType>bool</returnType>
+				<sString>true</sString>
+			</condition>
+			<targetSelector href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="7EFACC50-C146-467B-A1AC-22446289F203">
+				<FirstTargetSelector>
+					<nearestTarget>true</nearestTarget>
+					<targetSelector href="/Items/Talents/Class/ThunderGod/Ability2.TALENT" id="47D8C91F-4167-473F-AAC3-BC3B2407D515">
+						<AreaTargetSelector>
+							<absolutePosition>
+								<x>0</x>
+								<y>0</y>
+							</absolutePosition>
+							<flags>0</flags>
+							<mode>Normal</mode>
+							<range>
+								<compiledString>FQsAAAABAAAAFwAAAFJhbmdlX0xvbmcAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+								<returnType>float</returnType>
+								<sString>cRange_Long</sString>
+							</range>
+							<targetFilter>681312319</targetFilter>
+							<targetSelector href="" />
+						</AreaTargetSelector>
+					</targetSelector>
+				</FirstTargetSelector>
+			</targetSelector>
+		</TargetSelectorMicroAI>
+	</microAI>
+	<minLevel>0</minLevel>
+	<minUseRangeCorrection>0</minUseRangeCorrection>
+	<naftaCost>300</naftaCost>
+	<name textref="/Items/Talents/Class/ThunderGod/Ability2.TALENT_name.txt" />
+	<node>ability2</node>
+	<passiveApplicators>
+		<Item href="/Items/Talents/TalentKits/Redset7_11_MiniRefresher/trigger_G766_RefreshAndNotify.APLR" />
+	</passiveApplicators>
+	<persistentId>Thunder_A2</persistentId>
+	<prerequisiteTalents />
+	<rarity>Class</rarity>
+	<requireLineOfSight>false</requireLineOfSight>
+	<shortDescription textref="/Items/Talents/Class/ThunderGod/Ability2.TALENT_shortDescription.txt" />
+	<talentRollGroups>63</talentRollGroups>
+	<talentStats />
+	<targetType>672923711</targetType>
+	<type>Active</type>
+	<upgradeLevel>0</upgradeLevel>
+	<useRange>
+		<compiledString>FQsAAAABAAAAFwAAAFJhbmdlX0xvbmcAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+		<returnType>float</returnType>
+		<sString>cRange_Long</sString>
+	</useRange>
+	<useRangeMaterial href="/Effects/UI/AOESelection/Radius.MTRL" />
+	<variativeMaxTalentStats />
+	<variativeMinTalentStats />
+	<vendorCost>0</vendorCost>
+	<warFogRemoveRadius>0</warFogRemoveRadius>
+	<warFogRemoveTime>0</warFogRemoveTime>
+</Talent>ˇ˛0=>A8B  < s t y l e : T T _ M A R K > < v a l u e = t a l e n t . c o n s t . A 2 d a m a g e > < / s t y l e >   < i m a g e : e n e r g y _ d a m a g e   s p a c e b = 0 . 5 >   C@>=0  F5;8. < b r >  
+ 0  :064CN  &5?=CN  <>;=8N  A:>@>ABL  (0@>2>9  <>;=88  C25;8G8205BAO  =0  < s t y l e : T T _ M A R K > 1 0 % < / s t y l e >   8  C@>=  =0  < s t y l e : T T _ M A R K > 5 % < / s t y l e > .  
+  
+ < b r >  
+  
+ < s t y l e : T T _ B o n u s > @8  8A?>;L7>20=88  A  @>4=>9  75<;8  :064K9  2@03  @O4><  A  F5;LN  ?>;CG05B  < s t y l e : T T _ M A R K > < v a l u e = t a l e n t . c o n s t . A 2 _ A o E D m g T e r r a n > % < / s t y l e >   C@>=0. < / s t y l e > Ôªø<?xml version="1.0" encoding="utf-8"?>
 <Talent>
 	<BackLink DBID="/Social.ROOT" Count="1" />
 	<BackLink DBID="/Items/Talents/Unicorn_Alternative.TALENTSET" Count="1" />
@@ -63690,37 +65685,32 @@ PileÔªø<?xml version="1.0" encoding="utf-8"?>
 Ãj9À*…ó=ÕÉ3¬±r∏Ω}√ß{‹ıVÂ∂'3πEµ68ﬁ~ ÷-ûG;Àé#å∞%Èâ$Ï«zÏàXÓÆTﬂíWò^>ÄV?êi ’
 ƒf;⁄”√ô-ıö2ª§VÏì@©ü@
 ¥C‰_≠{…i<˜:r˚CÌµèå#¯Ì	ÁÉTˇf‰¥N•WXâq∞eF˙c”n"Å@6Œñ$‘äÿÿ∆§tŒêe™ØN–j¨qÌA	◊k¿tuÓl2’äcŸû0˛çGæ•U„±Y˜Øv=˚}GÊO/çQ)Ó#◊dYÂã7»ãd ê(ÚÑI„ÃuÂΩ\Ò˙nªGæ5,¢z
-–x&ÌDlÙøe˚≈Œ•∏Ω}√ß{‹ÑJ‰ßD§PØvëfÃ≈a:Ÿ“¬ö,Úõ1∫´WÔíG®ú_Â∂\„^¨t h;ˆ;s‰BÏ≤åç,˘Ó‡ÇW˛œgÁµI¶VWàr∑dE˚b”s9ÄC7¡ó'’ç€‹¿≥i¢ãs…ùe*ˇ\®9∑sœ 6‘d>¿u'àπ!¡Ä5∂™M˜ÄBÓÒpÊæF§Z)à-0ë@8ïZ ¯B˘_7√ä/Ìõ5ÏÇQˇ CÚ©0 ¢Lº!©wØ`ïN“u*Éπ ¿ù1˚ﬁıÉQ˘óO÷ù˜˚|:Çd:ìE	•`Àe/∆l7≈–%‹ÉJ‘Ñ&˚ö€ÉYÌµZÚ˚d¨S È_⁄w›$”m;√â)¸∑z≤ªŸ≠u⁄œL„∏-…ßCø0&§t–eòI1—p%Ü∫=«ê2˛¡ ˆéV‰îJŸòQÜd4éP%Íoﬂ*¬l1‹-…ó+œÄ4µÆ,ÚïJ£ô@‡ΩQ˛e£q∑o6˝;L·IÎO ¯ô"Õû)˜®Z·ÜJ‚ÆEÌ∏DS§[…UßxîZ ÿb4Ÿs|Âï-ÏÅjﬁô[ÙûR•úRÍ∫@∂}4¸n@ïU+ˇC4Ïb<ﬂú Ãà?˜û*πûE‰„˝πBÒ˙|¢D≥iBÉ pÙw=ŒÑ4ãî%ÛÉ7…®–™PÈ∑zÓ†F„X§%ÀwÀ$
-–h2ƒâ#åµ%˝ú1∫ÆIÎÑN‚ıNÔΩUì^Fö*4˙p	÷m8û{2À¸÷ê%Ë¡ıã_„î@©ö@°VWçl£r⁄|¬&Õk9¡è7ï⁄€°›≤ÙªPÖë_ºWXû|¶xœ !Ÿi(›.Œù%Ãí(˝âMΩ§ﬂ¨X„∞O˛b&ÖNA∫q
-ªG—j)ÇT2 ú"ÎÅj€á_‚ó¬¥WÎ∫H´GÁZ_û@»j«U<¿ö1—ó9∞•ƒ¶ËáTâï[Á∏[Tö@¢t≥<%’m,¡*¬ô9»ñ$˘ï1π®^Êé\¸¢ØÄf6àn'Ëa›,Ãn3¬+Àë5ÕÇ:≥¨.ÙõH°©]‡≤A·ΩBæ03ßq◊eá$	ÒOÁ®ïê~Æãu¢—∏É≤·JJÍK¯{E˜vXŸvTÇjiö]1Õà-”ù7ÓÑ/˝»MÙ´2Ã¨N¢#´q≠bìL‘{(ÅI=¿í!¡ù"¸û”áQÁ∑E˝Á)ëo3áH0ıp^ékUÇ1còckí¡*™ |´ÿ[•◊V∏πV¥‚JI˙}©vÔ`Œ)«c4ﬂ–ƒî.Ö7∏©QÒêE¶îFÂΩD†Eµ5,¢z
-–x&Ç+Í≤Í£˘ï0ıõUˇñ\Áµ ı¨SzÑT´jCÎs	›e*¬+∆ú#–Ÿıà*˘âUÍÑF®õOÈøOµ.\ëY'˚_0ôr9“›ô"—⁄˙Ç$˙ìI¢£_Á™_PöL£r™sœ?"‘`0∆v,ô’‡∏‘πâT·∞\¡ΩX£Mæt≠8ƒ{b¸|>√r{Ûõ!≈ù2Í√|˛ÑK¯ÒyÌ∞B±M¨n@Éw◊gÕ4¯p4ó◊ﬁæ ÷øÈÄUäîDÊªZSõC≠u≤;$÷l¿)≈ò:…ô%˙î6∏´_˘è_˝•›ÄXˇ ÜV(éG9›i,—w1€ä8ÀôdÈà7ñ†HÍèFßèOÌ±Iæ0™xÃ=-—l6›e9Œò"å∑+ıÉ+·ë—¥D‡Î‘íj<ÇK-∂pÃe “y>¬j&›ï Ã€<„öA›ì_‡ì“∏@ºQ‰]•díX
-—a0Œl1Õâa‡ñ.ˆÑ4ÍπxΩÄa–à*êh2ÑI^ªrºF–e(ÅU5Àü#‘Äi⁄Ä^·ñ√∑VÏªK¥FÊ]´yœw>ı6˛Uà≠”∑Ã¥ZÙóT¯¥@˜øF·Vº'µq
-…"4“j<¬ã!äª'ˇÇ7∏£SÊÜX˝≥]≠îJ¢H æE,ÙLTóX˛@ˇ–)¿ïJ‘Ñ&˚ö€ÉYÌµZÚ˚d¨S ÈP…wÃd,ûE5√ë9◊è›€ß∑h€±”õa≈ùrW¥{≈Q€|ò^<‹f8›è`·ô)Ëùn›âLËéGÈ´ΩKøA0ÙH>ÿs˛h/€gÕâ-ƒö3Íà2◊ÉMÌ∂^´†O—mØpÏB–j¡{tÌm5‘âbÈù0üVâ]§ü €ìC†B™tAÜF+Û –eZ‰t6ÀäcÀì)˝ÖJ‚ÀtÊºC˘`πK°y§;&éR%›c4≈ö!ã¨ÕΩjÔé_ê™BÏ±\≠ÅI´O ¥5.¨r #‹s1ÿó3»íe‹ƒ”áY‚ãP˚ÑhÓ¶E©'ÅJ ëj⁄≈a:Ÿ“¬ö,Úõ1∫´WÔíG®ìCˆ∫UÆsÍY	◊}√sÒ7x˝ΩÁªµñ%ˆÁs˘Ö^ıˆxæ@øm^á{ŒcLˇg*∆q< ó+éµ%ÛÅ)ÁüfÕÎm∑ˆ?ùa9û3ßtiı{ÿ{t˙`8¬î9”‹ıçL· uÍπXÁêCº7´u´a‰OPÎT˝.Áµ	—¶k‡è\ë≠CÔ∞C¨ÇH™Lª4-≠u…"-“a0œ∏;◊îdﬂì-˚ÉIÈºwªÚ{√ôm5ö£xmâg‘pÊd4Œê%◊ÿ	Òë0Â∆qÓÖ\ÎúGÛ∏;ØIØm‡SWñ_˝A˛¢3Ãõ$ÛÅõX¸àDÛ≥BÓ˝R∏;±}Õ>0÷f8ﬁw%Üø#√Ü;¥£ ÛéY âAÍˆmªIøg.Ö%5ÓE3ò]„G¸’6≈ñG”ô%˛ïÿæ^‡∂_˛g´nÏ[€fÚa)¬.≈ì!…á?∆≠Õ∂m€e≈õo3Ñ|¨o∞|œg⁄).’tSÔç)ÚÅjÃäRÙäC˘ÚsÔ∑Z‡oØrÜ}÷"!—o5≈ã+˙π∞•€ØsƒÕNÌæ/À°MΩ ¶vÆgñO3”v+Ñ≥0√û)⁄ô1˙∆}ÌãY·ØWﬁï„t2ä\"Î<‹i^¯p2«é˜ó%˘Å6Ê«x‚ÄGÙı`·¥Oãv ©7*‹xﬁ~$ÔBbˆŒaˆ¥ﬁ†∫ü^Ô‡zÚºA˝qß{∞dE˛|≈zs‚c2¡ò	»Ü+µ¨"˙äP¯¶mƒÏtL§
-#ãQ5çBGƒk µA/Àl'àÆ,Ãñ(Ìü—âY¯≠…∂M≥dªp@±a	œ{ÎN¿P<‘ç-Û‹»ßløúSË›y˜≥D‡v§~ µgH˘a¿uv·û5Ãõ˜É(∏ôIÒóC˙Éf√∏xºU´4,ê_4Ê>gÜ<i»òi¿ís´ƒp˜èÍÅÏΩK∑ÁKˇ•)3€w€y7¡p>≈ì~◊é=ú¶6ÖH°µUÎøCÙ†	:†~∂7&ﬂv‘M4¬oy⁄à.÷Ä;ƒß ˘∑UˇîRÍ˜m/ûw'˘&E˝&	€(”0jõ14Œ√+¬ƒ#¸àv†÷æÔVÊËt∞I‰i∑ »j∆'œm1…é>è∞*¯üLΩ®YÏ∑R√æXˇwª{
-∂f.‘|%—s5√a'√◊ÿ°	∂ìZÛ‰~˛∏]˘}£GºhAÇx…~O˛g+≈ë7äπ{¡≥+˘üN‘Ç[ËªJ¨îx7ú£xmâg‘pÊd4Œê%◊ÿ	Òë0Â∆qÓê\Êæ¿‰x)∫I•q	Õ<$ËGü|3»˝◊ì$Ô¿ÙÑ^‡ïG®ôA·†UVÅ~ ¨vëPﬁf4ƒz	Ë»aˆ¥ﬁ†ÀÑU‡ç\ËùI±Wªj´yD…h∂@( o&áØ/Õë)Óûo–äXˇ¨»πYøAXãØ≈P#Å}u˙@‚¥éã"˚ÏvÊÄU¯ÒeÂªO§PYäp±fGˆo›i?Çs'«ç9Ï≠¨¥ZÙÖSÊ§CÛøGRér9ö5•vgÛyﬁuv¯û>¿ñ?Ìﬁ˚ãN„Ã{ËÆFÏ∞∫@ ≤i2Å'9›i>÷i!ÿé8 ŸÕº…çY¸ÅG·´ZËªITπX∆P⁄ó_?›a9ﬁé‡ö(Ôúm≈ÑZÈîQ√µNÙºTVç}©q«N%Ü$	ÒOÁ®a⁄ë*õß5ÒäI¢¥RÍºB°
-;ß∑88ÿq”{sÓ`<ƒí:ÿ´Æ≤rΩ≤x¿ö|—ˆS≥$>æx∞9=›c€|(ÅB8∆â>è°/ˇÄZˇÑV§üSÌªC	©|7˙2;ÉY-ıZOÃc8≠I'√î?∞¶$ÙéPÂó…±Q•.¶D≠vØ;&ÿd⁄r Ûæfã¨
+–x&ÌDlÙøe˚≈Œ•∏Ω}√ß{‹ÑJ‰ßD§PØvëfÃ≈a:Ÿ“¬ö,Úõ1∫´WÔíG®ú_Â∂\„^¨t h;ˆ;s‰BÏ≤åç,˘Ó‡ÇW˛œgÁµI¶VWàr∑dE˚b”s9ÄC7¡ó'’ç€‹¿≥i¢ãs…ùe*ˇ\®9∑sœ 6‘d>¿u'àπ!¡Ä5∂™M˜ÄBÓÒpÊæF§Z)à-0ë@8ïZ ¯B˘_7√ä/Ìõ5ÏÇQˇ CÚ©0 ¢Lº!©wØ`ïN“u*Éπ ¿ù1˚ﬁıÉQ˘óO÷ù˜˚|:Çd:ìE	•`Àe/∆l7≈–%‹ÉJ‘Ñ&˚ö€ÉYÌµZÚ˚d¨S È_⁄w›$”m;√â)¸∑z≤ªŸ≠u⁄œL„∏-…ßCø0&§t–eòI1—p%Ü∫=«ê2˛¡ ˆéV‰îJŸòQÜd4éP%Íoﬂ*¬l1‹-…ó+œÄ4µÆ,ÚïJ£ô@‡ΩQ˛e£q∑o6˝;L·IÎO ¯ô"Õû)˜®Z·ÜJ‚ÆEÌ∏DS§[…UßxîZ ÿb4Ÿs|Âï-ÏÅjﬁô[ÙûR•úRÍ∫@∂}4¸n@ïU+ˇC4ù~=Œˇ—ù&ÌﬁˆÜX˛óE¶üC„¶[TàS¢`ÔR–`6∆|Í $ä£—µ¬∂XÍëV˙≤^ıΩH„T≤%ÀwÀ$
+–h2ƒâ#åµ%˝ú1∫ÆIÎÑN‚ıNÔΩUì^@öPﬂ}0ÿ~<‹-.ÕûOÎÅ-ˆùn¿ÜVËéGıˆo≥V‰X°rÿ? Ÿg/€]ú§|˛∞&˜å'ˆ»AËΩ2Ã¨N¢#´q≠bìL‘{(ÅG&»ù(Œî*Ïò”áQÁ∑E˝„)ëo3áHA∫q
+ªG—j)ÇT2 ú"ÎÅj€á_‚ó¬¥WÎ∫H´GÁZ^ïf›j¡(¸≥ ãÄ/¸Ò„èP„ÃbË∞JÏ°[TçM¥iBàz—`>‹a=Ÿ—ï®¸Ç$ÛùoÍéPÎØAÛ˙s=ûl]æ}ø[›f-ûP6∆ò>◊ÖfﬂÉ#Êõ∆àSÔ∂LÓ∑C„^¨t hTô^¸F˝“7∆óH“ö$˘îŸÅ_„∑X˝f™mÎ_⁄x◊g8 pzÈô'Õù3„›n«ßu…ëf⁄ÔNH‰AC¸+IˆuQà7Ä0bù21ì…,íó Æÿ\ß–gÔªBÁ•C§Jß2∫ahÚzŸtu˘a?√ó8Ï›ÙäM‚À„∫XÔ∑G™PZây≠}√=NÁGÈ±˙œ.®ƒ!£‹©÷U±Ë‰‡B˝Û)Úw é8<á0≈ü<¡Ÿ>ÂÑCﬂùY‚ë‹∫B‰∫S	‚cßjêZﬂc2–j3œè‚î Ü6Ïÿ⁄†x¬îyﬂ∑C
+Ømµl—J√r)∞J"Ãë<ç°)˜ã/‡îŒåRı™7ªBß†ríQﬂe5€{dÜØÌ±	Œ√8˜Ñ9≈´WË´*∞H§iÏU›|ö@2…i8∆î)≈ÅiÿéV˛åLÚÔ–ñf8ûw)™sØzˇk◊u3›t:…óbÎä1ò¢JÙâD•âQÔ≥Gº6§z≤;/”jﬂg7»ö äπ)˜ù-„ìœ∂FÓÌ÷îd>ÄuZø~¿Z‹a,ùQ9«õ?–Ñeﬁú"Âö«ãR‡∑OÔ∞B‚aØuÀkVÁ^.÷5y˛ºÊ∏√ã'ÊãIÁë@ÓµCÆß^ÃV†uëE€o3ƒpyÍê.—Üg”á&¸ã[„ÑVÙˆmªIøgBõB⁄!M‚HÍL˜à&ŒÜ3ﬁà3îP¸´[Í∂
+©PwÉiÆeFËn–f/›.Àõ>”‹ãW˛ÑVÔªC´ñHºJ∞C.ÛJ;Ó^O‡FËNàÅ(˝ÚÏéS‚ÀcÎ±UÌ¢ZSåNªhAâ} “a›b<ﬁ–«ë'˜Ö=»´œ∞cŸÚ{√ôm5ö~¢i≤zÕe0‹+,”äQÌÉ/Él¬àPÍåA˚ÙmÌµT	‚i∞|À}óJ<ÿh>ﬁÑ‚¬Æ¡‘§~¿µˇæOÄöR°l]ëy€ƒ%‹b%⁄”ÃÉ-ıö.Ê»{Ôâ_Ô≠U ì'˘A"ëGDÈQ/ÛGÅz1 ˚’ë*È¬Úä\‚´A™õG¢WXÉs¶x”}M÷g5›uÊ Ùñ%Ò§^·ë]€ªCÁ≤D	†Fçy£|ïv÷Ÿe>’÷˛û ˆüMæß[ÎÆC¨üG
+¶Q™wÓUVÂI	¿v8ÿú:ãº›πjÔé_ê™BÏ±\≠ÅI´O ¥5.¨r #‹s1ÿó3»íe‹ƒ”áY‚ãP˚ız∆ákTµD∆P⁄ó_?›a9ﬁé‡ö(Ôúm‹ÜMÁí]Â∂HØí&âq®qÕN"ÿx?Ÿgx˝ªÓ€0ˇåA›ì_‡ì“∏@ºQ‰]•díY¿`/∆`9Õ‘√ù+Ûô9Ãß¢ãs…ùe*ˇ\®9∑sœ 6‘d>¿u'àπ!¡Ä5∂•Q‰åK‚º]·¯kπOΩe0É!7â 5ıK„T}ﬁù.üª1˝ÜMæ∞VÊ∏^˜•?£Cª4#†sŸJ	¡jvÌù;…ë?ÁÆ¶µn≈≥›ùc«õ|U∂E«S•~ñX>ﬁ`6ﬂç~Áõ+ÓÉl€à[ÊÅr·©BÆïE°IøF-ç<1˘GˇPy“ô2£ø=˘Ç1∫ºZ‚ÑZÛ©√øG
+ø0?§›V≈frÒa?≈ï;€™	©¿’´√¥lÂ∂AΩK<Æm∂~…yÿ'(◊vU·è+ÃáhŒå,ˆàMˇqÈπX˛i≠tÑ– #◊a7«u-¯ªˇ†…¬k”©}≈ä¸≥H}ôW§o@ñtﬁ`«(¡a ’÷˛ï,˚¨W„àÀøYÔø]êcGóH;ë:3˚A%˝R»ö!∆ä"ÓÖ-¯Ñ‰õBâï[Á∏[Tö@¢t≥<%’m,¡* ô8«∞#Ôúl◊ãU„ãAÒÑoµ˙s;Åe=í7€peÒ;‹wx˛ú<∆ò=Ô¿˘âH˝ŒyÊΩD„îO†03ßq◊eËKi≈-Ë∞
+Ï°f„ä#îÆNËç@©çM∑K∏12®vŒ?.◊n5ÃE<⁄óa‡ñ.ˆÑ4Íπx∏Ä ´åj2îj#‰e° »j∆'œm1…é>è∞*¯üLΩ®YÏ∑R√æXˇb†p∂l7˙:>Ürt˘A„∑±ä!˙ÎwÂÅZ˘Úd‚∫LªQZãw≤gH˜l⁄e≈ç>äã?ˇÖ1‰µt—éfÊÆ[„π:ûm&Èb	¢/Õi2¡* í4 É9≤≥/˜öO†ØTÔ≤M∆ΩU‚SßmÃM,˘fﬁv#Àë~‚¶Œ∞p≠‹øÇRøæHπÂJ≠yJ†{[⁄wÅ9mÅ1fÕü˝ë-Ëç3˝óN‰è]®≠T“lÆsÎC—u¬zsÏn4€àaÏï Ûé˙îU£¨F‰¨^ém6ßM±b–!#ÂD	Ò3lì√|√ï~˝â§—Í∏	·¥∂F@˙,^%ÿ>>⁄f7».'ﬁçL÷Ü ıò≈Ö[Ô≥D˘jÆQÁV¶}˝dﬂ)Õç5¿å8ÿû6”èIˇçW˝π÷í{7‡Y•$¥v #”i=≈ä"ã¥&¸É0π§]˝ã[ÌÙo±ãe£U Çxﬁu ñJ˝Vy“ô2£ø=˘Ç1∫ºZ‚ÑZÛ©√øG
+ø0?§j–tKˆ:„t?›ü'«áf⁄æ∆…BÈÇ3œ≠I°
+,™r™cíS◊z/ÄO4⁄í ƒ€¯Ñ,˙í@”û´åj2îj#ï~Æ{“K∆k)«q Œï#éá>ÌÏvÊÄU¯ÒeÂªO§PYäp±fGˆo›i?ÇA1œï%ÎãŸﬂKø∞v∆ò~◊¯Q≠"<º~≤;3€a›r*Éº>ƒã8±º%ÂÉSıÃE˝Ω[˜¶w:˙~¢{	¨j…e1úDÁ¨‹ì(ùπ7ÛÑO†∂T‰æ@ıß9°A µ6!ﬁ`÷nq¬p6ﬁà#¸∑}√ã'ÙåW˜íDÓ¥¡Éj+ì{∂{◊aﬁe3ûw.›¸÷ê%Ë¡ıã_„î@©ö@°VWõr£b˘ ¬f.ÄC7¡ó'’ç€‹n«ßu…ëf´†O—mØpÏB–j¡{tÌm5‘âbÚñ'ÈâMΩ§Z‚≤XÆu<‰|DÁH.éP&Ô –eZ‰t6ÀäcÀì)˝ÖJ‚ÀtÊºC˘{©N•z ÓU”a	«ÌÃ|Òπ€øπíYÚ„˝πBÒ˙|¢D≥iBÉ p‡l>«õ<≈ôe‹í*˙ÄHˆΩtºız¿òb4ô¢{lˆf ’xqÂe;œì$–Ÿ
+é1Ê«iÁáX‚∑LÓ¸g•s±a4ˇ%ô^¸F˝“7∆óH“ö$˘îŸÅ_„∑X˝f™mÎE€|€h2Äa:∆à:˛µv≈Ø/˝ìJ»∫T‡∂Hˇ\®9∑sœ 6‘d>¿u'àπ!¡Ä5∂øWÛàYÂÒp∞à"£WΩiÏT8˜\OÃc8≠I'√î?∞¶$ÙéPÂó…±Q•/ßC©uAÄv÷d Yò†`ã¨
 “¥
 √ƒEÙÅ6¿®JÔ¶/ØM©nÔP
-ÿ,ùW1Õí4…ñ$≤±!ˇÖU˚õj…Ô[ØÄf6àn'Ëa›,Ãn3¬+Àë5ÕÇ:≥¨.ÙõH°≥]·∂HÌ≤HVØp∂l4ˇ ;ıe3≈pÃö*Ãñ-µñ%ˆÁs˘Ö^ıˆxæ@øm^á{ŒcLÂa=¬c;á∫z˛∆Èô!ÁìJ¢ûb…äµFwÉiÆeFËn–f/›.Àõ>”‹ÒçRÛã ºXËæ^èbBñ.AñT$˛@5ö>œ “ú!Ï›˘á[ˇêD•û\‚•ZSöL´tØ;&ÿd⁄r ò†`ã¨
-“¥
-√ƒEÙÅ6¿®JÔ¶/ØM©nÔP
-ÿ,ù_= í>–ÿˇô/ˇùE–£◊à{—˙s;Åe=í7€peÒ;‹wx˛ú<∆ò=Ô¿˘âH˝Œn‚ªAÔß	8Æv¨l·PVËY‡-Ë∞
-Ï°f„ä#îÆNËç@©çM∑K∏12®vŒ?9”h0¿vzÈô'Õù3„≤°πjŸè—ôg;üp(Æx†d Ã{⁄fu⁄y ß≥9≈û5∂∏^˛ÄVˇ≠«ªK£,¨}≠aG˙lÿn.‘_í◊ﬁæ ÷øÈÄUäîDÊªZSõC≠u≤;$÷l¿)…û> ådﬂì-˚ÉIÈºwΩÉ¨Åi7ão Èb	¢/Õi2¡* í4 É9≤≥/˜öO†∏PÈ∑Aı˚f§L≤`3˛&:ä%
-H‰©¿ô$ÒÄ,—çHÌì]˜ÆDÔΩ¥krål”bK„k1’m"⁄”Œî;Ë¡ÒÜV‚îı≠MßV'ä*.ˆH9ÿ|Ù|:…O4–≥èµ÷ønÎÇ[åñF‡µXQÖEØs∞9*–n∆'À`8»éb”á'ÌôLÕ§‘Ïn◊≤FíVØQ∫]8ïO1¯U…e ≈ã%ÔÜ,˜ÖÂúCäîDÊªZSõC≠u≤;+ﬂ{ﬂ7vÎ»aìßÍÉj√´q’≠bß§K‡’a´LËN¨vÕp˛`.Œí`ã∞}Æ«ﬂáH°∂tƒû`’˙_Ø :≤|Ã=1Ÿg;ﬂp$Ö±5’ì%≠¿¢ﬂ—≤@ıï_…ΩRWò^>ÄV?êi ’
-ƒf;⁄”√ô-ıö2ª´_˚Ö_∑ˆkHÂ'òjãe#”dM‚HÍL˜ò!Ãô(Ù©%‡ÖKÂØFÏ∑EP•\ T¶{ì[Ÿm5⁄r{Îü;≈üw∂üKÛëM¯Åv∑Ó"ëM†_ßpÎ|◊)˝LàÅ(˝ÚÏéS‚ÀcÎ±UÌ¢ZSÉG≠w\ÓSRà;?‡n0…ì6ã¨
-“¥
-√ƒEÙÅ6¿®JÔ¶/ØM©nÔ_œi3Ä*û»f˚¥+ÓÑ&‰´]¸á‹öbƒösTµD∆P⁄ó_?›a9ﬁéÔì?˘Ép∫Ø∏÷kƒª^Ù∂T;≠lÎL*ÚT*„U>ﬂn;∆í«Ü+Èá1‡éU„ŒG˛≠,6¶@∏1%•{”dôE9Ÿg9õ‘	îƒw≈æ4·π}Èß—ôg;üpY≤y√_Ÿbö\:¬d:”âbÏñ0¸ÄΩ¢∫În»æLènøy<≤pﬂ 5ıK„T}ﬁù.üª1˝ÜMæ∞VÊ∏^˜•0™T§(AÜ!RàR0€g7ÿê?Áô8˚ﬂ÷¶xﬁ∑Ò∏MÇú\£R[ì{•} #◊s=«Õ~„¡r™Ø‚õ€£yÕïzØ¨CÕi£têF‘n0≈wxÊò&∆öz≥®u¢ﬂd√éB‚â]Â∂B&üj†jEÍP(ÚD	û{2À¸÷ê%Ë¡ıã_„î@©ïI	∑IL‰YG˜'5Ódò]„G¸’6≈ñG”ô%˛ïÿæ^‡∂_˛hºx˜9.ä<TÍD2»dzÛªÂΩ∑î[Âqˇª\˜¯~ºFΩo@épﬁbUõ@lö9ıç>±¶‘Æp≈ OÓø0 ¢Lº!©wØ`ïA≈c5ô–ëœr¡¢0Â•OŸçB÷ù[ˆ¥KùQ¢~CîR*¸Bú}<…˛–í'Óﬂ˜ÖY·ñFßóK˜±KO‚gF˛!3Ïf˜yﬂpy˛ºÊ∏≤ó&˜Ër˙ÑYÙıy·øC∏l]â}€}QòMhâ2	Ëà“ëfœØ—©n£òW‰Ÿe∑H‰J®r…cL˙l* n`áº{ò≈€ô„Çÿû~¿ñ!µA©o≥b ”aL¡p/ÆH ¬ó>èß'ıâQÊñ«ªG·ªRóO˚C+ßmFÔO-ÒIÉx7ƒ˘Îó(ÎƒjàR‰©C¨öL
-™N@Á\[¯&8˛hùR‡∫Òß/˚Ç'ÂÉM‰äYÁÚ[˙°(2∫D¥59°◊x,ùI=›õ=ëÿ®…v…®H‹íQ¶èoÕëi.„X§%ÀwÀ$
-–h2ƒâ#å∫,Íä.†«|ªÿÿõY”£BWò^>ÄV?·uƒi/Ÿs"¿ì!åÅ0ÔÓ‡ÇW˛œgÁµI¶VWá{°{_íWVè?Îg-ÜØÌ±	Œ√8˜Ñ9≈´WË´*∞H§iÏZ jÄ'õ8b¯æ(ÿ›ÿ†z‹±gÔªBÁ•C§Jß2∫ahÚzŸtu˘a?√ó8Ï›	˝ù[˝—ÕÎ¥âzΩmÅuûX‹hNÁGÈ±ãÄ/¸Ò„èP„ÃbË∞JÏ°[TÇD¢vXÔTPä; ·q*‰å É—ô%Û«hŒÆp∆èqÂ±TøI≤p—<¿^¯p2«é˜ó%˘Å6Ê«wÎóQÎÔ«ÂNìL∑W˜ËF4÷fx˝ΩÁªƒù)˚ïN…Ö@Â´E¶L•0ºcjÙd€zs˚c9Õï:“€ˇõ%ˇ”ÀÈ¥áx
-£
-#ãQ5çBGƒk µA/Àl'àÆ,Ãñ(ÌüﬁÄNÓ≤´êD‡|%Ω}´{	ïZ ¯B˘.+¬õL÷Ü ıò≈Ö[Ô≥D˘eπG˝4)˜-WÂ^“k0¬û|Òπ€ø»éX„ÄD‡¨[Î∫FU∫Y «S•~ñX>ﬁ`6ﬂç~Ëí<¯úvπÆ
-∂”jﬂ≤BÌ˙s;Åe=í7€peÒ;‹wx˛ú<∆ò=Ô¿û^‚‘¿Ï±åq†s\ëY'˚_0Ën8√`$¿å;Àö&µö9‡Ás˘Ö^ıˆxæ@øm^àrÿ|VôNjñ4
-˚è<ÓÜÙôn«ßu…ëf´†O—mØpÏB–j¡{t‚d"¬ñxè¥q≠⁄`¡ëJƒ¨xÍ£)ëo3áHA∫q
-ªG—j)ÇT2 ú"ÎÅj‘éHÙà•öªÊv/ªP:∫R µ:3˚A%˝Rw‘õ0•±?˚ú7∏æ\¸ÜX˝Ø Œ∞^¢[Ä*ZÚL*–j:‡`?ŒêËû,¯ﬁ◊•y¡∂øLÅùS†S\íx ⁄|À$‘r2∆À‰∆~Æ∞¸é^‹ÑS‚¥rÃ∫@‚K3â]%ÍN “y>¬j&›ï Ã€<„öA›ì_‡ì“∏@ºQ‰R≤rã?$Ö0eC;‹í”ë"ÍΩ2¸Öf¬ã—ôg;üp(Æx†d Ã{⁄fu⁄y ß≥9≈û5∂∏^˛ÄVˇ≠»≤\ºYé/V˚J)’z˜u?»p‘ñ/¿º∂ø›°yﬁÇ^‚ªLRªZ»R§yïYﬂc7ÿå}Èù=˚ùr∏≠	•◊i»®[„∂C(æD£E!©uóX˛@ˇ–)¿ïJ‘Ñ&˚ö€ÉYÌµZÚ˚kªE6+ä!UÁG7◊a˘â"ÏÑ Úõl¡©wÀØ`©¢I‚”o©rÍL
+ÿ,ùQ0ﬁê5¡ÖÚîl◊ãU„ãAÒÈ ’ïk?Ét]æ}ø[›f-ûP6∆ò>◊ÖfﬂÉ#Êõ⁄âAÈæHÚîI„^¨t hVô^¸F˝£,Õò%ÙÄÒîYˇâCÚ∞C¸Q ø8∞rŒ?7◊e9¡v&á∏"¿á4µ∏.˙ÖV˛±ƒ∫B∏P˛BBÌB(J,·&# cTÓé(ÕÄiÕçS˜ãL¯ÒrË∂Yˇy®p ∂:)Ÿg›s#ÚAb˘™œ‹Ÿß{ﬂ∞ÚπRÉü]¢QZúz§z…"#ﬂg*ﬂ–¿ô'ÒÖk÷àT¸äBÉn∞ä{.û ÜV(éGH¡h=≤L,Œì"ã£+Òï-‚öÃéT˚®€±F¢T\á{”{¡TÉ[ˇ≠~˜∑Ÿ° å^˝ÇFÓ™YÈºHW∏g≈Q€|ò^<‹f8›è`·ô)ËùnŒÇ[·èG©òNæL≤A09>¸\&¯]r◊f7®≤:ƒô4µπ!ˇÉW¯¨∆¥J¢-Ø|¨bF˝mŸa/◊^ì•éß’©q∆À@Ôº1Õ£O£"®p
+¨aîM’t)ÇZ6«ï#Î›˙ÇR¯êN’ú‹‰(én0ÜO1¢{
+◊b˜c*œç;’å"Òüj„íIê™BÏ±\≠ÅI´O ¥5.¨r #◊d4ƒä~◊É+ÈÖ0…®––j€æBÁñR´mæQ<ëS5ÙYp…`5™¥$∆õ:≥ª#˘çU˙íƒ∂LÛ†	#©~™lDÕe√.ÔBbˆŒÒê$˝¨4ÚÅwÏò{÷˜m/ûw'Ø{ßeÕd
+Ÿgr€z!®≤:ƒô4µπ!ˇÉW¯¨…Ω]ΩXç*CıI:»}L·IÎO âÇ)¬ÛÌâR· lÍ≤TÍ£YRúF ¨p^ÌR_à9>˝i.ÉTÍºÀ‹=¸â>ÿêRÁÆ◊∑E°VÁW∑qã"'Ñ1lÛ¨&◊∑9◊ü0πæ|‹¶x›ÚWÊ∑(2∫D¥59°◊x,ùI=›õ=ïÿ™«v…∫H˝≠G¡µZØÄf6àn'ôz“
+÷O;¬g%√ç$ ô'≤õ:·Ër˙ÑYÙıy·øC∏l]â}€}Uòy)—w#⁄£ëÃqƒØ/‡éyˇÖVˆâ^±9õR#Íoﬂ*¬l1‹-…ó+œÄ4µ°%ÂÉUæu∞Í!ÇLØqÌB(J,·&# cTÓé(ÕÄiÕçS˜ãL¯Ò}·°O‚1¸*XùV	»z∆E;ﬁe}Ú∏ ⁄º∂ìZÛ‰~˛∏]˘}£GºhAçqﬂaRúAlö»Êô8Íî6’ãNıÕb»êjÃÅw°L®t)•`Àe/∆l7≈–%‹ÉJ‘Ñ&˚ö€ÉYÌµZÚ˚kªEı6+ä"UÁX*√[œÖ~˜∑Ÿ°ªê_Ï·}Ûø@Û¸r†z±kDÚt“fnüDcò…Óú.˛±˚ë_ﬁêV„Ω+ìi=ÖJ_ºsΩY”d/ÄV4ƒû ’áh÷à6ˆä
+£ò∞Ít.πEærÅwŸ!6ÙD‡Uzﬂû/†∫2¸ÅLΩ±YÁª_§1µU•/@Ö#PåQ2¿ut˘A„∑±ä!˙ÎwÂÅZ˘Úd‚∫LªQZÑ~§xTïJWÑ1·ê$¿´;˚î »πH‡ÜDßànŒêf/‡Y•$¥v #”i=≈ä"ãª/Îï/¢∆{π—◊àZÛ˙s;Åe=í7€peÒ;‹wx˛ú<∆ò=Ô¿û^‚’¿Ï∂åj™z\ëY'˚_0ôr9“›ô"—⁄˙Ç$˙ìI¢¨Vº@K˝bN¸'.ócìD"˙L˚,-ÃôNËÄ"˜ûo«áUÈ±Fˆ˜gßAˇ27˜!P„\«G)Áo ¯ª9‘í%ÚøO˜Ä\•äp»íd)˛[´&∂p»!5’k?√t âµ)Èó)≠ƒy§‹’éDÒô[5°V[úZ"ÑZ3îu—ÿö?÷◊ˇù!˘ûNøØSˇπC∑˙oN˜+Ün>∞wHÌM˜KÖÜ5∆˜Èï.Â∆hÓéPÊØ]ÆòB®LFÈ^YÜ#:˘¡`y˛ºÊ∏√ã'ÊãIÁë@ÓµCÆß^ÃV†uëE€o3ƒpyÂô9«ô}¥©t≠’e…ÖK®çm3ók,Âf¶#…u≈&Œn0∆è=é∏"Ïà,¶…~πÊ ⁄úNˇp6ÜX>óIŸ|«a+⁄h;…‘9ÿáF–òZˇñﬂø]·π^ˇoøy˜:/é7TÎF.˛p7à≠”∑Ã≈FıÜ7√©UÓ•(ÆN¶oÓXÃhÜ)ô∆g˙π?ÕÅ πæ|‹¶x›ÉKÁ¶K	ßQ ÆuÓgÕ∆`5ÿ—≈õ/ÛÑ0π•Y˘áYΩÙi¥Ì%âEËM-ÛW+Ï%&’fW„â5ŒÖf»é.ÜO˝Œx‚¨HÏÊ	>˘&Dö\∆?0ˆF˛W	Õô<¡á!Îö(˚â˘òGÜêXøVWü°yŒ?/”9√7zÔÕ}ñ´Óü·ØW¯Ä~ÏæNPÖe;èS$Ìnﬁ+¡m6›. ∆ñ(Œá5∂†Z‰ÄTæÒv≤‰"ÉWÜn&¨a7˜g—)ÏLË≠˚ó6˚ôW·ê^Â≥˜Æ]|ÜV•hAïuﬂc¿)…â7…ÕdŸ«w†µn‰ëy˚ïAˆäd®DZì[!Ö]2Ê7›w,Ôõ"«Ö#ÌÑ*˘á˚öAàíZ‰πTUôA£wÃ=)›};›1xÌÀeí©Ëùl¡©wÀØ`©¢I‚”o©rÍL
 “t
-√yr¸f Ãêyç≤}®ﬁÿé\Ëø`Ú´cõKÂJ0àR$ÈO Ÿd1¿lÕà-”ù7ÓÑ/˝»MÙ´2Ã¨N¢#´q≠bìC√m7ò.ëÀuˇ†2Î¬k”©}≈ä¸≥H}ôW§o@ñtﬁ`«(»v6 œcÿƒv†¥mÂÖZ„≥Q‹íLÄP4ºH•:3˚A%˝Rw‘õ0•±?˚ú7∏æ\¸ÜX˝Ø Œ∞^¢[Ä,^¯L5Õm2€k9Ù∫4‹∏8‹ÑÊç€£yÕïzﬁ∞B	ÆR∂m–|KÃs*±M#œê#å¢(ä,·õ¬ÑB‚∂ØîJı@%¨t·UœE/ÒwŸòaˆ¥ﬁ†∫ü^Ô‡zÚºA˝qß{∞dEÒu”ejÄEcõ¬ˆù+ˆ≤ˆûv˛ûF÷®OPÖe;èS$úrœl‹x/«n:âé5‘ÛÌâR· lÍ≤TÍ£YRúF ¨pYÌR_ä<>Ás(ÚD6ﬁ∂>ﬁÜËè≈•{œìd≠ÆMœk≠vÓ@÷h«uv‡ö$¿î}±∂s£“b√óD÷òJ˙öZ:∫r£49Å_#˜Xq a:´∑%¡ö9≤§"˙åR˚ë‹∫B‰∫S1§T ÈK	€a Ã>Ç[ƒâ¬õ(˚ämˆáU˝ïk’øIÛ∂RLì,-ñl˝dˆg2≈m"áÑ+¿ıÔã,Á»nÏåVË≠_PÜDÆpè~Œ?1”m/ v`˜œÚÄ5ﬁå-ÚÅ\£º]Î´_!ÉAπxˆI]„F¡K.⁄@9»è#‘›>˝é?€ë]Ê≠–∂FæWÊHÆpœE¿tuˇe7’ú8©≠v«π[˜àRÈ©cÎøL´ßuµK5ﬂi÷roÛÃ·ï,Œî6ÙèS‰ÕNÌæ/À°MΩ ¶vÆgñX>ﬁ`6ﬂµ8–Ñeœï'ÂåH∏ΩπÑcË∫N(®F£j⁄`JÃy7÷c2ÿ¢î¿√Ω'Ûö^˝âuÈæcÔßOµ13ïT9êi ’
-ƒf;⁄”√ô-ıö2ª≥[·Ö]ÚíE°
-*Æz°c]‚!QÈZ)ﬂg'Âî8ƒ€$ıÉ3Áπ~ªË⁄ù]¢M§\¨c»!—j[Áu1 âbÙí*¸ÇK· lÍ≤TÍ£a§PYõy±påQPÜX	ÿp6‘¥#ÈójÎü_ÂëD’ö¥„v9πC°t ÔU7ˆ_NÀb;¨∂&¿ï8±•%˚èS‰ê›ΩCÁª\0ßUËH§`Õ; É7¯ã!¡ÖÚÜ&πöHÓñ@˚Ñi∂„%àVµp—<$ËGÓ`2Ÿû" Ü=ıÄ,ªúC˙·gÚ∑@ÔΩUVàz™vYëNJ‰_˝LÏ∏a⁄ë*õªª¢LËéGıˆoøH•[°yŒ?&¿l2€F4≈ö)ƒ∞"˚Å%˜π|‚∫@‚°+òa!‰e°<ı '√m5⁄r{‰ï Õú(‹öZ¸ëK§õG·π^9±NÆy+ßtﬁj>˘f.»r:«ïb ª Œ≈FıÜ7ﬂî∆†LªQZãt¨{	ˇ{›r*É∫$¿ñ?÷î%˚ƒhŸ¶`ß§K‡’}2·d¢t≥<#À~0¿H=ÿç0√í9≤≥"Âùy˝êZ˙Ñ`ÓÇF§D'ßk⁄fñ^ÙRy“ô2££ ≥º6ÏÑ^˝Œ}‰µCÛ¸næp∂7#◊v€k3‘f$ÜΩåºﬁ∂oÏÉXçµz©äXæ@‰W´yíXƒf9‹-…ú'¬≥.ËÅo“‘fΩÒ{—ùsP©@ H9ÏE≈c∆'Õn:‘’¡ü#˜òLΩ∫ªÁÕÉo%˛[´OQ˘LÉEòÔ>ë‰7ä›0É÷)|¢ãƒ·l¡s∏`ìÒY¨ˇR•¯fûÒD’á4â‹KÄ’(O7!t«m¿Bfπ S„ˆQ§øBù€mÈ<è‚5à≠.Å‘’&ºXÌlî9e∏Î]∞W™˝P=ˆIú+öƒ∂ ˛·4ú™-Äÿ	xÃr≈≠ædØó+ÅQE©¸±ıHΩq@îÁ:ç‡›ÜŸ,nßKÕqƒvΩ\ØU®ÁO°Ù˙ãÿÛ¯Ù9å¥ ÖÿU∞–$w påiºå6ÓX8T§lM†¶òÏ?íÂ8ﬂ1Ñ˙`ØàR…RÊhWxc¥Z≠ ıß˘L∏ÂïÃGë‰õ†›0™M+|œ"u»…o¡lê¶]ÆúY¨‚»•¯û[ÛDóÍ=ê7â‹~˛˘!tE⁄m¿·9∫_≤X≤¸Q§x∫ÚqëÈ<]u5àØÖ‘'zÕ EƒlXM.,¬±p6˝PÂNMúÔBïËiå·4HYñ≈∂yÃ	‚≈Íd∑
+√yr¸f Ãêzç≤~¢ﬁ«ì[‡â]Á˜x>û`6ü0	†ujÙd€zs˚c9Õï:“€ˇõ%ˇ”ÀÈµáx
+∞I§|^óW%˘A6Íl>›b&Œä9…ú(∑òGÊÂqˇª\˜¯~ºFΩo@épﬁbTõ@lî1Òê Û‹Ÿß{ﬂ∞ÚπRÉü]¢QZúz§z…",÷p<¿ }‚ŒrØÆ˛ÜQæ∑w≈ôa÷äLΩBÆj©|óx'∆ﬂõ<◊ÿ¸ú&¯ùO†ÆP˛æB¥˚`LÙ,ïm`,÷pÂEÔ≥çé-˛Ô·çV˝Œ`Ê∂HÓßUVÄz†t^ëVSÉ<„w$ÊéÃÅfœØ—©n£òW‰Ÿe∑H‰J®r…cL˙l* n`áºyôƒ…ô2‹îp‚´—ôg;üpY≤y√_Ÿbö\:¬d:”âbÏñ0¸Ä	Ω¢ºÏn»æLÇF¨r0é|ﬁ 5ıK„T}ﬁù.üª1˝ÜMæ∞VÊ∏^˜•0™T§-AÜ$PàR,⁄`<˛ö5¿ñ“ò"Úƒi—Øs«àpÊ∞[ºH≥sÆ=¡x_˚q=∆ç~ñ&¯û7Â∆pÍîP‰Ì∆ÁCía≤p/Õw »[,ﬁg‰©~˜∑Ÿ° å^˝ÇFÓ™YÈºHW∏g≈Q€|ò^<‹f8›è`Óê>˛Çwª†	¥Ÿl«∑XëWÆn!∂x	‚^7ò]„G¸§ ¿ô"¥ô8ÁÊp¯∫_ˆ˜ΩAæn_èsŸcTöOoõ5Êé9¡ê- úZ˜Åg«∑W·˘~<úf8ù2¶whÚzŸtu˘a?√ó8Ï›	˝ù[˝“ÕË≥âe©G*õoéf.‘yNÁGÈ±ãÄ/¸Ò„èP„ÃbË∞JÏ°[TÇD¢v[ÔTSä< ˛l>Œ°–ÖÔπ-‚«hŒÆp∆èq‚ªJ¢N7£jÕ{Ãb1ﬂ*#“âPÍÇ,Òúm¡âWÎè@ÙıaÂ•C˙05Û)S·B≈$	ÒOÁ®a⁄ë*õß5ÒäI¢¥RÍºB°
+4Æh®!E˙&PéV€c8¡ï/˛∞"‚¢2“íj¸ª—ôg;üpY≤y√_Ÿbö\:¬d:”âbÏñ0¸Ä	Ω¢∏Ên◊£KπMñX
+∫Z˙z2ƒct˘A„∑¿ñ ÎàL¯îC„≤^≠¢Qœk≠vÓ@÷h«uv‡ö$¿î}±∂r§”b«äZÂÉkÁ≠g	èU'∑~CîR*¸Bú}<…˛–í'Óﬂ˜ÖY·ñFßóK˜±KL‚gEı 3Ë{	‘T‘|ÿº$Ü-≤ªŸ≠u⁄æP‚©NÚ∫V•pÎl -√o0√,»ê*ÃÅ;¥¢$‚ÇVªœt±Ë ÅQ
+îZºX¸d0∆mr˚CÌµèå#¯Ì	ÁÉTˇf‰¥N•WXÜx¶z_ìHUÅ0˝u&¯æ(ÿº4ÿòl‚Åﬂü}¡ô~S®G…UßxîZ ÿb4Ÿs|Úò ˙ú1”ÇJ‚ÀeÔπCÊ¢#¸}<¶o*†y›hO–i7ﬂã˜ù/Ìî0¢µœ∞B˚üZˆîEªO Èb	¢/Õi2¡* í4 É9≤§"˙åR˚©\¸®”±C	®TFô-3Ïf¸j3–c2Öû?ÕÖ=√Ω'Òõ^˙‘k≥ÖdÓße∏^™m ?”h]˘w3ƒè`ˆî$˛Ä5Á»nÏåVË≠g¶VWô{∑rãOPÈ[9…n0Àè…ù"ˆâoâWˇ´m◊ΩO¥PAï./á{Ïj÷m5⁄/,√òMÈá#Ùü∆ÑTÓ∞E˜¯~ºFΩW∂fGÈk«b.ö_bó¶ˆú, éX„ÅD‚∏B¨¢[®E∫D)ˆ"QÂ_’t<ﬂóÀúÒÖ-Òì—≥z€ÚWÊ∑(2∫D¥59°◊x,ùQ9«õ?–º#ÈÉlƒåX¸áAøÑ≥ãtΩEãv⁄=◊e-≈[ù e¸≥?˝ú+˙Üz„éAÈÆ¯∑DyÖk®kDÍp“d)√,»ê*ÃÅÚö2ªµ_ÈìVÚÓsN‡z+æn∂ZÀuL≈}=€w&˜ºyñ¡ﬂõ!‡èV‚Òs’îyP©@ T¶{ì[Ÿm5⁄r{Ûõ!≈ù2“ÖK· jÓ∫B·£"·)öißg%‘xõt.Ãt&’¶®≈p«ÆHó^Â≥¬Üe.êFªx®d”bùr!ÿˇ–ï&Òü7∏ÆX˝åXªÛp¨Ü}6Én:Ç^C∏wπYù@.Œê%◊ÿ	Úù.˘áy˘á[¸®ƒ¢Bπd´x⁄V Ÿg;’[ƒò"ƒèg…¶√∆CÍÉ4“ì≈•C∏l]Üw”~
+Ú|8ﬁw%Üπ9«õ<ﬂè,ıÄ_…ÖRÍºH üDÆl•{DËY&‡'$À`U˝≤a‰Ç"Ùô3º•V·≤]Îù]øPÂX¶xÙjŸ&ÁDâÇ)¬Û–√z‰ÄVˇ≠¡•X¢n∫o•pîM «sﬂr<‘¶§$ÙÇZ≈ÖEÌ∏D¯|5ät[∞¡A.ï^ j<ﬂ–∆ó%ÌﬁÚòRıê¡µHÍπI™DË[]ÓZ2¸Tq a:´´ã§>‰ú&Â∆uÏç[˚Ùf‰¶Hæ>ß~‹U gq6õ”˜≥≤ó&˜Ën«ŒgÛ£AÂ†	0Øp∂7?ﬂ}Ÿ~.ü\cô≈aÎ°√¿9Ö:OQ˘LÉEòÔ>ë‰7ä›0É÷)|¢ãƒ·l¡s∏`ìÒY¨ˇR•¯fûÒD’á4â‹KÄ’(O7!t«m¿Bfπ S„ˆQ§øBù€mÈ<è‚5à≠.Å‘’&ºXÌlî9e∏Î]∞W™˝P=ˆIú+öƒ∂ ˛·4ú™-Äÿ	xÃr≈≠ædØó+ÅQE©¸±ıHΩq@îÁ:ç‡›ÜŸ,nßKÕqƒvΩ\ØU®ÁO°Ù˙ãÿÛ¯Ù9å¥ ÖÿU∞–$w påiºå6ÓX8T§lM†¶òÏ?íÂ8ﬂ1Ñ˙`ØàR…RÊhWxc¥Z≠ ıß˘L∏ÂïÃGë‰õ†›0™M+|œ"u»…o¡lê¶]ÆúY¨‚»•¯û[ÛDóÍ=ê7â‹~˛˘!tE⁄m¿·9∫_≤X≤¸Q§x∫ÚqëÈ<]u5àØÖ‘'zÕ EƒlXM.,¬±p6˝PÂNMúÔBïËiå·4HYñ≈∂yÃ	‚≈Íd∑
 ]∞iT©¸œ∂`—ÚAîa&ç‡∞b‹,“%xCqƒ:{”ı™	\9U®ÚOßÙGöÌ@8‰9å˜|kÜYb—$÷p\oºbµâ¨TkÿÉÿûZôÏRéÂ8ö‰7Ñ◊*}–÷t…Ò7—«a¥{F≠ -ˇLüÚEòÒ=ë‰pí› )|G>u»·«g∫`ÛY¨˝ ¸¥4ÇÒDËˆ=êaπè‹/Ç’(Õ!t∞˝
  mzπ!ÆX™RW§˜Jù ïÈ<ã◊ ªâ2Å‘ufÕ løe∏•]±∞dC«2ÍIú~^ïËÍjÁ4á⁄-Ä%yÃß\ﬁÇíd^&Y∞aWÆ¸O¢ıHnÌAî¬–Ö
 ±Ÿ,UÂ%xÄ0zƒjΩE≤	\N¢ÆﬂH°ÙcúÌ@ÊÉ2åﬂ2Öÿ|z—$
@@ -63728,13 +65718,14 @@ PileÔªø<?xml version="1.0" encoding="utf-8"?>
 Tß˙M†iBôÏ ÛN_1Ñ´}–Œè¬o¬hv
 a¥¿˚õ_Á≈˘L+ëEòYEù‰7ä›0}“)|–(*Ó±h¡Õº`’ŸU¨ˇR•¯{õÒD\≤:nc≤â‹Ø’(k(-t«m¿}cπ&3≈˘Q§ôMù”¸‰<è‚5à{+Å‘7ª=Àü≈lSe∏ı/ºW™˝PGÛIúLtÚç·4∑Ÿ-Ä9StÃr≈q∏d!€BhU©¸$°ıHÅóLîÁ:ç‡bÄŸ,Ñ…>…ﬂqƒ ´ΩÊ \ØU®~H°Ù~tNÙ9åR ÖÿI@ﬂ$w puiº°∑é≥¨TO¯M†óÏ?íÂ8`ÿ1ÑÚ‹˝àë…K%hl]o¥Z≠ °˘LÀÑr?Wpë‰ãƒ›0xÏ&|œ"u»Fi¡°Í~FXY¨
 •¯¸˛DóÍ=êm1â‹™†´}?î!tÉ@m¿øé∂_≤X˘Q§‹OÖÃÈ<I∏5à+lë‘'zÕ É¡l®î¶zóZ±ÀÆ˝PkYúÔBïËÜ·4Q[h∏–yÃtÑ≈9d∑
-]∞j^©¸±Ï∑Nê˝AîÏ)ç‡é»,“%xQqƒÉôÓ?Áµ	\+U®3Â∞ÙGöÌ@\Ó9å∞≠ôã|—$◊»pèπxºbµKßTÙ∫ÊuÙwôÏ8£Â8go Ñ◊*}–m…tßQ¯`¥DF¨ †DËLüÚEòî7ë‰wÈˆ≠“)|S&u»-ë”g∫`Y¨ıævVeúÒDπË=ê15ö‹/Ç’(à«!t«|:dπQ∞X´¯B§˜JùrúÈ<76Tuf/Å‘ö{Õ }Œ
-løe∏hT±éIåè˚Hú√OîËáÚ4á⁄-ÄG,yÃñµ°ˆÉ≠d_]∞Ù@Ω¸O¢ıH\‰Aît?Ñ∏6ÖŸ,z—%x4eƒjΩöº	\≈¶∑é2°ÙéﬂÌ@wÀ-åﬂ2Öÿu—$aVº5iº˘bµˆ›Tß˙M†ïMôÏd†')´ﬁ1Ñ˜*}–Ä›o¬h}a¥ƒÃõ•˘L√ÒEò(JÖ‰7ä›0ú⁄)|[3‰Ø«˛¡ª*`¨~M¨ˇR•¯íÒD/~]qù1â‹QÖ’(Ä∆4t«m¿Çjπ¶¿xºÁ|Q§ª»ù:Ü¸<è‚5à"Å‘k#M€EŒlâe∏ŒÃ§W™˝P≠˚Iú´∫¢Ïuä·4…ﬁ-Ä(ºlÃr≈9≥dï◊“˘D©¸D∞ıH“qTîÁ:ç‡®ãŸ,Èß}qƒ°hΩ7\ØU®/C°Ùk”#™n∏9å"lÖÿ! ƒ$w p⁄iºïZÊÿY∂T•‚M†ÙUèÏ?íÂ8≈–1ÑÆ5öŒΩt…Ò¿h≤%w¥Z≠ ‘®˘L∂A∂Ä:ë‰\é›0$˚?|œ"u»–`¡Ë´ÉôkY¨'V•¯Y¨ÁDóÍ=ê8â‹˚ª˙AÃ !tpm¿˘PØ_≤XõÒQ§◊î|&È<ƒR5àzó‘'zÕ …l
-ø==ê±ad˝PO_úÔBïË¶Å·4[v 6yÃÃb≈Id∑
-]∞–Y©¸ »¬âAîı‹ç‡∆LŒ,“%x¿qƒπ~6wç∫	\AU®¸ˇπÙGöÌ@¨ˆ9å‰;_ü m—$|Ÿp6´qºbµﬁæTlíÌBôÏ!ñÂ8ã)Ñ◊*}–ûf…É+Æu%`¥…q¨ Ms·LüÚEòÍ/ë‰ ‡÷Æ¬)|‚6u»˜n€g∫`ÜY¨·DÓ„“ÒD–¶=ê˙#ì‹/Ç’(ﬂ!t Sz8uπt°XÀüK§˜Jù„áÈ<≠ãK’cÅ‘)7Õ ¯≤løe∏‹O±Âp∆âqˆIú=BïË¢O˚4á⁄-Ä‹4yÃ<eÎcMædë
-]∞hî≥¸O¢ıHÔ¸AîS€1ÜBÇŸ,÷%xZ‹kƒjΩ±§	\oëm_ÚI°ÙNùÌ@ë!#åﬂ2Öÿ'm—$ÍÛ2iº˛zµP`Tß˙M†ÃUôÏÔuI€1Ñ/}–ﬂê”o¬h‘a¥Kˇô˚s≥˘LøÁEòU“ã‰7ä›01≈)|$è rs¡œ`mB¨ˇR•¯ØçÒD≥.¯35â‹ÀÅ’(=π:t«m¿rπÖæﬁÓQ§≤∫ùiÌÚ<è‚5àπ:Å‘¶f%Ú`l>¥e∏d5≠W™˝P:‚Iúô⁄æ‘‚·4≠∂-Ä#7dÃr≈ß™dŒVÅî*©¸ÿﬁıHÅê\îÁ:ç‡ÃíŸ,pûvqƒ™{Ω“L\ØU®…[°ÙÀäπe ‰9ål0ÖÿErœ$w p•iº" í„ÎÊT≤M†“IáÏ?íÂ8À1Ñn ∂	^‘…`hjY¥Z≠ û≥˘LâïŸ4∞âë‰l=›0Õ,7|œ"u»x¡ã §Y¨SB•¯‚/ÓDóÍ=ê— â‹”Ò÷ËÒﬁ!tM
-m¿F§¶_≤XÃËQ§ä©˘fqïÈ<Ω·5à¸û‘'zÕ Ô–l·sü €r±áÜ˝P≤ VúÔBïËÊò·4!t¡vyÃ›"≈äº1d∑
-]∞A©¸€8†õÍAîÁ>ç‡ê’˘,“%xä	qƒé5Ö?î	\Û U®XÅÙGöÌ@Ò9åÖâ16…~—$ï p<oIºbµüπTàFé_O]ôÏÉâÂ8j§Ñ◊*}–-n…è:la¥¥A≠ Œ0ŸLüÚEò‹&ë‰ºe®¥)|‰@u»K‹·g∫`”Y¨»íùùÒDAÈ=êò"®‹/Ç’(ı÷!t^¿üÙÀ_πáãX˙Êp§˜JùçéÈ<∂–ŸzDXÅ‘∏Õ Zî8løe∏G±Æ ∞SmIúŸïËÛF¿4á⁄-Ä·?yÃPˆ˝¥d! ]∞ª2ã¸O¢ıH˘˜AîË“¯°Ÿ,¥ı%xÖqSƒjΩ«Ø	\4Äx]ë°Ù-»Ì@äqåﬂ2Öÿ˙g—$ñóc\]hº«)¥ÿG#Tß˙M†ˆ\ôÏ0˝F˚p¿1Ñ,4}–hCÌo¬hça¥¥xòçâ˘L‘›Eò≠jµ‰7ä›0‹Ã)|x`îå t¡|†`"Ö}¨ˇR•¯ﬂÑÒD∆'⁄tø,â‹sò’(◊St«m¿Æ|π¨˙#»‰Q§DPùK.Õ<è‚5à<4Å‘£ÜG’ÎlŸ?e∏∞åïW™˝P≥ÌIú%Ú∂,•·4êÒ-ÄÚ&\Ãr≈!•dè·$æI©¸ÚΩıH£≈dîÁ:ç‡KùŸ,ı}û>üqƒCkΩñ¸,\ØU®XU°Ù%W’Êx«9å4Öÿb2Ù$w piº*`ùÀØTÌ˚M†«(ºÏ?íÂ8à¬1ÑmWÑOüT…”‡h≈aD¥Z≠ k∫˘L◊gã¨ø?ë‰cã›0πD|œ"u»xr¡w5∆∂%Y¨˙q•¯≈‘DóÍ=êy*â‹ÁµoD3œ!tèm¿Ä–ú_≤Xh‚Q§ñ&Ö›œÈ<ª5à ô§‘'zÕ ã⁄lá‚å∂=Z±aÆ˝P⁄ÁoúÔBïËì·4ˇLfCs-yÃøy≈ƒ´7d∑
-]∞iK©¸‡<ä Aîˆç‡|ßˇ,“%xeqƒ9	I2ù	\Œ)U®õáÙGöÌ@D˚9å1⁄sÃG—$ÀpfOºbµ_∞TÎ∑ÕCfôÏ”≤Â8¶¨Ñ◊*}–h…ã¶í€a¥g[≠ J5ﬂLüÚEòå ë‰riu£∫Å)|ˆuu»b˙Ág∫`.Y¨ôÅ±µ˙ËÒD&ú=êQ›Ø‹/Ç’(∞–!tk]M©{Kπ7üX»úv§˜Jù∫àÈ<}Õs9¿
-Å‘<^Õ ∏I>løe∏,A±yWˆIúBïË›=∆4á⁄-Äà9yÃa¿Æá∏d[]∞Ÿ‚é¸O¢ıH ÒAî™À^ÜŸ,Q“%x•VƒjΩæ©	\°Hˆ-|°Ù¥®Ì@g]åﬂ2Öÿ3^—$J&e!iº©Uµº@&Tß˙M†ΩfôÏ=6ëÔu›1Ñ))}–ÆP·o¬h:.a¥boæØÑç˘LHŸEò`π‰7ä›0Eˆ)|^õi¬UX¡)å`—Pq¨ˇR•¯§æÒDxÏ’VÂ4â‹)Ä’(ÀB	t«m¿4Gπà∏ëﬂ……Q§ï}ùı¡<è‚5à∞Å‘„ˇBã«lGe∏òôW™˝P◊Iú¯L¶W3æ·4èÍ-Ä√ÓQÃr≈äüd.¸Å”z©¸üéıHÉiîÁ:ç‡&§Ÿ,ö¶á^qƒÇhΩãí \ØU®≤l°ÙÃ« ‰9åL0ÖÿVY¯$w pT4iº)ò$◊%≠TŸ˘M†„l∞Ï?íÂ8n¸1Ñd⁄<bÚD…æh5#H¥Z≠ fÖ˘L•< 1ª?ë‰gã›0‹∂ |œ"u»ïM¡^î{·Y¨J_•¯‰ˇÿDóÍ=ê:â‹zÔ~9]œ!t·m¿w	ê_≤Xè⁄Q§™˜˚ÎåÈ<'¯5àQ^®‘'zÕ ‚l—}Aƒ±ò¸˝Pë}`úÔBïË¢™·4‡64ŸDyyÃà-≈j\8d∑
-]∞—r©¸√≤8iﬂAîç‡´«Û,“%x∆;qƒ≥ÚTÓtΩ	\∏	U®q=ãÙGöÌ@§√9å˛ÇÜS]}—$…pbhCºbµ*ãTüÌ‚áBôÏKñÂ8ú\Ñ◊*}–ºS…P‰}π˚a¥GY≠ ÿ ”LüÚEò%ë‰kLæPile  ∂   Àâ* Ù%  øØ* 
+]∞j^©¸±Ï∑Nê˝AîÏ)ç‡é»,“%xQqƒÉôÓ?Áµ	\+U®3Â∞ÙGöÌ@\Ó9å∞≠ôã|—$◊»pèπxºbµKßTÙ∫ÊuÙwôÏ8£Â8go Ñ◊*}–m…tßQ¯`¥DF¨ †DËLüÚEòî7ë‰wÈˆ≠“)|S&u»-ë”g∫`Y¨ıævV—ãÒDˇ=ê15ö‹/Ç’(à«!t˚%ä=dπq∞X«ÁB§˜JùfúÈ<[?$r’,Å‘)xÕ È›
+løe∏hT±Ô~ú≠˜IúRCïËììÚ4á⁄-ÄF,yÃ∆ë3ƒG≥dõ\∞fI∫¸O¢ıH]‰Aîn˝È€ïŸ,ó¡%xZ2eƒjΩöº	\<\˛M°ÙBôÌ@Í¶-åﬂ2Öÿ u—$nˇV
+Siº∆'µ%ÌTß˙M†ñMôÏP9ÆÙ}ﬁ1Ñ!*}–dˇ›o¬h#a¥\hos¶˘LøÚEò÷¥Ö‰7ä›0{›)|¥C8Gm¡;π`ÓåM¨ˇR•¯íÒD˚¨˜?¶â‹Û’(¬C5t«m¿ÉjπÁ&eπ’˘Q§âMù÷à¸<è‚5à"Å‘ﬁ∞ƒ?DlÛêe∏x§W™˝P´˚Iú£Ü·4±“-ÄåélÃr≈+≥dÛÚj¥MR©¸¶ıH^TîÁ:ç‡∑ãŸ,]™1¿qƒxΩÄ\ØU®6C°Ù=V!ü%‰9åi0Öÿ≈∏ƒ$w p≈iº#+{‚ãŒTwöM†WèåÏ?íÂ8¿–1ÑÕıﬁ‡!n…m⁄hœ$w¥Z≠ ”®˘LÊÌ¢Üu<ë‰©à›0ıî?|œ"u»¢`¡NK	NÿY¨îV•¯_€ÁDóÍ=ê8â‹†ì[—£ !tm¿l/Ø_≤XõÒQ§#s≤ôÙíÈ<8Ê5àå`ó‘'zÕ …lüÃÑW@Ó±˝P≠•_úÔBïË†Å·4.¬˜ÂËyÃ)º≈2Ωd∑
+]∞ÃY©¸«#ÆÀH˛Aî4*ç‡ºWŒ,“%xŒqƒ@ËÄöqP	\Ω‰U®ô¨∂ÙGöÌ@Æˆ9åq&ø≈r—$ô∆p∑ﬁqºbµ*æTúÛóÁ¯UôÏ4ÅÂ8È)Ñ◊*}–îf…§;FZ•
+a¥^≠ >N·LüÚEò.ë‰€]„ˆM˝(|	t»êÇŸg∫`ÄY¨ÃÿòfäÒD∫˛=ê∫.ì‹/Ç’(ﬂ!tŸ&€T*π˛X-“K§˜JùﬂáÈ<h2=Å‘iÕ ææløe∏ŸO±u√Éﬂ≠ªIú·ïË√˚4á⁄-Ä⁄4yÃ≠®˛¡πæde
+]∞è≥¸O¢ıH⁄¸Aîƒ-£õÜŸ,Y“%x«kƒjΩ≈§	\„ÈŒäJ°Ù6ûÌ@m?#åﬂ2Öÿ/m—$∑Y%á iºeµ4pTß˙M†ÕUôÏ¢IQz∆1Ñ&2}–[ì”o¬h a¥◊ΩG,ë£˘L]˜EòÇ¿ã‰7ä›0"≈)|ÉáA3;{¡GØ`òB¨ˇR•¯ØçÒD|Gh*ãCâ‹G˜’(0◊:t«m¿rπ{v¿˚O˝Q§IùÚ<è‚5àî:Å‘˝ v¶66l˙‚e∏úÃ™W™˝P7‚Iúÿû>Ì∫(·4|-Ä§eÃr≈†™d¡ívå):©¸eŒıH∆«\îÁ:ç‡ÕíŸ,é˘ﬂ\bqƒÄΩ‰#\ØU® [°ÙHWV-.˜9åb#Öÿ5lœ$w pßiºÉr·-Ë¨T¯M†(eáÏ?íÂ8À1Ñ˙HZ;ì>…ﬂäh5(¥Z≠ ú≥˘L&éAñúë‰J(›0Ωπ7|œ"u»‰{¡q›ëÃ4OX¨x§¯èÓDóÍ=ê— â‹aõÖÇMÕ!tÒm¿Q=ô_≤XŒËQ§>Ã¡‹!È<‘U5à£p°‘'zÕ Ÿ–l∆#H|ßN±˚∫˝Pp„húÔBïËÁò·4{©.@Y6yÃïb≈ò0d∑
+]∞A©¸2Aëﬁ©ÌAî’9ç‡:±¯,“%xç	qƒIG®≥ö	\.U®¿tÄÙGöÌ@Ò9åyúæôÈ.—$µöp»qHºbµ„πT3TÄHÛBôÏ?ñÂ8FiÑ◊*}–»a…ˆ¶ù˝Á,a¥[x≠ ûÿLüÚEò€&ë‰m1iﬁa÷)|-"u»2∞‡g∫`›Y¨–Óf˜ÖÒD+Ò=êËÈ®‹/Ç’(√÷!t'‚ª†}πÏ©Xlp§˜Jù¢éÈ<qÚ›LÅ‘Õ 	–;løe∏G±ø0C:uıIú9AïËûˆ√4á⁄-ÄÎ?yÃÜ®7,≥ádo3]∞x*ã¸O¢ıH„˜Aîﬁa¨Ÿ,‡§%xò®SƒjΩ”Ø	\Và¶H’°Ù∑Ì@a åﬂ2Öÿ˜g—$8NÀUiºôhµπf"Tß˙M†ˇ\ôÏ«@∫∆@˘1Ñ}–[•Ío¬hıa¥úÿÄı9Ù˘Lı†Eò®≈≤‰7ä›0¯Ã)|.‰”%¿ØÒ`K}¨ˇR•¯‰ÑÒDòÖûS(â‹‘ú’(Wt«m¿Û|πÏê0’‡—Q§ºeù3.Ã<è‚5à“5Å‘ê8,dh‹l§e∏∞πîW™˝PùÌIúæèrgî·4€¿-Ä'_Ãr≈•dDB{ ∞L©¸¸∏ıH©ÚgîÁ:ç‡¢ùŸ,˚.Øç≠3qƒqGΩÜÄ/\ØU®AU°Ùç*vÑÕ9å»Öÿ`˜$w p7iº7e	úÊ±TÂM†ë…øÏ?íÂ8©¬1Ñ]Ö∆ñww…;√h§°G¥Z≠ ∫˘L˝?}> ë‰‹´›0f|œ"u»ür¡B∏%£˘Y¨µS•¯L◊DóÍ=êN*â‹ïˇ,∑«Ï!t{8m¿ªµü_≤XI‚Q§øﬂSƒóÈ<€„5àøÿß‘'zÕ ~€l›ﬂ]}±Râ˝PoúÔBïËì·4OÌóÏõ'yÃWs≈÷§6d∑
+]∞nK©¸.ŒÌ¥∑Aîycç‡6ö˛,“%xiqƒ/öTU≤	\ôU®X;ÜÙGöÌ@F˚9åß§Œãu—$◊¡poNºbµO∞TNÑ¯‚bôÏ.∂Â8Ú[Ñ◊*}–{h…A°·J⁄%a¥fq≠ ŸﬁLüÚEòj ë‰Ÿb+$Ô◊)|£#u»∫Êg∫`Y¨≥%ßæÒD{ =ê¥‡Æ‹/Ç’(ú–!t†Sﬁ:sgπ?≥XË	v§˜JùRâÈ< ù‚yÅ‘-Õ –>>løe∏LA±1yÈÄIú^4ïËÁ¡…4á⁄-Ä¶9yÃ≥5Âqìdﬂ']∞éêÅ¸O¢ıH8ÒAîÀQ(¢Ÿ,dˆ%x>ÌYƒjΩ≤©	\ˆ—£·N°Ù≥öÌ@É˛åﬂ2Öÿ.^—$mŸ∆/iº„dµ_∑(Tß˙M†∂fôÏrc6(•ﬁ1Ñ˘*}–”i‡o¬h<.a¥	Ö†î˘Ll¿Eòı∏‰7ä›0Aˆ)|ÚŒ†ΩY¡¡ç`¢Up¨ˇR•¯≥æÒDïNIG5â‹—Å’(ÃDt«m¿8Gπ:á˜|’Q§ aùˆ¿<è‚5à´Å‘∂√—*=lÒ$e∏á‰òW™˝P:◊Iú D}.=å·4Åÿ-Ä	÷PÃr≈∫üd` …7aa©¸-ïıH{hîÁ:ç‡&§Ÿ,AK3qƒÔkΩ!ú#\ØU®±l°ÙPîﬁˇõ÷9å◊ÖÿR˚$w pH4iºΩF9ãÇTw÷M†±≥Ï?íÂ84¸1ÑΩb˛/∂t…˙¿h©áK¥Z≠ †Ñ˘LÕmdx<ë‰§à›0$]|œ"u»ZM¡A@úøÕY¨ÅQ•¯q€DóÍ=êlâ‹úrîö™¸!t(m¿´˜ì_≤Xt›Q§ÕÑYóÈ<ﬂ„5àRÍ´‘'zÕ K‚lÜ<9æS±‚ß˝Pz3cúÔBïË∏™·4“∑Üëı'yÃ9s≈Âm;d∑
+]∞Õr©¸„üC3ÙAîO ç‡áRÛ,“%xÓ;qƒyô©¨‡	\`TU®ß°ãÙGöÌ@–√9å∏ﬁúÅº!—$‡ïpËPBºbµ'ãT+ÍÄÛwôÏÕ£Â8I{Ñ◊*}–îS…ÀZ¸ñ¨a¥Q≠ Áq“LüÚEò
+ë‰:ﬁªı’)|π!u»–åÍg∫`® Y¨«E
+V?öÒD„Ó=ê¢–¢‹/Ç’(2Ë!t¯<Seπ±Xz§˜Jù;∞È<”$Pile  π   ıÌ+ û&  ì, 
