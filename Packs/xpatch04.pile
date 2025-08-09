@@ -11830,8 +11830,198 @@ PileÔªø<?xml version="1.0" encoding="utf-8"?>
 		</Item>
 		<Item href="/Items/Talents/TalentKits/Redset7_2_Pirate/program_Redset7_2_StrOrInt.APLR" />
 		<Item href="/Items/Talents/TalentKits/Redset7_2_Pirate/program_Redset7_2_EvadeOrrange.APLR" />
+		<Item href="/Items/Talents/TalentKits/Redset7_2_Pirate/status_Redset7_2_EvadeOrRange.APLR" />
 	</passiveApplicators>
 	<persistentId>G686</persistentId>
+	<prerequisiteTalents />
+	<rarity>outstanding</rarity>
+	<requireLineOfSight>true</requireLineOfSight>
+	<shortDescription textref="" />
+	<talentRollGroups>16</talentRollGroups>
+	<talentStats />
+	<targetType>136258047</targetType>
+	<type>Simple</type>
+	<upgradeLevel>0</upgradeLevel>
+	<useRange>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</useRange>
+	<useRangeMaterial href="" />
+	<variativeMaxTalentStats />
+	<variativeMinTalentStats />
+	<vendorCost>-1</vendorCost>
+	<warFogRemoveRadius>0</warFogRemoveRadius>
+	<warFogRemoveTime>0</warFogRemoveTime>
+</Talent>Ôªø<?xml version="1.0" encoding="utf-8"?>
+<Talent>
+	<BackLink DBID="/Social.ROOT" Count="1" />
+	<BackLink DBID="/GameLogic/AILogic.AILP" Count="1" />
+	<BackLink DBID="/Items/RerollShop/TalentsList_Pirate" Count="1" />
+	<BackLink DBID="/Items/RerollShop/TalentsList_Rar6_Set10_kit2" Count="1" />
+	<BackLink DBID="/Items/Talents/TalentKits/Redset7_2_Pirate/Redset7_2_Pirate.TALKIT" Count="1" />
+	<BackLink DBID="/Items/Talents/TalentList_Mighty/Archeress_Mighty.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/TalentList_Mighty/Chronicle_Mighty.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/TalentList_Mighty/Gunslinger_Mighty.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/TalentList_Mighty/Hunter_Mighty.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/TalentList_Mighty/Mowgli_Mighty.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/TalentList_Mighty/Night_Mighty.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/TalentList_Mighty/Plane_A_Mighty.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/TalentList_Mighty/Rifleman_Mighty.TALENTSET" Count="1" />
+	<BackLink DBID="/Social/TalentsCollection" Count="3" />
+	<BackLink DBID="/Social/Lootboxes/LB_Pirate_Red6_Set7_2" Count="1" />
+	<BackLink DBID="/Social/Lootboxes/LB_Pirate_Red7_Set7_2" Count="1" />
+	<BackLink DBID="/Social/Lootboxes/LB_RedEvent6" Count="1" />
+	<BackLink DBID="/Social/Lootboxes/LB_RedEvent7" Count="1" />
+	<BackLink DBID="/Social/Lootboxes/ROLLCONTS/roll_EpicTal567.ROLLCONT" Count="1" />
+	<BackLink DBID="/Social/Lootboxes/ROLLCONTS/roll_NY2020_CollectionGoodList.ROLLCONT" Count="1" />
+	<BackLink DBID="/Social/Lootboxes/ROLLCONTS/roll_NY2020_GoodList.ROLLCONT" Count="1" />
+	<BackLink DBID="/Social/Lootboxes/ROLLCONTS/roll_RedSet10.ROLLCONT" Count="1" />
+	<BackLink DBID="/Social/Lootboxes/ROLLCONTS/roll_Season13_GoodList.ROLLCONT" Count="1" />
+	<BackLink DBID="/Social/Lootboxes/ROLLCONTS/roll_Season9_CollectionList.ROLLCONT" Count="1" />
+	<BackLink DBID="/Test/Talents/TST_7_2_Pirates.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Artist.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/MagicGirl.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Demonolog.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Hunter.TALENTSET" Count="1" />
+	<activationConditions />
+	<activeCustomTrigger>true</activeCustomTrigger>
+	<allowChase>
+		<compiledString></compiledString>
+		<returnType>bool</returnType>
+		<sString>true</sString>
+	</allowChase>
+	<alternativeTargets />
+	<aoeDisplayOnMinimap>false</aoeDisplayOnMinimap>
+	<aoeHeight>0</aoeHeight>
+	<aoeMaterial href="" />
+	<aoePassabilityCheckMode>0</aoePassabilityCheckMode>
+	<aoeSize>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</aoeSize>
+	<aoeType>None</aoeType>
+	<applicators />
+	<askId>0</askId>
+	<autoTargetSelector href="" />
+	<budget>-1</budget>
+	<caption>G687: –ú–æ—â—å –º–æ—Ä—Å–∫–æ–≥–æ —á—ë—Ä—Ç–∞</caption>
+	<castAllowRange>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</castAllowRange>
+	<castLimitations />
+	<commonDescription textref="/Items/Talents/Level3/G687_Str.TALENT_commonDescription.txt" />
+	<compiledDescriptionA textref="" />
+	<compiledDescriptionB textref="" />
+	<conditionFormulas>
+		<Item href="/Items/Talents/Level3/G687_Str.TALENT" id="34E262E2-2C25-4B8B-90DD-D6ACBEBDDC66">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FQ4AAAACAAAAEwAAACkAAABHNjg3X1N0ck9ySW50AFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHUsAAADf4PbERHoJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAADwPw==</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vG687_StrOrInt==1</sString>
+				</condition>
+				<name>StrOrInt</name>
+			</ConditionFormula>
+		</Item>
+	</conditionFormulas>
+	<conflictingTalents />
+	<constants href="/Items/Talents/Level3/G687_Str.TALENT" id="ABD10C55-B9D6-4CFA-B2E8-636C4558F6E9">
+		<UnitConstantsContainer>
+			<vars>
+				<Item href="/Items/Talents/Level3/G687_Str.TALENT" id="F8A63530-8083-4BEE-93E4-139F4DCB6A85">
+					<UnitConstant>
+						<name>Add_Str</name>
+						<var>
+							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAIEHNzEw/</compiledString>
+							<returnType>float</returnType>
+							<sString>refineScale(10, 0.8)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/TalentKits/Redset7_2_Pirate/const_Add_Stat_RedSet" />
+				<Item href="/Items/Talents/TalentKits/Redset7_2_Pirate/const_Redset7_2_AddRange" />
+				<Item href="/Items/Talents/TalentKits/Redset7_2_Pirate/const_Redset7_2_Range_TT" />
+				<Item href="/Items/Talents/TalentKits/Redset7_2_Pirate/const_Evade_Chance" />
+			</vars>
+		</UnitConstantsContainer>
+	</constants>
+	<consumptionBonus>
+		<constant>0</constant>
+		<percent>0</percent>
+	</consumptionBonus>
+	<cooldownTime>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</cooldownTime>
+	<cooldownTimeSecondState>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</cooldownTimeSecondState>
+	<description textref="/Items/Talents/Level3/G687_Str.TALENT_description.txt" />
+	<devPoints>1</devPoints>
+	<dispatch href="" />
+	<flags>1</flags>
+	<forceBonus>0</forceBonus>
+	<image href="/UI/Styles/Icons/Talents/_687.ITEX" />
+	<imageSecondState href="" />
+	<isGenderTalent>false</isGenderTalent>
+	<isTakenOnStart>false</isTakenOnStart>
+	<isUltimateTalent>false</isUltimateTalent>
+	<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
+	<manaCost>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</manaCost>
+	<marker></marker>
+	<microAI href="" />
+	<minLevel>2</minLevel>
+	<minUseRangeCorrection>0</minUseRangeCorrection>
+	<naftaCost>-1</naftaCost>
+	<name textref="/Items/Talents/Level3/G687_Str.TALENT_name.txt" />
+	<node></node>
+	<passiveApplicators>
+		<Item href="/Items/Talents/Level3/G687_Str.TALENT" id="98991A96-CCC6-4D2E-9F80-457E817C628F">
+			<PermanentStatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>Add_Str</caption>
+				<customApplyType>None</customApplyType>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQgAAAABAAAAFAAAAEFkZF9TdHIAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+						<returnType>float</returnType>
+						<sString>cAdd_Str</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Strength</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/TalentKits/Redset7_2_Pirate/program_Redset7_2_StrOrInt.APLR" />
+		<Item href="/Items/Talents/TalentKits/Redset7_2_Pirate/program_Redset7_2_EvadeOrrange.APLR" />
+		<Item href="/Items/Talents/TalentKits/Redset7_2_Pirate/status_Redset7_2_EvadeOrRange.APLR" />
+	</passiveApplicators>
+	<persistentId>G687</persistentId>
 	<prerequisiteTalents />
 	<rarity>outstanding</rarity>
 	<requireLineOfSight>true</requireLineOfSight>
@@ -12287,6 +12477,7 @@ PileÔªø<?xml version="1.0" encoding="utf-8"?>
 		</Item>
 		<Item href="/Items/Talents/TalentKits/Redset7_2_Pirate/program_Redset7_2_StrOrInt.APLR" />
 		<Item href="/Items/Talents/TalentKits/Redset7_2_Pirate/program_Redset7_2_EvadeOrrange.APLR" />
+		<Item href="/Items/Talents/TalentKits/Redset7_2_Pirate/status_Redset7_2_EvadeOrRange.APLR" />
 	</passiveApplicators>
 	<persistentId>G688</persistentId>
 	<prerequisiteTalents />
@@ -12466,6 +12657,7 @@ PileÔªø<?xml version="1.0" encoding="utf-8"?>
 		</Item>
 		<Item href="/Items/Talents/TalentKits/Redset7_2_Pirate/program_Redset7_2_StrOrInt.APLR" />
 		<Item href="/Items/Talents/TalentKits/Redset7_2_Pirate/program_Redset7_2_EvadeOrrange.APLR" />
+		<Item href="/Items/Talents/TalentKits/Redset7_2_Pirate/status_Redset7_2_EvadeOrRange.APLR" />
 	</passiveApplicators>
 	<persistentId>G689</persistentId>
 	<prerequisiteTalents />
@@ -12486,6 +12678,463 @@ PileÔªø<?xml version="1.0" encoding="utf-8"?>
 	<variativeMaxTalentStats />
 	<variativeMinTalentStats />
 	<vendorCost>-1</vendorCost>
+	<warFogRemoveRadius>0</warFogRemoveRadius>
+	<warFogRemoveTime>0</warFogRemoveTime>
+</Talent>Ôªø<?xml version="1.0" encoding="utf-8"?>
+<Talent>
+	<BackLink DBID="/Social.ROOT" Count="1" />
+	<BackLink DBID="/GameLogic/AILogic.AILP" Count="1" />
+	<BackLink DBID="/Items/RerollShop/TalentsList_Pirate" Count="1" />
+	<BackLink DBID="/Items/RerollShop/TalentsList_Rar6_Set10_kit2" Count="1" />
+	<BackLink DBID="/Items/Talents/TalentKits/Redset7_2_Pirate/Redset7_2_Pirate.TALKIT" Count="1" />
+	<BackLink DBID="/Items/Talents/TalentList_Mighty/Reaper_Mighty.TALENTSET" Count="1" />
+	<BackLink DBID="/Social/TalentsCollection" Count="3" />
+	<BackLink DBID="/Social/Lootboxes/LB_Pirate_Red6_Set7_2" Count="1" />
+	<BackLink DBID="/Social/Lootboxes/LB_Pirate_Red7_Set7_2" Count="1" />
+	<BackLink DBID="/Social/Lootboxes/LB_RedEvent6" Count="1" />
+	<BackLink DBID="/Social/Lootboxes/LB_RedEvent7" Count="1" />
+	<BackLink DBID="/Social/Lootboxes/ROLLCONTS/roll_EpicTal567.ROLLCONT" Count="1" />
+	<BackLink DBID="/Social/Lootboxes/ROLLCONTS/roll_NY2020_CollectionGoodList.ROLLCONT" Count="1" />
+	<BackLink DBID="/Social/Lootboxes/ROLLCONTS/roll_NY2020_GoodList.ROLLCONT" Count="1" />
+	<BackLink DBID="/Social/Lootboxes/ROLLCONTS/roll_RedSet10.ROLLCONT" Count="1" />
+	<BackLink DBID="/Social/Lootboxes/ROLLCONTS/roll_Season13_GoodList.ROLLCONT" Count="1" />
+	<BackLink DBID="/Social/Lootboxes/ROLLCONTS/roll_Season9_CollectionList.ROLLCONT" Count="1" />
+	<BackLink DBID="/Test/Talents/TST_7_2_Pirates.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Highlander.TALENTSET" Count="1" />
+	<activationConditions />
+	<activeCustomTrigger>true</activeCustomTrigger>
+	<allowChase>
+		<compiledString></compiledString>
+		<returnType>bool</returnType>
+		<sString>true</sString>
+	</allowChase>
+	<alternativeTargets />
+	<aoeDisplayOnMinimap>false</aoeDisplayOnMinimap>
+	<aoeHeight>0</aoeHeight>
+	<aoeMaterial href="" />
+	<aoePassabilityCheckMode>0</aoePassabilityCheckMode>
+	<aoeSize>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</aoeSize>
+	<aoeType>None</aoeType>
+	<applicators />
+	<askId>0</askId>
+	<autoTargetSelector href="" />
+	<budget>-1</budget>
+	<caption>G690: –¢–æ–ª—Å—Ç–æ–∫–æ–∂–µ—Å—Ç—å –±–æ—Ü–º–∞–Ω–∞</caption>
+	<castAllowRange>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</castAllowRange>
+	<castLimitations />
+	<commonDescription textref="/Items/Talents/Level5/G690_Stamina.TALENT_commonDescription.txt" />
+	<compiledDescriptionA textref="" />
+	<compiledDescriptionB textref="" />
+	<conditionFormulas>
+		<Item href="/Items/Talents/Level5/G690_Stamina.TALENT" id="FC61CDDB-24B4-4321-B79E-4D6BF8EC315A">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FQ4AAAACAAAAEwAAACkAAABHNjkwX1N0ck9ySW50AFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHUsAAADf4PbERHoJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAADwPw==</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vG690_StrOrInt==1</sString>
+				</condition>
+				<name>StrOrInt</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/Items/Talents/Level5/G690_Stamina.TALENT" id="7D847D2B-B452-41B8-9429-4271A1DAAB45">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FQ8AAAACAAAAFAAAACoAAABHNTg3X1N0YU9yV2lsbABVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1MAAAA3+D2xER6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAA8D8=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vG587_StaOrWill==1</sString>
+				</condition>
+				<name>StaOrWill</name>
+			</ConditionFormula>
+		</Item>
+	</conditionFormulas>
+	<conflictingTalents />
+	<constants href="/Items/Talents/Level5/G690_Stamina.TALENT" id="04A824A7-025D-4333-AFF6-B7F985C1E277">
+		<UnitConstantsContainer>
+			<vars>
+				<Item href="/Items/Talents/Level5/G690_Stamina.TALENT" id="077F99AF-7873-497A-B9F8-F432EDD3D144">
+					<UnitConstant>
+						<name>Add_Stat</name>
+						<var>
+							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAmEEzM7M/</compiledString>
+							<returnType>float</returnType>
+							<sString>refineScale(19, 1.4)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/TalentKits/Redset7_2_Pirate/const_Add_Stat_RedSet" />
+				<Item href="/Items/Talents/TalentKits/Redset7_2_Pirate/const_Redset7_2_AddRange" />
+				<Item href="/Items/Talents/TalentKits/Redset7_2_Pirate/const_Redset7_2_Range_TT" />
+				<Item href="/Items/Talents/TalentKits/Redset7_2_Pirate/const_Evade_Chance" />
+			</vars>
+		</UnitConstantsContainer>
+	</constants>
+	<consumptionBonus>
+		<constant>0</constant>
+		<percent>0</percent>
+	</consumptionBonus>
+	<cooldownTime>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</cooldownTime>
+	<cooldownTimeSecondState>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</cooldownTimeSecondState>
+	<description textref="/Items/Talents/Level5/G690_Stamina.TALENT_description.txt" />
+	<devPoints>1</devPoints>
+	<dispatch href="" />
+	<flags>1</flags>
+	<forceBonus>0</forceBonus>
+	<image href="/UI/Styles/Icons/Talents/_690.ITEX" />
+	<imageSecondState href="" />
+	<isGenderTalent>false</isGenderTalent>
+	<isTakenOnStart>false</isTakenOnStart>
+	<isUltimateTalent>false</isUltimateTalent>
+	<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
+	<manaCost>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</manaCost>
+	<marker></marker>
+	<microAI href="" />
+	<minLevel>4</minLevel>
+	<minUseRangeCorrection>0</minUseRangeCorrection>
+	<naftaCost>-1</naftaCost>
+	<name textref="/Items/Talents/Level5/G690_Stamina.TALENT_name.txt" />
+	<node></node>
+	<passiveApplicators>
+		<Item href="/Items/Talents/Level5/G690_Stamina.TALENT" id="83B97871-6798-43AD-B97D-AAE30F050F04">
+			<PermanentStatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>StaOrWill</caption>
+				<customApplyType>Maximize</customApplyType>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvsg+wUVmoTi0UIixCLTQiLgiwBAAD/0A+28GoUi00IixGLTQiLgiwBAAD/0A+2yDvxfgzHRfwBAAAA6YAAAABqE4tVCIsCi00Ii5AsAQAA/9IPtvBqFItFCIsQi00Ii4IsAQAA/9APtsg78X0Jx0X4AAAAAOtDi1UIiwKLTQiLkMgAAAD/0otFCIsQi00Ii4LMAAAA3V3w/9DcXfDf4PbEQXoJx0XsAQAAAOsHx0XsAAAAAItN7IlN+ItV+IlV/IpF/F6L5V3D</compiledString>
+					<returnType>bool</returnType>
+					<sString>(pFirst-&gt;IsRecommended(19) &gt; pFirst-&gt;IsRecommended(20) ? 1 : pFirst-&gt;IsRecommended(19) &lt; pFirst-&gt;IsRecommended(20) ? 0 : sBaseStamina&gt;=sBaseWill)</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+						<returnType>float</returnType>
+						<sString>1</sString>
+					</addValue>
+					<multValue>
+						<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+						<returnType>float</returnType>
+						<sString>0</sString>
+					</multValue>
+					<stat>Life</stat>
+					<topModifier>false</topModifier>
+					<variable>G690_StaOrWill</variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level5/G690_Stamina.TALENT" id="9DE31362-2536-4DE7-A384-2DABE862EBEB">
+			<PermanentStatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>Add_Will</caption>
+				<customApplyType>Maximize</customApplyType>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvsg+wUVmoTi0UIixCLTQiLgiwBAAD/0A+28GoUi00IixGLTQiLgiwBAAD/0A+2yDvxfgzHRfwBAAAA6YAAAABqE4tVCIsCi00Ii5AsAQAA/9IPtvBqFItFCIsQi00Ii4IsAQAA/9APtsg78X0Jx0X4AAAAAOtDi1UIiwKLTQiLkMgAAAD/0otFCIsQi00Ii4LMAAAA3V3w/9DcXfDf4PbEQXoJx0XsAQAAAOsHx0XsAAAAAItN7IlN+ItV+IlV/DPAg338AA+UwF6L5V3D</compiledString>
+					<returnType>bool</returnType>
+					<sString>!(pFirst-&gt;IsRecommended(19) &gt; pFirst-&gt;IsRecommended(20) ? 1 : pFirst-&gt;IsRecommended(19) &lt; pFirst-&gt;IsRecommended(20) ? 0 : sBaseStamina&gt;=sBaseWill)</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQkAAAABAAAAFQAAAEFkZF9TdGF0AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+						<returnType>float</returnType>
+						<sString>cAdd_Stat</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Will</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level5/G690_Stamina.TALENT" id="861F0514-B118-4218-8538-AEEFCED1AE68">
+			<PermanentStatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>Add_Stamina</caption>
+				<customApplyType>Maximize</customApplyType>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvsg+wUVmoTi0UIixCLTQiLgiwBAAD/0A+28GoUi00IixGLTQiLgiwBAAD/0A+2yDvxfgzHRfwBAAAA6YAAAABqE4tVCIsCi00Ii5AsAQAA/9IPtvBqFItFCIsQi00Ii4IsAQAA/9APtsg78X0Jx0X4AAAAAOtDi1UIiwKLTQiLkMgAAAD/0otFCIsQi00Ii4LMAAAA3V3w/9DcXfDf4PbEQXoJx0XsAQAAAOsHx0XsAAAAAItN7IlN+ItV+IlV/IpF/F6L5V3D</compiledString>
+					<returnType>bool</returnType>
+					<sString>(pFirst-&gt;IsRecommended(19) &gt; pFirst-&gt;IsRecommended(20) ? 1 : pFirst-&gt;IsRecommended(19) &lt; pFirst-&gt;IsRecommended(20) ? 0 : sBaseStamina&gt;=sBaseWill)</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQkAAAABAAAAFQAAAEFkZF9TdGF0AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+						<returnType>float</returnType>
+						<sString>cAdd_Stat</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Stamina</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/TalentKits/Redset7_2_Pirate/program_Redset7_2_StrOrInt.APLR" />
+		<Item href="/Items/Talents/TalentKits/Redset7_2_Pirate/program_Redset7_2_EvadeOrrange.APLR" />
+		<Item href="/Items/Talents/TalentKits/Redset7_2_Pirate/status_Redset7_2_EvadeOrRange.APLR" />
+	</passiveApplicators>
+	<persistentId>G690</persistentId>
+	<prerequisiteTalents />
+	<rarity>outstanding</rarity>
+	<requireLineOfSight>true</requireLineOfSight>
+	<shortDescription textref="" />
+	<talentRollGroups>16</talentRollGroups>
+	<talentStats />
+	<targetType>136258047</targetType>
+	<type>Simple</type>
+	<upgradeLevel>0</upgradeLevel>
+	<useRange>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</useRange>
+	<useRangeMaterial href="" />
+	<variativeMaxTalentStats />
+	<variativeMinTalentStats />
+	<vendorCost>0</vendorCost>
+	<warFogRemoveRadius>0</warFogRemoveRadius>
+	<warFogRemoveTime>0</warFogRemoveTime>
+</Talent>Ôªø<?xml version="1.0" encoding="utf-8"?>
+<Talent>
+	<BackLink DBID="/Social.ROOT" Count="1" />
+	<BackLink DBID="/GameLogic/AILogic.AILP" Count="1" />
+	<BackLink DBID="/Items/RerollShop/TalentsList_Pirate" Count="1" />
+	<BackLink DBID="/Items/RerollShop/TalentsList_Rar6_Set10_kit2" Count="1" />
+	<BackLink DBID="/Items/Talents/TalentKits/Redset7_2_Pirate/Redset7_2_Pirate.TALKIT" Count="1" />
+	<BackLink DBID="/Social/TalentsCollection" Count="3" />
+	<BackLink DBID="/Social/Lootboxes/LB_Pirate_Red6_Set7_2" Count="1" />
+	<BackLink DBID="/Social/Lootboxes/LB_Pirate_Red7_Set7_2" Count="1" />
+	<BackLink DBID="/Social/Lootboxes/LB_RedEvent6" Count="1" />
+	<BackLink DBID="/Social/Lootboxes/LB_RedEvent7" Count="1" />
+	<BackLink DBID="/Social/Lootboxes/ROLLCONTS/roll_EpicTal567.ROLLCONT" Count="1" />
+	<BackLink DBID="/Social/Lootboxes/ROLLCONTS/roll_NY2020_CollectionGoodList.ROLLCONT" Count="1" />
+	<BackLink DBID="/Social/Lootboxes/ROLLCONTS/roll_NY2020_GoodList.ROLLCONT" Count="1" />
+	<BackLink DBID="/Social/Lootboxes/ROLLCONTS/roll_RedSet10.ROLLCONT" Count="1" />
+	<BackLink DBID="/Social/Lootboxes/ROLLCONTS/roll_Season13_GoodList.ROLLCONT" Count="1" />
+	<BackLink DBID="/Social/Lootboxes/ROLLCONTS/roll_Season9_CollectionList.ROLLCONT" Count="1" />
+	<BackLink DBID="/Test/Talents/TST_7_2_Pirates.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Highlander.TALENTSET" Count="1" />
+	<activationConditions />
+	<activeCustomTrigger>true</activeCustomTrigger>
+	<allowChase>
+		<compiledString></compiledString>
+		<returnType>bool</returnType>
+		<sString>true</sString>
+	</allowChase>
+	<alternativeTargets />
+	<aoeDisplayOnMinimap>false</aoeDisplayOnMinimap>
+	<aoeHeight>0</aoeHeight>
+	<aoeMaterial href="" />
+	<aoePassabilityCheckMode>0</aoePassabilityCheckMode>
+	<aoeSize>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</aoeSize>
+	<aoeType>None</aoeType>
+	<applicators />
+	<askId>0</askId>
+	<autoTargetSelector href="" />
+	<budget>-1</budget>
+	<caption>G691: –ü–∏—Ä–∞—Ç—Å–∫–∞—è —Ñ–æ—Ä—Ç—É–Ω–∞</caption>
+	<castAllowRange>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</castAllowRange>
+	<castLimitations />
+	<commonDescription textref="/Items/Talents/Level5/G691_Will.TALENT_commonDescription.txt" />
+	<compiledDescriptionA textref="" />
+	<compiledDescriptionB textref="" />
+	<conditionFormulas>
+		<Item href="/Items/Talents/Level5/G691_Will.TALENT" id="B28C1209-8396-4426-A5C8-576B32B1DB62">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FQ4AAAACAAAAEwAAACkAAABHNjkxX1N0ck9ySW50AFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHUsAAADf4PbERHoJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAADwPw==</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vG691_StrOrInt==1</sString>
+				</condition>
+				<name>StrOrInt</name>
+			</ConditionFormula>
+		</Item>
+	</conditionFormulas>
+	<conflictingTalents />
+	<constants href="/Items/Talents/Level5/G691_Will.TALENT" id="6F117651-7225-4E89-B5C4-6D81415EAC5F">
+		<UnitConstantsContainer>
+			<vars>
+				<Item href="/Items/Talents/Level5/G691_Will.TALENT" id="D50386BC-8BB9-4E37-90B1-4ED7F606B333">
+					<UnitConstant>
+						<name>Add_LifeOrEnergy</name>
+						<var>
+							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwCADkQAAChC</compiledString>
+							<returnType>float</returnType>
+							<sString>refineScale(19*30, 1.4*30)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/TalentKits/Redset7_2_Pirate/const_Add_Stat_RedSet" />
+				<Item href="/Items/Talents/TalentKits/Redset7_2_Pirate/const_Redset7_2_AddRange" />
+				<Item href="/Items/Talents/TalentKits/Redset7_2_Pirate/const_Redset7_2_Range_TT" />
+				<Item href="/Items/Talents/TalentKits/Redset7_2_Pirate/const_Evade_Chance" />
+			</vars>
+		</UnitConstantsContainer>
+	</constants>
+	<consumptionBonus>
+		<constant>0</constant>
+		<percent>0</percent>
+	</consumptionBonus>
+	<cooldownTime>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</cooldownTime>
+	<cooldownTimeSecondState>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</cooldownTimeSecondState>
+	<description textref="/Items/Talents/Level5/G691_Will.TALENT_description.txt" />
+	<devPoints>1</devPoints>
+	<dispatch href="" />
+	<flags>1</flags>
+	<forceBonus>0</forceBonus>
+	<image href="/UI/Styles/Icons/Talents/_691.ITEX" />
+	<imageSecondState href="" />
+	<isGenderTalent>false</isGenderTalent>
+	<isTakenOnStart>false</isTakenOnStart>
+	<isUltimateTalent>false</isUltimateTalent>
+	<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
+	<manaCost>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</manaCost>
+	<marker></marker>
+	<microAI href="" />
+	<minLevel>4</minLevel>
+	<minUseRangeCorrection>0</minUseRangeCorrection>
+	<naftaCost>-1</naftaCost>
+	<name textref="/Items/Talents/Level5/G691_Will.TALENT_name.txt" />
+	<node></node>
+	<passiveApplicators>
+		<Item href="/Items/Talents/Level5/G691_Will.TALENT" id="19576066-FD37-487A-AE0B-B651801C0B9E">
+			<PermanentStatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>Add_Life</caption>
+				<customApplyType>Maximize</customApplyType>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLQgz/0ItNCIsRi00Ii0IQ3V34/9DcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sMaxLife&gt;=sMaxEnergy</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FREAAAABAAAAHQAAAEFkZF9MaWZlT3JFbmVyZ3kAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+						<returnType>float</returnType>
+						<sString>cAdd_LifeOrEnergy</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Life</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level5/G691_Will.TALENT" id="29B92FE5-87EC-47C5-A170-366B91215810">
+			<PermanentStatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>Add_Energy</caption>
+				<customApplyType>Maximize</customApplyType>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLQgz/0ItNCIsRi00Ii0IQ3V34/9DcXfjf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sMaxLife&lt;sMaxEnergy</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FREAAAABAAAAHQAAAEFkZF9MaWZlT3JFbmVyZ3kAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+						<returnType>float</returnType>
+						<sString>cAdd_LifeOrEnergy</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Energy</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/TalentKits/Redset7_2_Pirate/program_Redset7_2_StrOrInt.APLR" />
+		<Item href="/Items/Talents/TalentKits/Redset7_2_Pirate/program_Redset7_2_EvadeOrrange.APLR" />
+		<Item href="/Items/Talents/TalentKits/Redset7_2_Pirate/status_Redset7_2_EvadeOrRange.APLR" />
+	</passiveApplicators>
+	<persistentId>G691</persistentId>
+	<prerequisiteTalents />
+	<rarity>outstanding</rarity>
+	<requireLineOfSight>true</requireLineOfSight>
+	<shortDescription textref="" />
+	<talentRollGroups>16</talentRollGroups>
+	<talentStats />
+	<targetType>136258047</targetType>
+	<type>Simple</type>
+	<upgradeLevel>0</upgradeLevel>
+	<useRange>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</useRange>
+	<useRangeMaterial href="" />
+	<variativeMaxTalentStats />
+	<variativeMinTalentStats />
+	<vendorCost>0</vendorCost>
 	<warFogRemoveRadius>0</warFogRemoveRadius>
 	<warFogRemoveTime>0</warFogRemoveTime>
 </Talent>Ôªø<?xml version="1.0" encoding="utf-8"?>
@@ -12693,174 +13342,9 @@ PileÔªø<?xml version="1.0" encoding="utf-8"?>
 			</stopCondition>
 			<stopEvents>0</stopEvents>
 		</Item>
-		<Item>
-			<applicator href="/Items/Talents/TalentKits/Redset7_2_Pirate/program_Redset7_2_EvadeOrrange.APLR" id="AB3C3D63-F5E1-46E3-A514-028D3BF2377A">
-				<StatusApplicator>
-					<applicators>
-						<Item href="/Items/Talents/TalentKits/Redset7_2_Pirate/program_Redset7_2_EvadeOrrange.APLR" id="25922567-1EC3-4664-B196-77F59B09EC46">
-							<StatModApplicator>
-								<applyTarget>ApplicatorTarget</applyTarget>
-								<behaviorFlags>0</behaviorFlags>
-								<caption>Add_Evade</caption>
-								<constraint>None</constraint>
-								<dontUpdate>false</dontUpdate>
-								<effect>
-									<Item href="" />
-									<Item href="" />
-								</effect>
-								<enabled>
-									<compiledString>FSIAAAADAAAANQAAAEEAAABXAAAAQWRkX0V2YWRlT3JSYW5nZV9SZWRzZXQ3XzJDb3VudGVyAFWL7FGLRQiLEItNCItCFP/Q3B2BAAAA3+D2xEF6K2gAAAAAi00IixGLTQiLgogBAAD/0NwdeQAAAN/g9sQBdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAhAAAAAAAAAIEA=</compiledString>
-									<returnType>bool</returnType>
-									<sString>sRange&lt;=8 &amp;&amp; sender.vAdd_EvadeOrRange_Redset7_2Counter &gt;= 3</sString>
-								</enabled>
-								<formulaName></formulaName>
-								<lifeTime>
-									<compiledString></compiledString>
-									<returnType>float</returnType>
-									<sString>-1.0</sString>
-								</lifeTime>
-								<LoggingEvent>-1</LoggingEvent>
-								<modifier>
-									<addValue>
-										<compiledString>FQ0AAAABAAAAGQAAAEV2YWRlX0NoYW5jZQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
-										<returnType>float</returnType>
-										<sString>cEvade_Chance</sString>
-									</addValue>
-									<multValue>
-										<compiledString></compiledString>
-										<returnType>float</returnType>
-										<sString>1.0f</sString>
-									</multValue>
-									<stat>Evasion</stat>
-									<topModifier>false</topModifier>
-									<variable></variable>
-								</modifier>
-								<providerName></providerName>
-								<startCondition>
-									<compiledString></compiledString>
-									<returnType>bool</returnType>
-									<sString>true</sString>
-								</startCondition>
-								<statModName></statModName>
-							</StatModApplicator>
-						</Item>
-						<Item href="/Items/Talents/TalentKits/Redset7_2_Pirate/program_Redset7_2_EvadeOrrange.APLR" id="E3C55F90-0521-409F-86FD-731FCE264B54">
-							<StatModApplicator>
-								<applyTarget>ApplicatorTarget</applyTarget>
-								<behaviorFlags>0</behaviorFlags>
-								<caption>Add_Range</caption>
-								<constraint>None</constraint>
-								<dontUpdate>false</dontUpdate>
-								<effect>
-									<Item href="" />
-									<Item href="" />
-								</effect>
-								<enabled>
-									<compiledString>FSIAAAADAAAANQAAAEEAAABXAAAAQWRkX0V2YWRlT3JSYW5nZV9SZWRzZXQ3XzJDb3VudGVyAFWL7FGLRQiLEItNCItCFP/Q3B2BAAAA3+D2xEF1K2gAAAAAi00IixGLTQiLgogBAAD/0NwdeQAAAN/g9sQBdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAhAAAAAAAAAIEA=</compiledString>
-									<returnType>bool</returnType>
-									<sString>sRange&gt;8 &amp;&amp; sender.vAdd_EvadeOrRange_Redset7_2Counter &gt;= 3</sString>
-								</enabled>
-								<formulaName></formulaName>
-								<lifeTime>
-									<compiledString></compiledString>
-									<returnType>float</returnType>
-									<sString>-1.0</sString>
-								</lifeTime>
-								<LoggingEvent>-1</LoggingEvent>
-								<modifier>
-									<addValue>
-										<compiledString>FRMAAAABAAAAHwAAAFJlZHNldDdfMl9BZGRSYW5nZQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
-										<returnType>float</returnType>
-										<sString>cRedset7_2_AddRange</sString>
-									</addValue>
-									<multValue>
-										<compiledString></compiledString>
-										<returnType>float</returnType>
-										<sString>1.0f</sString>
-									</multValue>
-									<stat>Range</stat>
-									<topModifier>false</topModifier>
-									<variable></variable>
-								</modifier>
-								<providerName></providerName>
-								<startCondition>
-									<compiledString></compiledString>
-									<returnType>bool</returnType>
-									<sString>true</sString>
-								</startCondition>
-								<statModName></statModName>
-							</StatModApplicator>
-						</Item>
-					</applicators>
-					<applyTarget>ApplicatorTarget</applyTarget>
-					<behaviorFlags>0</behaviorFlags>
-					<caption>–¢–µ—Ö —Å—Ç–∞—Ç—É—Å EvadeOrRange</caption>
-					<customCounter>
-						<compiledString></compiledString>
-						<returnType>int</returnType>
-						<sString>0</sString>
-					</customCounter>
-					<customProgress>
-						<compiledString></compiledString>
-						<returnType>float</returnType>
-						<sString>-1.0</sString>
-					</customProgress>
-					<description textref="" />
-					<dispellPriority>Medium</dispellPriority>
-					<effect>
-						<Item href="" />
-						<Item href="" />
-					</effect>
-					<enabled>
-						<compiledString></compiledString>
-						<returnType>bool</returnType>
-						<sString>true</sString>
-					</enabled>
-					<flags>0</flags>
-					<formulaName></formulaName>
-					<image href="" />
-					<lifeTime>
-						<compiledString></compiledString>
-						<returnType>float</returnType>
-						<sString>-1.0</sString>
-					</lifeTime>
-					<LoggingEvent>-1</LoggingEvent>
-					<name textref="" />
-					<power>0</power>
-					<providerName></providerName>
-					<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
-					<stackCount>0</stackCount>
-					<startCondition>
-						<compiledString></compiledString>
-						<returnType>bool</returnType>
-						<sString>true</sString>
-					</startCondition>
-					<statusPosition>0</statusPosition>
-					<stopBehaviour>StopByTime</stopBehaviour>
-					<unstackableWith href="" />
-				</StatusApplicator>
-			</applicator>
-			<continueCondition>
-				<compiledString></compiledString>
-				<returnType>bool</returnType>
-				<sString>0</sString>
-			</continueCondition>
-			<continueEvents>2</continueEvents>
-			<delay>
-				<compiledString></compiledString>
-				<returnType>float</returnType>
-				<sString>-1.0</sString>
-			</delay>
-			<stopCondition>
-				<compiledString></compiledString>
-				<returnType>bool</returnType>
-				<sString>0</sString>
-			</stopCondition>
-			<stopEvents>0</stopEvents>
-		</Item>
 	</applicators>
 	<applyTarget>ApplicatorTarget</applyTarget>
-	<behaviorFlags>0</behaviorFlags>
+	<behaviorFlags>184</behaviorFlags>
 	<caption>Redset7_2_EvadeOrRange</caption>
 	<effect>
 		<Item href="" />
@@ -12885,6 +13369,156 @@ PileÔªø<?xml version="1.0" encoding="utf-8"?>
 		<sString>true</sString>
 	</startCondition>
 </ProgramApplicator>Ôªø<?xml version="1.0" encoding="utf-8"?>
+<StatusApplicator>
+	<BackLink DBID="/Items/Talents/Level3/G686_Int.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level3/G687_Str.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level4/G688_AtSpd.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level4/G689_Dex.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level5/G690_Stamina.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level5/G691_Will.TALENT" Count="1" />
+	<applicators>
+		<Item href="/Items/Talents/TalentKits/Redset7_2_Pirate/status_Redset7_2_EvadeOrRange.APLR" id="86BA8944-C9E9-428F-86A0-619364484E11">
+			<StatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption>Add_Evade</caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FSIAAAADAAAANQAAAEEAAABXAAAAQWRkX0V2YWRlT3JSYW5nZV9SZWRzZXQ3XzJDb3VudGVyAFWL7FGLRQiLEItNCItCFP/Q3B2BAAAA3+D2xEF6K2gAAAAAi00IixGLTQiLgogBAAD/0NwdeQAAAN/g9sQBdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAhAAAAAAAAAIEA=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sRange&lt;=8 &amp;&amp; sender.vAdd_EvadeOrRange_Redset7_2Counter &gt;= 3</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQ0AAAABAAAAGQAAAEV2YWRlX0NoYW5jZQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+						<returnType>float</returnType>
+						<sString>cEvade_Chance</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Evasion</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/TalentKits/Redset7_2_Pirate/status_Redset7_2_EvadeOrRange.APLR" id="1AB11E13-07C0-4A76-B2F1-543742FA52C9">
+			<StatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption>Add_Range</caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FSIAAAADAAAANQAAAEEAAABXAAAAQWRkX0V2YWRlT3JSYW5nZV9SZWRzZXQ3XzJDb3VudGVyAFWL7FGLRQiLEItNCItCFP/Q3B2BAAAA3+D2xEF1K2gAAAAAi00IixGLTQiLgogBAAD/0NwdeQAAAN/g9sQBdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAhAAAAAAAAAIEA=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sRange&gt;8 &amp;&amp; sender.vAdd_EvadeOrRange_Redset7_2Counter &gt;= 3</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FRMAAAABAAAAHwAAAFJlZHNldDdfMl9BZGRSYW5nZQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+						<returnType>float</returnType>
+						<sString>cRedset7_2_AddRange</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Range</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
+		</Item>
+	</applicators>
+	<applyTarget>AbilityOwner</applyTarget>
+	<behaviorFlags>0</behaviorFlags>
+	<caption>–¢–µ—Ö —Å—Ç–∞—Ç—É—Å EvadeOrRange</caption>
+	<customCounter>
+		<compiledString></compiledString>
+		<returnType>int</returnType>
+		<sString>0</sString>
+	</customCounter>
+	<customProgress>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>-1.0</sString>
+	</customProgress>
+	<description textref="" />
+	<dispellPriority>NonDispellable</dispellPriority>
+	<effect>
+		<Item href="" />
+		<Item href="" />
+	</effect>
+	<enabled>
+		<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+		<returnType>bool</returnType>
+		<sString>true</sString>
+	</enabled>
+	<flags>0</flags>
+	<formulaName></formulaName>
+	<image href="" />
+	<lifeTime>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>-1.0</sString>
+	</lifeTime>
+	<LoggingEvent>-1</LoggingEvent>
+	<name textref="" />
+	<power>0</power>
+	<providerName></providerName>
+	<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+	<stackCount>0</stackCount>
+	<startCondition>
+		<compiledString></compiledString>
+		<returnType>bool</returnType>
+		<sString>true</sString>
+	</startCondition>
+	<statusPosition>0</statusPosition>
+	<stopBehaviour>StopByTime</stopBehaviour>
+	<unstackableWith href="" />
+</StatusApplicator>Ôªø<?xml version="1.0" encoding="utf-8"?>
 <UIEvent>
 	<BackLink DBID="/Creeps/Normals/Normal5/AttackAbility.ATCK" Count="1" />
 	<BackLink DBID="/Heroes/PinkGirl/Flyoff.APLR" Count="1" />
@@ -12962,8 +13596,11 @@ PileÔªø<?xml version="1.0" encoding="utf-8"?>
 é1Ê«iÁáX‚∑LÓ¸g•s±a4ˇ%ô^¸F˝“7∆óH“ö$˘îŸÅ_„∑X˝f™mÎE€|€h2ÄC7¡ó'’ç€Ÿ°»mÕìwÀåµFwÉiÆeFËn–f/›.Àõ>”‹äS˜àYÂÒpÊæF§Z)à(0`FÔO-ÒIÉx7ƒ˘Îó(ÎƒjàR‰©C¨ïEºQZür¢|#’n‹tvﬂã3—ç8¡∞w»®XÒëpÊÆB¨îx7ú£xmâg‘pÊd4Œê%◊ÿ¯Ü&˙ÿ»”æÑgÔ†x)πR]íX ˙\1ñs:”ﬁò=–Ÿ˝É'˚úH°≠QÒøA≤¸aMı--ÅU,êE%˚O‰-.ÕûOÎÅ-ˆùn¿ÜVËéGıˆ`§@¯16˜'Z‚\
 –l e0∆§»ò+¥πﬂ£wÿÒJ·∫+7•Aπ2$¢z“{öD>ÿd8î’
 ñÀp∆•QÊÀl ít É¥AvÄh
-ØfGÔo—i.ﬁ/√è)Û∆jﬂÿ•ª~‰©o¿í{Rõc9çU:Ôlÿ)«c4ﬂ–ƒî.Ö7∏¶XÊÜZΩÛh¥Ì$èU'∑~CîR*¸Bú}<…˛–í'Óﬂ˜ÖY·ñFßóK˜±KN‚gE˛ 3˚wñ_˝A˛”(«îI’õ'¯õ⁄ÄX‚¥YÛ¸r†z±S bKÂo9√f"û£}˝•!Èè5Ò»JˇèTÙ∏A Ä@∏{ÛHX‚U◊m9‡p…ï)ƒ⁄ °Ωû]ÓﬂgÃ˜n¥Jπ23¨{”a'√m5⁄r{‚å(ŒáÏüK˝à~Áß^‚±u8Ä#ÄY9ÏmŸ4˝(€e=“äc‹ù(ıÑP‘íR‰©C¨ì_°V6ΩhÆy!÷t’`ÈØËô?˚É-ˆÜ≈™sﬂÚWÊ∑(=ü˘LÒÀEòÔ>ë‰7ä›0É÷)|≠~˝.ÿU¡§Å`¡?Y¨ˇR•¯bûÒD…ﬂ22â‹˛•’(Nª!t«m¿KfπÑ◊ˆ™ÿŒQ§ÑzùEÈ<è‚5àZ.Å‘‹_Ú'ˆlÎ"e∏rì±W™˝PˆIú”ƒ–ú€ù·4g…-Ä€yÃr≈ºæd€+ E©¸l±ıH6ˇ@îÁ:ç‡5áŸ,¶Ã€±
+ØfGÔo—i.ﬁ/√è)Û¡jﬂ›¶ªd˛Ø◊óe9Åv[∞¡]ﬂ`úR8¿ö<—ãd“î2ÚÜ	ø§πËpÀª\$çe&ÈN,åV(Ì"'÷gX‚ä4…Ñe…ë/ÛáH¸ÕyÌ≠KÌ‡=˚KôXÏbñ_˝A˛”(«îI’õ'¯õ⁄ÄX‚¥YÛ¸j∫zÒ7,à)]ËN8»-Ë∞
+Ï°f„ä#îÆNËç@©çM∑K∏1=°a—%LÒ?eü]‹ö#»ö&¥πﬂ£wÿÒJ·∫+7•Aπ2$¢z“{öD>ÿd8í’
+ñ w∆ªV˛âﬂü}¡ô~S®G…UßxîZ ÿb4Ÿs|Úò ˙ú1”ÇJ‚ÀeÔπCÊ¢#˝}%°iµqH ‘t8¡† ¿ú8˚Ös»ÿb’ïWÌπ`áI©DZÜJ!í=›n_˚q=∆ç~ñ&¯û7Â∆hÓéPÊØeË†TUüEµ|àMWÁ[7√e#œ“#◊ó=Èú«ç_˝Ñ@∞ÖﬂñP®z=∑J
+–vôK¸Qx—ò-¢†¥´7ÒâN˛œpÈ¥Aº`Æp∑8/Àu¬J)‹v:≈Ω"ÿõ!¸≤√»l≈öd´†O—q>ÂX¶xœ !⁄e6¡o—ü#‘Äi‹öZ¸ë{˛≠EÎ∫l©LØC*íJ%⁄z∆n;¡.Ôº±ä!˙Î=ü˘LÒÀEòÔ>ë‰7ä›0É÷)|≠~˝.ÿU¡§Å`¡?Y¨ˇR•¯bûÒD…ﬂ22â‹˛•’(Nª!t«m¿KfπÑ◊ˆ™ÿŒQ§ÑzùEÈ<è‚5àZ.Å‘‹_Ú'ˆlÎ"e∏rì±W™˝PˆIú”ƒ–ú€ù·4g…-Ä€yÃr≈ºæd€+ E©¸l±ıH6ˇ@îÁ:ç‡5áŸ,¶Ã€±
 qƒm~Ω≥í\ØU®ŒO°Ù¥<ﬁõΩ≈9åÒÖÿaG–$w pßiº	CUZ†èT\€M†ãòÏ?íÂ8ﬂ1ÑxkX…]Ïh»p`¥Z≠ Âß˘L«jÓK"ë‰óñ›0&z(|œ"u»˘o¡B¥*L‰"Y¨®v•¯WDóÍ=ê‰4â‹§ªdÔ3·!tè5m¿èã∏_≤Xö¸Q§&z/ÉÎﬁÈ<'™5à?2É‘'zÕ /ƒlJ"©B±F∂˝P/ìKúÔBïËΩå·4T∏;â
 yÃE^≈ˆ?d∑
 ]∞≤T©¸™\7¨{¿Aîç‡ƒ+€,“%xqƒpΩÛÒ	\¿EU®,í£ÙGöÌ@íÂ9åìJÈ&Œ[—$íÔpÖ2jºbµ}≠T~ìâ≥)ZôÏÂéÂ8†î2Ñ◊*}–hu…iÃÃÿ9a¥ÖF≠ V¡˙LüÚEòÖ=ë‰h®ÛsB )|>u»úÌ¬g∫` Y¨w<N’$»ÒD¯º=ê´ñä‹/Ç’(¿Õ!tæàó—=lπq∏XR§˜JùÆïÈ<çyØóLRÅ‘∞Õ ñ∆løe∏:Z±kµÁIúRSïËGÛÂ4á⁄-Ä∑"yÃ§f≥¯ä£dV]∞:Ÿ≠¸O¢ıHÍAî„™PóëŸ,€≈%x—≥uƒjΩÆ≤	\]BÃ
-°ÙpﬁÌ@-"=åﬂ2Öÿ({—$5—] ±;iº}OµÆ¶Tß˙M†ÃCôÏ ]Y|É˘0Ñﬂ|–D@Ão¬h◊a¥…ÍMsØà˘Lc‹EòÑcó‰7ä›0”)|B6÷A’s¡©ß`ÿä_¨ˇR•¯ÇõÒDfÁ$∂hâ‹§Ø’(Bd't«m¿·cπªjÏ„8·Q§dUùáAÔ<è‚5àƒ(Å‘æÙ'⁄lÎe∏\©∑W™˝PÈIúMh]îµ·4°·-Äx5~Ãr≈∏dt!˙^QR©¸¶ıHJ†FîÁ:ç‡ˆÄŸ,Ä≥~sqƒØoΩ@Â\ØU®H°Ù»bÑPile  (   €X 8  ` 
+°ÙpﬁÌ@-"=åﬂ2Öÿ({—$5—] ±;iº}OµÆ¶Tß˙M†ÃCôÏ ]Y|É˘0Ñﬂ|–D@Ão¬h◊a¥…ÍMsØà˘Lc‹EòÑcó‰7ä›0”)|B6÷A4p¡H§`ÿä_¨ˇR•¯ÇõÒDΩÄÈ6)â‹≥ù’(·d't«m¿·cπΩ8÷ü ”Q§|gùu\Ô<è‚5à¿(Å‘√¢$õáŸlKe∏ ©∑W™˝PÎIú£d≥åéí·42∆-Äf1~Ãr≈∏dwokí¡}©¸çâıHÒ⁄FîÁ:ç‡ØÄŸ,‡R_Ü?qƒZKΩO÷\ØU®2H°Ù4π!ƒ9åmÖÿRˇ÷$w p0iºS˘.yÿªT$ÔM†ÿ‚ûÏ?íÂ8ŒŸ1ÑYº˝íqr…=∆h∑f¥Z≠ ≈°˘L`ìdûS;ë‰èè›0Éh.|œ"u»–i¡-ËÇ§Pile  ,   ∏√ 	  ¡À 
