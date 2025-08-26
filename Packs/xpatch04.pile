@@ -51349,8 +51349,6 @@ PileÔªø<?xml version="1.0" encoding="utf-8"?>
 	<warFogRemoveTime>0</warFogRemoveTime>
 </Talent>ˇ˛@8720==K9  :;>=  0B0:C5B  2@030,   =5  ?>72>;OO  5<C  =8G53>  45;0BL  < s t y l e : T T _ M A R K > < v a l u e = t a l e n t . c o n s t . S t u n _ D u r a t i o n > < / s t y l e >   A5:.   B0:8  35@>O  4>?>;=8B5;L=>  =0=>AOB    < s t y l e : T T _ M A R K > < v a l u e = t a l e n t . c o n s t . A 4 _ B o n u s D a m a g e > < / s t y l e > < i m a g e : e n e r g y _ d a m a g e >   C@>=0  =0  < s t y l e : T T _ M A R K > < v a l u e = t a l e n t . c o n s t . B u f f _ D u r a t i o n > < / s t y l e >   A5:.  
  < b r >  
- >A;5  0B0:8  8AG5705B.  
- < b r >  
   
  < i f = t a l e n t . i s B o u g h t >  
   
@@ -52704,7 +52702,22 @@ PileÔªø<?xml version="1.0" encoding="utf-8"?>
 	<vendorCost>0</vendorCost>
 	<warFogRemoveRadius>0</warFogRemoveRadius>
 	<warFogRemoveTime>0</warFogRemoveTime>
-</Talent>Ôªø<?xml version="1.0" encoding="utf-8"?>
+</Talent>ˇ˛@8720==K9  :;>=  0B0:C5B  2@030,   =0=>AO  5<C  < s t y l e : T T _ M A R K > < v a l u e = t a l e n t . c o n s t . A 4 _ D a m a g e > < / s t y l e >   < i m a g e : p h y s i c a l _ d a m a g e   s p a c e b = 0 . 5 >   C@>=0.  
+ < b r >  
+  
+ < i f = t a l e n t . i s B o u g h t >  
+  
+ < i f = t a l e n t . i f . E n o u g h C l o n e s > < e l s e >  
+ < b r >  
+ < b r : 5 0 >  
+ < s t y l e : T T _ e r r o r _ m e s s a g e > 5B  :;>=0< / s t y l e > < / i f >  
+  
+ < i f = t a l e n t . i f . F a r A w a y C l o n e >  
+ < b r >  
+ < b r : 5 0 >  
+ < s t y l e : T T _ e r r o r _ m e s s a g e > ;>=  A;8H:><  40;5:>< / s t y l e > < / i f >  
+  
+ < / i f > Ôªø<?xml version="1.0" encoding="utf-8"?>
 <ProgramApplicator>
 	<BackLink DBID="/Items/Talents/Class/Alchemist/Ability_A4.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" Count="1" />
@@ -53084,6 +53097,452 @@ PileÔªø<?xml version="1.0" encoding="utf-8"?>
 	<applyTarget>ApplicatorTarget</applyTarget>
 	<behaviorFlags>216</behaviorFlags>
 	<caption> - –ü—Ä–æ–≥—Ä–∞–º–º–∞ –¥–ª—è –†–∞–∑—É–º–Ω–æ–≥–æ –ö–ª–æ–Ω–∞ ("–†—Ç—É—Ç–∏") </caption>
+	<effect>
+		<Item href="" />
+		<Item href="" />
+	</effect>
+	<enabled>
+		<compiledString></compiledString>
+		<returnType>bool</returnType>
+		<sString>true</sString>
+	</enabled>
+	<formulaName></formulaName>
+	<lifeTime>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>-1.0</sString>
+	</lifeTime>
+	<LoggingEvent>-1</LoggingEvent>
+	<providerName></providerName>
+	<startCondition>
+		<compiledString></compiledString>
+		<returnType>bool</returnType>
+		<sString>true</sString>
+	</startCondition>
+</ProgramApplicator>Ôªø<?xml version="1.0" encoding="utf-8"?>
+<ProgramApplicator>
+	<BackLink DBID="/Items/Talents/Class/Alchemist/Ability_A4.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" Count="1" />
+	<applicators>
+		<Item>
+			<applicator href="/Items/Talents/Class/Alchemist/programm_A4_StrClone.APLR" id="DFA3A50E-61DE-4DEC-A14E-F600FD8F9765">
+				<FlagsApplicator>
+					<applyTarget>AbilityOwner</applyTarget>
+					<behaviorFlags>0</behaviorFlags>
+					<caption>- –°–Ω–∏–º–∞–µ–º —Å –≥–µ—Ä–æ—è –Ω–µ–≤–∏–¥–∏–º–æ—Å—Ç—å</caption>
+					<consumables />
+					<effect>
+						<Item href="" />
+						<Item href="" />
+					</effect>
+					<enabled>
+						<compiledString></compiledString>
+						<returnType>bool</returnType>
+						<sString>true</sString>
+					</enabled>
+					<flag>134217728</flag>
+					<formulaName></formulaName>
+					<lifeTime>
+						<compiledString>FQUAAAABAAAAEQAAAFNURVAAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+						<returnType>float</returnType>
+						<sString>cSTEP</sString>
+					</lifeTime>
+					<LoggingEvent>-1</LoggingEvent>
+					<providerName></providerName>
+					<startCondition>
+						<compiledString></compiledString>
+						<returnType>bool</returnType>
+						<sString>true</sString>
+					</startCondition>
+					<talents />
+					<useListAs>ListAsRule</useListAs>
+				</FlagsApplicator>
+			</applicator>
+			<continueCondition>
+				<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+				<returnType>bool</returnType>
+				<sString>0</sString>
+			</continueCondition>
+			<continueEvents>1</continueEvents>
+			<delay>
+				<compiledString></compiledString>
+				<returnType>float</returnType>
+				<sString>-1.0</sString>
+			</delay>
+			<stopCondition>
+				<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+				<returnType>bool</returnType>
+				<sString>0</sString>
+			</stopCondition>
+			<stopEvents>0</stopEvents>
+		</Item>
+		<Item>
+			<applicator href="/Items/Talents/Class/Alchemist/programm_A4_StrClone.APLR" id="0005561A-5DB9-40B6-A95A-71DE2F306F0C">
+				<SpellApplicator>
+					<applyTarget>ApplicatorTarget</applyTarget>
+					<caption> - –°–ø–µ–ª–ª —Å —Ñ–ª–∞–≥–∞–º–∏ –Ω–∞ –∫–ª–æ–Ω–∞ (—á—Ç–æ–±—ã –µ–º—É –Ω–∏—á–µ–≥–æ –Ω–µ –º–µ—à–∞–ª–æ)</caption>
+					<enabled>
+						<compiledString></compiledString>
+						<returnType>bool</returnType>
+						<sString>true</sString>
+					</enabled>
+					<formulaName></formulaName>
+					<LoggingEvent>-1</LoggingEvent>
+					<providerName></providerName>
+					<spell href="/Items/Talents/Class/Alchemist/programm_A4_StrClone.APLR" id="3282C1A3-D788-4E3D-BB6E-31B17F9A9C74">
+						<Spell>
+							<applicators>
+								<Item href="/GameLogic/GeneralApplicators/Dispell.APLR" />
+								<Item href="/GameLogic/GeneralApplicators/Immune2Control.APLR" />
+								<Item href="/Items/Talents/Class/Alchemist/programm_A4_StrClone.APLR" id="21103002-A63D-4CB4-A28E-1A5A0FD988F6">
+									<FlagsApplicator>
+										<applyTarget>ApplicatorTarget</applyTarget>
+										<behaviorFlags>152</behaviorFlags>
+										<caption> - –§–ª–∞–≥–∏ –Ω–∞ –∫–ª–æ–Ω–∞, —á—Ç–æ–±—ã —Å –Ω–∏–º –Ω–∏—á–µ–≥–æ –Ω–µ —Å–æ—Ç–≤–æ—Ä–∏–ª–∏ –∑–ª—ã–µ –≤—Ä–∞–≥–∏.</caption>
+										<consumables />
+										<effect>
+											<Item href="" />
+											<Item href="" />
+										</effect>
+										<enabled>
+											<compiledString></compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</enabled>
+										<flag>86246277</flag>
+										<formulaName>CloneIsCasting</formulaName>
+										<lifeTime>
+											<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+											<returnType>float</returnType>
+											<sString>1</sString>
+										</lifeTime>
+										<LoggingEvent>-1</LoggingEvent>
+										<providerName></providerName>
+										<startCondition>
+											<compiledString></compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</startCondition>
+										<talents />
+										<useListAs>ListAsRule</useListAs>
+									</FlagsApplicator>
+								</Item>
+							</applicators>
+							<dispatch href="/Items/Talents/Class/Alchemist/programm_A4_StrClone.APLR" id="A85366F8-FAFB-4C2C-9418-4FCE63BE5D0D">
+								<DispatchImmediate>
+									<alwaysApply>false</alwaysApply>
+									<applyEffect>
+										<Item href="" />
+										<Item href="" />
+									</applyEffect>
+									<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+									<applyEffectOrientation>Default</applyEffectOrientation>
+									<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+									<dieAfterApply>true</dieAfterApply>
+									<dispatchEffect>
+										<Item href="" />
+										<Item href="" />
+									</dispatchEffect>
+									<flags>0</flags>
+									<instantApply>true</instantApply>
+								</DispatchImmediate>
+							</dispatch>
+						</Spell>
+					</spell>
+					<spellTarget>ApplicatorTarget</spellTarget>
+					<targetSelector href="/Items/Talents/Class/Alchemist/CloneTargetSelector.TGSL" />
+				</SpellApplicator>
+			</applicator>
+			<continueCondition>
+				<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+				<returnType>bool</returnType>
+				<sString>0</sString>
+			</continueCondition>
+			<continueEvents>1</continueEvents>
+			<delay>
+				<compiledString></compiledString>
+				<returnType>float</returnType>
+				<sString>-1.0</sString>
+			</delay>
+			<stopCondition>
+				<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+				<returnType>bool</returnType>
+				<sString>0</sString>
+			</stopCondition>
+			<stopEvents>0</stopEvents>
+		</Item>
+		<Item>
+			<applicator href="/Items/Talents/Class/Alchemist/programm_A4_StrClone.APLR" id="133ACF51-E342-4F61-A8FF-046C1331D576">
+				<StatModApplicator>
+					<applyTarget>AbilityOwner</applyTarget>
+					<behaviorFlags>0</behaviorFlags>
+					<caption>–∑–∞–ø–∏—Å—ã–≤–∞–µ–º –ê–ª—Ö–∏–º–∏—á–∫–µ –∫–æ–Ω—Å—Ç–∞–Ω—Ç—É A4_InProgress, —á—Ç–æ–±—ã –Ω–µ –≤—ã–∑–≤–∞—Ç—å –Ω–æ–≤–æ–≥–æ –ö–ª–æ–Ω–∞ —Ä–∞–Ω—å—à–µ –≤—Ä–µ–º–µ–Ω–∏</caption>
+					<constraint>None</constraint>
+					<dontUpdate>false</dontUpdate>
+					<effect>
+						<Item href="" />
+						<Item href="" />
+					</effect>
+					<enabled>
+						<compiledString></compiledString>
+						<returnType>bool</returnType>
+						<sString>true</sString>
+					</enabled>
+					<formulaName></formulaName>
+					<lifeTime>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
+						<returnType>float</returnType>
+						<sString>2 ; // —ç—Ç–æ–≥–æ –¥–æ–ª–∂–Ω–æ –±—ã—Ç—å –¥–æ—Å—Ç–∞—Ç–æ—á–Ω–æ, —á—Ç–æ–±—ã –¥–∏—Å–ø–∞—Ç—á –¥–æ—Å—Ç–∏–≥ —Ü–µ–ª–∏</sString>
+					</lifeTime>
+					<LoggingEvent>-1</LoggingEvent>
+					<modifier>
+						<addValue>
+							<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+							<returnType>float</returnType>
+							<sString>1</sString>
+						</addValue>
+						<multValue>
+							<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+							<returnType>float</returnType>
+							<sString>0</sString>
+						</multValue>
+						<stat>Life</stat>
+						<topModifier>false</topModifier>
+						<variable>A4_InProgress</variable>
+					</modifier>
+					<providerName></providerName>
+					<startCondition>
+						<compiledString></compiledString>
+						<returnType>bool</returnType>
+						<sString>true</sString>
+					</startCondition>
+					<statModName></statModName>
+				</StatModApplicator>
+			</applicator>
+			<continueCondition>
+				<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+				<returnType>bool</returnType>
+				<sString>0</sString>
+			</continueCondition>
+			<continueEvents>1</continueEvents>
+			<delay>
+				<compiledString></compiledString>
+				<returnType>float</returnType>
+				<sString>-1.0</sString>
+			</delay>
+			<stopCondition>
+				<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+				<returnType>bool</returnType>
+				<sString>0</sString>
+			</stopCondition>
+			<stopEvents>0</stopEvents>
+		</Item>
+		<Item>
+			<applicator href="/Items/Talents/Class/Alchemist/programm_A4_StrClone.APLR" id="F94560B8-F3E3-43F0-8739-230D5E0D0804">
+				<StatusApplicator>
+					<applicators>
+						<Item href="/Items/Talents/Class/Alchemist/programm_A4_StrClone.APLR" id="784A156E-5D5E-43CA-B4AC-6D8B173E0961">
+							<StatModApplicator>
+								<applyTarget>ApplicatorTarget</applyTarget>
+								<behaviorFlags>152</behaviorFlags>
+								<caption> - Alchemist_MarkForA4 =1 (–º–µ—Ç–∏–º —Ü–µ–ª—å –¥–ª—è –∞–±–∏–ª–∫–∏ –ö–ª–æ–Ω–∞)</caption>
+								<constraint>None</constraint>
+								<dontUpdate>false</dontUpdate>
+								<effect>
+									<Item href="" />
+									<Item href="" />
+								</effect>
+								<enabled>
+									<compiledString></compiledString>
+									<returnType>bool</returnType>
+									<sString>true</sString>
+								</enabled>
+								<formulaName></formulaName>
+								<lifeTime>
+									<compiledString></compiledString>
+									<returnType>float</returnType>
+									<sString>-1.0</sString>
+								</lifeTime>
+								<LoggingEvent>-1</LoggingEvent>
+								<modifier>
+									<addValue>
+										<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+										<returnType>float</returnType>
+										<sString>1</sString>
+									</addValue>
+									<multValue>
+										<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+										<returnType>float</returnType>
+										<sString>1</sString>
+									</multValue>
+									<stat>Life</stat>
+									<topModifier>false</topModifier>
+									<variable>Alchemist_MarkForA4</variable>
+								</modifier>
+								<providerName></providerName>
+								<startCondition>
+									<compiledString></compiledString>
+									<returnType>bool</returnType>
+									<sString>true</sString>
+								</startCondition>
+								<statModName></statModName>
+							</StatModApplicator>
+						</Item>
+					</applicators>
+					<applyTarget>AbilityTarget</applyTarget>
+					<behaviorFlags>155</behaviorFlags>
+					<caption> - —Å—Ç–∞—Ç—É—Å —á—Ç–æ–±—ã –ø–æ–º–µ—á–∞—Ç—å —Ü–µ–ª—å –¥–ª—è –∞–±–∏–ª–∫–∏ –ö–ª–æ–Ω–∞</caption>
+					<customCounter>
+						<compiledString></compiledString>
+						<returnType>int</returnType>
+						<sString>0</sString>
+					</customCounter>
+					<customProgress>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>-1.0</sString>
+					</customProgress>
+					<description textref="/Items/Talents/Class/Alchemist/programm_A4_StrClone.APLR_f94560b8f3e343f08739230d5e0d0804_description.txt" />
+					<dispellPriority>NonDispellable</dispellPriority>
+					<effect>
+						<Item href="" />
+						<Item href="" />
+					</effect>
+					<enabled>
+						<compiledString>FRQAAAACAAAAGQAAAC8AAABBNF9DbG9uQWJpbGl0eUFwcGx5AFWL7FFoAAAAAItFDIsQi00Mi4KIAQAA/9DcHVEAAADf4PbEBXoJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAADwPw==</compiledString>
+						<returnType>bool</returnType>
+						<sString>receiver.vA4_ClonAbilityApply &lt; 1</sString>
+					</enabled>
+					<flags>0</flags>
+					<formulaName></formulaName>
+					<image href="" />
+					<lifeTime>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DZmbmPw==</compiledString>
+						<returnType>float</returnType>
+						<sString>1.8</sString>
+					</lifeTime>
+					<LoggingEvent>-1</LoggingEvent>
+					<name textref="/Items/Talents/Class/Alchemist/programm_A4_StrClone.APLR_f94560b8f3e343f08739230d5e0d0804_name.txt" />
+					<power>0</power>
+					<providerName></providerName>
+					<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+					<stackCount>0</stackCount>
+					<startCondition>
+						<compiledString></compiledString>
+						<returnType>bool</returnType>
+						<sString>true</sString>
+					</startCondition>
+					<statusPosition>0</statusPosition>
+					<stopBehaviour>StopByTime</stopBehaviour>
+					<unstackableWith href="" />
+				</StatusApplicator>
+			</applicator>
+			<continueCondition>
+				<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+				<returnType>bool</returnType>
+				<sString>0</sString>
+			</continueCondition>
+			<continueEvents>2</continueEvents>
+			<delay>
+				<compiledString></compiledString>
+				<returnType>float</returnType>
+				<sString>-1.0</sString>
+			</delay>
+			<stopCondition>
+				<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+				<returnType>bool</returnType>
+				<sString>0</sString>
+			</stopCondition>
+			<stopEvents>0</stopEvents>
+		</Item>
+		<Item>
+			<applicator href="/Items/Talents/Class/Alchemist/programm_A4_StrClone.APLR" id="E7C570E2-04C8-469A-A97F-9D977AF65E08">
+				<SpellApplicator>
+					<applyTarget>AbilityTarget</applyTarget>
+					<caption>—Å–ø–µ–ª–ª —Å —É—Ä–æ–Ω–æ–º</caption>
+					<enabled>
+						<compiledString></compiledString>
+						<returnType>bool</returnType>
+						<sString>true</sString>
+					</enabled>
+					<formulaName></formulaName>
+					<LoggingEvent>-1</LoggingEvent>
+					<providerName></providerName>
+					<spell href="/Items/Talents/Class/Alchemist/programm_A4_StrClone.APLR" id="3010CD68-CACC-4455-87F4-DA128CFDAB34">
+						<Spell>
+							<applicators>
+								<Item href="/Items/Talents/Class/Alchemist/programm_A4_StrClone.APLR" id="146AA6B4-06D3-4BF3-9762-765FA9DAB9D2">
+									<DamageApplicator>
+										<applyTarget>AbilityTarget</applyTarget>
+										<cancelInvisibility>false</cancelInvisibility>
+										<caption> - –Ω–∞–Ω–æ—Å–∏–º —É—Ä–æ–Ω —Ü–µ–ª–∏ –∞–±–∏–ª–∫–∏</caption>
+										<damage>
+											<compiledString>FQoAAAABAAAAFgAAAEE0X0RhbWFnZQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+											<returnType>float</returnType>
+											<sString>cA4_Damage</sString>
+										</damage>
+										<damageMode>4</damageMode>
+										<damageType>Material</damageType>
+										<enabled>
+											<compiledString></compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</enabled>
+										<formulaName></formulaName>
+										<LoggingEvent>-1</LoggingEvent>
+										<providerName></providerName>
+										<timeLimiter>-1</timeLimiter>
+										<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Material.UIEV" />
+									</DamageApplicator>
+								</Item>
+							</applicators>
+							<dispatch href="/Items/Talents/Class/Alchemist/programm_A4_StrClone.APLR" id="3D31B3C1-4100-4B62-AF58-04047111D57E">
+								<DispatchImmediate>
+									<alwaysApply>false</alwaysApply>
+									<applyEffect>
+										<Item href="" />
+										<Item href="" />
+									</applyEffect>
+									<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+									<applyEffectOrientation>Default</applyEffectOrientation>
+									<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+									<dieAfterApply>true</dieAfterApply>
+									<dispatchEffect>
+										<Item href="" />
+										<Item href="" />
+									</dispatchEffect>
+									<flags>1</flags>
+									<instantApply>false</instantApply>
+								</DispatchImmediate>
+							</dispatch>
+						</Spell>
+					</spell>
+					<spellTarget>ApplicatorTarget</spellTarget>
+					<targetSelector href="" />
+				</SpellApplicator>
+			</applicator>
+			<continueCondition>
+				<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+				<returnType>bool</returnType>
+				<sString>0</sString>
+			</continueCondition>
+			<continueEvents>1</continueEvents>
+			<delay>
+				<compiledString></compiledString>
+				<returnType>float</returnType>
+				<sString>-1.0</sString>
+			</delay>
+			<stopCondition>
+				<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+				<returnType>bool</returnType>
+				<sString>0</sString>
+			</stopCondition>
+			<stopEvents>0</stopEvents>
+		</Item>
+	</applicators>
+	<applyTarget>ApplicatorTarget</applyTarget>
+	<behaviorFlags>216</behaviorFlags>
+	<caption> - –ü—Ä–æ–≥—Ä–∞–º–º–∞ –¥–ª—è –°–∏–ª–æ–≤–æ–≥–æ –ö–ª–æ–Ω–∞ ("–°–µ—Ä—ã") : –±–ª–∏–Ω–∫ –∫ —Ü–µ–ª–∏, –¥–∞–º–∞–≥, –∞–Ω—Å–∞–º–º–æ–Ω</caption>
 	<effect>
 		<Item href="" />
 		<Item href="" />
@@ -66324,9 +66783,9 @@ PileÔªø<?xml version="1.0" encoding="utf-8"?>
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQQ==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADgQA==</compiledString>
 		<returnType>float</returnType>
-		<sString>8</sString>
+		<sString>7</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>
@@ -67073,9 +67532,9 @@ PileÔªø<?xml version="1.0" encoding="utf-8"?>
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACQQQ==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABQQQ==</compiledString>
 		<returnType>float</returnType>
-		<sString>18</sString>
+		<sString>13</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>
@@ -93158,6 +93617,589 @@ PileÔªø<?xml version="1.0" encoding="utf-8"?>
 	<warFogRemoveTime>0</warFogRemoveTime>
 </Talent>Ôªø<?xml version="1.0" encoding="utf-8"?>
 <Talent>
+	<BackLink DBID="/Items/Talents/Shaman.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Shaman_Alternative.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/TalentList_Mighty/Shaman_Mighty.TALENTSET" Count="1" />
+	<activationConditions />
+	<activeCustomTrigger>true</activeCustomTrigger>
+	<allowChase>
+		<compiledString></compiledString>
+		<returnType>bool</returnType>
+		<sString>true</sString>
+	</allowChase>
+	<alternativeTargets />
+	<aoeDisplayOnMinimap>false</aoeDisplayOnMinimap>
+	<aoeHeight>0</aoeHeight>
+	<aoeMaterial href="" />
+	<aoePassabilityCheckMode>0</aoePassabilityCheckMode>
+	<aoeSize>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</aoeSize>
+	<aoeType>None</aoeType>
+	<applicators />
+	<askId>0</askId>
+	<autoTargetSelector href="" />
+	<budget>-1</budget>
+	<caption>A0. –ú–∞–≥–∏—è —Å–º–µ—Ä—Ç–∏</caption>
+	<castAllowRange>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</castAllowRange>
+	<castLimitations />
+	<commonDescription textref="" />
+	<compiledDescriptionA textref="" />
+	<compiledDescriptionB textref="" />
+	<conditionFormulas>
+		<Item href="/Items/Talents/Class/Shaman/Ability_A0.TALENT" id="9B2C1673-328D-49AD-B21A-80F9DEC4D4DE">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FR4AAAACAAAAJQAAAD4AAABTaGFtYW5fQTBfU1VQAAAAU2hhbWFuX0EwX1NVUABVi+yD7AhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2Rfv32BvAg8ABi+Vdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("Shaman_A0_SUP") == false</sString>
+				</condition>
+				<name>Shaman_A0_SUP</name>
+			</ConditionFormula>
+		</Item>
+	</conditionFormulas>
+	<conflictingTalents>
+		<Item href="/Items/Talents/Class/Shaman/Ability_A2_SUP.TALENT" />
+	</conflictingTalents>
+	<constants href="/Items/Talents/Class/Shaman/Ability_A0.TALENT" id="712EF8CE-C192-4BAF-BD80-E6F5382882CA">
+		<UnitConstantsContainer>
+			<vars>
+				<Item href="/Items/Talents/Class/Shaman/Ability_A0.TALENT" id="E4842856-80AA-4367-B7C1-D59EC88C70D1">
+					<UnitConstant>
+						<name>A0_Range</name>
+						<var>
+							<compiledString>FQ0AAAABAAAAGQAAAFJhbmdlX0V4TG9uZwBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+							<returnType>float</returnType>
+							<sString>cRange_ExLong</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Shaman/const_A0_DefPercent" />
+				<Item href="/Items/Talents/Class/Shaman/Ability_A0.TALENT" id="3DFD0F1C-1E2D-47F6-BB96-42FFCAC94E03">
+					<UnitConstant>
+						<name>A0_Heal_Self</name>
+						<var>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBWMAAADZHCRR2QVfAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJItNCIsRi00Ii4IwAQAA/9BR2Rwk6B8AAACDxATZHCRqAYtNEIsRi00Qi0Jg/9BdwwAAMEEAAKZCVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
+							<returnType>float</returnType>
+							<sString>damageScale(max(sStrength, sIntellect), 11, 83 )</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Shaman/Ability_A0.TALENT" id="79B8EA6B-07CC-43D0-9637-806073117461">
+					<UnitConstant>
+						<name>A0_Heal_Ally</name>
+						<var>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAAwQQAApkI=</compiledString>
+							<returnType>float</returnType>
+							<sString>damageScale(sIntellect, 11, 83)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Shaman/Ability_A0.TALENT" id="98145AD1-6D5F-4CE1-854E-21A02CEDA132">
+					<UnitConstant>
+						<name>A0_Hero_Heal</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
+							<returnType>float</returnType>
+							<sString>3</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+			</vars>
+		</UnitConstantsContainer>
+	</constants>
+	<consumptionBonus>
+		<constant>0</constant>
+		<percent>0</percent>
+	</consumptionBonus>
+	<cooldownTime>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</cooldownTime>
+	<cooldownTimeSecondState>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</cooldownTimeSecondState>
+	<description textref="/Items/Talents/Class/Shaman/Ability_A0.TALENT_description.txt" />
+	<devPoints>1</devPoints>
+	<dispatch href="" />
+	<flags>1</flags>
+	<forceBonus>0</forceBonus>
+	<image href="/UI/Styles/Icons/Heroes/Shaman/A0.ITEX" />
+	<imageSecondState href="" />
+	<isGenderTalent>false</isGenderTalent>
+	<isTakenOnStart>true</isTakenOnStart>
+	<isUltimateTalent>false</isUltimateTalent>
+	<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
+	<manaCost>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</manaCost>
+	<marker></marker>
+	<microAI href="" />
+	<minLevel>0</minLevel>
+	<minUseRangeCorrection>0</minUseRangeCorrection>
+	<naftaCost>0</naftaCost>
+	<name textref="/Items/Talents/Class/Shaman/Ability_A0.TALENT_name.txt" />
+	<node></node>
+	<passiveApplicators>
+		<Item href="/Items/Talents/Class/Shaman/Ability_A0.TALENT" id="99F8A180-C51F-4BDE-B2BF-5CCBDCBA944D">
+			<AuraApplicator>
+				<applicators>
+					<Item href="/Items/Talents/Class/Shaman/A0_aura_status.APLR" />
+				</applicators>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption>–ê—É—Ä–∞ –¥—ç—Ñ–æ–≤</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<range>
+					<compiledString>FQkAAAABAAAAFQAAAEEwX1JhbmdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+					<returnType>float</returnType>
+					<sString>cA0_Range</sString>
+				</range>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<targets>1342177311</targets>
+				<targetSelector href="" />
+				<type>None</type>
+			</AuraApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/Shaman/Ability_A0.TALENT" id="02AD7C3E-F478-41F0-9B21-BAAE1EFA30B2">
+			<TriggerApplicator>
+				<actionsCount>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>0</sString>
+				</actionsCount>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption>—Ç—Ä–∏–≥–≥–µ—Ä –Ω–∞ —Å–º–µ—Ä—Ç—å –æ–∫—Ä—É–∂–∞—é—â–∏—Ö –≤—Ä–∞–≥–æ–≤ –Ω–µ –≥–µ—Ä–æ–µ–≤</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<playAck>false</playAck>
+				<processor href="/Items/Talents/Class/Shaman/Ability_A0.TALENT" id="850FC9F8-EB55-4EE4-AA04-18F2F9D711B5">
+					<EventProcessorUnitDieNearMe>
+						<applyTarget>AbilityOwner</applyTarget>
+						<checkSender>0</checkSender>
+						<killerFlags>11</killerFlags>
+						<range>
+							<compiledString>FQkAAAABAAAAFQAAAEEwX1JhbmdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+							<returnType>float</returnType>
+							<sString>cA0_Range</sString>
+						</range>
+						<senderMatchTarget>ApplicatorTarget</senderMatchTarget>
+						<spell href="/Items/Talents/Class/Shaman/Ability_A0.TALENT" id="583857DB-9A5E-40B9-8111-4025BD11D69A">
+							<Spell>
+								<applicators>
+									<Item href="/Items/Talents/Class/Shaman/Ability_A0.TALENT" id="70A16A56-B9F9-4B40-8ECA-D98CE928C70F">
+										<SpellApplicator>
+											<applyTarget>ApplicatorTarget</applyTarget>
+											<caption>–°–ø–µ–ª –≤ —Å–æ—é–∑–Ω—ã—Ö –≥–µ—Ä–æ–µ–≤</caption>
+											<enabled>
+												<compiledString></compiledString>
+												<returnType>bool</returnType>
+												<sString>true</sString>
+											</enabled>
+											<formulaName></formulaName>
+											<LoggingEvent>-1</LoggingEvent>
+											<providerName></providerName>
+											<spell href="/Items/Talents/Class/Shaman/Ability_A0.TALENT" id="4229B9EA-795D-401C-A22B-6421BAFD78F1">
+												<Spell>
+													<applicators>
+														<Item href="/Items/Talents/Class/Shaman/Ability_A0.TALENT" id="159C172D-45F3-4664-A07C-9F36BF721C20">
+															<HealApplicator>
+																<amount>
+																	<compiledString>FQ0AAAABAAAAGQAAAEEwX0hlYWxfQWxseQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+																	<returnType>float</returnType>
+																	<sString>cA0_Heal_Ally</sString>
+																</amount>
+																<applyTarget>ApplicatorTarget</applyTarget>
+																<caption>–ª–µ—á–µ–Ω–∏–µ —Å–æ—é–∑–Ω—ã—Ö –≥–µ—Ä–æ–µ–≤</caption>
+																<enabled>
+																	<compiledString></compiledString>
+																	<returnType>bool</returnType>
+																	<sString>true</sString>
+																</enabled>
+																<formulaName></formulaName>
+																<healTarget>Health</healTarget>
+																<ignoreHealingMods>false</ignoreHealingMods>
+																<LoggingEvent>-1</LoggingEvent>
+																<providerName></providerName>
+																<uiEvent href="/UI/Events/CommonEvents/EventHeal.UIEV" />
+															</HealApplicator>
+														</Item>
+													</applicators>
+													<dispatch href="/Items/Talents/Class/Shaman/Ability_A0.TALENT" id="2D8637B9-2270-42D0-9D1F-BD07FCF1ED78">
+														<DispatchImmediate>
+															<alwaysApply>false</alwaysApply>
+															<applyEffect>
+																<Item href="" />
+																<Item href="" />
+															</applyEffect>
+															<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+															<applyEffectOrientation>Default</applyEffectOrientation>
+															<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+															<dieAfterApply>true</dieAfterApply>
+															<dispatchEffect>
+																<Item href="" />
+																<Item href="" />
+															</dispatchEffect>
+															<flags>0</flags>
+															<instantApply>true</instantApply>
+														</DispatchImmediate>
+													</dispatch>
+												</Spell>
+											</spell>
+											<spellTarget>ApplicatorTarget</spellTarget>
+											<targetSelector href="/Items/Talents/Class/Shaman/Ability_A0.TALENT" id="205F8052-354B-437F-975B-827760C4F765">
+												<AreaTargetSelector>
+													<absolutePosition>
+														<x>0</x>
+														<y>0</y>
+													</absolutePosition>
+													<flags>0</flags>
+													<mode>Normal</mode>
+													<range>
+														<compiledString>FQkAAAABAAAAFQAAAEEwX1JhbmdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+														<returnType>float</returnType>
+														<sString>cA0_Range</sString>
+													</range>
+													<targetFilter>268435459</targetFilter>
+													<targetSelector href="/Items/Talents/Class/Shaman/Ability_A0.TALENT" id="05627F7F-4CFC-48DD-AB20-9CE8D48E920E">
+														<SelectApplicatorTarget>
+															<applicatorIndex>0</applicatorIndex>
+															<applicatorName></applicatorName>
+															<namedApplicatorTarget>ApplicatorTarget</namedApplicatorTarget>
+															<selectTarget>AbilityOwner</selectTarget>
+														</SelectApplicatorTarget>
+													</targetSelector>
+												</AreaTargetSelector>
+											</targetSelector>
+										</SpellApplicator>
+									</Item>
+									<Item href="/Items/Talents/Class/Shaman/Ability_A0.TALENT" id="914CAA19-BB81-4F2C-B500-6EF73B9C1188">
+										<HealApplicator>
+											<amount>
+												<compiledString>FQ0AAAABAAAAGQAAAEEwX0hlYWxfU2VsZgBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+												<returnType>float</returnType>
+												<sString>cA0_Heal_Self</sString>
+											</amount>
+											<applyTarget>ApplicatorTarget</applyTarget>
+											<caption>–ª–µ—á–µ–Ω–∏–µ —Å–µ–±—è</caption>
+											<enabled>
+												<compiledString></compiledString>
+												<returnType>bool</returnType>
+												<sString>true</sString>
+											</enabled>
+											<formulaName></formulaName>
+											<healTarget>Health</healTarget>
+											<ignoreHealingMods>false</ignoreHealingMods>
+											<LoggingEvent>-1</LoggingEvent>
+											<providerName></providerName>
+											<uiEvent href="/UI/Events/CommonEvents/EventHeal.UIEV" />
+										</HealApplicator>
+									</Item>
+								</applicators>
+								<dispatch href="/Items/Talents/Class/Shaman/Ability_A0.TALENT" id="E8AB388F-C853-4758-8249-08048A6AC405">
+									<DispatchImmediate>
+										<alwaysApply>false</alwaysApply>
+										<applyEffect>
+											<Item href="" />
+											<Item href="" />
+										</applyEffect>
+										<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+										<applyEffectOrientation>Default</applyEffectOrientation>
+										<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+										<dieAfterApply>true</dieAfterApply>
+										<dispatchEffect>
+											<Item href="" />
+											<Item href="" />
+										</dispatchEffect>
+										<flags>0</flags>
+										<instantApply>true</instantApply>
+									</DispatchImmediate>
+								</dispatch>
+							</Spell>
+						</spell>
+						<targets>537657404</targets>
+					</EventProcessorUnitDieNearMe>
+				</processor>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<useAbilityCooldown>false</useAbilityCooldown>
+				<useAbilityOwnerMana>false</useAbilityOwnerMana>
+			</TriggerApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/Shaman/Ability_A0.TALENT" id="F6C22566-86A4-4781-A1D3-0FEAA394074A">
+			<TriggerApplicator>
+				<actionsCount>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>0</sString>
+				</actionsCount>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption>—Ç—Ä–∏–≥–≥–µ—Ä –Ω–∞ —Å–º–µ—Ä—Ç—å –æ–∫—Ä—É–∂–∞—é—â–∏—Ö –≤—Ä–∞–≥–æ–≤ –≥–µ—Ä–æ–µ–≤</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<playAck>false</playAck>
+				<processor href="/Items/Talents/Class/Shaman/Ability_A0.TALENT" id="7F562830-C1AA-4C8D-B82D-235D11E8B1A7">
+					<EventProcessorUnitDieNearMe>
+						<applyTarget>AbilityOwner</applyTarget>
+						<checkSender>0</checkSender>
+						<killerFlags>11</killerFlags>
+						<range>
+							<compiledString>FQkAAAABAAAAFQAAAEEwX1JhbmdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+							<returnType>float</returnType>
+							<sString>cA0_Range</sString>
+						</range>
+						<senderMatchTarget>ApplicatorTarget</senderMatchTarget>
+						<spell href="/Items/Talents/Class/Shaman/Ability_A0.TALENT" id="C34622CC-0DAF-475A-994B-D572A74FE5F3">
+							<Spell>
+								<applicators>
+									<Item href="/Items/Talents/Class/Shaman/Ability_A0.TALENT" id="96FA69B1-6848-432C-B4A4-2A69F665A426">
+										<SpellApplicator>
+											<applyTarget>ApplicatorTarget</applyTarget>
+											<caption>–°–ø–µ–ª –≤ —Å–æ—é–∑–Ω—ã—Ö –≥–µ—Ä–æ–µ–≤</caption>
+											<enabled>
+												<compiledString></compiledString>
+												<returnType>bool</returnType>
+												<sString>true</sString>
+											</enabled>
+											<formulaName></formulaName>
+											<LoggingEvent>-1</LoggingEvent>
+											<providerName></providerName>
+											<spell href="/Items/Talents/Class/Shaman/Ability_A0.TALENT" id="BF8F140C-C923-4ED3-B212-49ADA5A157AA">
+												<Spell>
+													<applicators>
+														<Item href="/Items/Talents/Class/Shaman/Ability_A0.TALENT" id="49D9980A-FD74-4B5F-A4C5-739F3771B683">
+															<HealApplicator>
+																<amount>
+																	<compiledString>FR0AAAACAAAALAAAAEYAAABBMF9IZWFsX0FsbHkAAAAAQTBfSGVyb19IZWFsAFWL7IPsDItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/Si0UMUItNCFFoEAAAAItVEIsCi00Qi1BQ3V34/9LcTfjZXfTZRfSL5V3D</compiledString>
+																	<returnType>float</returnType>
+																	<sString>cA0_Heal_Ally * cA0_Hero_Heal</sString>
+																</amount>
+																<applyTarget>ApplicatorTarget</applyTarget>
+																<caption>–ª–µ—á–µ–Ω–∏–µ —Å–æ—é–∑–Ω—ã—Ö –≥–µ—Ä–æ–µ–≤</caption>
+																<enabled>
+																	<compiledString></compiledString>
+																	<returnType>bool</returnType>
+																	<sString>true</sString>
+																</enabled>
+																<formulaName></formulaName>
+																<healTarget>Health</healTarget>
+																<ignoreHealingMods>false</ignoreHealingMods>
+																<LoggingEvent>-1</LoggingEvent>
+																<providerName></providerName>
+																<uiEvent href="/UI/Events/CommonEvents/EventHeal.UIEV" />
+															</HealApplicator>
+														</Item>
+													</applicators>
+													<dispatch href="/Items/Talents/Class/Shaman/Ability_A0.TALENT" id="97203A31-D05A-4396-82DF-53C9452376C8">
+														<DispatchImmediate>
+															<alwaysApply>false</alwaysApply>
+															<applyEffect>
+																<Item href="" />
+																<Item href="" />
+															</applyEffect>
+															<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+															<applyEffectOrientation>Default</applyEffectOrientation>
+															<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+															<dieAfterApply>true</dieAfterApply>
+															<dispatchEffect>
+																<Item href="" />
+																<Item href="" />
+															</dispatchEffect>
+															<flags>0</flags>
+															<instantApply>true</instantApply>
+														</DispatchImmediate>
+													</dispatch>
+												</Spell>
+											</spell>
+											<spellTarget>ApplicatorTarget</spellTarget>
+											<targetSelector href="/Items/Talents/Class/Shaman/Ability_A0.TALENT" id="53536024-91A3-476A-88F9-0F4FC6882E0F">
+												<AreaTargetSelector>
+													<absolutePosition>
+														<x>0</x>
+														<y>0</y>
+													</absolutePosition>
+													<flags>0</flags>
+													<mode>Normal</mode>
+													<range>
+														<compiledString>FQkAAAABAAAAFQAAAEEwX1JhbmdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+														<returnType>float</returnType>
+														<sString>cA0_Range</sString>
+													</range>
+													<targetFilter>268435459</targetFilter>
+													<targetSelector href="/Items/Talents/Class/Shaman/Ability_A0.TALENT" id="5FB70129-F499-4B32-B55D-CE4EF6549ED5">
+														<SelectApplicatorTarget>
+															<applicatorIndex>0</applicatorIndex>
+															<applicatorName></applicatorName>
+															<namedApplicatorTarget>ApplicatorTarget</namedApplicatorTarget>
+															<selectTarget>AbilityOwner</selectTarget>
+														</SelectApplicatorTarget>
+													</targetSelector>
+												</AreaTargetSelector>
+											</targetSelector>
+										</SpellApplicator>
+									</Item>
+									<Item href="/Items/Talents/Class/Shaman/Ability_A0.TALENT" id="D4884FF5-EF79-4AFA-BC9F-7909544C0CA3">
+										<HealApplicator>
+											<amount>
+												<compiledString>FR0AAAACAAAALAAAAEYAAABBMF9IZWFsX1NlbGYAAAAAQTBfSGVyb19IZWFsAFWL7IPsDItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/Si0UMUItNCFFoEAAAAItVEIsCi00Qi1BQ3V34/9LcTfjZXfTZRfSL5V3D</compiledString>
+												<returnType>float</returnType>
+												<sString>cA0_Heal_Self * cA0_Hero_Heal</sString>
+											</amount>
+											<applyTarget>ApplicatorTarget</applyTarget>
+											<caption>–ª–µ—á–µ–Ω–∏–µ —Å–µ–±—è</caption>
+											<enabled>
+												<compiledString></compiledString>
+												<returnType>bool</returnType>
+												<sString>true</sString>
+											</enabled>
+											<formulaName></formulaName>
+											<healTarget>Health</healTarget>
+											<ignoreHealingMods>false</ignoreHealingMods>
+											<LoggingEvent>-1</LoggingEvent>
+											<providerName></providerName>
+											<uiEvent href="/UI/Events/CommonEvents/EventHeal.UIEV" />
+										</HealApplicator>
+									</Item>
+								</applicators>
+								<dispatch href="/Items/Talents/Class/Shaman/Ability_A0.TALENT" id="4D6BB507-517D-4633-BC70-27BBA557EF9A">
+									<DispatchImmediate>
+										<alwaysApply>false</alwaysApply>
+										<applyEffect>
+											<Item href="" />
+											<Item href="" />
+										</applyEffect>
+										<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+										<applyEffectOrientation>Default</applyEffectOrientation>
+										<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+										<dieAfterApply>true</dieAfterApply>
+										<dispatchEffect>
+											<Item href="" />
+											<Item href="" />
+										</dispatchEffect>
+										<flags>0</flags>
+										<instantApply>true</instantApply>
+									</DispatchImmediate>
+								</dispatch>
+							</Spell>
+						</spell>
+						<targets>536870915</targets>
+					</EventProcessorUnitDieNearMe>
+				</processor>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<useAbilityCooldown>false</useAbilityCooldown>
+				<useAbilityOwnerMana>false</useAbilityOwnerMana>
+			</TriggerApplicator>
+		</Item>
+	</passiveApplicators>
+	<persistentId>Shaman_A0</persistentId>
+	<prerequisiteTalents />
+	<rarity>Class</rarity>
+	<requireLineOfSight>true</requireLineOfSight>
+	<shortDescription textref="" />
+	<talentRollGroups>63</talentRollGroups>
+	<talentStats />
+	<targetType>136258047</targetType>
+	<type>Passive</type>
+	<upgradeLevel>0</upgradeLevel>
+	<useRange>
+		<compiledString>FQkAAAABAAAAFQAAAEEwX1JhbmdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+		<returnType>float</returnType>
+		<sString>cA0_Range</sString>
+	</useRange>
+	<useRangeMaterial href="/Effects/UI/AOESelection/Radius.MTRL" />
+	<variativeMaxTalentStats />
+	<variativeMinTalentStats />
+	<vendorCost>0</vendorCost>
+	<warFogRemoveRadius>0</warFogRemoveRadius>
+	<warFogRemoveTime>0</warFogRemoveTime>
+</Talent>ˇ˛!>B2>@O5BAO  < s t y l e : T T _ M A R K > < v a l u e = t a l e n t . c o n s t . C h a n n e l T i m e   f o r m a t = 1 . 1 > < / s t y l e >   A5:  8  70AB02;O5B  2@065A:>3>  35@>O  84B8  ?>  =0?@02;5=8N  :  8AB>G=8:C  7>20  2  B5G5=85  < s t y l e : T T _ M A R K > < v a l u e = t a l e n t . c o n s t . A 4 _ 2 _ D u r a t i o n   f o r m a t = 1 . 1 > < / s t y l e >   A5:.   @065A:89  35@>9  ?@8  MB><  =5  <>65B  0B0:>20BL 
+ < i f = t a l e n t . i f . S h a m a n _ A 4 _ 2 u >  
+   8  ?@8<5=OBL  B0;0=BK.  
+ < e l s e >  
+   8  ?@8<5=OBL  B0;0=BK,   0  53>  !B>9:>ABL  8  >;O  A=860NBAO  =0  < s t y l e : T T _ M A R K > < v a l u e = t a l e n t . c o n s t . A r m o r C u t _ A m o u n t > < / s t y l e >   ( >B  =081>;LH53>  87  !8;K  8   07C<0) .  
+ < / i f >  
+ Ôªø<?xml version="1.0" encoding="utf-8"?>
+<UnitConstant>
+	<BackLink DBID="/Items/Talents/Class/Shaman/Ability_A4_2.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Shaman/Ability_A4_2u.TALENT" Count="1" />
+	<name>ArmorCut_Amount</name>
+	<var>
+		<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBWMAAADZHCRR2QVfAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJItNCIsRi00Ii4I0AQAA/9BR2Rwk6B8AAACDxATZHCRqAItNEIsRi00Qi0Jg/9BdwwAAwEAAAPBBVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
+		<returnType>float</returnType>
+		<sString>abilityScale(max(sIntellect,sStrength), 6, 30)</sString>
+	</var>
+</UnitConstant>Ôªø<?xml version="1.0" encoding="utf-8"?>
+<Talent>
 	<BackLink DBID="/Social.ROOT" Count="1" />
 	<BackLink DBID="/Items/Talents/Stalker.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Stalker_Alternative.TALENTSET" Count="1" />
@@ -97166,6 +98208,1622 @@ PileÔªø<?xml version="1.0" encoding="utf-8"?>
 	<BackLink DBID="/SocialTest.ROOT" Count="1" />
 	<BackLink DBID="/Items/Talents/Witcher.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Witcher_Alternative.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Witcher/Ability_A1.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/Witcher/Ability_A1u1.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Witcher/Ability_A1u2.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level2/G567_CasterBase.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/TalentKits/Redset6_2_CDR/appl_Redset6_2_RefreshCooldown.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/TalentList_Mighty/Witcher_Mighty.TALENTSET" Count="1" />
+	<BackLink DBID="/Maps/PvE/Series/Episode1/Talents/witcher/Ability1.TALENT" Count="3" />
+	<BackLink DBID="/Test/Talents/Witcher/Duel_Int.TALENTSET" Count="1" />
+	<BackLink DBID="/Test/Talents/Witcher/Duel_Str.TALENTSET" Count="1" />
+	<BackLink DBID="/Test/Talents/Witcher/Elite_Int.TALENTSET" Count="1" />
+	<BackLink DBID="/Test/Talents/Witcher/Elite_Str.TALENTSET" Count="1" />
+	<BackLink DBID="/Test/Talents/Witcher/Epic_Int.TALENTSET" Count="1" />
+	<BackLink DBID="/Test/Talents/Witcher/Epic_Str.TALENTSET" Count="1" />
+	<activationConditions />
+	<activeCustomTrigger>true</activeCustomTrigger>
+	<allowChase>
+		<compiledString></compiledString>
+		<returnType>bool</returnType>
+		<sString>true</sString>
+	</allowChase>
+	<alternativeTargets />
+	<aoeDisplayOnMinimap>false</aoeDisplayOnMinimap>
+	<aoeHeight>0</aoeHeight>
+	<aoeMaterial href="/Effects/UI/AOESelection/Corridor.MTRL" />
+	<aoePassabilityCheckMode>6</aoePassabilityCheckMode>
+	<aoeSize>
+		<compiledString>FQYAAAACAAAAEwAAACYAAABXaWR0aABVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcDTQAAADZXfzZRfyL5V3DAAAAAAAA+D8=</compiledString>
+		<returnType>float</returnType>
+		<sString>cWidth * 1.5</sString>
+	</aoeSize>
+	<aoeType>CorridorMax</aoeType>
+	<applicators>
+		<Item href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" id="056FACEB-0C70-4585-8A2F-D22A69B302A9">
+			<SpellApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<caption>select point to move to</caption>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<spell href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" id="A989EE71-8D1A-492E-A978-9C170AE13C4F">
+					<Spell>
+						<applicators>
+							<Item href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" id="36E1CDF7-9562-4ED5-8D9D-2176AEA2793D">
+								<ProgramApplicator>
+									<applicators>
+										<Item>
+											<applicator href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" id="74563F22-B2C3-4F54-9F49-FB4691BF6E8D">
+												<ProgramApplicator>
+													<applicators>
+														<Item>
+															<applicator href="/GameLogic/GeneralApplicators/IsolatedWDamage.APLR" />
+															<continueCondition>
+																<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+																<returnType>bool</returnType>
+																<sString>0</sString>
+															</continueCondition>
+															<continueEvents>1</continueEvents>
+															<delay>
+																<compiledString></compiledString>
+																<returnType>float</returnType>
+																<sString>-1.0</sString>
+															</delay>
+															<stopCondition>
+																<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+																<returnType>bool</returnType>
+																<sString>0</sString>
+															</stopCondition>
+															<stopEvents>0</stopEvents>
+														</Item>
+														<Item>
+															<applicator href="/GameLogic/GeneralApplicators/SetTossed.APLR" />
+															<continueCondition>
+																<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+																<returnType>bool</returnType>
+																<sString>0</sString>
+															</continueCondition>
+															<continueEvents>1</continueEvents>
+															<delay>
+																<compiledString></compiledString>
+																<returnType>float</returnType>
+																<sString>-1.0</sString>
+															</delay>
+															<stopCondition>
+																<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+																<returnType>bool</returnType>
+																<sString>0</sString>
+															</stopCondition>
+															<stopEvents>0</stopEvents>
+														</Item>
+														<Item>
+															<applicator href="/GameLogic/GeneralApplicators/Immune2Control.APLR" />
+															<continueCondition>
+																<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+																<returnType>bool</returnType>
+																<sString>0</sString>
+															</continueCondition>
+															<continueEvents>1</continueEvents>
+															<delay>
+																<compiledString></compiledString>
+																<returnType>float</returnType>
+																<sString>-1.0</sString>
+															</delay>
+															<stopCondition>
+																<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+																<returnType>bool</returnType>
+																<sString>0</sString>
+															</stopCondition>
+															<stopEvents>0</stopEvents>
+														</Item>
+														<Item>
+															<applicator href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" id="F95C2B60-9AAA-4D57-B98F-F3462917F267">
+																<ProgramApplicator>
+																	<applicators>
+																		<Item>
+																			<applicator href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" id="608F76EF-2354-42EC-86E3-3BFA066AC5A8">
+																				<PermanentStatModApplicator>
+																					<applyTarget>ApplicatorTarget</applyTarget>
+																					<caption>A1_WitcherDash</caption>
+																					<customApplyType>None</customApplyType>
+																					<enabled>
+																						<compiledString></compiledString>
+																						<returnType>bool</returnType>
+																						<sString>true</sString>
+																					</enabled>
+																					<formulaName></formulaName>
+																					<LoggingEvent>-1</LoggingEvent>
+																					<modifier>
+																						<addValue>
+																							<compiledString></compiledString>
+																							<returnType>float</returnType>
+																							<sString>1.0f</sString>
+																						</addValue>
+																						<multValue>
+																							<compiledString></compiledString>
+																							<returnType>float</returnType>
+																							<sString>1.0f</sString>
+																						</multValue>
+																						<stat>Life</stat>
+																						<topModifier>false</topModifier>
+																						<variable>A1_WitcherDash</variable>
+																					</modifier>
+																					<providerName></providerName>
+																				</PermanentStatModApplicator>
+																			</applicator>
+																			<continueCondition>
+																				<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+																				<returnType>bool</returnType>
+																				<sString>0</sString>
+																			</continueCondition>
+																			<continueEvents>1</continueEvents>
+																			<delay>
+																				<compiledString></compiledString>
+																				<returnType>float</returnType>
+																				<sString>-1.0</sString>
+																			</delay>
+																			<stopCondition>
+																				<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+																				<returnType>bool</returnType>
+																				<sString>0</sString>
+																			</stopCondition>
+																			<stopEvents>0</stopEvents>
+																		</Item>
+																		<Item>
+																			<applicator href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" id="2E112ACF-2F0B-40B5-8899-CB15E6E55339">
+																				<RefreshCooldownApplicator>
+																					<allowCdIncrease>false</allowCdIncrease>
+																					<applyTarget>AbilityOwner</applyTarget>
+																					<caption>–æ–±–Ω—É–ª–∏—Ç—å –ö–î</caption>
+																					<enabled>
+																						<compiledString>FRoAAAACAAAAIQAAAD4AAABBMV9XaXRjaGVyRGFzaAAARGFzaENvdW50AFWL7IPsDGgAAAAAi0UIixCLTQiLgogBAAD/0ItNDFGLVQhSaBAAAACLRRCLEItNEItCUN1d+P/Q3F343+D2xAF1CcdF9AEAAADrB8dF9AAAAACKRfSL5V3D</compiledString>
+																						<returnType>bool</returnType>
+																						<sString>sender.vA1_WitcherDash &lt;= cDashCount</sString>
+																					</enabled>
+																					<flags>128</flags>
+																					<formulaName></formulaName>
+																					<LoggingEvent>-1</LoggingEvent>
+																					<providerName></providerName>
+																					<reduceByPercent>false</reduceByPercent>
+																					<reductionAmount>
+																						<compiledString>FQAAAAABAAAAOAAAAFWL7IPsFItFEIsQi00Qi0I8/9CLTRCLEYtNEItCPN1d+P/Qi00QixGLTRCLQhzdXfD/0NxN8NwFSQAAANxt+Nld7NlF7IvlXcMAAAAAAADgPw==</compiledString>
+																						<returnType>float</returnType>
+																						<sString>mCooldown-(mCooldown * mPreparedness + 0.5f)</sString>
+																					</reductionAmount>
+																					<refreshThis>false</refreshThis>
+																					<talents>
+																						<Item href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" />
+																					</talents>
+																					<useListAs>ListAsRule</useListAs>
+																				</RefreshCooldownApplicator>
+																			</applicator>
+																			<continueCondition>
+																				<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+																				<returnType>bool</returnType>
+																				<sString>0</sString>
+																			</continueCondition>
+																			<continueEvents>1</continueEvents>
+																			<delay>
+																				<compiledString></compiledString>
+																				<returnType>float</returnType>
+																				<sString>-1.0</sString>
+																			</delay>
+																			<stopCondition>
+																				<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+																				<returnType>bool</returnType>
+																				<sString>0</sString>
+																			</stopCondition>
+																			<stopEvents>0</stopEvents>
+																		</Item>
+																		<Item>
+																			<applicator href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" id="336A59AC-59C1-411F-A295-38225EF38B49">
+																				<ProgramApplicator>
+																					<applicators>
+																						<Item>
+																							<applicator href="/Items/Talents/Class/Witcher/status_A1_Dash.APLR" />
+																							<continueCondition>
+																								<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+																								<returnType>bool</returnType>
+																								<sString>0</sString>
+																							</continueCondition>
+																							<continueEvents>2</continueEvents>
+																							<delay>
+																								<compiledString></compiledString>
+																								<returnType>float</returnType>
+																								<sString>-1.0</sString>
+																							</delay>
+																							<stopCondition>
+																								<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+																								<returnType>bool</returnType>
+																								<sString>0</sString>
+																							</stopCondition>
+																							<stopEvents>0</stopEvents>
+																						</Item>
+																						<Item>
+																							<applicator href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" id="27E89A0A-D905-42AF-8E36-378CA9FB1B1F">
+																								<TriggerApplicator>
+																									<actionsCount>
+																										<compiledString>FQAAAAAAAAAAVYvsuAEAAABdww==</compiledString>
+																										<returnType>int</returnType>
+																										<sString>1</sString>
+																									</actionsCount>
+																									<applyTarget>AbilityOwner</applyTarget>
+																									<behaviorFlags>155</behaviorFlags>
+																									<caption>–ó–∞–ø—É—Å–∫–∞–µ–º –ø—Ä–∏–Ω—É–¥–∏—Ç–µ–ª—å–Ω–æ –∫–¥</caption>
+																									<effect>
+																										<Item href="" />
+																										<Item href="" />
+																									</effect>
+																									<enabled>
+																										<compiledString>FR8AAAAEAAAAJAAAADoAAABGAAAAXAAAAEc2MzNfQWN0aXZhdGVkAABBMV9XaXRjaGVyRGFzaABVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B2GAAAA3+D2xER7K2gQAAAAi00IixGLTQiLgogBAAD/0NwdfgAAAN/g9sQFewnHRfwAAAAA6wfHRfwBAAAAikX8i+VdwwAAAAAAAAhAAAAAAAAAAAA=</compiledString>
+																										<returnType>bool</returnType>
+																										<sString>sender.vG633_Activated == 0  || sender.vA1_WitcherDash &lt; 3</sString>
+																									</enabled>
+																									<formulaName></formulaName>
+																									<lifeTime>
+																										<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DMzMzPw==</compiledString>
+																										<returnType>float</returnType>
+																										<sString>0.7</sString>
+																									</lifeTime>
+																									<LoggingEvent>-1</LoggingEvent>
+																									<playAck>false</playAck>
+																									<processor href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" id="9F3AF24F-2BFB-4E06-92B4-9848C593A4B5">
+																										<EventProcessorCondition>
+																											<applyTarget>AbilityOwner</applyTarget>
+																											<condition>
+																												<compiledString></compiledString>
+																												<returnType>bool</returnType>
+																												<sString>true</sString>
+																											</condition>
+																											<events>40960</events>
+																											<onlyParent>false</onlyParent>
+																											<spell href="" />
+																										</EventProcessorCondition>
+																									</processor>
+																									<providerName></providerName>
+																									<startCondition>
+																										<compiledString></compiledString>
+																										<returnType>bool</returnType>
+																										<sString>true</sString>
+																									</startCondition>
+																									<useAbilityCooldown>true</useAbilityCooldown>
+																									<useAbilityOwnerMana>false</useAbilityOwnerMana>
+																								</TriggerApplicator>
+																							</applicator>
+																							<continueCondition>
+																								<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+																								<returnType>bool</returnType>
+																								<sString>0</sString>
+																							</continueCondition>
+																							<continueEvents>2</continueEvents>
+																							<delay>
+																								<compiledString></compiledString>
+																								<returnType>float</returnType>
+																								<sString>-1.0</sString>
+																							</delay>
+																							<stopCondition>
+																								<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+																								<returnType>bool</returnType>
+																								<sString>0</sString>
+																							</stopCondition>
+																							<stopEvents>0</stopEvents>
+																						</Item>
+																						<Item>
+																							<applicator href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" id="B7B189BF-C28A-47FB-AB65-03EE8E619A2E">
+																								<PermanentStatModApplicator>
+																									<applyTarget>AbilityOwner</applyTarget>
+																									<caption>–û–±–Ω—É–ª—è–µ–º —Å—á–µ—Ç—á–∏–∫</caption>
+																									<customApplyType>None</customApplyType>
+																									<enabled>
+																										<compiledString></compiledString>
+																										<returnType>bool</returnType>
+																										<sString>true</sString>
+																									</enabled>
+																									<formulaName></formulaName>
+																									<LoggingEvent>-1</LoggingEvent>
+																									<modifier>
+																										<addValue>
+																											<compiledString></compiledString>
+																											<returnType>float</returnType>
+																											<sString>0.0f</sString>
+																										</addValue>
+																										<multValue>
+																											<compiledString></compiledString>
+																											<returnType>float</returnType>
+																											<sString>0.0f</sString>
+																										</multValue>
+																										<stat>Life</stat>
+																										<topModifier>false</topModifier>
+																										<variable>A1_WitcherDash</variable>
+																									</modifier>
+																									<providerName></providerName>
+																								</PermanentStatModApplicator>
+																							</applicator>
+																							<continueCondition>
+																								<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+																								<returnType>bool</returnType>
+																								<sString>0</sString>
+																							</continueCondition>
+																							<continueEvents>1</continueEvents>
+																							<delay>
+																								<compiledString></compiledString>
+																								<returnType>float</returnType>
+																								<sString>-1.0</sString>
+																							</delay>
+																							<stopCondition>
+																								<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+																								<returnType>bool</returnType>
+																								<sString>0</sString>
+																							</stopCondition>
+																							<stopEvents>0</stopEvents>
+																						</Item>
+																						<Item>
+																							<applicator href="/Items/Talents/TalentKits/Redset7_11_MiniRefresher/appl_G766_RefreshAndNotify.APLR" />
+																							<continueCondition>
+																								<compiledString></compiledString>
+																								<returnType>bool</returnType>
+																								<sString>0</sString>
+																							</continueCondition>
+																							<continueEvents>2</continueEvents>
+																							<delay>
+																								<compiledString></compiledString>
+																								<returnType>float</returnType>
+																								<sString>-1.0</sString>
+																							</delay>
+																							<stopCondition>
+																								<compiledString></compiledString>
+																								<returnType>bool</returnType>
+																								<sString>0</sString>
+																							</stopCondition>
+																							<stopEvents>0</stopEvents>
+																						</Item>
+																					</applicators>
+																					<applyTarget>ApplicatorTarget</applyTarget>
+																					<behaviorFlags>152</behaviorFlags>
+																					<caption>–ü—Ä–æ–≥—Ä–∞–º–º–∞ –Ω–µ—Å–∫–æ–ª—å–∫–∏—Ö –¥–∞—à–µ–π</caption>
+																					<effect>
+																						<Item href="" />
+																						<Item href="" />
+																					</effect>
+																					<enabled>
+																						<compiledString></compiledString>
+																						<returnType>bool</returnType>
+																						<sString>true</sString>
+																					</enabled>
+																					<formulaName></formulaName>
+																					<lifeTime>
+																						<compiledString></compiledString>
+																						<returnType>float</returnType>
+																						<sString>-1.0</sString>
+																					</lifeTime>
+																					<LoggingEvent>-1</LoggingEvent>
+																					<providerName></providerName>
+																					<startCondition>
+																						<compiledString>FQ8AAAACAAAAFAAAACoAAABBMV9XaXRjaGVyRGFzaABVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1MAAAA3+D2xER6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAA8D8=</compiledString>
+																						<returnType>bool</returnType>
+																						<sString>sender.vA1_WitcherDash == 1</sString>
+																					</startCondition>
+																				</ProgramApplicator>
+																			</applicator>
+																			<continueCondition>
+																				<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+																				<returnType>bool</returnType>
+																				<sString>0</sString>
+																			</continueCondition>
+																			<continueEvents>1</continueEvents>
+																			<delay>
+																				<compiledString></compiledString>
+																				<returnType>float</returnType>
+																				<sString>-1.0</sString>
+																			</delay>
+																			<stopCondition>
+																				<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+																				<returnType>bool</returnType>
+																				<sString>0</sString>
+																			</stopCondition>
+																			<stopEvents>0</stopEvents>
+																		</Item>
+																	</applicators>
+																	<applyTarget>AbilityOwner</applyTarget>
+																	<behaviorFlags>152</behaviorFlags>
+																	<caption>–ü—Ä–æ–≥—Ä–∞–º–º–∞ –¥–∞—à–µ–π</caption>
+																	<effect>
+																		<Item href="" />
+																		<Item href="" />
+																	</effect>
+																	<enabled>
+																		<compiledString></compiledString>
+																		<returnType>bool</returnType>
+																		<sString>true</sString>
+																	</enabled>
+																	<formulaName></formulaName>
+																	<lifeTime>
+																		<compiledString></compiledString>
+																		<returnType>float</returnType>
+																		<sString>-1.0</sString>
+																	</lifeTime>
+																	<LoggingEvent>-1</LoggingEvent>
+																	<providerName></providerName>
+																	<startCondition>
+																		<compiledString>FRoAAAACAAAAIQAAAD4AAABBMV9XaXRjaGVyRGFzaAAARGFzaENvdW50AFWL7IPsDGgAAAAAi0UIixCLTQiLgogBAAD/0ItNDFGLVQhSaBAAAACLRRCLEItNEItCUN1d+P/Q3F343+D2xAF1CcdF9AEAAADrB8dF9AAAAACKRfSL5V3D</compiledString>
+																		<returnType>bool</returnType>
+																		<sString>sender.vA1_WitcherDash &lt;= cDashCount</sString>
+																	</startCondition>
+																</ProgramApplicator>
+															</applicator>
+															<continueCondition>
+																<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+																<returnType>bool</returnType>
+																<sString>0</sString>
+															</continueCondition>
+															<continueEvents>1</continueEvents>
+															<delay>
+																<compiledString></compiledString>
+																<returnType>float</returnType>
+																<sString>-1.0</sString>
+															</delay>
+															<stopCondition>
+																<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+																<returnType>bool</returnType>
+																<sString>0</sString>
+															</stopCondition>
+															<stopEvents>0</stopEvents>
+														</Item>
+														<Item>
+															<applicator href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" id="1D2803E8-F94C-48B3-B806-71AE5B428CB7">
+																<SpellPeriodicallyApplicator>
+																	<applyTarget>ApplicatorTarget</applyTarget>
+																	<behaviorFlags>0</behaviorFlags>
+																	<caption>–∞—Ç–∞–∫–∏ –≤—Ä–∞–≥–∞–º, –ø–æ–∫–∞ –µ–¥–µ–º + anim</caption>
+																	<effect>
+																		<Item href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" id="2289A4B5-E08F-4CDA-9C95-DD522358594D">
+																			<PlayAnimationEffect>
+																				<animGraphNode>ability1</animGraphNode>
+																				<deathType>Manual</deathType>
+																				<enableCondition href="" />
+																				<goToOtherNodeOnStop>false</goToOtherNodeOnStop>
+																				<lifeTime>0</lifeTime>
+																				<marker></marker>
+																				<markerReachTime>0</markerReachTime>
+																				<returnAnimGraphNode></returnAnimGraphNode>
+																			</PlayAnimationEffect>
+																		</Item>
+																		<Item href="" />
+																	</effect>
+																	<enabled>
+																		<compiledString></compiledString>
+																		<returnType>bool</returnType>
+																		<sString>true</sString>
+																	</enabled>
+																	<formulaName></formulaName>
+																	<lifeTime>
+																		<compiledString></compiledString>
+																		<returnType>float</returnType>
+																		<sString>-1.0</sString>
+																	</lifeTime>
+																	<LoggingEvent>-1</LoggingEvent>
+																	<period>
+																		<compiledString></compiledString>
+																		<returnType>float</returnType>
+																		<sString>0.0f</sString>
+																	</period>
+																	<providerName></providerName>
+																	<scaleMode>ScaleIsCount</scaleMode>
+																	<spell href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" id="63B61547-1BFA-4AA8-82DE-B58DC28432A3">
+																		<Spell>
+																			<applicators>
+																				<Item href="/Effects/Shots/HitsApplicators/MeleePurple.APLR" />
+																				<Item href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" id="0CCD4405-2062-49FB-B9AF-69B00090B490">
+																					<DamageApplicator>
+																						<applyTarget>ApplicatorTarget</applyTarget>
+																						<cancelInvisibility>false</cancelInvisibility>
+																						<caption>—Ä–∞–∑–¥–∞–µ–º —É—Ä–æ–Ω</caption>
+																						<damage>
+																							<compiledString>FQoAAAABAAAAFgAAAEExX0RhbWFnZQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+																							<returnType>float</returnType>
+																							<sString>cA1_Damage</sString>
+																						</damage>
+																						<damageMode>0</damageMode>
+																						<damageType>Material</damageType>
+																						<enabled>
+																							<compiledString></compiledString>
+																							<returnType>bool</returnType>
+																							<sString>true</sString>
+																						</enabled>
+																						<formulaName></formulaName>
+																						<LoggingEvent>-1</LoggingEvent>
+																						<providerName></providerName>
+																						<timeLimiter>-1</timeLimiter>
+																						<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Material.UIEV" />
+																					</DamageApplicator>
+																				</Item>
+																			</applicators>
+																			<dispatch href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" id="9ADA28D8-1BB6-480F-8EBE-FA51836720D5">
+																				<DispatchImmediate>
+																					<alwaysApply>false</alwaysApply>
+																					<applyEffect>
+																						<Item href="" />
+																						<Item href="" />
+																					</applyEffect>
+																					<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																					<applyEffectOrientation>Default</applyEffectOrientation>
+																					<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																					<dieAfterApply>true</dieAfterApply>
+																					<dispatchEffect>
+																						<Item href="" />
+																						<Item href="" />
+																					</dispatchEffect>
+																					<flags>1</flags>
+																					<instantApply>false</instantApply>
+																				</DispatchImmediate>
+																			</dispatch>
+																		</Spell>
+																	</spell>
+																	<startCondition>
+																		<compiledString></compiledString>
+																		<returnType>bool</returnType>
+																		<sString>true</sString>
+																	</startCondition>
+																	<startOffset>
+																		<compiledString></compiledString>
+																		<returnType>float</returnType>
+																		<sString>0.0f</sString>
+																	</startOffset>
+																	<targetSelector href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" id="B70D459C-3341-44AC-A495-FE406F872718">
+																		<CapsuleTargetSelector>
+																			<cutoffFirstSegment>false</cutoffFirstSegment>
+																			<flags>0</flags>
+																			<mode>SendOnce</mode>
+																			<range>
+																				<compiledString>FQYAAAACAAAAEwAAACYAAABXaWR0aABVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcDTQAAADZXfzZRfyL5V3DAAAAAAAA4D8=</compiledString>
+																				<returnType>float</returnType>
+																				<sString>cWidth * 0.5</sString>
+																			</range>
+																			<rangeFromOwner>
+																				<compiledString></compiledString>
+																				<returnType>float</returnType>
+																				<sString>0.0f</sString>
+																			</rangeFromOwner>
+																			<segmentBegin>PreviousPosition</segmentBegin>
+																			<segmentDirectionOffset>0</segmentDirectionOffset>
+																			<segmentEnd>CurrentPosition</segmentEnd>
+																			<segmentEndTargetSelector href="" />
+																			<targetFilter>538771519</targetFilter>
+																		</CapsuleTargetSelector>
+																	</targetSelector>
+																</SpellPeriodicallyApplicator>
+															</applicator>
+															<continueCondition>
+																<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+																<returnType>bool</returnType>
+																<sString>0</sString>
+															</continueCondition>
+															<continueEvents>1</continueEvents>
+															<delay>
+																<compiledString></compiledString>
+																<returnType>float</returnType>
+																<sString>-1.0</sString>
+															</delay>
+															<stopCondition>
+																<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+																<returnType>bool</returnType>
+																<sString>0</sString>
+															</stopCondition>
+															<stopEvents>0</stopEvents>
+														</Item>
+														<Item>
+															<applicator href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" id="4571C626-E490-486A-B482-5D365B7889FF">
+																<SpellPeriodicallyApplicator>
+																	<applyTarget>ApplicatorTarget</applyTarget>
+																	<behaviorFlags>0</behaviorFlags>
+																	<caption>—Ç–∞—É–Ω—Ç–∏–º –≥–µ—Ä–æ–µ–≤ –∏ —Å–∞–º–º–æ–Ω–æ–≤</caption>
+																	<effect>
+																		<Item href="" />
+																		<Item href="" />
+																	</effect>
+																	<enabled>
+																		<compiledString></compiledString>
+																		<returnType>bool</returnType>
+																		<sString>true</sString>
+																	</enabled>
+																	<formulaName></formulaName>
+																	<lifeTime>
+																		<compiledString></compiledString>
+																		<returnType>float</returnType>
+																		<sString>-1.0</sString>
+																	</lifeTime>
+																	<LoggingEvent>-1</LoggingEvent>
+																	<period>
+																		<compiledString></compiledString>
+																		<returnType>float</returnType>
+																		<sString>0.0f</sString>
+																	</period>
+																	<providerName></providerName>
+																	<scaleMode>ScaleIsCount</scaleMode>
+																	<spell href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" id="7D8AF754-2E73-45BD-9148-50C61EBBDE21">
+																		<Spell>
+																			<applicators>
+																				<Item href="/Heroes/DefaultStatus/_TAUNT_status.APLR" />
+																			</applicators>
+																			<dispatch href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" id="878512D9-BA6F-47B8-8526-6AF170B6EE95">
+																				<DispatchImmediate>
+																					<alwaysApply>false</alwaysApply>
+																					<applyEffect>
+																						<Item href="" />
+																						<Item href="" />
+																					</applyEffect>
+																					<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																					<applyEffectOrientation>Default</applyEffectOrientation>
+																					<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																					<dieAfterApply>true</dieAfterApply>
+																					<dispatchEffect>
+																						<Item href="" />
+																						<Item href="" />
+																					</dispatchEffect>
+																					<flags>0</flags>
+																					<instantApply>false</instantApply>
+																				</DispatchImmediate>
+																			</dispatch>
+																		</Spell>
+																	</spell>
+																	<startCondition>
+																		<compiledString>FR0AAAACAAAAJAAAAD0AAABXaXRjaGVyX0ExdTEAAAAAV2l0Y2hlcl9BMXUxAFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAikX7i+Vdww==</compiledString>
+																		<returnType>bool</returnType>
+																		<sString>tal("Witcher_A1u1")</sString>
+																	</startCondition>
+																	<startOffset>
+																		<compiledString></compiledString>
+																		<returnType>float</returnType>
+																		<sString>0.0f</sString>
+																	</startOffset>
+																	<targetSelector href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" id="240835B3-DB7B-47CC-95BB-932AEAC22528">
+																		<CapsuleTargetSelector>
+																			<cutoffFirstSegment>false</cutoffFirstSegment>
+																			<flags>0</flags>
+																			<mode>SendOnce</mode>
+																			<range>
+																				<compiledString>FQYAAAACAAAAEwAAACYAAABXaWR0aABVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcDTQAAADZXfzZRfyL5V3DAAAAAAAA4D8=</compiledString>
+																				<returnType>float</returnType>
+																				<sString>cWidth * 0.5</sString>
+																			</range>
+																			<rangeFromOwner>
+																				<compiledString></compiledString>
+																				<returnType>float</returnType>
+																				<sString>0.0f</sString>
+																			</rangeFromOwner>
+																			<segmentBegin>PreviousPosition</segmentBegin>
+																			<segmentDirectionOffset>0</segmentDirectionOffset>
+																			<segmentEnd>CurrentPosition</segmentEnd>
+																			<segmentEndTargetSelector href="" />
+																			<targetFilter>537657351</targetFilter>
+																		</CapsuleTargetSelector>
+																	</targetSelector>
+																</SpellPeriodicallyApplicator>
+															</applicator>
+															<continueCondition>
+																<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+																<returnType>bool</returnType>
+																<sString>0</sString>
+															</continueCondition>
+															<continueEvents>1</continueEvents>
+															<delay>
+																<compiledString></compiledString>
+																<returnType>float</returnType>
+																<sString>-1.0</sString>
+															</delay>
+															<stopCondition>
+																<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+																<returnType>bool</returnType>
+																<sString>0</sString>
+															</stopCondition>
+															<stopEvents>0</stopEvents>
+														</Item>
+														<Item>
+															<applicator href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" id="21AF1C69-CCB3-4E08-AA9E-A9FE1CA1512F">
+																<SpellPeriodicallyApplicator>
+																	<applyTarget>ApplicatorTarget</applyTarget>
+																	<behaviorFlags>0</behaviorFlags>
+																	<caption>–°—Ç–µ–∫–∏ –∑–∞ –∫–∞–∂–¥–æ–≥–æ –≥–µ—Ä–æ—è –∏–ª–∏ —á–µ–º–ø–∏–æ–Ω–∞</caption>
+																	<effect>
+																		<Item href="" />
+																		<Item href="" />
+																	</effect>
+																	<enabled>
+																		<compiledString></compiledString>
+																		<returnType>bool</returnType>
+																		<sString>true</sString>
+																	</enabled>
+																	<formulaName></formulaName>
+																	<lifeTime>
+																		<compiledString></compiledString>
+																		<returnType>float</returnType>
+																		<sString>-1.0</sString>
+																	</lifeTime>
+																	<LoggingEvent>-1</LoggingEvent>
+																	<period>
+																		<compiledString></compiledString>
+																		<returnType>float</returnType>
+																		<sString>0.0f</sString>
+																	</period>
+																	<providerName></providerName>
+																	<scaleMode>ScaleIsCount</scaleMode>
+																	<spell href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" id="46282C1B-2382-4F84-B3F6-74070510F958">
+																		<Spell>
+																			<applicators>
+																				<Item href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" id="0E21041A-DC65-4B00-8D6D-B107BBAE502C">
+																					<PermanentStatModApplicator>
+																						<applyTarget>AbilityOwner</applyTarget>
+																						<caption>addRageCurrentStuck</caption>
+																						<customApplyType>None</customApplyType>
+																						<enabled>
+																							<compiledString>FUMAAAAEAAAASgAAAGcAAACGAAAAowAAAFJhZ2VDdXJyZW50U3R1Y2sAAAAAQTBfTWF4U3RhY2tzAAAAAFdpdGNoZXJBMV9TdGFja0hhdmUATWF4U3RhY2tBMQBVi+yD7BRoAAAAAItFCIsQi00Ii4KIAQAA/9CLTQxRi1UIUmgUAAAAi0UQixCLTRCLQlDdXfj/0Nxd+N/g9sRBdUVoJAAAAItNCIsRi00Ii4KIAQAA/9CLTQxRi1UIUmg4AAAAi0UQixCLTRCLQlDdXfD/0Nxd8N/g9sRBdQnHRewBAAAA6wfHRewAAAAAikXsi+Vdww==</compiledString>
+																							<returnType>bool</returnType>
+																							<sString>sender.vRageCurrentStuck &lt; cA0_MaxStacks &amp;&amp; sender.vWitcherA1_StackHave &lt; cMaxStackA1</sString>
+																						</enabled>
+																						<formulaName></formulaName>
+																						<LoggingEvent>-1</LoggingEvent>
+																						<modifier>
+																							<addValue>
+																								<compiledString>FTIAAAADAAAAQQAAAFMAAACAAAAAQTBfTWF4U3RhY2tzAAAAAFJhZ2VDdXJyZW50U3R1Y2sAAAAAQWRkX1JhZ2VTdGFjawBVi+yD7AyLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0mgQAAAAi0UIixCLTQiLgogBAADdXfj/0Nxt+Nld9NlF9FHZHCSLTQxRi1UIUmgkAAAAi0UQixCLTRCLQlD/0FHZHCToBwAAAIPECIvlXcNVi+xR2UUI2UUM3tnf4PbEQXUI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
+																								<returnType>float</returnType>
+																								<sString>min(cAdd_RageStack, cA0_MaxStacks - sender.vRageCurrentStuck)</sString>
+																							</addValue>
+																							<multValue>
+																								<compiledString></compiledString>
+																								<returnType>float</returnType>
+																								<sString>1.0f</sString>
+																							</multValue>
+																							<stat>Life</stat>
+																							<topModifier>false</topModifier>
+																							<variable>RageCurrentStuck</variable>
+																						</modifier>
+																						<providerName></providerName>
+																					</PermanentStatModApplicator>
+																				</Item>
+																				<Item href="/Items/Talents/Class/Witcher/A0_AddRageStatus.APLR" />
+																				<Item href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" id="0BE145C5-15F0-45ED-B66D-EBB9145745C1">
+																					<StatModApplicator>
+																						<applyTarget>ApplicatorTarget</applyTarget>
+																						<behaviorFlags>136</behaviorFlags>
+																						<caption>–ó–∞–ø–æ–º–∏–Ω–∞–µ–º, —á—Ç–æ —Ü–µ–ª—å –º—ã —É–∂–µ —Ç–∞—É–Ω—Ç–∏–ª–∏</caption>
+																						<constraint>None</constraint>
+																						<dontUpdate>false</dontUpdate>
+																						<effect>
+																							<Item href="" />
+																							<Item href="" />
+																						</effect>
+																						<enabled>
+																							<compiledString></compiledString>
+																							<returnType>bool</returnType>
+																							<sString>true</sString>
+																						</enabled>
+																						<formulaName></formulaName>
+																						<lifeTime>
+																							<compiledString>FRAAAAACAAAAHQAAADAAAABBMV9XYWl0RHVyYXRpb24AVYvsUYtFDFCLTQhRaAAAAACLVRCLAotNEItQUP/S3AU+AAAA2V382UX8i+VdwwAAAAAAAABA</compiledString>
+																							<returnType>float</returnType>
+																							<sString>cA1_WaitDuration + 2</sString>
+																						</lifeTime>
+																						<LoggingEvent>-1</LoggingEvent>
+																						<modifier>
+																							<addValue>
+																								<compiledString></compiledString>
+																								<returnType>float</returnType>
+																								<sString>1.0f</sString>
+																							</addValue>
+																							<multValue>
+																								<compiledString></compiledString>
+																								<returnType>float</returnType>
+																								<sString>1.0f</sString>
+																							</multValue>
+																							<stat>Life</stat>
+																							<topModifier>true</topModifier>
+																							<variable>WitcherA1_Taunted</variable>
+																						</modifier>
+																						<providerName></providerName>
+																						<startCondition>
+																							<compiledString></compiledString>
+																							<returnType>bool</returnType>
+																							<sString>true</sString>
+																						</startCondition>
+																						<statModName></statModName>
+																					</StatModApplicator>
+																				</Item>
+																				<Item href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" id="EE1D0F2A-7F6F-4995-BE4E-7F58847C0582">
+																					<StatModApplicator>
+																						<applyTarget>AbilityOwner</applyTarget>
+																						<behaviorFlags>136</behaviorFlags>
+																						<caption>–ó–∞–ø–æ–º–∏–Ω–∞–µ–º —Å–∫–æ–ª—å–∫–æ —Å—Ç–µ–∫–æ–≤ –º—ã —É–∂–µ –ø–æ–ª—É—á–∏–ª–∏</caption>
+																						<constraint>None</constraint>
+																						<dontUpdate>false</dontUpdate>
+																						<effect>
+																							<Item href="" />
+																							<Item href="" />
+																						</effect>
+																						<enabled>
+																							<compiledString></compiledString>
+																							<returnType>bool</returnType>
+																							<sString>true</sString>
+																						</enabled>
+																						<formulaName></formulaName>
+																						<lifeTime>
+																							<compiledString>FRAAAAACAAAAHQAAADAAAABBMV9XYWl0RHVyYXRpb24AVYvsUYtFDFCLTQhRaAAAAACLVRCLAotNEItQUP/S3AU+AAAA2V382UX8i+VdwwAAAAAAAABA</compiledString>
+																							<returnType>float</returnType>
+																							<sString>cA1_WaitDuration + 2</sString>
+																						</lifeTime>
+																						<LoggingEvent>-1</LoggingEvent>
+																						<modifier>
+																							<addValue>
+																								<compiledString></compiledString>
+																								<returnType>float</returnType>
+																								<sString>1.0f</sString>
+																							</addValue>
+																							<multValue>
+																								<compiledString></compiledString>
+																								<returnType>float</returnType>
+																								<sString>1.0f</sString>
+																							</multValue>
+																							<stat>Life</stat>
+																							<topModifier>true</topModifier>
+																							<variable>WitcherA1_StackHave</variable>
+																						</modifier>
+																						<providerName></providerName>
+																						<startCondition>
+																							<compiledString>FUMAAAAEAAAASgAAAGcAAACGAAAAowAAAFJhZ2VDdXJyZW50U3R1Y2sAAAAAQTBfTWF4U3RhY2tzAAAAAFdpdGNoZXJBMV9TdGFja0hhdmUATWF4U3RhY2tBMQBVi+yD7BRoAAAAAItFCIsQi00Ii4KIAQAA/9CLTQxRi1UIUmgUAAAAi0UQixCLTRCLQlDdXfj/0Nxd+N/g9sRBdUVoJAAAAItNCIsRi00Ii4KIAQAA/9CLTQxRi1UIUmg4AAAAi0UQixCLTRCLQlDdXfD/0Nxd8N/g9sRBdQnHRewBAAAA6wfHRewAAAAAikXsi+Vdww==</compiledString>
+																							<returnType>bool</returnType>
+																							<sString>sender.vRageCurrentStuck &lt; cA0_MaxStacks &amp;&amp; sender.vWitcherA1_StackHave &lt; cMaxStackA1</sString>
+																						</startCondition>
+																						<statModName></statModName>
+																					</StatModApplicator>
+																				</Item>
+																			</applicators>
+																			<dispatch href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" id="06452C87-84B7-4041-8AA9-48EEB1512172">
+																				<DispatchImmediate>
+																					<alwaysApply>false</alwaysApply>
+																					<applyEffect>
+																						<Item href="" />
+																						<Item href="" />
+																					</applyEffect>
+																					<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																					<applyEffectOrientation>Default</applyEffectOrientation>
+																					<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																					<dieAfterApply>true</dieAfterApply>
+																					<dispatchEffect>
+																						<Item href="" />
+																						<Item href="" />
+																					</dispatchEffect>
+																					<flags>0</flags>
+																					<instantApply>false</instantApply>
+																				</DispatchImmediate>
+																			</dispatch>
+																		</Spell>
+																	</spell>
+																	<startCondition>
+																		<compiledString></compiledString>
+																		<returnType>bool</returnType>
+																		<sString>true</sString>
+																	</startCondition>
+																	<startOffset>
+																		<compiledString></compiledString>
+																		<returnType>float</returnType>
+																		<sString>0.0f</sString>
+																	</startOffset>
+																	<targetSelector href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" id="D84DDD88-08F4-4CAC-9F1D-0640BC9EEF70">
+																		<ConditionTargetSelector>
+																			<condition>
+																				<compiledString>FRIAAAACAAAAFwAAAC0AAABXaXRjaGVyQTFfVGF1bnRlZABVi+xRaAAAAACLRQyLEItNDIuCiAEAAP/Q3B1PAAAA3+D2xER6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
+																				<returnType>bool</returnType>
+																				<sString>receiver.vWitcherA1_Taunted == 0</sString>
+																			</condition>
+																			<flags>0</flags>
+																			<mode>SendOnce</mode>
+																			<targetSelector href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" id="460308D0-B118-4C74-9A3E-CB259D065304">
+																				<CapsuleTargetSelector>
+																					<cutoffFirstSegment>false</cutoffFirstSegment>
+																					<flags>0</flags>
+																					<mode>SendOnce</mode>
+																					<range>
+																						<compiledString>FQYAAAACAAAAEwAAACYAAABXaWR0aABVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcDTQAAADZXfzZRfyL5V3DAAAAAAAA4D8=</compiledString>
+																						<returnType>float</returnType>
+																						<sString>cWidth * 0.5</sString>
+																					</range>
+																					<rangeFromOwner>
+																						<compiledString></compiledString>
+																						<returnType>float</returnType>
+																						<sString>0.0f</sString>
+																					</rangeFromOwner>
+																					<segmentBegin>PreviousPosition</segmentBegin>
+																					<segmentDirectionOffset>0</segmentDirectionOffset>
+																					<segmentEnd>CurrentPosition</segmentEnd>
+																					<segmentEndTargetSelector href="" />
+																					<targetFilter>538771519</targetFilter>
+																				</CapsuleTargetSelector>
+																			</targetSelector>
+																		</ConditionTargetSelector>
+																	</targetSelector>
+																</SpellPeriodicallyApplicator>
+															</applicator>
+															<continueCondition>
+																<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+																<returnType>bool</returnType>
+																<sString>0</sString>
+															</continueCondition>
+															<continueEvents>1</continueEvents>
+															<delay>
+																<compiledString></compiledString>
+																<returnType>float</returnType>
+																<sString>-1.0</sString>
+															</delay>
+															<stopCondition>
+																<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+																<returnType>bool</returnType>
+																<sString>0</sString>
+															</stopCondition>
+															<stopEvents>0</stopEvents>
+														</Item>
+														<Item>
+															<applicator href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" id="2172CE88-BEFA-49E7-BEEC-9A44068C4544">
+																<ThrowApplicator>
+																	<angle Animated="True">
+																		<Tracks>
+																			<Item>
+																				<Item>
+																					<Key>0</Key>
+																					<Value>0</Value>
+																				</Item>
+																				<Item>
+																					<Key>1</Key>
+																					<Value>0</Value>
+																				</Item>
+																			</Item>
+																		</Tracks>
+																		<Type>Clamp</Type>
+																		<Values>
+																			<Item>
+																				<Key>0</Key>
+																				<Value>0</Value>
+																			</Item>
+																			<Item>
+																				<Key>1</Key>
+																				<Value>0</Value>
+																			</Item>
+																		</Values>
+																	</angle>
+																	<applyTarget>AbilityOwner</applyTarget>
+																	<behaviorFlags>0</behaviorFlags>
+																	<caption>move</caption>
+																	<collisionFlags>1</collisionFlags>
+																	<enabled>
+																		<compiledString></compiledString>
+																		<returnType>bool</returnType>
+																		<sString>true</sString>
+																	</enabled>
+																	<firstTargetToHit href="" />
+																	<flightType>Jump</flightType>
+																	<flipTime>
+																		<compiledString></compiledString>
+																		<returnType>float</returnType>
+																		<sString>1.0</sString>
+																	</flipTime>
+																	<flyEffect>
+																		<Item href="" />
+																		<Item href="" />
+																	</flyEffect>
+																	<formulaName>Throw_Jump</formulaName>
+																	<landTime>0</landTime>
+																	<lockRotation>false</lockRotation>
+																	<LoggingEvent>-1</LoggingEvent>
+																	<maxDistance>0</maxDistance>
+																	<maxHeight>0</maxHeight>
+																	<moveSpeed>
+																		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmpnVQQ==</compiledString>
+																		<returnType>float</returnType>
+																		<sString>26.7</sString>
+																	</moveSpeed>
+																	<providerName></providerName>
+																	<startSpell href="" />
+																	<stopSpell href="" />
+																	<surfaceSpeedFromAG>false</surfaceSpeedFromAG>
+																	<takeOffTime>0</takeOffTime>
+																	<targetSelector href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" id="FF502740-78AC-4A1A-A53C-FBE9FF74DE53">
+																		<SelectApplicatorTarget>
+																			<applicatorIndex>0</applicatorIndex>
+																			<applicatorName></applicatorName>
+																			<namedApplicatorTarget>ApplicatorTarget</namedApplicatorTarget>
+																			<selectTarget>Hier2UpApplicatorTarget</selectTarget>
+																		</SelectApplicatorTarget>
+																	</targetSelector>
+																	<trackTargetUnit>false</trackTargetUnit>
+																	<trajectory Animated="True">
+																		<Tracks>
+																			<Item>
+																				<Item>
+																					<Key>0</Key>
+																					<Value>0</Value>
+																				</Item>
+																				<Item>
+																					<Key>1</Key>
+																					<Value>0</Value>
+																				</Item>
+																			</Item>
+																		</Tracks>
+																		<Type>Clamp</Type>
+																		<Values>
+																			<Item>
+																				<Key>0</Key>
+																				<Value>0</Value>
+																			</Item>
+																			<Item>
+																				<Key>1</Key>
+																				<Value>0</Value>
+																			</Item>
+																		</Values>
+																	</trajectory>
+																</ThrowApplicator>
+															</applicator>
+															<continueCondition>
+																<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+																<returnType>bool</returnType>
+																<sString>0</sString>
+															</continueCondition>
+															<continueEvents>2</continueEvents>
+															<delay>
+																<compiledString></compiledString>
+																<returnType>float</returnType>
+																<sString>-1.0</sString>
+															</delay>
+															<stopCondition>
+																<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+																<returnType>bool</returnType>
+																<sString>0</sString>
+															</stopCondition>
+															<stopEvents>0</stopEvents>
+														</Item>
+													</applicators>
+													<applyTarget>AbilityOwner</applyTarget>
+													<behaviorFlags>154</behaviorFlags>
+													<caption>Program</caption>
+													<effect>
+														<Item href="" />
+														<Item href="" />
+													</effect>
+													<enabled>
+														<compiledString></compiledString>
+														<returnType>bool</returnType>
+														<sString>true</sString>
+													</enabled>
+													<formulaName></formulaName>
+													<lifeTime>
+														<compiledString></compiledString>
+														<returnType>float</returnType>
+														<sString>-1.0</sString>
+													</lifeTime>
+													<LoggingEvent>-1</LoggingEvent>
+													<providerName></providerName>
+													<startCondition>
+														<compiledString></compiledString>
+														<returnType>bool</returnType>
+														<sString>true</sString>
+													</startCondition>
+												</ProgramApplicator>
+											</applicator>
+											<continueCondition>
+												<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+												<returnType>bool</returnType>
+												<sString>0</sString>
+											</continueCondition>
+											<continueEvents>2</continueEvents>
+											<delay>
+												<compiledString></compiledString>
+												<returnType>float</returnType>
+												<sString>-1.0</sString>
+											</delay>
+											<stopCondition>
+												<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+												<returnType>bool</returnType>
+												<sString>0</sString>
+											</stopCondition>
+											<stopEvents>0</stopEvents>
+										</Item>
+										<Item>
+											<applicator href="/GameLogic/GeneralApplicators/EndOfAbility.APLR" />
+											<continueCondition>
+												<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+												<returnType>bool</returnType>
+												<sString>0</sString>
+											</continueCondition>
+											<continueEvents>1</continueEvents>
+											<delay>
+												<compiledString></compiledString>
+												<returnType>float</returnType>
+												<sString>-1.0</sString>
+											</delay>
+											<stopCondition>
+												<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+												<returnType>bool</returnType>
+												<sString>0</sString>
+											</stopCondition>
+											<stopEvents>0</stopEvents>
+										</Item>
+									</applicators>
+									<applyTarget>AbilityOwner</applyTarget>
+									<behaviorFlags>152</behaviorFlags>
+									<caption>outer program</caption>
+									<effect>
+										<Item href="" />
+										<Item href="" />
+									</effect>
+									<enabled>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<lifeTime>
+										<compiledString></compiledString>
+										<returnType>float</returnType>
+										<sString>-1.0</sString>
+									</lifeTime>
+									<LoggingEvent>-1</LoggingEvent>
+									<providerName></providerName>
+									<startCondition>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</startCondition>
+								</ProgramApplicator>
+							</Item>
+						</applicators>
+						<dispatch href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" id="078C91A9-AC3A-466F-A4A4-1F5E0BF7B933">
+							<DispatchImmediate>
+								<alwaysApply>false</alwaysApply>
+								<applyEffect>
+									<Item href="" />
+									<Item href="" />
+								</applyEffect>
+								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+								<applyEffectOrientation>Default</applyEffectOrientation>
+								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+								<dieAfterApply>true</dieAfterApply>
+								<dispatchEffect>
+									<Item href="" />
+									<Item href="" />
+								</dispatchEffect>
+								<flags>0</flags>
+								<instantApply>false</instantApply>
+							</DispatchImmediate>
+						</dispatch>
+					</Spell>
+				</spell>
+				<spellTarget>ApplicatorTarget</spellTarget>
+				<targetSelector href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" id="63630976-6486-4A5D-847F-95784E6ADE42">
+					<PointTargetSelector>
+						<checkMinRange>true</checkMinRange>
+						<mode>RangeFromOwner</mode>
+						<offset>
+							<x>0</x>
+							<y>0</y>
+						</offset>
+						<paralleledTarget>false</paralleledTarget>
+						<range>
+							<compiledString>FQ8AAAACAAAAHgAAAEcAAABSYW5nZQAAAFRhcmdldABVi+yD7BCLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0lHZHCRR2e7ZHCSLRRCLEItNEItCDP/QaAgAAACLTRCLEYtNEItCTN1d+P/QK0UM99gbwIPgBIlF9NtF9Nxt+Nld8NlF8FHZHCToPgAAAIPEBNkcJOgLAAAAg8QIi+VdwwAAAABVi+xR2UUI2UUM3tnf4PbEQXUI2UUI2V386wbZRQzZXfzZRfyL5V3DVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
+							<returnType>float</returnType>
+							<sString>clamp( mDist2Target - (pMisc-&gt;GetObject("Target") != pSecond ? 4 : 0 ), 0, cRange )</sString>
+						</range>
+						<targetSelector href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" id="4B2FE7EE-AAA0-46A3-AAE8-B3742C2552EF">
+							<SelectApplicatorTarget>
+								<applicatorIndex>0</applicatorIndex>
+								<applicatorName></applicatorName>
+								<namedApplicatorTarget>ApplicatorTarget</namedApplicatorTarget>
+								<selectTarget>ApplicatorTarget</selectTarget>
+							</SelectApplicatorTarget>
+						</targetSelector>
+						<traceMode>6</traceMode>
+					</PointTargetSelector>
+				</targetSelector>
+			</SpellApplicator>
+		</Item>
+	</applicators>
+	<askId>1</askId>
+	<autoTargetSelector href="" />
+	<budget>-1</budget>
+	<caption>–ê1. –†–µ—à–∏—Ç–µ–ª—å–Ω–∞—è –∞—Ç–∞–∫–∞</caption>
+	<castAllowRange>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</castAllowRange>
+	<castLimitations />
+	<commonDescription textref="/Items/Talents/Class/Witcher/Ability_A1.TALENT_commonDescription.txt" />
+	<compiledDescriptionA textref="" />
+	<compiledDescriptionB textref="" />
+	<conditionFormulas>
+		<Item href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" id="3B3B563A-1C63-462F-BB57-0D7AFCD74F01">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FR0AAAACAAAAJAAAAD0AAABXaXRjaGVyX0ExdTEAAAAAV2l0Y2hlcl9BMXUxAFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZF+/fYG8CDwAGL5V3D</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("Witcher_A1u1") == false</sString>
+				</condition>
+				<name>Witcher_A1u1</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" id="9978DDD0-8E4F-45A7-85AF-77A13FC5ECBE">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FR0AAAACAAAAJAAAAD0AAABXaXRjaGVyX0ExdTIAAAAAV2l0Y2hlcl9BMXUyAFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZF+/fYG8CDwAGL5V3D</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("Witcher_A1u2") == false</sString>
+				</condition>
+				<name>Witcher_A1u2</name>
+			</ConditionFormula>
+		</Item>
+	</conditionFormulas>
+	<conflictingTalents />
+	<constants href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" id="DC9DCDF0-4C64-46F3-B15E-5D0FF60B62C0">
+		<UnitConstantsContainer>
+			<vars>
+				<Item href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" id="F914122A-9079-4053-B216-3A91144D1ABE">
+					<UnitConstant>
+						<name>Range</name>
+						<var>
+							<compiledString>FQwAAAACAAAAGQAAACwAAABSYW5nZV9TaG9ydABVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcBToAAADZXfzZRfyL5V3DAAAAAAAA8D8=</compiledString>
+							<returnType>float</returnType>
+							<sString>cRange_Short+1</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" id="61E6D66D-4A02-44AF-BF9F-FA2A46212477">
+					<UnitConstant>
+						<name>Width</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQQ==</compiledString>
+							<returnType>float</returnType>
+							<sString>4 * 2</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Witcher/const_A1_TauntDuration" />
+				<Item href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" id="D46EAFCA-48A7-41AE-955F-97912D06FCD6">
+					<UnitConstant>
+						<name>A1_baseDamage</name>
+						<var>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBWMAAADZHCRR2QVfAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJItNCIsRi00Ii4IwAQAA/9BR2Rwk6B8AAACDxATZHCRqAYtNEIsRi00Qi0Jg/9BdwwAAIEIAAJZDVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
+							<returnType>float</returnType>
+							<sString>damageScale(max(sStrength,sIntellect), 40, 300)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" id="587CC335-DBCC-44B6-841E-3927BEC16A85">
+					<UnitConstant>
+						<name>A1_Damage</name>
+						<var>
+							<compiledString>FQ4AAAABAAAAGgAAAEExX2Jhc2VEYW1hZ2UAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+							<returnType>float</returnType>
+							<sString>cA1_baseDamage</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" id="C30DF215-2FAA-4F77-AF4C-F43B66558FBE">
+					<UnitConstant>
+						<name>DashCount</name>
+						<var>
+							<compiledString>FR0AAAACAAAAJAAAAD0AAABXaXRjaGVyX0ExdTIAAAAAV2l0Y2hlcl9BMXUyAFWL7IPsDGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+/fZG8n32YPBAYlN9NtF9IvlXcM=</compiledString>
+							<returnType>float</returnType>
+							<sString>tal("Witcher_A1u2") ? 2 : 1</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" id="3D85E9C1-B6EC-4175-8C90-EEDA8C480C32">
+					<UnitConstant>
+						<name>A1_WaitDuration</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAQA==</compiledString>
+							<returnType>float</returnType>
+							<sString>4</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" id="9C9DEEED-59EC-4EBF-AC1D-00949CDF9A36">
+					<UnitConstant>
+						<name>SecondDashReduce</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
+							<returnType>float</returnType>
+							<sString>2</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" id="5DB807A8-7480-4DBD-93FB-4F82D7DE68BB">
+					<UnitConstant>
+						<name>A1_ManaCost</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQg==</compiledString>
+							<returnType>float</returnType>
+							<sString>60</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" id="6D713632-3FC7-47FD-A8B4-4748D838B2B5">
+					<UnitConstant>
+						<name>Add_RageStack</name>
+						<var>
+							<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+							<returnType>float</returnType>
+							<sString>1</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Witcher/const_A0_Defence_TT" />
+				<Item href="/Items/Talents/Class/Witcher/const_A0_MaxStacks" />
+				<Item href="/Items/Talents/Class/Witcher/const_A0_ScaleDefence" />
+				<Item href="/Items/Talents/Class/Witcher/const_A0_Defence" />
+				<Item href="/Items/Talents/Class/Witcher/const_A0_NoScaleDefence" />
+				<Item href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" id="1F946610-9296-4BE4-B2B7-AB80D526A6F3">
+					<UnitConstant>
+						<name>MaxStackA1</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADAQA==</compiledString>
+							<returnType>float</returnType>
+							<sString>6</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" id="63EA0ADC-5083-4740-AC8C-9E6E1275CD6D">
+					<UnitConstant>
+						<name>Taunt_StartCondition</name>
+						<var>
+							<compiledString>FQ0AAAACAAAAEgAAACgAAABBbGxvd0NvbnRyb2wAVYvsUWgAAAAAi0UMixCLTQyLgogBAAD/0NwdSgAAAN/g9sREewnHRfwBAAAA6wfHRfwAAAAA20X8i+VdwwAAAAAAAPA/</compiledString>
+							<returnType>float</returnType>
+							<sString>receiver.vAllowControl != 1</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+			</vars>
+		</UnitConstantsContainer>
+	</constants>
+	<consumptionBonus>
+		<constant>0</constant>
+		<percent>0</percent>
+	</consumptionBonus>
+	<cooldownTime>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABgQQ==</compiledString>
+		<returnType>float</returnType>
+		<sString>14</sString>
+	</cooldownTime>
+	<cooldownTimeSecondState>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</cooldownTimeSecondState>
+	<description textref="/Items/Talents/Class/Witcher/Ability_A1.TALENT_description.txt" />
+	<devPoints>1</devPoints>
+	<dispatch href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" id="401F5777-D279-4724-893D-73C5AFF74726">
+		<DispatchImmediate>
+			<alwaysApply>false</alwaysApply>
+			<applyEffect>
+				<Item href="" />
+				<Item href="" />
+			</applyEffect>
+			<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+			<applyEffectOrientation>Default</applyEffectOrientation>
+			<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+			<dieAfterApply>true</dieAfterApply>
+			<dispatchEffect>
+				<Item href="" />
+				<Item href="" />
+			</dispatchEffect>
+			<flags>0</flags>
+			<instantApply>true</instantApply>
+		</DispatchImmediate>
+	</dispatch>
+	<flags>4679</flags>
+	<forceBonus>6</forceBonus>
+	<image href="/UI/Styles/Icons/Heroes/Witcher/A1.ITEX" />
+	<imageSecondState href="" />
+	<isGenderTalent>false</isGenderTalent>
+	<isTakenOnStart>false</isTakenOnStart>
+	<isUltimateTalent>false</isUltimateTalent>
+	<isUnitFreeAfterCast>false</isUnitFreeAfterCast>
+	<manaCost>
+		<compiledString>FQwAAAABAAAAGAAAAEExX01hbmFDb3N0AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+		<returnType>float</returnType>
+		<sString>cA1_ManaCost</sString>
+	</manaCost>
+	<marker></marker>
+	<microAI href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" id="A9A1AF32-5996-436B-BB56-A0541A1974F9">
+		<TargetSelectorMicroAI>
+			<castWhenIdle>false</castWhenIdle>
+			<condition>
+				<compiledString></compiledString>
+				<returnType>bool</returnType>
+				<sString>true</sString>
+			</condition>
+			<targetSelector href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" id="6A97EC3A-AFC0-47E0-9CE8-E219E1EBFDDD">
+				<ConvertTargetToLand>
+					<aggregateMode>First</aggregateMode>
+					<targetSelector href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" id="6E7DDF2F-6EDB-48DE-A012-050894A60EF5">
+						<FirstTargetSelector>
+							<nearestTarget>false</nearestTarget>
+							<targetSelector href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" id="88229B4C-FF76-4E02-867B-67CBFB51291D">
+								<AreaTargetSelector>
+									<absolutePosition>
+										<x>0</x>
+										<y>0</y>
+									</absolutePosition>
+									<flags>0</flags>
+									<mode>Normal</mode>
+									<range>
+										<compiledString>FQYAAAABAAAAEgAAAFJhbmdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+										<returnType>float</returnType>
+										<sString>cRange</sString>
+									</range>
+									<targetFilter>679477279</targetFilter>
+									<targetSelector href="" />
+								</AreaTargetSelector>
+							</targetSelector>
+						</FirstTargetSelector>
+					</targetSelector>
+				</ConvertTargetToLand>
+			</targetSelector>
+		</TargetSelectorMicroAI>
+	</microAI>
+	<minLevel>0</minLevel>
+	<minUseRangeCorrection>8</minUseRangeCorrection>
+	<naftaCost>300</naftaCost>
+	<name textref="/Items/Talents/Class/Witcher/Ability_A1.TALENT_name.txt" />
+	<node></node>
+	<passiveApplicators>
+		<Item href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" id="41861584-CF43-41E2-A4D4-2F4AB1583E80">
+			<FlagsApplicator parent="/GameLogic/GeneralApplicators/ForbidTalentByCondition.APLR">
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvsaAAAAgCLRQyLEItNDItCaP/QXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>rFlag(131072)</sString>
+				</enabled>
+				<talents>
+					<Item href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" />
+				</talents>
+			</FlagsApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" id="70C3E4BE-4658-4565-9B07-EDD8EA66F5D4">
+			<TriggerApplicator>
+				<actionsCount>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>0</sString>
+				</actionsCount>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption>–£–±–∏—Ä–∞–µ–º –¥–∞—à–∏ –ø—Ä–∏ —Å–º–µ—Ä—Ç–∏</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<playAck>false</playAck>
+				<processor href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" id="9802A8E1-0D17-4DA1-B56A-23B1993293CA">
+					<EventProcessorOnDeath>
+						<applyTarget>AbilityOwner</applyTarget>
+						<castSpellDelay>
+							<compiledString></compiledString>
+							<returnType>float</returnType>
+							<sString>0.0f</sString>
+						</castSpellDelay>
+						<checkSender>0</checkSender>
+						<objectFilter>2040319</objectFilter>
+						<senderMatchTarget>ApplicatorTarget</senderMatchTarget>
+						<spell href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" id="43C10BA6-E788-4357-A81A-B280FA2198E4">
+							<Spell>
+								<applicators>
+									<Item href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" id="7953618C-E661-405F-A6CE-A8CDB924EFC1">
+										<PermanentStatModApplicator>
+											<applyTarget>AbilityOwner</applyTarget>
+											<caption>–û–±–Ω—É–ª—è–µ–º —Å—á–µ—Ç—á–∏–∫</caption>
+											<customApplyType>None</customApplyType>
+											<enabled>
+												<compiledString></compiledString>
+												<returnType>bool</returnType>
+												<sString>true</sString>
+											</enabled>
+											<formulaName></formulaName>
+											<LoggingEvent>-1</LoggingEvent>
+											<modifier>
+												<addValue>
+													<compiledString></compiledString>
+													<returnType>float</returnType>
+													<sString>0.0f</sString>
+												</addValue>
+												<multValue>
+													<compiledString></compiledString>
+													<returnType>float</returnType>
+													<sString>0.0f</sString>
+												</multValue>
+												<stat>Life</stat>
+												<topModifier>false</topModifier>
+												<variable>A1_WitcherDash</variable>
+											</modifier>
+											<providerName></providerName>
+										</PermanentStatModApplicator>
+									</Item>
+								</applicators>
+								<dispatch href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" id="F5932082-E94F-43C3-8310-69DF41481F52">
+									<DispatchImmediate>
+										<alwaysApply>false</alwaysApply>
+										<applyEffect>
+											<Item href="" />
+											<Item href="" />
+										</applyEffect>
+										<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+										<applyEffectOrientation>Default</applyEffectOrientation>
+										<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+										<dieAfterApply>true</dieAfterApply>
+										<dispatchEffect>
+											<Item href="" />
+											<Item href="" />
+										</dispatchEffect>
+										<flags>0</flags>
+										<instantApply>true</instantApply>
+									</DispatchImmediate>
+								</dispatch>
+							</Spell>
+						</spell>
+					</EventProcessorOnDeath>
+				</processor>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<useAbilityCooldown>false</useAbilityCooldown>
+				<useAbilityOwnerMana>false</useAbilityOwnerMana>
+			</TriggerApplicator>
+		</Item>
+	</passiveApplicators>
+	<persistentId>Witcher_A1</persistentId>
+	<prerequisiteTalents />
+	<rarity>Class</rarity>
+	<requireLineOfSight>false</requireLineOfSight>
+	<shortDescription textref="/Items/Talents/Class/Witcher/Ability_A1.TALENT_shortDescription.txt" />
+	<talentRollGroups>63</talentRollGroups>
+	<talentStats />
+	<targetType>16777216</targetType>
+	<type>Active</type>
+	<upgradeLevel>0</upgradeLevel>
+	<useRange>
+		<compiledString>FQYAAAABAAAAEgAAAFJhbmdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+		<returnType>float</returnType>
+		<sString>cRange</sString>
+	</useRange>
+	<useRangeMaterial href="/Effects/UI/AOESelection/Radius.MTRL" />
+	<variativeMaxTalentStats />
+	<variativeMinTalentStats />
+	<vendorCost>0</vendorCost>
+	<warFogRemoveRadius>0</warFogRemoveRadius>
+	<warFogRemoveTime>0</warFogRemoveTime>
+</Talent>Ôªø<?xml version="1.0" encoding="utf-8"?>
+<Talent>
+	<BackLink DBID="/Social.ROOT" Count="1" />
+	<BackLink DBID="/SocialTest.ROOT" Count="1" />
+	<BackLink DBID="/Items/Talents/Witcher.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Witcher_Alternative.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Witcher/Ability_A2u.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentKits/Redset6_2_CDR/appl_Redset6_2_RefreshCooldown.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/Witcher_Mighty.TALENTSET" Count="1" />
@@ -97998,9 +100656,9 @@ PileÔªø<?xml version="1.0" encoding="utf-8"?>
 					<UnitConstant>
 						<name>A3_ScaleHeal</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAAQQQAAhkI=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAABQQQAAvkI=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(sIntellect, 9, 67)</sString>
+							<sString>damageScale(sIntellect, 13, 95)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -98106,7 +100764,17 @@ PileÔªø<?xml version="1.0" encoding="utf-8"?>
 	<vendorCost>0</vendorCost>
 	<warFogRemoveRadius>0</warFogRemoveRadius>
 	<warFogRemoveTime>0</warFogRemoveTime>
-</Talent>Ôªø<?xml version="1.0" encoding="utf-8"?>
+</Talent>ˇ˛< i f = t a l e n t . i f . W i t c h e r _ A 3 _ S U P >  
+ >AAB0=02;8205B  35@>N  < a t o m > < s t y l e : T T _ M A R K > < v a l u e = t a l e n t . c o n s t . A 3 _ B a s e H e a l > < / s t y l e >   4>@>2LO< / a t o m > < s p a c e : 1 > < a t o m > ( >B  =081>;LH53>  87  !8;K  8   07C<0) < / a t o m >   8  4>?>;=8B5;L=>,   8A?>;L7CO  5@>87<,   2>AAB0=02;8205B  < a t o m > < s t y l e : T T _ M A R K > < v a l u e = t a l e n t . c o n s t . A 3 _ S c a l e H e a l > < / s t y l e >   4>@>2LO< / a t o m > < s p a c e : 1 > < a t o m > ( >B   07C<0) < / a t o m >   70  :064K9  =0:>?;5==K9  MDD5:B.  
+ < b r >  
+  
+ < e l s e >  
+ >AAB0=02;8205B  35@>N  < a t o m > < s t y l e : T T _ M A R K > < v a l u e = t a l e n t . c o n s t . A 3 _ B a s e H e a l > < / s t y l e >   4>@>2LO< / a t o m > < s p a c e : 1 > < a t o m > ( >B  =081>;LH53>  87  !8;K  8   07C<0) < / a t o m >   8  4>?>;=8B5;L=>,   8A?>;L7CO  5@>87<,   2>AAB0=02;8205B  < a t o m > < s t y l e : T T _ M A R K > < v a l u e = t a l e n t . c o n s t . A 3 _ S c a l e H e a l > < / s t y l e >   4>@>2LO< / a t o m > < s p a c e : 1 > < a t o m > ( >B   07C<0) < / a t o m >   70  :064K9  =0:>?;5==K9  MDD5:B.  
+ < b r >  
+ >A;5  ?@8<5=5=8O  B0;0=B0  35@>9  2>72@0I05B  < s t y l e : T T _ M A R K > < v a l u e = t a l e n t . c o n s t . A 3 _ S U P _ C a s h b a c k > % < / s t y l e >   8A?>;L7>20==>3>  5@>87<0.  
+ < b r >  
+ < / i f >  
+ < s t y l e : T T _ B o n u s > @8  8A?>;L7>20=88  A  @>4=>9  75<;8  A=8<05B  A  A51O  2A5  =530B82=K5  MDD5:BK. < / s t y l e > Ôªø<?xml version="1.0" encoding="utf-8"?>
 <Talent>
 	<BackLink DBID="/Social.ROOT" Count="1" />
 	<BackLink DBID="/SocialTest.ROOT" Count="1" />
@@ -99929,9 +102597,9 @@ PileÔªø<?xml version="1.0" encoding="utf-8"?>
 	<BackLink DBID="/Maps/PvE/Series/Episode1/Talents/witcher/Ability1.TALENT" Count="1" />
 	<name>A0_ScaleDefence</name>
 	<var>
-		<compiledString>FQAAAAABAAAACAAAAFWL7GoAUdkFXwAAANkcJFHZ6NkcJGoAi0UIixCLTQiLgjQBAAD/0FHZHCSLTQiLEYtNCIuCMAEAAP/QUdkcJOgfAAAAg8QE2RwkagCLTRCLEYtNEItCYP/QXcMAAIA/ZmbGQFWL7FHZRQjZRQze2d/g9sQFegjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
+		<compiledString>FQAAAAABAAAACAAAAFWL7GoAUdkFXwAAANkcJFHZ6NkcJGoAi0UIixCLTQiLgjQBAAD/0FHZHCSLTQiLEYtNCIuCMAEAAP/QUdkcJOgfAAAAg8QE2RwkagCLTRCLEYtNEItCYP/QXcMAAIA/Zma2QFWL7FHZRQjZRQze2d/g9sQFegjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
 		<returnType>float</returnType>
-		<sString>abilityScale (max(sStrength,sIntellect), 1, 6.2, false)</sString>
+		<sString>abilityScale (max(sStrength,sIntellect), 1, 5.7, false)</sString>
 	</var>
 </UnitConstant>ˇ˛0=>A8B  < s t y l e : T T _ M A R K > < v a l u e = t a l e n t . c o n s t . A 1 _ D a m a g e > < / s t y l e >   < i m a g e : p h y s i c a l _ d a m a g e   s p a c e b = 0 . 5 >   C@>=0  ( >B  =081>;LH53>  87  !8;K  8   07C<0)   2@030<  ?5@54  35@>5< 
   
@@ -110248,54 +112916,60 @@ PileÔªø<?xml version="1.0" encoding="utf-8"?>
 Œh«(	≈o0ÕÆ-Èój«ªK„î[ÔÇcÎπ[·g3éO@πp∫H’c:ÿå}ˆê$ÍÇk÷òOˇî÷åZ•D‡d2ÅNC∏wπI9‘`;ﬂç~˜ü%ÈÉl◊õN‡ï◊ã[Û§KÖIË\*˘FK¿o<±A1Ãò3◊Öfœá-·õ àG‰Ø^Øåd£lÑ6.¯W0ôr9“œö*¡Å;¥Ω)˚ìI¢§Zı∫Y˝z:§q∞UD¯V%‚'$À`UÌù(ƒó3È¬˚âMˇwÎΩY®(ãØ≈G¡&ËG âÇ)¬ÛˇäZÒëK§çYÎ£YRÉS®n@ùX	‹göBÎT}ﬁù.ü∑#˛é]ÂóŸµ_˜•/øG∫41åu ”n(⁄rwÈπÒ÷3˙ìD–ãPıØYÓµL≠îa7°F§4,â_6ót;– ì4Ëò-Ùìl—åRÍêT‰ö^Ò∏N¨T¥jC˝s›J*≈e4¡π=ƒ©˘ù-ª©k¬≥ˇæOÄõC£zÍYŸtòLÒa?≈ï;€¿ÚÄ&Á∑Oˇê_„ç~,¸u*ìG_ºsΩXƒf9‹-ƒö*ƒ∞&Ùé%·…f¢ó` öµFwÇx¨sìK”i.¬u”õ9’Äi∆°p¿±y«çe÷ûa8èp®h±;)ÎB3ö>œ √ã#˙Åj‹éXë[˛éD‚¢\‡}&ÅW+èW"Â^“r,ﬂ—ı¥∞â ıÍuıëYÏØ ≈†F´S[ò4,éT4ót;–Œå>¡Ñe’ï"˙åN†Ω¿âa√˙_Ø ;£k⁄aJ~0≈a%Ö¢~Î§ﬁ¡:Òä;∆ÑFËø^ØÉOßX∑tD·?%˘Mû{2À¸«á'˛ùnƒã[ÍïV¬∂OΩWWî00äP8ìh‘	 p:ÕàaÚú&˜å.ºπƒç}«ˆS≥$?Øo¶eFÔ{Ÿc>‹.âªÁ°h·à]í≠]˘±T˜¯}§@¨n@ù; ÈA#ö>œ √ã#˙Åj¬é_˝ãC•ÇÀÑf>·Z™'µq
 …"4“j<¬ã!ä∞.ˇù!Âƒi—Øs«à|«Å™Ctén≠`IÌm3◊k,ÿ—Õë&¯ù"¯«hŒÆp∆è}ƒÄ	©Bsèm	“aJÏj2‘j#Ÿ“ Ç*Ù´-ˆúT¸œ`∆ñhŒáu<ò1
 °zk˜e⁄yr‰b:Ãí;—⁄˜è2Á»{·É[„¥E¶
-9©w≠c‚QPò]„G¸’6≈ñG”ô%˛ïÿæ^‡∂_˛g´nÏWﬂgÿa(⁄.≈ì!…á?∆≠º±y«õ–˘R≤#?Ωy±:<⁄b⁄s)ÇC?«ä?∞≥)˚É[¸çD˛Úq·øEª[*â/@ïU+ˇC4Ïe6¡í=Àº.Ìí6˛öI˘åXß®Wˆ’a´LËN¨vÕpÒi9ÿç~Âõ)ıï.ˇöH†£W·∑Gı≠x;˘U]íX ˙\1ñs:”ﬁò=–Ÿ˝É'˚úH°¢XÊ©^ØíJ§z¨këPﬁf4ƒz	Ë»:˝«fœØ—©n£òW‰Ÿe∑H‰J®r…cLıe=‹qzÈó-…ë*Ûû4ºß[Â≥[Ò°t?Â{E‰I1èS'Ë!—j[Áu1 âbÙí*¸ÇK· {ÁøB˜¯k≥K§u∂:…a∆f7¿_í¶ÒÜÙÑPÙ v⁄ëb≠ÆMœk≠vÓ@÷h«uvÔì3÷ãdﬂù'ˇèP˘êB¶É\˜∏E†`Æv¥j9˚`*◊F4ƒê4ä∂—§mÓç^è´AÌ∂]ÆÄF®Nµ6/”sÀ$›g?œê9–Çf√ú7¯ÖT‡†VÓ∂DÙ™y+©{1©w€?%ıF	û{2À¸÷ê%Ë¡ıã_„î@©ö@°VWäp°{E¸r
-⁄`(÷]ù’‡∏‘πnÎÇ[åñF‡µXQÖEØs∞9*–n∆'¿f1À’¬ö*òFÕ§˛e≈õo3Ñ≠~oãa÷}N‡f6»n'’÷Ûì6ÎƒˇÉRÊÚq·øEª[*â.Ô@&ˆH.ÁY=…å1◊ë;Íò+˘ƒIËó6¿®JÔ¶/ØM©nÔP
-ÿ,ùD6Ãõ=ãî%ÛÉ7…®–±`ÿÑoÂ∞c†A£7€peÒ;‹wx˛ú<∆ò=Ô¿˘âH˝ŒuıÆDÛß	8Æv¨l·PUô^¸F˝“7∆óH“ö$˘îŸÅ_„∑X˝f™mÎV…y¬&Õk9¡è7˛µv¥πﬂ£wÿÄQÍµFø`π~™f’`õ|#⁄”ü ”‹¯ÄZ¸ëK§ù]Â§YRíO≠y+£{ﬁ|Nıe3¡i'ﬂ¶Ø‹Ÿß{ﬂ∞ÚπRÉü]¢QZúz§z…"#ﬂg*ﬂ–…ô/˚µ%˘âX‚ÃwÎµCÎ°Q$è+îO=ÓG'ıIÊZ<Œç2÷û:Èô,¯«H˜ñ5¡ØKÏß.¨L®mêQ	Ÿx-ûF;Àô5Áó'ˇä0∫©YÁç]Û£r¡„y*ôO-˜6?ˇ]!˘^‘f% é&“Å!ÙÄo‡üNç©G„¥_PÜDÆp∑8)—q≈&√c1Õø/œó"Ë¬ÒèUÂ´K⁄ôPÖe;èS$Ìnﬁ+¡m6›. ∆ñ(Œá5∂ØSÛñK§ú]Â≥O9±M¨n@Éw◊gÕXü.Áµ	—¶k‡è\ë≠CÔ∞C¨ÇH™Lª4-≠u…""ﬂg=…ª3Àõ.ÏﬁıÉQ˘óO÷ù¨Åi7ão Èb	¢/Õi2¡* í4 É9≤≥/˜öO††YÈøK≈µI®R\á{”{¡TÖ*Î±Ì¢g‰ã ï°OÎåG®éLÏ∂Hø01©yÕ>&€k9’G7«ü*–⁄	˘á-˝ìC“°ŸÎ+ìi=ÖJ_ºsΩY”d/ÄV4ƒû ’áhŸÅ!‡ïŒ≥S·ΩoøG∏2¨x»P#ÖW˚Qï•÷í5ÉQ—çYÂΩT™ØN–j¨qÌA	◊k¿tuÓl2’äc›û$¸ézäTÔØ‡πGª}4¯D=îD8¯b∆uÕí3¬ùeÊï&ó£IıéE¶àNÓ∞FΩ7´{≥<$’m;◊A9≈ù4÷ÿ)Úû0‚∂}æΩwÈ®K≈µJ™E]æ}ø[›f-ûP6∆ò>◊ÖfﬂÉ#ÊõÃçU„øi·ΩEæ0™v N%ÜU’a#œöÀò-µñ%ˆÁs˘Ö^ıˆxæ@øm^á{ŒcLÛg(ÄC7¡ó'’ç€›n«ßu…ëf´†O—mØpÏB–j¡{tÌm5‘âbÂù2∂≠]˚âQˇßn≈‰u.ÖsXù]#á[<‰j«d(ƒp'œñ"±Ü=ÏÎwÂÅZ˘Úd‚∫LªQZãw≤gHˇcúG;≈ì;—Åﬂ≈j√´q’≠bß§K‡’a´LËN¨vÕpÒi9ÿç~·ô>≤±!ˇÖU˚õj…Ô[ØÄf6àn'Ëa›,Ãn3¬+Àë5ÕÇ:≥¨.ÙõH°§ZÛıNÔΩUì^Aö\
-”p“$%‘aV‡à*œÜgœè-ÒâN˛œpÍ∏_˝c¢lÎV‘|
-¬pÓ3{¸∫‰∫¥ï$ÒÊp¯∫_ˆ˜ΩAæn_Äzœ|MÛi2‹x{Êò$Ãö2‡≥~†Àl ít É¥AvÄh
-ØfGÔo—i.ﬁ/ ò?Ï›ÑMÂ®X¯π¬Êv+ÆKâu
-îzœ`‹hwÌØ˜÷3˙ìDﬁûX˝ê›ΩCÁª\·b¶iÔT÷+˛j*œ—∆û&ÙÑ:…®°∂tƒû`’˙_Ø :≤|Ã=1Ÿg;ﬂp$Öæ<¬Ö:≥®*˙õO¬éF„ıl‚∫J∏f-Ñ,4å?0ˆF˛Wx—ò-¢º<˛É2ª≥[·Ö]Ú™<æD∏16¨x…\ƒmsÓ`<ƒí:ÿ´Ø√“™|¬ãm·ΩX£Mæt≠8ƒ{b¸|>√r{Ûõ!≈ù2Í√|˛ÑK¯ÒvÏ∏Y	úL≠3∂tŒ}>ı7ﬁu>Àñ"˙ñkŸªr√ OÓø0 ¢Lº!©wØ`ïN“u*É∏: ã?“û6Û≈N‰ÇB¸Øp√·]$ä@¶}Çf ﬂ"‚I
-ÖÜ5∆˜Èï.Â∆hÓéPÊØ]ÆóKæS\ÅqÃf)◊y:ûw#Àâ%–©®ö—çZ˙âg˜øNÙ°CWçO>ó6⁄sd˛~8›py˝ù#«õ<Ë¡¯ÜI˛œtÛ∑B†
-9©w≠c‚QRò]„G¸’6≈ñG”ô%˛ïÿæ^‡∂_˛g´nÏQ“a«'Ãh8Œé4ˇ≤t∑∏~ﬁ†vﬂI‡µ*4§F∫3;£y’zõD6Ãs âæ9Òú ÍƒÛç[„©I‹óRõc9çU:Ôlÿ)«c4ﬂ–ƒî.Ö7∏©QÒêE¶õZÏªM	·@∑v2Å'9Íi1÷W7»ï4–ŸÕº∏ëXÌ‚|¸æCÚ˚s°E≤jC¸~Àxqˆq9ƒò"åï&Úú6 ©
-—≤a◊Öi·æG©1
-°zk˜e⁄yr‰b:Ãí;—⁄˜è2Á»}¯é]„´¶Dæm.Ö#5¸d$√g,¿k;‹’Ò∏¥ï$ÒÊp¯∫_ˆ˜ΩAæn_Äzœ|M˝m:¬d&àª/…ü/Ìïº±y«õ–àN£@†l´zïz¿Ÿe>’÷˛û ˆüMæß[ÎÆC¨ûL£GÁZ®xŒtRùR‡∫Òß(Òú)¯ÑyıêU˚µ_ˆºG‡U≥$¥v #”i=≈ä"ã¥&¸É0π°YÓéP˙Ùo„ΩKπY@ËM-ÛW+ÏT=ﬁi:≈ì∆Ö*ÓÜ2·ÅT‡œ@ˇÆ-…ßCø0&§t–eòI1—p%Ü¥*√ô-È¡ ˆéV‰îJ≤˜x>û`6ü0	†ujÙd€zs˚c9Õï:“€ˆå3‡…qÈæ^‡™?≥M£i	˜I[í[#˘M˙/,√òMÈá#Ùü∆ÑTÓ∞E˜¯i±PÊT
-£y…! ÷n6ƒt*ì◊ﬁæ ÷øÈÄUäîDÊªZSõC≠u≤;$÷l¿)…û>¿ädﬂì-˚ÉIÈ÷›ùc«õ|$≠N™uÑv⁄~6¬q1ƒê–è>ùπ7ÛÑO†∂T‰æ@ıß9°A µ6$⁄s	›yqv2Àµ5¬ög›ø«∆CÍÉ4ŒÆHÌ†	-≠s´lëR÷y.üK3»ê*–⁄+ÙÄ2‡∏{øør‚ΩdæC<Æx™tìh‘	€g8€‘¿ò"Ùô3º•UÌ¨A™êNΩAÂ~≠e„NQÍI? I5ÀúœÑ#Î¬Gˆá8¬™TÈ§)±OßhÌV⁄}õO?Ãl6‘÷˛Ä.˝ômÂÖCˇÆo«≥ORér9ö5•vgÛyﬁuv¯û>¿ñ?Ìﬁ˚ãN„Ã~ÏΩCÁß6ØS¢h>¥rÃ ‚j/ÖøË•dÂî!ñ†HÍèFßèOÌ±Iæ0™xÃ=-›j2‘vxŸâ1◊É:√Æp ´SÔì]Û£iÂµCØz\ÑH'Ï?”h]˘w3ƒè`ˆî$˛Ä5Á»y·Å@ıˆd≥Iπ1∞v»c<˜;Ïj4⁄í:ÿ∞"¸à.ÉÕè~◊áO¢G£m™yí{¡⁄d9‘’¡ü#˜òLΩ¶TÍ≠B´üOºFÊo£a»Q ÜX≈a!œç5€ó#˝Ö]Ù¨VÊª¬Üe.·Z™'µq
-…"4“j<¬ã!äª'ˇÇ7∏¢XÒèS˚Û\ˆ¥\Ω~5ıE.®r–x&ˆ`>Œê2¡ø+Òñm◊πp›ΩQÌ®MÛΩW§OËmÀ,Ãn3¬+Àë5ÕÇ:≥¨.ÙõH°©QÊ∂HÚ¸U≠k∂G*åN'ﬂk/Ÿw/Ìô)«õ+˛¶ ¯ÅÃ∞‘ÜBø@Vøfƒ^ÿ}ô]=√g;‹àa‚ò&Èûo€ÉX‡∫@™´_•Qï\CúU›}¡q¡v1’‘ø∑î[Âqˇª\˜¯~ºFΩo@Åy	»}N¸b;¡e!âä8˛Ü0Î¥¢ªt‚ºBÍ¢P,†U∫5/ëX5Âi¿e+≈è&Ãó%∞Ö<„Ít‰Ü[˙Û{„πM∫R[Ñv≥`IÒi>ﬁ`*Ñç%≈É?ÓØ•∂ÁÉG·ØW—ªPøh™B˛B)Í%&’fW„â5ŒÖf»é.ÜO˝ŒwÎª^Û¸n≠s∑7 p¬yÒ0	Íî.–ú<‚æ.„ÇH≈Å_‡˜m/ûw'Ø{ßeÕd
-Ÿgr€z!®≤:ƒô4µπ!ˇÉW¯¨∆¥J¢?Ø|¶dFœ{¡}(Ò@g¯π%¡Å/Ìïo˝í]˘ñPË±<Äo$ñrØpFœv¥N.»m â≠-Ûó+Ïò“àV˘ÆÀ£G™PZâ(=±q÷^⁄r:ƒ—ı¥∞â ıÍt‰Ü[˙Û{„πM∫R[Ñv≥`IÒy1∆`*Ñø3Õõ#Èâs∏Ω}√ß{‹ıVÂ∂'3πEµ68ﬁ~ ÷-ûG;Àé#åæ<Úõ'Á«zÏàXÓÆT∞˝r8ÄZ<ëG€b≈c-ƒj9«“;⁄ÅH“ö$˘îŸÅ_„∑X˝f™mÎ_”dƒ&Õk9¡è7ê⁄€°›≤ÙªPÖë_ºWXû|¶xœ !Ÿi(›.“î9≈ÅiÿéV˛åLÚÏ–ñf8ûwX±x¬\ﬁcõS;¡e=“äc‹û$ÎòŸëY˛∏B¨óK£K±)@ïU+ˇC4Ïe6¡í=Àº.Ìí6˛öI˘åXß®Wˆ’a´LËN¨vÕpÒi9ÿç~ÏÇ$Èï1π®^Êé\¸¢ØÄf6àn'Ëa›,Ãn3¬+Àë5ÕÇ:≥¨.ÙõH°©AÈÆHÚ¸g•s±aXêE%˚O‰\5∆ë"Õõ˛ù"ÊéJ˘â\Ë˜X¶%1ø{∑8>‹|ÿ}/ÄA9…à=éº2Ùô%·…xÓ∂^Ï¨RJˇp6ÜX>ó8ÿmb¸|>√r{Ûõ!≈ù2Í√|˛ÑK¯ÒyÒπ^¢7´u´aèQSöS·EÚ◊4˚êE—ü[¸óﬁº\Ê∏]‡a©hÓ\‘y¡)Œñ>Ãå2¡∞u»πh¿Õb»êjÃÅw´Rµs¥z	◊"+ qX‚ä4…Ñe…ë/ÛáH¸Õv‰∫]Ú˚o£T¥6€v:˘;›a2Œî>ƒÿÃ£ªê_Ï·}Ûø@Û¸r†z±kD˝}ƒyr¯v8›ô=çî8ÎÇ’÷eÃíAÈÆ∑IÂ_!àED≈t∂@( o&áØ/Õë)Óûo–äXˇ¨Õ≠E
-¥VX´m ØI(èP*–i7˛d&Œï)é≤’æÍÅZãóE·∫YRÑB¨r±:+◊o«(ÿn'√ãcÏÜ$ÏûMŒ•’ø\Ê≥M°E[âK"ì:ﬁo`˙r<¡å}Òô'˚ü0‰≈~¸ÇE˙Ûf∫F0†HØnBÅ'9˙d>€k€õ=»ŸÕº∏ëXÌ‚|¸æCÚ˚s°E≤jC¸~Àxq¯v8ƒ∂> ë!Ë¿˜ÅWÁïMÿõÆág5âQ&Î`‹-√o0√,»ê*ÃÅ;¥≠-ıîI¢©AÈ∑gªBø10¶~‘dÈHnÅV‰æ ı⁄?˛è@⁄í\·¨—πGøPÂ^¢eìF⁄f¿h3œéb·ë/ıÖKÎ∫yøe≈õo3Ñ≠~oãa÷}N‡f6»n'’÷Ûì6Îƒw„ãY¡≥Y‰æ]Sé@§r∏K&éxNÁGÈ±ãÄ/¸Ò„èP„ÃbË∞JÏ°[TçM¥iBâa	◊G1€b0ﬂ—∆û&ÙÑ:…®––‹öbƒösTµD∆P⁄ó_?›a9ﬁé‡ö(Ôúm‹öT‡™ZÓΩEÙ¸E¢löY_·#ËN(¬b"¿ì!åç,˘Ó‡ÇW˛œgÁµI¶VWàr∑dEˆq◊g=ÄC7¡ó'’ç€Ÿn«ßu…ëf´†O—mØpÏB–j¡{tÌm5‘âbÎí2¯Ç^Ω§Z‚≤XÆu<‰"àP*åA7ÿaŸh4Èe ≈ã%ÔÜ,˜ÖÂúCäîDÊªZSõC≠u≤;$÷l¿)Õã3Àôdﬂì-˚ÉIÈºwΩ©÷îd>ÄuZø~¿Z‹a,ùQ9«õ?–Ñeﬁú"ÂöƒÉAÈµOÆïE°IøF-ãgKÏJÙJıû?Œõ&Ú´'ÊãIÁë@ÓµCÆß^ÃV†uëE€o3ƒpyÍê.—Üg÷Å/Áì_ˇœr‰∞@¶\'ä-_êV&¯^7òq8Õ‹û#“€˚Å%˝íJ£ú^‰´XQúKπi±9(ﬁf‹|"Ò@gâÆÏ∂Õ≥\˝àU‰∞u·§IπS†sÏaœ(¿b7ﬁ/«ï)ÒÜ6∑®RóD•ê_Ù±E‡c°wµmVîY!ˇC¯—*¡öK◊Ö!˙ôƒÇZÏ≤[Ò˙kØRËW∑t
-–#–l4¬ä(ïŸ‹ºÿΩcÏçXÂ¥@≈±TøI≤p—<¿^¯p2«é˜ó%˘Å6Ê«x‚ÄGÙı`Ô§A•03ßq◊eÜ_-◊2x˝ΩÁªµñ%ˆÁs˘Ö^ıˆxæ@øm^á{ŒcL˚f+»n<á∫,»ò.Óîq∆ñ^ΩÒfƒîn0Ö{Øn±»f€&/÷uTÓé(ÕÄiÕçS˜ãL¯ÒrË∂Yˇnæ{´:)Ÿg›s#ü.Áµ	—¶k‡è\ë≠CÔ∞C¨ÇH™Lª4-≠u…"-‹q>¿ñ}‰ö"Úò0Óÿƒ¢zÃí{›±M≠S∑nØ}HÕt+≤L,Œì"ã£+Òï-‚öÃéT˚®ÃªP°I\á{”{¡8pÂEÔ≥çé-˛Ô·çV˝Œ`Ê∂HÓßUVès∂kDÛ~–f4üB4¿ê&÷å{µ∫ ÿ¢tŸøPÈ¥Aºa∏}≠g‘ò}$€‹û#“€˚Å%˝íJ£ú^‰´XQúK ≠qÏW’c¡qoÄUÎøÙ›>˝é?€ë]Ê≠–∂FæWÊ_£fîC√`6ƒ/ƒê ˆÜ<¨¥ø∞v∆ò~◊¯Q≠"<º~≤;3€a›r*Éº>ƒã8±º+‡çQ˘ÃBËÆHÁ°{¢D≥uüd	’j,úQ¯≤‹ì(ùπ7ÛÑO†∂T‰æ@ıß9°A µ6<÷|ˇb,›+»î< Ç0√Ær ªnﬁœ`∆ñhŒá®}rål”bK„k1’m"⁄”Œî;Ë¡˝âQ âAÍˆmªIøg.Ö&DÈQ/ÛGÅz1 ˚’ë*È¬Úä\‚´A™õG¢WXöt®Q ŒcMÙj2¬h ﬁ•í›ÿ†z‹±Û∫SÑû^ΩPYù}ß{»!"ÿf)ﬁ/œó'ÿõ7ÙƒÛç[„©I‹óRõc9çU:Ôlÿ)«c4ﬂ–ƒî.Ö7∏©QÒêE¶åFÏæoºM[Üx¨z¿SÅZ˛Æ∂ÿæ∏ëXÌ‚|¸æCÚ˚s°E≤jC¸~Àxq·m9¡∫9—öf›ç+˘ÅO˜æu≥Öı˝r8ÄZ<ëG€b≈c-ƒj9«“;⁄ÅH“ö$˘îŸÅ_„∑X˝f™mÎG”{$ﬂ{0Äa:∆à:˛µw≈Ø/˝ìJ»æ_‰øNP©@ T¶{ì[Ÿm5⁄r{‰ñ,”Äi…ÖQ˘¢Q˘≤Á∏D§|7˘C+£x	‹kOÃc8≠I'√î?∞¶$ÙéPÂó…±Q•,¶Lèr≠;’c«Yú†—ç%⁄Ñ6ˆûTˇçÒ∏MÇú\£R[ì{•} #ﬁd+ÿ—Õô!⁄ô1˙∆_‡åF¸Ño≥°x(®Pßm8÷ ñs:”ﬁò=–Ÿ˝É'˚úH°¢XÊ©^ØÉOßX∑tD›~
-ƒ~Ûb"·ï;Úö!ıöoÏÉXç©G„¥_PÜDÆp∑8)—q≈&∆l>Ôí<Õ€4Óå4ÊïfÕÌG⁄öGøO ´tác›{⁄fuÔQı‘5ƒëF–òZˇñﬂø]·π^ˇ`®oÌE⁄i—C5Œt<‘÷˝õ)ÒüGŒ•§âqœìg(·Z™'µq
-…"4“j<¬ã!äª'ˇÇ7∏∫QÒÑCÏò@·°G	·`Æv¥j9¯= ·PÖ™Ë≤…Ø'Ûö_˝ãE¸≤AÔ˙Sπ :≤|Ã=1Ÿg;ﬂp$Öæ<¬Ö:≥ø.ÙèNÎ•[‰ÆBÚ¸E¢löY[·U⁄k:’-.ÕûOÎÅ-ˆùn¿ÜVËéGıˆo≥V‰L¢{–qôH>∆n<‹Ç‡¿iŒ¨÷®m¢ßVÁÿb
-¥IÂIØs»|Mˆd:›r{ıì+Ãñ+¯Ç”áQÁ∑E˝àkI•"àP*åAF√j¥N.»m â≠-Ûó+Ïò“àV˘Æ—øO™O¶4/£}”yÏGmÛÕ|Òπ€øπíYÚ„˝πBÒ˙|¢D≥iBÉ p‡l>«õ<≈ôe‹í*˙ÄHˆΩtºÑÙ˙s;Åe=í7€peÒ;‹wx˛ú<∆ò=Ô¿˘âH˝ŒgÔªIÔ§	8Æv¨l·PUô^¸F˝“7∆óH“ö$˘îŸÅ_„∑X˝f™mÎD‹|”{sÓ`<ƒí:ÿ´©√“™|¬ã˝ºI~òPßn_ówŸa∆'¬`'‘’‘í*ÚâMΩ§Z‚≤XÆu<‰"àP*åAF√j¥N.»m â≠-Ûó+Ïò“àV˘Æ–¢H§GÁxØgÂLPÏP8¡èÒ÷3˙ìDﬁûX˝ê›ΩCÁª\·b¶iÔF–o0¿kwÍú8»û>‰¡m¬®p ¨a¶£J„‘n®M ÈM”wÃxqÚh6Ÿéˆò ˇÄ0˚«zÏàXÓÆT±ÜV‚K3â]%ÍN “y>¬j&›ï Ã€<„öA›ì_‡ì“∏@ºQ‰]•díEﬂj3›lzÈô'Õù3„Ÿn«ßu…ëf´†O—mØpÏB–j¡{tÌm5‘âb˜ö2˙Ñ{˝ÜL‰¨≈µCπW˚2;ÉY-ıZOÃc8≠I'√î?∞¶$ÙéPÂó…±Q•+¶V†_¢`»"«g-Ÿå‰À‹î%Â¨R‚é»åc–˚P¨!=≥ ≥<2ÿ`:‹q+ÑΩ=≈Ñ9≤ß*‚äTÍê…πGÌΩSíaCËM-ÛW+Ï%&’fW„â5ŒÖf»é.ÜO˝ŒwÎª^Û¸q∏|†jDˇs€c)…\ô“„π’∫ÇIÓíZˆ≠Eº≥jqçc–cL‚h0 l!€‘Õï4È¬˙íZ‰∫@™ôIΩM≥B1Ò8=˝C'˚\u÷e6ß≥9≈û5∂∏^˛ÄVˇ≠«ªK£!†h™pîO›k3ŸyÁ bÀ≥	›•jøúSË›y˜≥D‡v§~ µgH˘a¿uv˚ñ&∆ê.ÏﬁıÉQ˘óO÷ù¨Åi7ão Èb	¢/Õi2¡* í4 É9≤≥/˜öO†µ\¸∏F‰¶;ØIØm‡SQÁ9pÂEÔ≥çé-˛Ô·çV˝Œ`Ê∂HÓßUVès∂kDÈx‘b8¬,5∆í<÷™	´±ıüi˘ÅPÌ™∂GxÇj©dEÈq”g(‹-ƒö=“€Ûô#˚ÉK£º]Î´_!ê(Ñr#†wŸK”m5Õdzﬂû/†∫2¸ÅLΩ±YÁª_§>ºB∫38´a”kõd5√s'˘∏|¿°&˘á[’ÅQÔ≥SÊ¯Q≠"<º~≤;3€a›r*Éº>ƒã8±´!ˆÜR‰ÃwÎµCÎ°Q$èZì[!Ö]2Êo0ﬂh7≈∫4◊î8ÙÄ7ˇÜR°ñM¸€gı±J	‚t™|ÀaJ˚g?¬wxò1œô=≥Æ ¸ÑR˙òk∆ÎXÆág5âQ&Î`‹-√o0√,»ê*ÃÅ;¥≠-ıîI¢∫VÁµC˝d¢r∞n5¸!ò]„G¸§*ƒá$ËÑ0ÁèV‚ÒF˝¨+7•Aπ2$¢z“{öK7œr'à†(¡ü)Ì√~åT‚™H€ñ"Év&ÁH.éP&Ô –eZ‰t6ÀäcÀì)˝ÖJ‚ÀtÊºC˘sÆNº4/£}”yÏGhÛ¨ı÷ﬂΩŸæbÙÜEÍÆFÚ°A† ønmâg‘pÊd4Œê%◊ÿ	Òë0Â∆fÍÉYÁØ¿∂N§T
-ôX^‡A0Ë%
-H‰©~€í+ú¶6ÖH°µUÎøCÙ†	:†~∂71€pÿ~r—s&≈£ì¥{ƒ• ‡ÜH›í\·´M¸d(áL_ºsΩY”d/ÄV4ƒû ’áhŸÅ!‡ï÷∫SÈ∑_Q≤Kπi/Ç'6¯n‘o>Äy0≈˙‘ñ+Í√kÛâ]Â™B´îF£PYìyÆzîm⁄t.ÚAb˘™œ≠ÙÑIŒ¥R¯æUÌ¢H™¨ynà`◊~OÁg5…ë&÷◊Úê7‰≈gıÇZÊ® ·∫F∫~5ˆE>ïC9Í`0≈Zﬂü#–¥%Ûî*‚ÄS·ÃMÏπ.»†Bæ'ßu	—fóG;«a;õ“íƒ√¶,·∑h˙ì”õa≈ùrW¥{≈Q€|ò^<‹f8›è`Óê>˛Çsª†¥“l¬îkQÜd4éP%Íoﬂ*¬l1‹-…ó+œÄ4µ°%ÂÉUøu∂Ë!ùMØO§s„XŸdu˙@‚¥éã"˚ÏvÊÄU¯ÒeÂªO§PYÖyßy[îIWå1‰n'à≠”∑Ã≈FıÜ7√©UÓ•(ÆN¶oÓXÃhÄ)ö«e˙´?Ïﬂ÷¶xﬁ∑Ò∏MÇú\£R[ì{•} #◊s=« ~„ƒz©Ø
-¯ùcÃ¶g¶èoÕëi.„X§%ÀwÀ$
-–h2ƒâ#å∫,Íä.°«|∏ŸÿõY”£BWò^>ÄV?êi ’
-ƒf;⁄”√ô-ıö2ª´_˚Ö_≤ˆkIÍ'è{	ÍC+ÒU-‚'$À`U·è+ÃáhŒå,ˆàMˇ~‡ÆN‰0¸$@úE›b€iu˙@‚¥éã"˚ÏvÊÄU¯ÒeÂªO§PYÖyßy]îIWç6˙i? ◊ﬁæ ÷øÈÄUäîDÊªZSõC≠u≤;3€a›r≈ã!ä™.˙Ç!„›b¢ºf‡ÆNˆ∞ºNµ{ üA›:∆2ô°“ñ.¯ø1ƒàRËá…ãb”˙_Ø :≤|Ã=1Ÿg;ﬂp$Ö©1œì'Ë§+·õ‹ÑPÙøY∑å&úv §lëb÷~(√\Ãò<«Åƒ‹—ë[ÈÖ|ÙãMµ@VäN=ñ9ŸrcÂ|1¬m;€‘ƒï5µª%˜ìWŒ∫S˜˜tPêj0ò3ßtiÔzÿg5›.Àï#≈‹…çM˜ãL•çd…öe3ïgX±x¬F÷c⁄tuÁa0Õ∞"Àö ⁄ÑFæªŸà}Œôg9ã¨ynî]Hˇ{›r*Éº=»ï$¥2ÚÑI„ÃsˇπAˆñ]∫NÅvØu ÊIúPÓ®‹ì(ù•
-π¨JÍåA˚ÙmÓπJ£e£wÃ= Œn0≈G"Ÿâ?Œ∞%ÂÄ$Û∑~ﬁæyÊÆHÚ∫G‚J;ÄNE∆u∑_üF Ãí;—⁄ÙÉ,˚â˚Ö]Ú™:§@øZ©vÿT◊e9À]∆û<∆çiœ§≈»AËΩ2–ë;ßAæn_Äy—`~>¿u'àø;≈ù2‹ÇZ‡ÇA•ãx¡Å¥AvúU@ác’zõD5¿m<»º:˙ú1Îƒ{ÁÅY˛ïU‚∫)Üg#Êc
-£2Û"3«5…å}Ïõ$ÇkﬂèOˇÜE¶îJ„πM	·`FÈS9ÖKH¡h=≤PÑ≠%›õ/Óﬂ
-ıÜR¸Õ}Ì©A‰ß2®A£kC˛!KÒ_È*/ŒüP\â˘Lê›EòÔ>ë‰7ä›0É÷)|µ_n≥uW¡	É`†)Y¨ˇR•¯iûÒDı∂µv â‹Ïπ’(˙¶!t«m¿Xfπá"˙zŸQ§&mù2È<è‚5à°.Å‘¸>“ ˆlÃ"e∏í±W™˝P ˆIúg™√oæ·4”Í-Ä[⁄yÃr≈•ædãåƒ„E©¸Ø±ıHG¬@îÁ:ç‡ ÜŸ,‘¿£„Ëqƒ4yΩﬂˆ\ØU®”O°Ù7Ó„ÈÚ9å•&ÖÿÙ-–$w pîiº¸ƒÜ”uçTâŸM†™.òÏ?íÂ8ﬂ1Ñ—ùÇÿW…î„h<Ö`¥Z≠ ¯ß˘L0‹S@Ÿë‰§›0{(|œ"u»√o¡?@"Y¨_N•¯ˇEDóÍ=êÁ4â‹
+9©w≠c‚QPò]„G¸’6≈ñG”ô%˛ïÿæ^‡∂_˛g´nÏWﬂgÿa(⁄.≈ì!…á?∆≠º±y«õ–˘R≤#?Ωy±:<⁄b⁄s)ÇC?«ä?∞≥)˚É[¸çD˛Úq·øEª[*â/@ïU+ˇC4Ïe6¡í=Àº.Ìí6˛öI˘åXß®Wˆ’a´LËN¨vÕpÒi9ÿç~Âõ)ıï.ˇöH†£W·∑Gı≠x;˘U]íX ˙\1ñs:”ﬁò=–Ÿ˝É'˚úH°¢XÊ©^ØíJ§z¨këPﬁf4ƒz	Ë»:˝«fœØ—©n£òW‰Ÿe∑H‰J®r…cLıe=‹qzÈó-…ë*Ûû4ºß[Â≥[Ò°t?Â{E‰I1èS'Ë!—j[Áu1 âbÙí*¸ÇK· {ÁøB˜¯k≥K§u∂:)Ÿg›s#ÚAg˘ÀbÀ≥	›•jŒáXÁ∞_ÌíL¨P∏oÆzIŒu≥O-…í!ä¨*Úî*„ô”èW˙Ø √πK´L¥nB∞a	ﬁ~>ﬂhÍ Ìô>ﬁú,¯åŒ≤y⁄ıVÂ∂'3πEµ68ﬁ~ ÷-ûG;Àé#å∑%ˇá'¯ÅH˙ŒDıµJÚ≤Kì^FöKÃRÿd8ûBÂÆa⁄ë*õß5ÒäI¢¥RÍºB°
+;ß∑8+—s”d5‹vz˜à;Ãô(Ù¨"˙äP¯¶m«¥^íH§x^ÇT%Ë!—j[Áu1 âbÙí*¸ÇK· {ÁøB˜¯k≥K§u∂:7»{Ÿh4Ïb: ê8Ê≠˝è}˝ãYÔÛq¡ö}R∑F»R§yïYﬂc7ÿå}Êî*ÌÇk÷ÑZıè»æFÓº\ë`AÈN,åV(Ì"'÷gX‚ä4…Ñe…ë/ÛáH¸Õv‰∫]Ú˚f™EÈX÷~Ãr1"Ñ©Ô≥»¡:Òä;«ïQÍ©‘≤J¢kÍ[ﬂbòK3◊f:ÜΩ-Àô!Ôó’“O£¥r úb+çA∏}≠g‘ò}$€‹û#“€˚Å%˝íJ£ú^‰´XQêJØq_†yœ{=Ù;˝T¯ª)ƒ∑'ÙçX˜À@Ôº1Õ£O£"®p
+¨aîM’t)ÇA!“ê?Î›˙ÇR¯êN’ú≠Çh0äl!Êc
+£.Œh¿)Õì7Àå8±≤(ˆôNø¢D˝µ\ˆ˙ißM≥c2Å"HÌM˜KÙù>…ö%Û¥&ÂäNÊíA·¥@Ø†_Õi£têF‘n0≈wxÈë1–ÖfﬁÉ#ÒçÔèW‚®¡±O•köY[êE%˚O‰-.ÕûOÎÅ-ˆùn¿ÜVËéGıˆo≥V‰\•s˘q’l.ÄC7¡ó'’ç€›¿≥i¢ãs…ùe*é@π~™f’`õ|#⁄”ü ”‹¯ÄZ¸ëK§ù]Â§YRíO≠y+£{ﬁ|Nıe3¡i'ﬂ¶Ø≠Õªa£ cÀëuÕÇv™Q∫rµ}‘#ÀrYÂã7»ãd ê(ÚÑI„ÃuÂΩ\Ò˙jØEÉ{£vñM=€i1ﬂáÂ∆d…±”ßh°öQÍ€gı±J	‚t™|ÀaJ˚g?¬wxËë1«ì˝Å!öœÉ]Î≥Y˘ågK‚K3â]%Í?”h]˘w3ƒè`ˆî$˛Ä5Á»y·Å@ıˆn≥AèßríQﬂe5€{
+È»`ıµﬂ£Ωû]Óﬂ{ÒΩF˛p¶x∑eFˇc∆{tÏm5√ü	¡ù%¸û”áQÁ∑E˝àkI˛w7ÖY!ñ;ﬂla˝s?¿s|Úò ˙ú1Îƒ}˝ÖD˘ÚrÔ∑MãC´~ÓU”a	«ÌÀó÷ﬂΩŸæËáTâï[Á∏[Tö@¢t≥<%’m,¡*«ü5¡≥+Ûì&‰∆_‡åF¸Ño±ãt/ùAô\ﬁa◊eŸe9…ò~€í+ú¶6ÖH°µUÎøCÙ†	:†~∂7)“p “N<ﬁ`3€”,Õõ;Ô± §∏iÿ∞lƒ∂B
+°a¶°9Ÿrcˇ}9¬qz¸ö"ƒö3È¬ˇáJˇpÈπOïE©xÏu“|ÍIjÒC5‘ü	¡û'˛âÍÅZãóE·∫YRÑB¨r±:+◊o«(¡a7√Ω-Òë Íƒ]˛äD˛Çq≤âm≠WÆO¨qI¬i≥O-…í!ä¨*Úî*„ô”èW˙Ø «ª\TèC´sπL'â"ÛIÂ™‹ì(ùπ7ÛÑO†∂T‰æ@ıß9°A µ6)—fJ˘i7›m#”¢ê©…øl¡©wÀØ`ÿæHÛ∞Tºk™vE i∑C)’n%Ü®.Œê&Ôùn◊ã[˛ì√∑XPìGßwΩH+â>7˜E·V{–ü,°Ω3ˇÄ3º≤X‡∫\Ò´=ΩEπ25≠bF˝mŸa/◊^ìècÙ≤
+‹¢kºù\Èﬁx≤Gˇw•y∂fG¯b «tuËn'âö#ÒÅ1«™Œ†VÁºWÊ¯Q≠"<º~≤;3€a›r*Éº>ƒã8±∑%˛òDø¢T‡∞Fˆ¨w:ˇ ÜV(éGH¡h=≤L,Œì"ã£+Òï-‚öÃéT˚®«µN¥2§p ÷fÁJlüPÊ∏˜ÿ1¯çB‹ú^„í”ªAÂΩR
+„\§këVÿy)¸l$Õ”í™˙á5’â^ÿé@Û¥Aº9õR#Íoﬂ*¬l1‹-…ó+œÄ4µÆ,ÚïJ£òZÍ´_2æVÂ\™z »v=Ù<u˙@‚¥éã"˚ÏvÊÄU¯ÒeÂªO§PYäp±fG¸f«s¬r7â∏.ˆû,Ïía––h∏Ûd¬öl2õ¨ynà`◊~OÁg5…ë&÷◊Úê7‰≈z¯åE˝ê@±:¨HÆnüRSóX˛@ˇ°5¡Ñ)Ôô3‚ÄS·ÃAØ.»†Bæ'ßu	—fóH2–w$Ö∫8ÃÖ=–Ä0Ò«H˙Ä@Ú©r¡„y
+πr™v⁄?%ÁFû{2À¸÷ê%Ë¡ıã_„î@©ö@°VWåv∑c&“bôz(Œv €§ïÅﬁå-ÚÅ\Œ™T„ˆj.ùvY≤y√_Ÿbö\:¬d:”âb„ü'Íü’çW¯™}Î•NR£WΩiùT\ŒQ%—f.≈S#√ö8ÌókŸªr√ OÓø0 ¢Lº!©wØ`ïN“u*É∏'Àñ.ÏﬁıÉQ˘óO÷ù¨Åi7ão Èb	¢/Õi2¡* í4 É9≤≥/˜öO†•@ÊµKÛ˚f§L≤`3˛ KÏJÙJÑÖ4¡ˆ Ëä/Ê«oÔçQÈÆ^ØêJøl]Çm–tòK?Ÿo?›Ö„¡fœØ—©n£òW‰Ÿe∑H‰J®r…cLıe=‹qzÔé œë5µå0„äfÕÎm÷ΩEÉK°xÌW9]LÕl9ÆH ¬ó>èß'ıâQÊñ»≤P˜§:•M¨n@°z»z>ı6˛U˘Ω-Úì"˝≈FıÜ7√©UÓ•(ÆN¶oÓW€~úA,¬ë7◊◊8Íê0‚ôb—◊i»®h˜ªXßO È[=åAH¡h=≤L,Œì"ã£+Òï-‚öÃéT˚®…±F®R\á{”{¡;pÂEÔ≥¸í,Ôå0¸òOÁéZ©ÆUÙ”o©rÍL
+“t
+√yrÛo7⁄è`Íê)˜ã3ª¶X‰åZÚ†QÜd4éP%õt–}ÿM9‹a'¡ã:»õ)¥ô8ÁÊp¯∫_ˆ˜ΩAæn_Äzœ|M˝m:¬d&àª/…ü/Ìïº±y«õ–àIΩNßX
+±v“~›h4Ét+“˘Îó(ÎƒjàR‰©C¨ïEºQZÄ~≠qïL⁄j0ÿÜfã¨
+“¥
+√ƒEÙÅ6¿®JÔ¶/ØM©nÔP
+ÿ,ùM= í4÷ÿˇô/ˇùEªΩ¶èoÕëi.„X§%ÀwÀ$
+–h2ƒâ#åµ%˝ú1∫†^ÔçQııl‚∫J∏fGÎL*ÚT*„$%‘aV‡à*œÜgœè-ÒâN˛œpÍ∏_˝m™r∂8+ﬂyﬂ}%ö,È∑Ô†˘Ç-˛âW»∫AÊ™B•M§3ªbiı{ÿ{t˙`8¬î9”‹ıçL· pÓø]·•<¢FÅyÆ;)ÎB3ö>œ “ú!Ï›˘á[ˇêD•û\‚•ZSáG§~Ów‘~ÏGkÛæ6¡∞*Úó ÚåX˛ÄSß§K‡’a´LËN¨vÕpÒi9ÿç~Ïí+Òï1πäS·ëA◊öﬁïCÖA†I»wñs:”ﬁò=–Ÿ˝É'˚úH°¢XÊ©^ØõC†z ÍU
+Ãz≈Y)—w#⁄£«ìf⁄æ∆…BÈÇ3œ≠I°
+,™r™cíS◊z/ÄJ0…ó+”€
+˚ü+ˆîj¯æF´t.æSYãM<ë8ÿmb¸|>√r{Ûõ!≈ù2Í√|˛ÑK¯Òy·∂F¢Ω}∑f7˙<>˜o;ﬂi'ﬂΩ)˘ó+˚é–¥{ÿÛHÁ¥)5ªGª4:†x‘yúE5Õå!ä∞.ˇù!Â≈N‰ÇB¸Øp√Áw8¶@ÆnÑv ‹b<◊+˚≤˚ì/Óì1ˇôHÊç[¶ØVı‘n®M ÈM”wÃxqÚh6ŸéÎì(ä0∫õOÔïAÙÖl≤åe≠m±a/€wŸi8¯b:œ“Úπµñ%ˆÁs˘Ö^ıˆxæ@øm^á{ŒcL˛l=√g'áà:¿Ä2È≤°πz‰æ@Ï¨R:¥B§~ãw⁄!#ÂD	Òe1‘ô?…É2ÉQºë@ˇﬁx≤Gˇw•y∂fG¯b «tuÂe2 ú>∞Å1˘üK‚ªv∏ÇsÎ∑[ª[1≠}ØwÚl’(¸≥ ˙ñ*Ûîj„íIê™BÏ±\≠ÅI´O ¥5.¨r #◊d4Œå~◊É+ÈÖ0…®–°]È©Gı≠w∫EËX<Û@K¿o<±M#œê#å¢(ä,·õÕçUÙ©»∂G©m]∂l
+ dËKnÔ@>»é&÷åÙô$Ê…{›¨aŸΩI±Wªj´yD…h∂@( o&áØ/Õë)Óûo–äXˇ¨ÕΩJ¥VXπi∑c„NQÍK3œs=”ÉœÑ#Î§^˛É é}÷˘R≤#?Ωy±:<⁄b⁄s)ÇC?«ä?∞∫ ˘á[„ÀD˛ºDˆ•v=¸}6†z®`Íb÷tÕì4ãπ“£ÛèNÛë_˘®FÌª∂Utén≠`IÌm3◊k,ÿ—»ñ9ÓﬂÛàPÍê˚ØOı°T%å,ÖqÕ{¡[1∆a%‚ú<≈ÿÃ£ ÜZ„ÑÛ¢YÄöR°l]ëy€ƒ%‹b%⁄”◊õ<˛ún’‘i˝Ö_Íä[¶FÂ_!àED≈t∂@( o&áØ/Õë)Óûo–äXˇ¨Õ≠E
+¥VXãØ≈?L·IÎO âÇ)¬ÛÌâR· lÍ≤TÍ£YRìO∫o@ä`œkõF8ƒl:“Ä|±¶‘Æp≈ªSÔÆSÒøY¶MÊoµ.Œh¿)Õì7Àå8±≤(ˆôNø´CÁ®J˙ißM≥c\ÓG'ıIÊ+ œúQÌÉ/Él¬àPÍåA˚ÙmÌµT	‚h®m	Õ=$⁄b2ÿp.ò”‚∫“ªlÌåYé®@‚∑^ØáG©q∂7(“pƒ%≈m"Ãé`„ó!˜á5Ì’Ÿ°√óx ±J¶qÄrﬁb
+∆}5¿l{‹É:°Ω3ˇÄ3º≤X‡∫\Ò´=ΩEπ28∂xŸ}MÙj2¬h ﬁ…cÙ≤
+‹¢kºù\Èﬁx≤Gˇw•y∂fG¯b «tuÂu=“ú>∞≥'ÒáWÂù§âqœìg(êA•vØP…n⁄v-≈ê<ãå3ÍÒ„èP„ÃbË∞JÏ°[TçM¥iBàfÕi-ùD:¬í8–é~≥§⁄¨r€ÃMÏπ.»†Bæ'ßu	—fóH2–w$Öµ%ÕÇ,Ó¿˜ÅWÁïM≥ÖÆág5âQ&Î`‹-√o0√,»ê*ÃÅ;¥≠-ıîI¢®FË≠I˝d¢r∞n5¸!<Â\ÅV‰æ ı´#ˇû#·èI¯∂]Îˆ_•$>æx∞9=›c€|(ÅB8∆â>èª3˜òZ‡ YÔ∫n≈ÁhµF†rÏT8˜\OÃc8≠I'√î?∞¶$ÙéPÂó…±Q•4∫L≠iA†d÷R!ÇYﬁç=“´;˚ù(π´m‹±Ò∏MÇú\£R[ì{•} #ﬁd+ÿ——ô>¯Çl˜ôL„ΩtªÑf‰µK*®R©}B˛B)Í%&’fW„â5ŒÖf»é.ÜO˝ŒwÎª^Û¸n¢k∑7 p¬yÒ3	Àê*«ë!ıâo’∑vﬂŒK‚ª,6¶@∏1%•{”dôJ0Œq&á≤<ŒöÙÑ'˚íÕÎm∆∞JøwØqÌE9CLÕl9ÆH ¬ó>èß'ıâQÊñ»≤P˜§4¢LÇr•}îO›k3ŸyÁ»bÀ≥	›•jøúSË›y˜≥D‡v§~ µgH˘a¿uvÂç=À≥%˜ñ,„≈|ÚäZ‡®V›îUö`8ÇT9Ók€∆`5ÿ—≈õ/ÛÑ0π™PÓëFßí\Ó∫l§G≤6-›{	—'ÓEcÑ©Ô≥»¡:Òä;«ïQÍ©‘≤J¢kÍ[ﬂbòC/ﬂm«ï( Åg⁄å(¯éNÙør≤¨+ìi=ÖJ_ºsΩY”d/ÄV4ƒû ’áhŸÅ!‡ï≈≠]ÎìE∂LÂ\™z »v=Ù<ú/ Ê∂Óßh·à]í¨LÓ≥B´ÉKµM∫3,Æt»!(∆h4Ên:¡ë8∞ë*ˆòJŒ•’ÔE‹í\ÆVßu@πp∫D÷k*É´3…ù%ÍÇk‘Ü\„ê¬Ω[„ªITèC´sπL'ç"ÛIÂ™‹ì(ùπ7ÛÑO†∂T‰æ@ıß9°A µ6'ﬁf÷jqf>∆î$⁄©®¡‘§~¿µk‰µ@ÌºH=©l∑q xŸ$)»wV‡à*œÜgœè-ÒâN˛œpÍ∏_˝nø•8+ﬂyﬂ}%Ca›’‡∏‘πnÎÇ[åñF‡µXQÖEØs∞9*–n∆'œu5…õb·ë/ıÖKÎ∫yø´–ñf8ûw)™sØzˇk◊u3›t:…óbÎä1ò¢JÙâD•âQÔ≥Gº6§z≤;*’c«c+Éæ0Ãî"Íà÷Ÿƒ¢zÃí{¨≠LŒh ¢wÔG’i1∆vwËí0◊Ñe–ü-ÂùY˝ÕtÍ≤BË†^%å]íX ˙\1Áh1‹i8ƒπ5–ï;ıü6¸áU†ïLÛ⁄dÙ∂K
+„K©} bKÙf<√py‰ì8≈ô!¥Ø#˝ãS˘ô®çm3ók,Âf¶#…u≈&Œn0∆è=é∑+˚û3º´V˚∏^Ï˜j∏HædAÌB(J,·W8¡l9»î	≈Ä%ÎÖOÊåWÂE¸£*4§F∫3;£y’zõD6Ãs â¥#Ëï)ÒƒÛç[„©I≤ÉY˛!âW+è@I¬i≥O-…í!ä¨*Úî*„ô”èW˙Ø œ∫_¢H[Üx¨z¿=
+¬biÖ™Ë≤…Ø'Ûö_˝ãE¸≤AÔ˙Sπ :≤|Ã=1Ÿg;ﬂp$Öæ<¬Ö:≥¢-‚èWÁŒuÂ≥AÈß_K‚K3â]%Í?”h]˘w3ƒè`ˆî$˛Ä5Á»y·Å@ıˆa•B¢10¶~‘dÑ'ÓNÊØ≈ë4˘ü)„íP„±Ò†_~òPßn_ówŸa∆'¬`'‘’ œÑ!ıÖ”áQÁ∑E˝‰)ëo3áHA∫q
+ªG—j)ÇT2 ú"ÎÅj€á_‚ó«≤G‰∫@Sé@§r∏'IÓL,ˆHÛú=»ï$µ!‰âO˘ìB‡≥A¨°PŒh ¢wÔG’i1∆vwËí0◊Ñe–ü4ÒÖU†£W·∑Gı≠Tôa?ÉW8ëj⁄≈a:Ÿ“¬ö,Úõ1∫´WÔíG®óB˜¥J„^¨t hPË8s‰BÏ≤åç,˘Ó‡ÇW˛œgÁµI¶VWàr∑dE—e5Äv4⁄ú+’ß"ˆà#ÁâK”®]ÈæXPÖc$Ü3ßtiı{ÿ{t˙`8¬î9”‹ıçL· h‚∞Z√æXˇb†p∂l7˙>>ÁR
+ÉTÍºÀ‹=¸â>ÿêRÁÆ◊∑E°VÁX†gï]	›m≈ç>äπ)˜ù-„ìb—“›ùc«õ|U∂E«S•~ñX>ﬁ`6ﬂç~Áõ+ÓÉl∆ÄR‰•\˙∑¿∂N§T
+ôX^ëF$ÙNÂ*/ŒüPÍÇ,Òúm¡âWÎè@ÙınÏ≤U
+„O´s,◊còK?Ÿo?›Ö„∆fœØ—©n£òW‰Ÿe∑H‰J®r…cLıe=‹qz¯í  ≥.ËÅo“ÑP‡∂F¸ájMéw"ö3$ÇZ,Ú[LÕl9ÆH ¬ó>èß'ıâQÊñ»≤P˜§-πMéuÆ:)Ÿg›s#ÚAg˘À9±¶‘Æp≈ªSÔÆSÒøY¶MÊoµ.Œh¿)Õì7Àå8±≤(ˆôNø≥_Á∑hÎßDT≠N¥n2Å#9˚c1«v ì0√ídÂî!ñ†HÍèFßèOÌ±Iæ0™xÃ=5—e5ˆm%∆“3Ãò:Ë∞•∑ÔåU‡ø¯∑DyÖk®kDÍp“d)√,≈ù<—⁄ÚÄ*”éH·œPÈ∑_çdHîM±y.»b¬`3¡,-ÃôNËÄ"˜ûo«áUÈ±Fˆ˜h∞WÂM≠}.’}ök4¿r ¯ª’¨¸úZÛël‚≥T™ØN–j¨qÌA	◊k¿tuÓl2’äcœõ+Û¨W„àÈ≤^¢v?ÆV=°o>Æ}	Œ#◊dYÂã7»ãd ê(ÚÑI„ÃuÂΩ\Ò˙x†J3ÆhÔ`ÿx*¡ZôãÊõ#Ûõ˜ÄHÀóGÈØGÓ∫	;ùl!Ëa›,Ãn3¬+Àë5ÕÇ:≥¨.ÙõH°±XÊΩXÂóI∏p ÍY	◊}√sÒ2x˝ΩÁªµñ%ˆÁs˘Ö^ıˆxæ@øm^á{ŒcLÊe=»w0Ïî-’õ5µ¨"˙äP¯¶mƒÈt-ÑtYû\<ÜX=„k∆k)«q Œï#éá>ÌÏvÊÄU¯ÒeÂªO§PYäp±fGÎb ”r?Èo0“ñ>∞ë*ˆòJŒ•’ôQÓ∑N·Z™'µq
+…"4“j<¬ã!äª'ˇÇ7∏∏TˆèS‰ΩA≠îJ¢H æE,Ù=2¯@¸Qv”ö3§æ>¯ù0πΩ]„á[¸®¬∏F	æ!Ø ⁄÷$”m;√â)¸∑}È¡‘§~¿µˇæOÄöR°l]ëy€ƒ%‹b%⁄”Àì$˛É ˙»{Ôâ_Ô≠U ì'˘0%Ö[/ÛDMŒm>ØK!Õñ=é†&ˆà.Áïœ≥Sˆ´,∏BØp≠9(ﬁf‹|"Ò@`¯»8éß’©q∆À@Ôº1Õ£O£"®p
+¨aîM’t)ÇS;«ù#Ë›˙ÇR¯êN’ú≠Çh0äl!Êc
+£.Œh¿)Õì7Àå8±≤(ˆôNø∞^Ë±NÏ˙ißM≥c2Å#HÌM˜KÖÜ5∆˜Èï.Â∆hÓéPÊØ]ÆóKæS\ïq“sóJ<ÿh>ﬁÑ‚¬Æ¡‘§~¿µk‰µ@ÌºH=©l∑q xŸ$)»wV‡à*œÜgœè-ÒâN˛œpÍ∏_˝v™s™8	“~¬Võ]g˜∫<Ãõ5Ÿò4Ωû]Óﬂ{ÒΩF˛p¶x∑eFˇc∆{t˝u5Àë(“‹˚ÖS˚ëA‘ü™Ék1ïm"Ád†!œk«(Ãl6»ç?∞±)˘òMæ∑CÎ±[Ê§=≠K°oûUSîY!ˇC¯—*¡öK◊Ö!˙ôƒÇZÏ≤[Ò˙kØRËI°‹~p—j6ÿäÂ«Àë.ÊΩh°öQÍ€gı±J	‚t™|ÀaJ˚g?¬wxˇì9¿ô;Ú¿˜ÅWÁïM∂Ùy¡üc7ò1
+°zk˜e⁄yr‰b:Ãí;—⁄˜è2Á»o„âPÈ´BPìGßwΩ&?ÕwM‚HÍL˜ü+“ó5Ûù4˙âW¢´JÒÿb
+¥IÂIØs»|Mˆd:›r{Úî$√ú4˜√~åT‚™H∞˘~<úf8ù2¶whÚzŸtu˘a?√ó8Ï›ÙäM‚À`„©SÎíFªMÁZ®xŒtRùR‡∫Ò÷3˙ìDﬁûX˝ê›ΩCÁª\·b¶iÔDÕo7ˆj;ﬂë#ãÑ>¸Ñ6Â∂}ºΩwÌ∫\«ªU„a#äKB«v∏B*‘i$Ö©1œì'Ëúm÷ÑZ˝í–≥Y„ªC„^¨t h;ˆ:s‰BÏ≤åç,˘Ó‡ÇW˛œgÁµI¶VWàr∑dEÍy’a9›- í"»Ä>≈¨pΩ≤x¿ö|—áO¢G£m™yí{¡⁄d9‘’¡ü#˜òLΩ¶TÍ≠B´ÄC	≥Kª3.†|“zÎFkÉTÍºÀ‹=¸â>ÿêRÁÆ◊∑E°VÁX†gïZ	«e1…ç}‰ö"Úò0Óµ|¢Õb»êjÃÅ™Ctén≠`IÌm3◊k,ÿ—»ñ9Óﬂˇù_ÁáGßöLË∏N¥2ı78˛^ ˆ_p…`5™¥$∆õ:≥ª#˘çU˙íƒ∂LÛ†	.•k≠}ëPﬁf4ƒz	Ëœaˆ¥ﬁ†ÀÑU‡ç\ËùI±Wªj´yD…h∂@( o&áØ/Õë)Óûo–äXˇ¨“±_πAÂ\™z »v=Ù<u˙@‚¥éã"˚ÏvÊÄU¯ÒeÂªO§PYäp±fGÏg◊o?ﬂ/ƒê ˆÜ<«™
+Œ÷ﬁú|∆ò}R∑F»R§yïYﬂc7ÿå}Êî*ÌÇk¿ÉIÛãS˚ÛLÌª[ë`DòW∏@ÿo4¡+ œúQÌÉ/Él¬àPÍåA˚ÙmÌµT	‚w≤z⁄`J€d0¬pÎÕÌôˇé.¨^ËÑZ‰ø¯∑DyÖk®kDÍp“d)√,≈ù<—⁄Úö"¸ÇH¢É\Ë™X ì'ò}®r.ÿvÿj9Åz1 ˚’ë*È¬Úä\‚´A™õG¢WXêxØyìN ‹d2⁄xÊÀcÙ≤
+‹¢kÕÜWÊ≥^ÍìO≥Qπh≠{Fœv¥N.»m â≠-Ûó+Ïò“àV˘ÆŸ≥H†VZây≠}√R!Çsw¯æ‡∂∞â ıÍt‰Ü[˙Û{„πM∫R[Ñv≥`I„i>ﬁj,Ñø3Õõ#Èâ◊ÿI°∂tƒû`’ãCæCØi÷}ñ&≈ﬁò=–Ÿ˝É'˚úH°¢XÊ©^ØâC†pÍY	◊}√sÒ2	˙©å°	◊´¿…BÈÇ3œ≠I°
+,™r™cíS◊z/ÄX0…ó!’€¯Ñ,˙í@”û⁄ã~.ˇp6ÜX>óIŸ|«a+⁄h;…‘9ÿáF–òZˇñﬂø]·π^ˇ`®oÌO⁄b¿(œi?œç5¿≥w«∏k¡ cÀëuÕÇ´@uÅo¨gHÓl÷h-ﬂ–…ô8ÌﬁÚãQˇóË¨_ÓäiJè+å{°a6Àc8¿d5ÖøË•dÂî!ñ†HÍèFßèOÌ±Iæ0™xÃ=?›j2ﬁpx…í>–Ç›ﬁ—âVÔÜQ©¢I‚”o©rÍL
+“t
+√yrÛo7⁄è`¯ê)˜Å5ªÑU„ìGŸò Åp(îM´`5Ìu’l2€c2Õ’6≈ñG”ô%˛ïÿæ^‡∂_˛g´nÏL›c¡'8¡o'”•ë¨Ãº`¡âW¸Åb∂X	ìL≠u´zïv÷Ÿe>’÷˛û ˆüMæ®R¸∏\≤˘nM˝*ÅuûG»#4ÚJ‚´|›ú)û∏0ÚáNø∑WÂπAˆ¶7´W´(Bá'_ãSˇBvˇø·π≥à'ÙÈu˚áX˚Ùz‡∏BπS\ä|⁄~VóLmÅ4Êî6∆§,˚ä, øR‚ç”õa≈ùrW¥{≈Q€|ò^<‹f8›è`Óê>˛Çrª†µ÷lœ∑XQÜd4éP%Íoﬂ*¬l1‹-…ó+œÄ4µ°%ÂÉUøu≥‡!ÇP‰I1èS'Ë!—j[Áu1 âbÙí*¸ÇK· tÓ®TË„:„BñU∂J+ˇ\O‡FËNàÅ(˝ÚÏéS‚ÀcÎ±UÌ¢ZSÉG≠wZÓSQÇ5?Úr
+‹õ|Òπ€øπíYÚ„˝πBÒ˙|¢D≥iBåv‹`kùBnì«‡í2≥§⁄¨r€ÃMÏπ.»†Bæ'ßu	—fóG;«a;ü“ïœy√º6ÙÖR‡Ä”õa≈ùrW¥{≈Q€|ò^<‹f8›è`Óê>˛Çtª†¥—l—∞@¸q9á[?ê9Ÿrcˇ}9¬qz¸ö"ƒö3È¬Úä\‚´yÏ¨XQÉAπxÙI[„_«i/À.$’ï*“í+∆æZˆñ]ˇÈn∂ào±GÜn=£{ﬁ  ‰KÉx7ƒ˘Îó(ÎƒjàR‰©C¨ÇH™LÉr≤;5ﬂi÷rnÛÕıë9ˇÖ!∏ôIÒóC˙É}Á±[∫+ıE(∂r‹C-‡d6ÃõÂßœﬁ;Úã<‹óXÂ¥@Ú˚e¨R\ê| |'›j,û[yÎ≥Òÿ1¯çB∆ùV„éZÙınÏºH„@"§j–eJ‰_˝LÏ∏a⁄ë*õΩ4˘äU„ìÃ∏OõK,£{3´oE‚>0„D‡LÏ’6≈ñGœ§o÷ê\‚´A™õDºKèk≠bìJ–f/Ìt'”ï Êü?ˆäYÕ†h•ãx¡Å¥AvúU@ác’zõD5¿m<»º:˙ú1Îƒ{ÁÅY˛ûE¢FâNß}ûQ7Â@«c+≈û>ã≠€ßjÔé_ê∂¶ôYÁª\·b™wÆV‹b+¡*›õ?–≥+ë$Û≠YÓéPÏÑkÔ±U¥&è\:ëj⁄¯+‹ò>◊ÖfﬂÄ/¯áUÀóQÈÆ^ØñP¢k7´}ŸhJ‚CÊ-.ÕûO˜ºgﬁò$˙ìI¢£\Î¥CóS•jÎRÿ~˛l=√, ·æèå#¯Ì⁄…j¯¶^‡´7≤Kπ28¶dŸ|M˝m:¬d&àªé∫‹¥ÍÅZããx´Ñ^ºFÊU≠{îF∆h?ﬁ/√ò ˙ÄjŸÿÿ∞r“ÛHÁ¥)\â˘Lê›EòÔ>ë‰7ä›0É÷)|µ_n≥uW¡	É`†)Y¨ˇR•¯iûÒDı∂µv â‹Ïπ’(˙¶!t«m¿Xfπá"˙zŸQ§&mù2È<è‚5à°.Å‘¸>“ ˆlÃ"e∏í±W™˝P ˆIúg™√oæ·4”Í-Ä[⁄yÃr≈•ædãåƒ„E©¸Ø±ıHG¬@îÁ:ç‡ ÜŸ,‘¿£„Ëqƒ4yΩﬂˆ\ØU®”O°Ù7Ó„ÈÚ9å•&ÖÿÙ-–$w pîiº¸ƒÜ”uçTâŸM†™.òÏ?íÂ8ﬂ1Ñ—ùÇÿW…î„h<Ö`¥Z≠ ¯ß˘L0‹S@Ÿë‰§›0{(|œ"u»√o¡?@"Y¨_N•¯ˇEDóÍ=êÁ4â‹
 åÚ,Í!tê>m¿Gû∏_≤XÇ¸Q§|s,7πÈ<«Õ5àp2É‘'zÕ  ƒln"◊À£±ˇ‚˝PPΩKúÔBïËEå·4/Çjë¬:yÃn≈*d∑
 ]∞´T©¸ú¿„¿¡¬AîΩç‡ü6€,“%xqƒÚîÙÉò	\O,U®˝ì£ÙGöÌ@m‰9å∏ÂÀŸD9—$çp%jºbµx≠TÎÇ!^côÏ⁄∑Â8ﬁç2Ñ◊*}–ku…∂´—{wa¥ÀX≠ iﬂ˙LüÚEòÜ=ë‰\ƒ>g®‘)|‰ u»¬g∫`%Y¨»hÖyKùÒDóÈ=ê“Hä‹/Ç’(ªÕ!t¬·œÎ dπl∞XöR§˜JùÆïÈ<}4≈!w-Å‘ãyÕ Eløe∏Z±˙Íd;ªıIú˜AïË+	‚4á⁄-Äê"yÃyª ®÷∏d
 ]∞+‹™¸O¢ıHÍAî˚Îr;éÄŸ,¬‘%x.érƒjΩÚ≤	\UÓız˜J°ÙKûÌ@1q:åﬂ2Öÿúz—$¡‰Ëiº$`µı5Tß˙M†BôÏãÂbáÑ⁄1Ñÿ.}–˙Î o¬hæa¥jÖéÏùå˙LQÿFòüí‰7ä›0Ø”)|˙ØÅ¡`´` _¨ˇR•¯õÒDz‡L†%â‹lë’(∆'t«m¿ìcπÆwÙ‘A P§~úCgÔ<è‚5àt+Å‘∏Ûr—‰l0e∏·{πW™˝PnÛIú2~b«Õö·4qŒ-Ä_nqÃr≈k∏dÚÁŸ[´¸OØ˜H≥IîÁ:ç‡ÄŸ,∆vyÃƒàqƒ¸Ω·‹\ØU®ºH°ÙoTπ¢D9åBêÖÿ∫~⁄$w p£iº±Zæ/ıT	KO†›ÂíÏ?íÂ8Úÿ1ÑØÎRÀ•hgZo¥Z≠ «†˘LÙ˙Îâõùë‰G)›0Œj9|œ"u»®h¡M∆…∂ÆˆX¨‚¢§¯ˆ¡‡DóÍ=ê/0â‹v`7&ƒF!txím¿…)™_≤XM¯Q§k†´˛
 È<2~5àBˆí‘'zÕ s¡l®tÁ¡—B±ç∂˝PıÉ]úÔBïË"â·4Å‘Ù0Q:yÃùn≈[,d∑
-]∞?Q©¸Ä€ZÚAî&&ç‡Å(Õ,“%x™qƒüV=zG	\∂ÛU®àÖµÙGöÌ@·9åØêÑÌÿ—$±lpO™|ºbµÊ©TtéxacBôÏØñÂ8ŸΩ'Ñ◊*}–“q…ÌÔæUHa¥ÙA≠ ±¡ÔLüÚEò‹6ë‰+I≥.zÃ)|68u»ŒÌ◊g∫`ﬂY¨ÿª73s;ÒDØO=ê-®ü‹/Ç’(ÿ∆!t
-Ø›Áw_π;ãX≠∫F§˜JùöûÈ<=ˇ‰ä“Å‘.CÕ ªløe∏W±`QπïºIúŸïËH8ˆ4á⁄-ÄÜ/yÃØ|.æ^˛dÇJ]∞™V±¸O¢ıHÁAîù√QTiìŸ,%«%x^iƒjΩßø	\‹µeIL°ÙıòÌ@´∞!åﬂ2Öÿﬁw—$^<…biºÆcµ±ˆTß˙M†¡LôÏ÷V1èÛ5Ñ”y–®,—o¬h‹a¥ãÅ}U£˘Lô˜Eòdπç‰7ä›0‹)|$!N2O¡{õ`&äE¨ˇR•¯êîÒDk«pxÕ5â‹Å’( c=t«m¿mπ+gÂΩ˝Q§·Iùú&ı<è‚5àå%Å‘F
-˜Ÿ;Úl˜&e∏˛Ì≠W™˝P<˝IúÃKyóπ·4+Ì-ÄÓŒeÃr≈æµdéâ”ób©¸€ñıHrÒ\îÁ:ç‡8äŸ,Xõ	´Nqƒœ:Ω‚\ØU®∫B°ÙΩ^˜ûÖ°9å…uÖÿ~€Ã$w p¥iºœôlX≠T§˘M†ò™ÑÏ?íÂ8$“1Ñ{Jyu…W¡h’·|¥Z≠ £™˘L„«›≥?ë‰Àã›0%$4|œ"u»6c¡Ñª»§‹Y¨êP•¯ÈjÏDóÍ=êÜ;â‹∂≤˙È§Ô!t;m¿ë§_≤X6ÛQ§Eƒâl+îÈ<Á‡5à+6ü‘'zÕ ∏Àlè`ÏS<±`ı˝P˚ÌWúÔBïË2Ä·4›W,çJ7yÃÜc≈‰ƒd∑
-]∞4X©¸Áé/1“ÌAîÆ9ç‡
-«,“%x≠qƒî|Y“	\–fU®ä¡øÙGöÌ@Ë9å“(≈R—$Æp3Âwºbµô†Táí¥VôÏxÇÂ8‚Ü.Ñ◊*}–—x…ã€†\OXa¥Û≠ „ŒÊLüÚEò«1ë‰ƒ4Rﬂaä)|-~u»ø—ﬁg∫`”	Y¨î?ë#ùÒDˇÈ=êe*©‹/Ç’(Ì¡!tÌö≥økqπ'•XE·q§˜JùïôÈ<ÇöÄ‰#!Å‘ﬂuÕ Ò9løe∏N±a(Î–]·IúUïËe…¡4á⁄-Äû6yÃTﬁØºÔd»[]∞_	â¸O¢ıH˛Aî		moÚŸ,#¶%xÆQƒjΩﬁ¶	\Èı^´,°Ù¯Ì@§√åﬂ2Öÿ≈n—$cà+siº<µ‹) Tß˙M†ÏWôÏ≥´4ø(ﬂ1Ñt+}–ôöËo¬hÌa¥ΩòŒM∂˘LÅ‚Eò∂–∞‰7ä›0
-«)|€,ŒÀ«o¡ªª`»¯x¨ˇR•¯âèÒDÌÈ≈ÜÒ5â‹=Å’(,Œt«m¿Ówπm’?y´˙Q§˜Nù*ïÀ<è‚5àÂ<Å‘`ÛË`Ω¸lq(e∏bYìW™˝P‹‰Iúño^òkﬂ·4◊ã-Ä‰d[Ãr≈≈¨d˝ö)n≠f©¸·íıH}cîÁ:ç‡ÏîŸ,˛Åj/¡qƒoΩVr+\ØU®ı]°ÙÈobûª9å“oÖÿ∑Û$w påiºp«‹]÷¨T*¯M†ø`∫Ï?íÂ8˜Õ1Ñï6∫ı”w…ü√hb&B¥Z≠ ‡µ˘L|c´9Ê2ë‰:Ü›0J¸
-|œ"u»Û}¡nzò§∏
-Y¨Ù^•¯ù®“DóÍ=ê˛"â‹eGÊNS◊!tÔm¿Ú$ö_≤X˘ÍQ§*€‚6≠ñÈ<a‚5à“r¢‘'zÕ ¸“l	»»QG±H≥˝PT™júÔBïË„ö·4Í -…%&yÃÈr≈}»2d∑
-]∞C©¸¨ÕhwπÓAî≈:ç‡?Ò˙,“%x≠qƒò)Æ!0¨	\¸U®’9ÇÙGöÌ@?Û9åiu«++—$wÀpBáJºbµºªT|π÷Ö£\ôÏoàÂ8
-LÑ◊*}–`…oX«≥a¥[≠ Ç
-⁄LüÚEòÜ(ë‰ó#v≠÷)|·"u»¬√‚g∫`Y¨ÿsˇvòÒD™Ï=ê‰ò™‹/Ç’(áÿ!t-êß¶”yπü≠XÔJr§˜JùmÅÈ<|A*,Å‘ˇxÕ w:løe∏VI±Ó⁄7°¶IúÍ†ïËÁX¬4á⁄-ÄK1yÃUZØ!«¸dH]∞‚Óç¸O¢ıH\˘Aî^ËAX9ÉŸ,u◊%xFÂUƒjΩï°	\
-Vl^’u°Ùi°Ì@Êåﬂ2Öÿf—$T‘‰ÜÅiºMiµûï$Tß˙M†ï^ôÏÕZÇÎ1ÑF}–$1Ïo¬ha¥}[Wù˘˘LQ≠EòsB¥‰7ä›0UŒ)|≈d}El¡9∏`’⁄|¨ˇR•¯LáÒDK“dŸ:â‹é’(øt«m¿[πày¢≤ÈÁQ§µSùΩ|Ã<è‚5à†7Å‘gSâçÕlAe∏KZóW™˝PÔIú›âßP™·4Ï˛-ÄÌ6_Ãr≈ÇßdÍPΩ„ó›©¸€)ıH2⁄gîÁ:ç‡úŸ,"Ä3Eá^qƒ[*Ω^v/\ØU®≠T°Ù…>)Q∂z8å˙ÆÑÿ¢~ˆ$w pHiºœﬂ	tTà§M†]⁄±Ï?íÂ8Kƒ1Ñwö∂a…I’hfÙI¥Z≠ ¶º˘L^)ñLìê‰ê'‹0Äƒ |œ"u»0u¡Ù¶]¬°Y¨ÌP•¯·!€DóÍ=êÅ-â‹˜[_ú∂,!t
-¯m¿Øßì_≤X1ÂQ§&æºAìÈ<çÁ5àRä™‘'zÕ ∏›l´‡+ ◊L±ã∏˝P(_búÔBïË5í·4≠xZ$yÃŸp≈:d∑
-]∞CJ©¸|B{◊Ù∏Aîàlç‡9Ú,“%xOqƒn¯GMº	\ÅU®g[çÙGöÌ@%˙9å›©«Û-—$Øôp		Eºbµ°≤T†û€#OôÏÔõÂ8)≠Ñ◊*}–
-k…ç	"Òa¥MI≠ !€’LüÚEòÅ#ë‰%†x…‘)|Ö u»ß˛Ìg∫`.Y¨i=bríŒÒDN∫=êÂ••‹/Ç’(ß”!t)us„eπØ±Xt}§˜JùHàÈ<s˚¬:vπÅ‘äÌÕ º!5løe∏M@±c∆<GIúDïËGÒÃ4á⁄-Ä¶8yÃÛIåd≈8]∞c–Ñ¸O¢ıH-Aî5ÎlÜ‘∏Ÿ,òÏ%x¶\ƒjΩÜ®	\H…O°ÙuõÌ@*åﬂ2Öÿ=a—$Â◊ª£√iºpµ∞V,Tß˙M†ºYôÏì∆<ﬂˇ1Ñ£Ú}–»|Áo¬h=a¥»T∂¶Å¯LMMDò¥›ø‰7ä›0:…)|éBã~_¡ã`Ç•i¨ˇR•¯ßÅÒDﬂ⁄Iµë%â‹]ë’(Ìt«m¿FπÒ‡éÿ3¸Q§oHùK~Ÿ<è‚5àçÅ‘ï¿ÊoØ«lce∏´¥ÅW™˝P;÷Iú≈≈ »è·4t€-ÄØ IÃr≈•ûdd•ÅÜlT©¸ †ıHÙ qîÁ:ç‡Ã¶Ÿ,Œïœjqƒ∂kΩΩF9\ØU®Õo°Ùva°Û‰9åø0ÖÿTå·$w pØ7iºÏwÒ0lπTêÌM†,≤©Ï?íÂ8ˇ1ÑATˆµá…˘3h≠P¥Z≠ ±á˘LÏgD	i=ë‰µâ›0/+|œ"u»L¡…jP◊Y¨õQ•¯eü√DóÍ=êÉâ‹∑TÏ≤!tPfm¿Åbã_≤X>‹Q§Ωãd˛áÈ<2Û5àÚØ≥‘'zÕ ª‰lXÍC±∂∑˝PEd{úÔBïË«¨·4g
-0w1yÃªe≈¨#d∑
-]∞2u©¸˛˝°¢¢XAîﬁåç‡XNÎ,“%x¨=qƒ±∏Û"ôÜ	\U2U®_0íÙGöÌ@≈9åpO_!¶F—$˙Úp]πZºbµëçT5◊Ÿ◊⁄DôÏêÂ8†6Ñ◊*}–ﬂU…ÌJÕÀéa¥w⁄≠ L LüÚEò«ë‰ÿﬁ1j/’)|c!u»ﬂıg∫`Ô"Y¨ÁAÚ±|≤ÒD†∆=êìXΩ‹/Ç’(‡Í!tâ4"âπn]Xde§˜Jùà≤È<Û·’´ÚeÅ‘1Õ ´O,løe∏Ùz±ò6CZ¨¥Iú‡ ïË:[‘4á⁄-ÄËyÃMﬂ~áÂΩd9	]∞Aü¸O¢ıHˆÀAî¢Úû¨¿ÌŸ,åπ%xUGƒjΩ»ì	\"«˜Êpy°ÙÃ≠Ì@`åﬂ2Öÿˆ[—$oµ+è¶∑iºj√µG7Tß˙M†¸`ôÏ&]ƒ¯®Q1ÑÙ•}–¢)˛o¬h˙(a¥Ji o§˘L⁄EòO–¶‰7ä›0ˆ)|´˝Ü%l¡Y∏`Zˆn¨ˇR•¯„∏ÒDf5æ¡5â‹Å’(\=t«m¿Û@π|ZGç¯Q§—Lù
-`ﬁ<è‚5àÕ	Å‘1u2›÷l¿e∏d¢ÜW™˝P˙—IúH∂9ã+ç·4óŸ-Ä=*AÃr≈‡ôd”SÍ–qD©¸=∞ıHe·yîÁ:ç‡˙°Ÿ,]{ﬂdaqƒΩhΩî1\ØU®i°ÙlV†Ù9åÏ Öÿ1[È$w p¸>iºÁ≠1∫TñT®¬M†æq°Ï?íÂ8ˇˆ1ÑÃ.°=r…q∆hÁaY¥Z≠ ¸é˘L∞j‚¸Í=ë‰6â›0˘•|œ"u»≈F¡Åñ≠≈äY¨∆P•¯0Ë…DóÍ=ê˘â‹‰ R§	„!tµ7m¿ßÅ_≤XÒ◊Q§Ö!¥K±Ë<á≈4à˝àπ‘'zÕ ÙÔlq¢ÖÀ˜p±´Ñ˝Pç;púÔBïËãß·4
-Œé	;yÃ—o≈AB(d∑
-]∞Á©¸æØÏn†ÒAî‹%ç‡Àü„,“%x∆4qƒéñËrËõ	\$/U®»wõÙGöÌ@•Ã9å;Ílc∏a—$‰’p}pSºbµ8ÑT>ˇñtßZôÏkéÂ8⁄XÑ◊*}–≠\…ÕË›⁄%a¥fq≠ ˆ√LüÚEò\ë‰Ÿb+$oˆ)|#u»†˚g∫`W,Y¨ò¡ºÒD»=êÿ≥‹/Ç’(uÂ!t-∏ùâêsπ‹ßX◊Ôj§˜Jù#ΩÈ<tµ äÄ‘vZÃ å‡"løe∏∫u±n©ÆaŸIú-mïËk…›4á⁄-Ä yÃ^P«›!dï]∞!ï¸O¢ıHm≈Aîu˛“∂aÇŸ,-÷%xLƒjΩyö	\PctÆCK°ÙˇüÌ@â˝åﬂ2ÖÿdR—$=òí¥nAiº¢5µâé<Tß˙M†~jôÏh4RB÷1Ñ"}–\Ùo¬h}"a¥ı¿0tï˘L∏¡Eò£ø¨‰7ä›0q˙)|!ù»j¡xæ`‹≤d¨ˇR•¯W≥ÒDVêV2â‹öÜ’(ıvt«m¿UKπbq°4Pile  „   CΩ= p-  ≥Í= 
+]∞?Q©¸Ä€ZÚAî&&ç‡Å(Õ,“%x™qƒüV=zG	\∂ÛU®àÖµÙGöÌ@·9åØêÑÌÿ—$±lpO™|ºbµÊ©Ttéxa•BôÏiñÂ8ŸΩ'Ñ◊*}–“q…rS¢ûHa¥ÙA≠ ˚¡ÔLüÚEò‹6ë‰+I≥.zÃ)|68u»ÄÌ◊g∫`ﬂY¨ÿª73s;ÒDØO=êw®ü‹/Ç’(ÿ∆!t
+Ø›ÁÈdπ•∞XgΩF§˜JùöûÈ<£ßZïøÅ‘CCÕ µÄløe∏*W±Â∑,R)∑IúeïËˆ4á⁄-Äé/yÃ4abádæ3]∞∑óæ¸O¢ıHÁAî–í!	ÃŸ,Iò%xv‰fƒjΩ∫ø	\æŒ°Ùr⁄Ì@`¢!åﬂ2Öÿ3t—$3¡ƒôiºUwµs+Tß˙M†ªLôÏLÜı9‹1Ñe(}–°Ï—o¬h¬a¥cŒåπÚß˘L>ÛEòﬂ£â‰7ä›05‹)|&Ê°ˇC≈có	`fòA¨ˇR•¯†îÒD1ÌåÂ3â‹)á’(¢=t«m¿mπ¥±>¢∑ﬂQ§ÎkùúFı<è‚5àÑ%Å‘€WÄ»]≈lëe∏Ø≠W™˝P6˝Iú±€˜U-ç·4ëŸ-Ä˙”eÃr≈∞µd÷zgIKb©¸ñıH§]îÁ:ç‡äŸ,\ù˚Èg)qƒª]Ω‰ö\ØU®¢B°Ù~≠#“9åKÖÿÃ$w pLiº(+ô€É˛T™M†4ﬁÑÏ?íÂ8N“1Ñ-Óg51…yÖh$Á|¥Z≠ ®™˘L_	·¸Ë=ë‰4â›06Ê7|œ"u»(c¡§Î:…ãY¨«Q•¯Û≠ÔDóÍ=êó;â‹S∑Máœ!t;m¿„Pß_≤XÛQ§KX4,îÈ<‡‡5à7ü‘'zÕ öÀl&"Jy‘±àã˝P¯ÕWúÔBïËÄ·45T9ª$yÃwp≈Q„d∑
+]∞LX©¸–|£¨±Aî–eç‡ëŸ«,“%xFqƒMÁº˙ß	\6U®"øÙGöÌ@(Ë9åw_°b}—$>…p±∆wºbµ±†T$óåÈå"ôÏ@ˆÂ80/Ñ◊*}–5y…bÿU•¬ja¥~>≠ iûÊLüÚEò≠1ë‰oüƒ∆)|à2u»®Úﬁg∫`≈	Y¨KÃø»ÒDcº=êöñ‹/Ç’(À¡!t4§‚/Ò:πΩÓXE˝q§˜JùßôÈ<‰èv≥-Å‘OyÕ £¶9løe∏N±}*#/€·IúóUïËÍ¡4á⁄-Äâ6yÃ
+ptì±dO]∞≥-â¸O¢ıH˛Aî—∏õ`ÕëŸ,Å≈%xcïQƒjΩ≤¶	\‰Æ?Ñ°Ù8ÀÌ@5Eåﬂ2Öÿ;o—$´\übiºSµ~[!Tß˙M†≤WôÏoÕZá€º1ÑáH}–¢Ëo¬h…a¥@[`√˘L¨óEò:ı∞‰7ä›0 «)|C§O∏o¡ƒª`∑7{¨ˇR•¯ëèÒDì^˝&â‹1í’(‹¸t«m¿tπKºæ[wˇQ§+KùÜ‘À<è‚5àù<Å‘]y56a≈l≠e∏™ìW™˝P"‰Iú›%Ø…;ä·4áﬁ-Ä`a[Ãr≈©¨dÉxÕl©¸ÅòıH(•cîÁ:ç‡0ïŸ,ˇÓõOqƒG;Ω‚0+\ØU®…]°Ù
+ôû=÷9åqÖÿ˙©Û$w p†iºé1˙_Q´T≠ˇM†åN∫Ï?íÂ8Õ1Ñyﬂ`Ú.+…büh2B¥Z≠ Äµ˘L‡W,Õf<ë‰∫à›0º
+|œ"u»z¡%¶ ECY¨S•¯hÛ“DóÍ=ê‘"â‹Ã;âv¬!t m¿ 	ö_≤X«ÍQ§˛ä4HöÈ<ÑÓ5à˚U¢‘'zÕ ““lı◊Vﬁ#G±≥˝PàqjúÔBïËÌö·4ZKRF=&yÃÒr≈82d∑
+]∞C©¸˘xX°Ñ˜Aî¯#ç‡r'˙,“%xóqƒz∞ΩYï∂	\YU®õÙÇÙGöÌ@Û9å<]Á	~—$U pï≠Jºbµ±ªT(π^ë†\ôÏlàÂ8ÛeÑ◊*}–`…ŸÖWõªa¥[≠ òs⁄LüÚEòÄ(ë‰Ï…F”Ã)|ü8u»–∏‚g∫`Y¨ˇõËWCüÒDüÎ=ê¯«™‹/Ç’(äÿ!tg≥∆ı=fπq≤Xàr§˜JùÅÈ<®√odÊ(Å‘|Õ "4:løe∏ãI±Ω 76cÈIú/]ïËµv¬4á⁄-Äa1yÃÏ—⁄Ä≥ºdo]∞MNç¸O¢ıHz˘Aî^JG6dŸ,z0%xÌUƒjΩÆ	\Â*?ëW°ÙÎÿÌ@∏åﬂ2Öÿ`f—$Œ—»…iºgµåë$Tß˙M†â^ôÏö∆‹Œ•Â1Ñ˘}–¬2Ïo¬h a¥$DTˆ≠˘L›˘Eò‰æ¥‰7ä›0iŒ)|=ÍÙä[¡ˆè`‚ç|¨ˇR•¯`áÒDÑÕÀ«-iâ‹·›’(ôt«m¿IπUèÌı¸Q§©HùÛ∂œ<è‚5àP7Å‘˚Bî@I lÖe∏}óW™˝PoÔIú8â2yó·4≈√-Äõ	_Ãr≈îßd˜#ë˝]©¸±©ıH¶gîÁ:ç‡úŸ,ëM97†:qƒ|NΩÎ‚/\ØU®ñT°Ù¿m9åKπÖÿÿ˜$w pgiºR0£5ÓTÎ∫M†tBæÏ?íÂ8Qƒ1ÑYéπ¡Í»J^hhJF¥Z≠ \Ω˘L_Ä/ôƒ`ë‰‘›0{6|œ"u»_u¡™ÁÍïY¨ŸE•¯l°ÿDóÍ=êö-â‹ÓYÇ&‹c t`∑l¿^0ê_≤XÂQ§dVÕRQîÈ<ù‡5à/-™‘'zÕ ï›lgÀÔ∆º±öH˝P•búÔBïË%í·4VúÃ—#yÃw≈∏V:d∑
+]∞LJ©¸[Pª:G¸Aî;(ç‡ÊkÚ,“%xYqƒçË •¥	\i U®JNçÙGöÌ@W˙9åÏ“GD(—$úp¥EºbµS≥Tﬁh∑±›LôÏòÂ8máÑ◊*}–k…mYèwc]a¥ﬂ	≠ G¬’LüÚEòï#ë‰0aKSﬂ)|+u»˜ŸÌg∫`Y¨ôí`çÒD›˘=ê_˜•‹/Ç’(ï”!t’ÉàYdπ∞X≠+}§˜JùbàÈ<çÚ~Å‘˛*Õ #5løe∏k@±π≈„èSıIúAïË¶Ã4á⁄-Ä\8yÃ„k2™∆)dù]∞zÑ¸O¢ıHQAî”Vbå◊ÄŸ,õ‘%x›\ƒjΩö®	\∑tc˘â|°Ù5®Ì@9,åﬂ2Öÿa—$•¸$(iºË\µGS,Tß˙M†öYôÏÿàøäπﬂ1ÑÂ+}– JÁo¬h!a¥ïG”S¥˘Lü‡Eòﬁø‰7ä›0P…)|cv¨/o∂¡b`ÜIw¨ˇR•¯AæÒDX‰&61âà‹˝=‘(“Èt«m¿.Fπâ2ŒœQ§í{ù8qŸ<è‚5à´Å‘oJπ’lÕe∏ÎFÄW™˝P ÷IúAh£å·4ÿ-ÄÅ
+HÃr≈±ûd∞vˇﬂW©¸ì£ıHq¿pîÁ:ç‡/ßŸ,UU∂∞8qƒ‰kΩ•Ü8\ØU®©o°Ùî51v¸‰9å∞0ÖÿíL‡$w p@7iºæ%_a˙ØT˚M†€s®Ï?íÂ81ˇ1ÑÊ¢Ò1Ct…¿hr8P¥Z≠ £á˘L|Á†‹)ë‰ ù›0™Ô|œ"u»8L¡ÒƒÜ∑%˜Y¨i£•¯+Œ¿DóÍ=êÖâ‹\‘π˘Õ!tEm¿Â'ã_≤X6‹Q§ã9˙¿'ïÈ<Î·5à£k≥‘'zÕ ó‰l'û‰àú"±¿÷˝Pæ{úÔBïË"≠·4Õ‘en7yÃ¢c≈{#d∑
+]∞Ou©¸Ù∂É®zÛAî'ç‡QÎ,“%xK=qƒ˜≥ö†«°	\U®ÍªìÙGöÌ@&≈9ånm—2»—$N|pvZºbµ∞çT(í4ôÏ¯ŒÂ8eÑ◊*}–?R…„»Z$Qa¥ÌY≠ ÊπÕLüÚEò¶ë‰˙¸‘)|∞ u»ÑMıg∫`!"Y¨gÿ4±ÆÒDm⁄=ê˝Ω‹/Ç’(æÍ!thg∑9û^π“äX≥©e§˜Jù¥≤È<œ°ˇÚ,Å‘xÕ ÷I-løe∏"{±’"%4”vIúü¬ïËı’4á⁄-ÄäyÃ&)B«Ωd	]∞=Dú¸O¢ıHÀAîˇ)⁄©™Ÿ,H˛%x!DƒjΩ´ì	\·u °°ÙvuÌ@≤§åﬂ2Öÿ”[—$…˝SÍ]iº&)µ	ü7Tß˙M†ﬂ`ôÏ[2Ñú1Ñÿh}–X
+ˇo¬h”(a¥U˜ü›•˘LÒEòaÄß‰7ä›0)|äÍfÑC¿aó`´ƒo¨ˇR•¯ì∏ÒD<–>F]â‹‹È’(e!t«m¿Aπ“wß'…Q§{}ùRÕ—<è‚5àÁ	Å‘ÿ®I≥¡le∏ñÃâW™˝PÕ—Iúç#3^/·4‚{-ÄéºAÃr≈ŸôdÆ≈|p Ÿ©¸l-ıHY’xîÁ:ç‡◊°Ÿ,2·®éqƒRhΩÜ|0\ØU®„f°Ùíe≠‰9å·0Öÿ≥Ë$w pà>iº˛Ωx&y≠TÖ˘M†õâ†Ï?íÂ8ˆ1Ñrp…Iƒh1‹X¥Z≠ Íé˘Lâ˝∫eî.ë‰Hö›03|œ"u»ÁF¡¿N°£Y¨ÔQ•¯dw»DóÍ=êÕâ‹K€bH	‹!tµm¿,äÄ_≤X«◊Q§’„gÏÈîÈ<%‡5àj–∏‘'zÕ “Ôl˙‰ﬁÁ8L±d∏˝P¯˜súÔBïËŸß·4o©2‹yÃJ≈Â≠+d∑
+]∞|©¸T¶ç9ÖÍAî˘>ç‡ÆÕ„,“%xô4qƒ8Útbµ	\ÆU®@õÙGöÌ@Ã9å9%}|—$N»pDSºbµÊÑTl≤ ,ÅkôÏMøÂ8~äÑ◊*}–ﬁ\…ö©,≥)`¥}¨ 4$√LüÚEò¡ë‰˘:=C¯)|3u»t«˙g∫`‡-Y¨rFqÖÉÒDY˜=êàÓ≤‹/Ç’(¸Â!t6tÊ(yπd≠Xíj§˜JùÛΩÈ<`ÍPÅ‘¨WÕ ”%løe∏“u±≥rÎ0ÈIú|]ïËƒÃ›4á⁄-Ä’
+yÃÜwÃ?¢d„]∞ë4ï¸O¢ıH™¬AîEEúR≠Ÿ,˘%x-`MƒjΩ9ö	\AÍ£ºn°Ù´∫Ì@‘Låﬂ2Öÿ¨R—$ÉÆäI4iºÖ@µhe=Tß˙M†BjôÏ’0qÀ1ÑT?}–ûõıo¬h∏#a¥âÃ-BÜ¯LŒ“Dò´=¨‰7ä›0◊˚)|ÅÊ!6ŸA¡•ï`"%g¨ˇR•¯=≥ÒD÷»?ÉU©â‹ô’((ùt«m¿äKπÕvZ˘˙Q§•NùJe◊<è‚5àfÅ‘ÿÏ&À√le∏P©èW™˝PQ€Iú•,ñŸ·4*ç-Ä¿€GÃr≈[êdãå⁄ ^©¸Ü™ıH[∫~îÁ:ç‡Z®Ÿ,}}HHÏ-qƒ0YΩÍÎ6\ØU®n`°Ù©≠@å‚9å¿6ÖÿõÓÓ$w p|8iºçﬁçÓ™T˛M†<“¶Ï?íÂ8b1ÑÍÈŸºPile  Í   Ñô? /  ó»? 
